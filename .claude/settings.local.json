@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(cmd.exe /c \"npm install\")",
+      "Bash(cmd.exe /c \"where npm && npm --version\")",
+      "Bash(\"/c/Program Files/nodejs/npm\" --version)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/leoey/AppData/Roaming/**)",
+      "Read(//c/Users/leoey/**)",
+      "Bash(powershell.exe -Command \"Get-Command node -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source\")",
+      "Bash(npm run:*)",
+      "Bash(powershell.exe -Command \"cd ''C:\\\\Users\\\\leoey\\\\OneDrive\\\\Documentos\\\\GitHub\\\\RadixAFC''; npm run dev\")",
+      "Bash(powershell.exe -Command \"Get-Command node -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source; node --version\")",
+      "Bash(powershell.exe -Command \"Get-ChildItem -Path ''C:\\\\Program Files\\\\nodejs'',''C:\\\\Program Files \\(x86\\)\\\\nodejs'',''$env:LOCALAPPDATA\\\\fnm_multishells'',''$env:APPDATA\\\\nvm'',''$env:LOCALAPPDATA\\\\Programs\\\\node'' -ErrorAction SilentlyContinue | Select-Object -First 10\")",
+      "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\")",
+      "Bash(npm create:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)"
+    ]
+  }
+}

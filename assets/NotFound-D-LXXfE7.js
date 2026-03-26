@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-CGqjDhly.js";var t=e();function n({navigate:e}){return(0,t.jsxs)(`section`,{children:[(0,t.jsx)(`h2`,{children:`404 - Página no encontrada`}),(0,t.jsx)(`button`,{onClick:()=>e(`landing`),children:`Volver al inicio`})]})}export{n as default};

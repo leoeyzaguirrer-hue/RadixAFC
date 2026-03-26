@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-CGqjDhly.js";var t=e();function n({navigate:e}){return(0,t.jsx)(`section`,{children:(0,t.jsx)(`h2`,{children:`Módulos`})})}export{n as default};
