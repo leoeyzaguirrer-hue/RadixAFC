@@ -1,49 +1,122 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import { createUserWithEmailAndPassword } from 'firebase/auth';
+import { collection, query, where, getDocs, updateDoc, doc, setDoc, serverTimestamp } from 'firebase/firestore';
+import { auth, db } from '../config/firebaseConfig';
 
-export default function Login({ navigate }) {
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
-  const [error, setError] = useState('')
-  const [loading, setLoading] = useState(false)
+export default function Login() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [invitationCode, setInvitationCode] = useState('');
+  const [error, setError] = useState('');
+  const [success, setSuccess] = useState('');
+  const [isRegistering, setIsRegistering] = useState(false);
 
-  const handleSubmit = async (e) => {
-    e.preventDefault()
-    setError('')
+  // Buscar código en Firestore
+  const validateCode = async (code) => {
+    try {
+      const codesRef = collection(db, 'invitationCodes');
+      const q = query(codesRef, where('code', '==', code.toUpperCase()));
+      const querySnapshot = await getDocs(q);
+
+      if (querySnapshot.empty) {
+        return { valid: false, message: 'Código inválido' };
+      }
+
+      const docData = querySnapshot.docs[0];
+      if (docData.data().usado) {
+        return { valid: false, message: 'Código ya fue usado' };
+      }
+
+      return { valid: true, docId: docData.id };
+    } catch (err) {
+      return { valid: false, message: 'Error: ' + err.message };
+    }
+  };
+
+  // Registrar usuario
+  const handleRegister = async (e) => {
+    e.preventDefault();
+    setError('');
+    setSuccess('');
+
+    if (!email || !password || !invitationCode) {
+      setError('Completa todos los campos');
+      return;
+    }
+
+    try {
+      // Validar código
+      const codeValidation = await validateCode(invitationCode);
+      if (!codeValidation.valid) {
+        setError(codeValidation.message);
+        return;
+      }
+
+      // Crear usuario en Firebase Auth
+      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+      const uid = userCredential.user.uid;
+
+      // Guardar en colección users
+      await setDoc(doc(db, 'users', uid), {
+        email: email,
+        createdAt: serverTimestamp(),
+        estado: 'activo'
+      });
+
+      // Marcar código como usado
+      await updateDoc(doc(db, 'invitationCodes', codeValidation.docId), {
+        usado: true,
+        usadoPor: uid
+      });
+
+      setSuccess('¡Registro exitoso! Ya puedes iniciar sesión.');
+      setEmail('');
+      setPassword('');
+      setInvitationCode('');
+    } catch (err) {
+      setError('Error: ' + err.message);
+    }
+  };
+
+  // Login básico
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    setError('');
+    setSuccess('');
 
     if (!email || !password) {
-      setError('Por favor completa todos los campos.')
-      return
+      setError('Ingresa email y contraseña');
+      return;
     }
 
-    setLoading(true)
     try {
-      // TODO: Integrar con Firebase Auth
-      // await signInWithEmailAndPassword(auth, email, password)
-      navigate('dashboard')
+      const { signInWithEmailAndPassword } = await import('firebase/auth');
+      await signInWithEmailAndPassword(auth, email, password);
+      setSuccess('¡Bienvenido!');
+      setEmail('');
+      setPassword('');
     } catch (err) {
-      setError('Credenciales incorrectas. Intenta de nuevo.')
-    } finally {
-      setLoading(false)
+      setError('Email o contraseña incorrectos');
     }
-  }
+  };
 
   return (
     <section className="login-page">
       <div className="login-card">
-        <h2>Iniciar Sesión</h2>
-        <p className="login-subtitle">Accede a tu cuenta de RadixAFC</p>
+        <h2>{isRegistering ? 'Registrarse' : 'Iniciar Sesión'}</h2>
 
         {error && <div className="login-error">{error}</div>}
+        {success && <div className="login-success">{success}</div>}
 
-        <form onSubmit={handleSubmit} className="login-form">
+        <form onSubmit={isRegistering ? handleRegister : handleLogin} className="login-form">
           <div className="form-group">
-            <label htmlFor="email">Correo electrónico</label>
+            <label htmlFor="email">Email</label>
             <input
               id="email"
               type="email"
+              placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="tu@correo.com"
               autoComplete="email"
             />
           </div>
@@ -53,29 +126,42 @@ export default function Login({ navigate }) {
             <input
               id="password"
               type="password"
+              placeholder="Contraseña"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              placeholder="Tu contraseña"
-              autoComplete="current-password"
+              autoComplete={isRegistering ? 'new-password' : 'current-password'}
             />
           </div>
 
-          <button type="submit" className="login-btn" disabled={loading}>
-            {loading ? 'Ingresando...' : 'Ingresar'}
+          {isRegistering && (
+            <div className="form-group">
+              <label htmlFor="invitationCode">Código de invitación</label>
+              <input
+                id="invitationCode"
+                type="text"
+                placeholder="Código de invitación"
+                value={invitationCode}
+                onChange={(e) => setInvitationCode(e.target.value.toUpperCase())}
+              />
+            </div>
+          )}
+
+          <button type="submit" className="login-btn">
+            {isRegistering ? 'Registrarse' : 'Ingresar'}
           </button>
         </form>
 
         <p className="login-footer">
-          ¿No tienes cuenta?{' '}
+          {isRegistering ? '¿Ya tienes cuenta? ' : '¿No tienes cuenta? '}
           <button
             type="button"
             className="link-btn"
-            onClick={() => navigate('landing')}
+            onClick={() => setIsRegistering(!isRegistering)}
           >
-            Volver al inicio
+            {isRegistering ? 'Inicia sesión' : 'Regístrate'}
           </button>
         </p>
       </div>
     </section>
-  )
+  );
 }
