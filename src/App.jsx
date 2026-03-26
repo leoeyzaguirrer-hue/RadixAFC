@@ -13,10 +13,14 @@ function App() {
 
   const navigate = (page) => setCurrentPage(page)
 
+  /* ── Landing: layout 100 % independiente, sin contenedor #root ── */
+  if (currentPage === 'landing') {
+    return <Landing navigate={navigate} />
+  }
+
+  /* ── Resto de páginas: layout normal con nav + footer ── */
   const renderPage = () => {
     switch (currentPage) {
-      case 'landing':
-        return <Landing navigate={navigate} />
       case 'login':
         return <Suspense fallback={null}><Login /></Suspense>
       case 'dashboard':
@@ -28,13 +32,11 @@ function App() {
     }
   }
 
-  const isLanding = currentPage === 'landing'
-
   return (
     <>
-      {!isLanding && <Navigation currentPage={currentPage} navigate={navigate} />}
+      <Navigation currentPage={currentPage} navigate={navigate} />
       <main>{renderPage()}</main>
-      {!isLanding && <Footer />}
+      <Footer />
     </>
   )
 }

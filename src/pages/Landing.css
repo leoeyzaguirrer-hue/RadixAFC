@@ -1,11 +1,19 @@
 /* ═══════════════════════════════════════
    LANDING PAGE — OVERRIDE #root constraints
+   When the landing is rendered, #root must be
+   full-width with no borders or centering.
    ═══════════════════════════════════════ */
-.landing-root {
-  width: 100vw;
+#root:has(.landing-root) {
+  width: 100%;
   max-width: 100%;
-  margin-left: calc(-50vw + 50%);
-  border: none !important;
+  border: none;
+  text-align: left;
+  background: #041e42;
+}
+
+.landing-root {
+  width: 100%;
+  max-width: 100%;
   text-align: left;
 }
 
