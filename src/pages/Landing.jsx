@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import '../styles/landing.css';
 export default function Landing({ navigate }) {
   const [scrollY, setScrollY] = useState(0);
