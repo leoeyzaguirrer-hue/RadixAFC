@@ -16,7 +16,10 @@
       "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\")",
       "Bash(npm create:*)",
       "mcp__Claude_Preview__preview_start",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)"
     ]
   }
 }
