@@ -18,7 +18,7 @@ function App() {
       case 'landing':
         return <Landing navigate={navigate} />
       case 'login':
-        return <Login navigate={navigate} />
+        return <Login />
       case 'dashboard':
         return <Dashboard navigate={navigate} />
       case 'modulos':
