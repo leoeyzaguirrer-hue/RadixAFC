@@ -11,6 +11,7 @@ export default function Login() {
   const [success, setSuccess] = useState('');
   const [isRegistering, setIsRegistering] = useState(false);
 
+  // Buscar código en Firestore
   const validateCode = async (code) => {
     try {
       const codesRef = collection(db, 'invitationCodes');
@@ -32,6 +33,7 @@ export default function Login() {
     }
   };
 
+  // Registrar usuario
   const handleRegister = async (e) => {
     e.preventDefault();
     setError('');
@@ -43,21 +45,25 @@ export default function Login() {
     }
 
     try {
+      // Validar código
       const codeValidation = await validateCode(invitationCode);
       if (!codeValidation.valid) {
         setError(codeValidation.message);
         return;
       }
 
+      // Crear usuario en Firebase Auth
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const uid = userCredential.user.uid;
 
+      // Guardar en colección users
       await setDoc(doc(db, 'users', uid), {
         email: email,
         createdAt: serverTimestamp(),
         estado: 'activo'
       });
 
+      // Marcar código como usado
       await updateDoc(doc(db, 'invitationCodes', codeValidation.docId), {
         usado: true,
         usadoPor: uid
@@ -73,6 +79,7 @@ export default function Login() {
     }
   };
 
+  // Login básico
   const handleLogin = async (e) => {
     e.preventDefault();
     setError('');
@@ -94,52 +101,67 @@ export default function Login() {
   };
 
   return (
-    <div style={{ padding: '40px', maxWidth: '500px', margin: '0 auto' }}>
-      <h2>{isRegistering ? 'Registrarse' : 'Iniciar Sesión'}</h2>
+    <section className="login-page">
+      <div className="login-card">
+        <h2>{isRegistering ? 'Registrarse' : 'Iniciar Sesión'}</h2>
 
-      {error && <div style={{ color: 'red', marginBottom: '20px', padding: '10px', backgroundColor: '#ffe0e0' }}>{error}</div>}
-      {success && <div style={{ color: 'green', marginBottom: '20px', padding: '10px', backgroundColor: '#e0ffe0' }}>{success}</div>}
+        {error && <div className="login-error">{error}</div>}
+        {success && <div className="login-success">{success}</div>}
 
-      <form onSubmit={isRegistering ? handleRegister : handleLogin}>
-        <input
-          type="email"
-          placeholder="Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          style={{ width: '100%', padding: '10px', marginBottom: '10px', boxSizing: 'border-box' }}
-        />
-        <input
-          type="password"
-          placeholder="Contraseña"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          style={{ width: '100%', padding: '10px', marginBottom: '10px', boxSizing: 'border-box' }}
-        />
+        <form onSubmit={isRegistering ? handleRegister : handleLogin} className="login-form">
+          <div className="form-group">
+            <label htmlFor="email">Email</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              autoComplete="email"
+            />
+          </div>
 
-        {isRegistering && (
-          <input
-            type="text"
-            placeholder="Código de invitación"
-            value={invitationCode}
-            onChange={(e) => setInvitationCode(e.target.value)}
-            style={{ width: '100%', padding: '10px', marginBottom: '10px', boxSizing: 'border-box' }}
-          />
-        )}
+          <div className="form-group">
+            <label htmlFor="password">Contraseña</label>
+            <input
+              id="password"
+              type="password"
+              placeholder="Contraseña"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              autoComplete={isRegistering ? 'new-password' : 'current-password'}
+            />
+          </div>
 
-        <button type="submit" style={{ width: '100%', padding: '12px', backgroundColor: '#4CAF50', color: 'white', border: 'none', cursor: 'pointer', fontSize: '16px' }}>
-          {isRegistering ? 'Registrarse' : 'Iniciar Sesión'}
-        </button>
-      </form>
+          {isRegistering && (
+            <div className="form-group">
+              <label htmlFor="invitationCode">Código de invitación</label>
+              <input
+                id="invitationCode"
+                type="text"
+                placeholder="Código de invitación"
+                value={invitationCode}
+                onChange={(e) => setInvitationCode(e.target.value.toUpperCase())}
+              />
+            </div>
+          )}
 
-      <p style={{ marginTop: '20px', textAlign: 'center' }}>
-        {isRegistering ? '¿Ya tienes cuenta?' : '¿No tienes cuenta?'}{' '}
-        <span
-          onClick={() => { setIsRegistering(!isRegistering); setError(''); setSuccess(''); }}
-          style={{ color: '#4CAF50', cursor: 'pointer', textDecoration: 'underline' }}
-        >
-          {isRegistering ? 'Iniciar Sesión' : 'Registrarse'}
-        </span>
-      </p>
-    </div>
+          <button type="submit" className="login-btn">
+            {isRegistering ? 'Registrarse' : 'Ingresar'}
+          </button>
+        </form>
+
+        <p className="login-footer">
+          {isRegistering ? '¿Ya tienes cuenta? ' : '¿No tienes cuenta? '}
+          <button
+            type="button"
+            className="link-btn"
+            onClick={() => { setIsRegistering(!isRegistering); setError(''); setSuccess(''); }}
+          >
+            {isRegistering ? 'Inicia sesión' : 'Regístrate'}
+          </button>
+        </p>
+      </div>
+    </section>
   );
 }
