@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import Header from './components/Header'
+import { useState, lazy, Suspense } from 'react'
 import Footer from './components/Footer'
 import Navigation from './components/Navigation'
 import Landing from './pages/Landing'
-import Login from './pages/Login'
-import Dashboard from './pages/Dashboard'
-import Modulos from './pages/Modulos'
-import NotFound from './pages/NotFound'
+
+const Login = lazy(() => import('./pages/Login'))
+const Dashboard = lazy(() => import('./pages/Dashboard'))
+const Modulos = lazy(() => import('./pages/Modulos'))
+const NotFound = lazy(() => import('./pages/NotFound'))
 
 function App() {
   const [currentPage, setCurrentPage] = useState('landing')
@@ -18,21 +18,23 @@ function App() {
       case 'landing':
         return <Landing navigate={navigate} />
       case 'login':
-        return <Login />
+        return <Suspense fallback={null}><Login /></Suspense>
       case 'dashboard':
-        return <Dashboard navigate={navigate} />
+        return <Suspense fallback={null}><Dashboard navigate={navigate} /></Suspense>
       case 'modulos':
-        return <Modulos navigate={navigate} />
+        return <Suspense fallback={null}><Modulos navigate={navigate} /></Suspense>
       default:
-        return <NotFound navigate={navigate} />
+        return <Suspense fallback={null}><NotFound navigate={navigate} /></Suspense>
     }
   }
 
+  const isLanding = currentPage === 'landing'
+
   return (
     <>
-      <Navigation currentPage={currentPage} navigate={navigate} />
+      {!isLanding && <Navigation currentPage={currentPage} navigate={navigate} />}
       <main>{renderPage()}</main>
-      <Footer />
+      {!isLanding && <Footer />}
     </>
   )
 }
