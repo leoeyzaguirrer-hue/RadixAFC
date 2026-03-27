@@ -1,0 +1,11 @@
+{
+  "moduloId": 1,
+  "nivelId": 3,
+  "ejercicios": [
+    { "id": "m1_n3_e1", "posicion": 1, "tipo": "10_Comparacion_MC", "nombre": "Topografía vs Función", "descripcion": "Dos conductas iguales en forma pero diferentes en función", "pistas": ["", "", ""] },
+    { "id": "m1_n3_e2", "posicion": 2, "tipo": "9_ConstructionAnalysis_IA", "nombre": "Mi Primer Análisis Funcional", "descripcion": "Caso simple: identificar E, R, C en una secuencia cotidiana", "pistas": ["", "", ""] },
+    { "id": "m1_n3_e3", "posicion": 3, "tipo": "11_DilemmaClinico_MC", "nombre": "¿Cómo analizarías esto?", "descripcion": "Elegir entre un análisis topográfico y uno funcional", "pistas": ["", "", ""] },
+    { "id": "m1_n3_e4", "posicion": 4, "tipo": "8_VF_MC", "nombre": "Diferencias Filosóficas Clave", "descripcion": "V/F sobre positivismo lógico vs contextualismo funcional", "pistas": ["", "", ""] },
+    { "id": "m1_n3_e5", "posicion": 5, "tipo": "1_MC", "nombre": "Integración Final", "descripcion": "Pregunta integradora que conecta Pepper → Hayes → Skinner → Análisis Funcional", "pistas": ["", "", ""] }
+  ]
+}

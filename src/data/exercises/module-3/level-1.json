@@ -1,0 +1,14 @@
+{
+  "moduloId": 3,
+  "nivelId": 1,
+  "ejercicios": [
+    { "id": "m3_n1_e1", "posicion": 1, "tipo": "1_MC", "nombre": "¿Qué es una Operante?", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n1_e2", "posicion": 2, "tipo": "3_Ordenamiento", "nombre": "Secuencia Ed → R → C", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n1_e3", "posicion": 3, "tipo": "2_Matching", "nombre": "CC vs CO: Diferencias Clave", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n1_e4", "posicion": 4, "tipo": "4_Cloze", "nombre": "Contingencia de Tres Términos", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n1_e5", "posicion": 5, "tipo": "5_CaseAnalysis_MC", "nombre": "Identificar Operante en Caso", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n1_e6", "posicion": 6, "tipo": "6_Clasificacion", "nombre": "Respondente vs Operante", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n1_e7", "posicion": 7, "tipo": "1_MC", "nombre": "Probabilidad de Respuesta", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n1_e8", "posicion": 8, "tipo": "8_VF_MC", "nombre": "El CO No Enseña Nuevas Relaciones E→R", "descripcion": "", "pistas": ["", "", ""] }
+  ]
+}

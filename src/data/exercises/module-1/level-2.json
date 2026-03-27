@@ -1,0 +1,13 @@
+{
+  "moduloId": 1,
+  "nivelId": 2,
+  "ejercicios": [
+    { "id": "m1_n2_e1", "posicion": 1, "tipo": "4_Cloze", "nombre": "Rechazo del Mentalismo", "descripcion": "Completar la postura de Skinner sobre eventos privados", "pistas": ["", "", ""] },
+    { "id": "m1_n2_e2", "posicion": 2, "tipo": "5_CaseAnalysis_MC", "nombre": "Evento Privado como Conducta", "descripcion": "Caso: paciente dice 'siento ansiedad'. Identificar análisis conductual radical correcto", "pistas": ["", "", ""] },
+    { "id": "m1_n2_e3", "posicion": 3, "tipo": "6_Clasificacion", "nombre": "Conductismo Metodológico vs Radical", "descripcion": "Clasificar afirmaciones en la postura correcta", "pistas": ["", "", ""] },
+    { "id": "m1_n2_e4", "posicion": 4, "tipo": "8_VF_MC", "nombre": "Dualismo Cartesiano y Conductismo", "descripcion": "V/F sobre si el conductismo radical acepta o rechaza el dualismo mente-cuerpo", "pistas": ["", "", ""] },
+    { "id": "m1_n2_e5", "posicion": 5, "tipo": "5_CaseAnalysis_MC", "nombre": "Conducta Privada vs Causa Interna", "descripcion": "Distinguir entre tratar un pensamiento como conducta vs como causa de otra conducta", "pistas": ["", "", ""] },
+    { "id": "m1_n2_e6", "posicion": 6, "tipo": "1_MC", "nombre": "Selección por las Consecuencias", "descripcion": "Identificar el modelo causal seleccionista de Skinner", "pistas": ["", "", ""] },
+    { "id": "m1_n2_e7", "posicion": 7, "tipo": "2_Matching", "nombre": "Conceptos Clave del Análisis del Comportamiento", "descripcion": "Emparejar: contingencia, operante, respondente, variable dependiente/independiente", "pistas": ["", "", ""] }
+  ]
+}

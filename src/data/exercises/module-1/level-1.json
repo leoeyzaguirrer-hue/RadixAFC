@@ -1,0 +1,14 @@
+{
+  "moduloId": 1,
+  "nivelId": 1,
+  "ejercicios": [
+    { "id": "m1_n1_e1", "posicion": 1, "tipo": "1_MC", "nombre": "Hipótesis del Mundo de Pepper", "descripcion": "Identificar las 4 hipótesis del mundo y sus metáforas raíz", "pistas": ["", "", ""] },
+    { "id": "m1_n1_e2", "posicion": 2, "tipo": "2_Matching", "nombre": "Hipótesis-Metáfora-Criterio de Verdad", "descripcion": "Emparejar cada hipótesis con su metáfora raíz y criterio de verdad", "pistas": ["", "", ""] },
+    { "id": "m1_n1_e3", "posicion": 3, "tipo": "4_Cloze", "nombre": "Criterio de Verdad del Contextualismo", "descripcion": "Completar: En el contextualismo funcional, el criterio de verdad es la _____ _____", "pistas": ["", "", ""] },
+    { "id": "m1_n1_e4", "posicion": 4, "tipo": "1_MC", "nombre": "Acto-en-Contexto", "descripcion": "Identificar la metáfora raíz del contextualismo y por qué difiere del mecanicismo", "pistas": ["", "", ""] },
+    { "id": "m1_n1_e5", "posicion": 5, "tipo": "5_CaseAnalysis_MC", "nombre": "¿Qué hipótesis subyace?", "descripcion": "Viñeta de un psicólogo que usa analogía computacional: identificar mecanicismo", "pistas": ["", "", ""] },
+    { "id": "m1_n1_e6", "posicion": 6, "tipo": "6_Clasificacion", "nombre": "Analíticas vs Sintéticas", "descripcion": "Clasificar hipótesis en analíticas y sintéticas", "pistas": ["", "", ""] },
+    { "id": "m1_n1_e7", "posicion": 7, "tipo": "15_Refutacion_MC", "nombre": "¿Cuál NO es contextualista?", "descripcion": "Identificar qué afirmación viola los principios del contextualismo funcional", "pistas": ["", "", ""] },
+    { "id": "m1_n1_e8", "posicion": 8, "tipo": "8_VF_MC", "nombre": "Presupuestos de la Ciencia", "descripcion": "V/F sobre monismo, determinismo y el principio epistemológico", "pistas": ["", "", ""] }
+  ]
+}

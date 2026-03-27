@@ -1,0 +1,16 @@
+{
+  "moduloId": 3,
+  "nivelId": 1,
+  "titulo": "La Ley del Efecto y la Contingencia de Tres Términos",
+  "preguntaCentral": "",
+  "secciones": [
+    { "tipo": "introduccion", "contenido": "" },
+    { "tipo": "desarrollo", "subtitulo": "", "contenido": "" },
+    { "tipo": "ejemplo_cotidiano", "titulo": "", "contenido": "" },
+    { "tipo": "ejemplo_clinico", "titulo": "", "contenido": "" },
+    { "tipo": "diagrama", "titulo": "", "descripcion": "", "tipo_diagrama": "" },
+    { "tipo": "errores_comunes", "errores": [{ "error": "", "correccion": "" }] },
+    { "tipo": "conexion_clinica", "contenido": "" }
+  ],
+  "referencias": []
+}

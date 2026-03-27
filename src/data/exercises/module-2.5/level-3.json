@@ -1,0 +1,10 @@
+{
+  "moduloId": "2.5",
+  "nivelId": 3,
+  "ejercicios": [
+    { "id": "m2.5_n3_e1", "posicion": 1, "tipo": "9_ConstructionAnalysis_IA", "nombre": "Operacionalizar la Demanda", "descripcion": "Caso: paciente dice 'quiero ser más seguro'. Definir en términos conductuales", "pistas": ["", "", ""] },
+    { "id": "m2.5_n3_e2", "posicion": 2, "tipo": "5_CaseAnalysis_MC", "nombre": "Caso Complejo: ¿Qué medir?", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m2.5_n3_e3", "posicion": 3, "tipo": "11_DilemmaClinico_MC", "nombre": "Conducta Problema vs Conducta Objetivo", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m2.5_n3_e4", "posicion": 4, "tipo": "10_Comparacion_MC", "nombre": "Dos Operacionalizaciones: ¿Cuál es mejor?", "descripcion": "", "pistas": ["", "", ""] }
+  ]
+}

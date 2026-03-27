@@ -1,0 +1,11 @@
+{
+  "moduloId": 2,
+  "nivelId": 3,
+  "ejercicios": [
+    { "id": "m2_n3_e1", "posicion": 1, "tipo": "5_CaseAnalysis_MC", "nombre": "Fobia y Análisis Respondente", "descripcion": "Caso de fobia: identificar EI, EC, RC y proponer base de intervención", "pistas": ["", "", ""] },
+    { "id": "m2_n3_e2", "posicion": 2, "tipo": "9_ConstructionAnalysis_IA", "nombre": "Construir AF con Componente Respondente", "descripcion": "Caso clínico: construir secuencia completa E-R-C identificando componentes respondentes", "pistas": ["", "", ""] },
+    { "id": "m2_n3_e3", "posicion": 3, "tipo": "10_Comparacion_MC", "nombre": "CC vs CO en un Mismo Caso", "descripcion": "Identificar qué parte del caso es respondente y qué parte operante", "pistas": ["", "", ""] },
+    { "id": "m2_n3_e4", "posicion": 4, "tipo": "11_DilemmaClinico_MC", "nombre": "Intervención Basada en CC", "descripcion": "Elegir estrategia terapéutica coherente con análisis respondente", "pistas": ["", "", ""] },
+    { "id": "m2_n3_e5", "posicion": 5, "tipo": "1_MC", "nombre": "Integración CC-Clínica", "descripcion": "Pregunta integradora sobre por qué el CC importa para el análisis funcional clínico", "pistas": ["", "", ""] }
+  ]
+}
