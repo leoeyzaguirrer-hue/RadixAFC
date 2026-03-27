@@ -3,7 +3,6 @@ import { AuthProvider } from './context/AuthContext';
 import { ProgressProvider } from './context/ProgressContext';
 import { ModuleProvider } from './context/ModuleContext';
 import { useAuth } from './hooks/useAuth';
-
 import Landing from './pages/Landing';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -25,38 +24,10 @@ function AppRoutes() {
       <Route path="/" element={<Landing />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
-      <Route
-        path="/dashboard"
-        element={
-          <ProtectedRoute>
-            <Dashboard />
-          </ProtectedRoute>
-        }
-      />
-      <Route
-        path="/modulo/:moduloId"
-        element={
-          <ProtectedRoute>
-            <ModulePage />
-          </ProtectedRoute>
-        }
-      />
-      <Route
-        path="/modulo/:moduloId/nivel/:nivelId/teoria"
-        element={
-          <ProtectedRoute>
-            <TheoryPage />
-          </ProtectedRoute>
-        }
-      />
-      <Route
-        path="/modulo/:moduloId/nivel/:nivelId"
-        element={
-          <ProtectedRoute>
-            <ExercisePage />
-          </ProtectedRoute>
-        }
-      />
+      <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+      <Route path="/modulo/:moduloId" element={<ProtectedRoute><ModulePage /></ProtectedRoute>} />
+      <Route path="/modulo/:moduloId/nivel/:nivelId/teoria" element={<ProtectedRoute><TheoryPage /></ProtectedRoute>} />
+      <Route path="/modulo/:moduloId/nivel/:nivelId" element={<ProtectedRoute><ExercisePage /></ProtectedRoute>} />
     </Routes>
   );
 }
