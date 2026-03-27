@@ -1,12 +1,32 @@
 /* ═══════════════════════════════════════
-   LANDING PAGE — OVERRIDE #root constraints
+   LANDING PAGE — OVERRIDE global constraints
+   html/body/root must all go full-width dark
+   when the landing is rendered.
    ═══════════════════════════════════════ */
-.landing-root {
-  width: 100vw;
-  max-width: 100%;
-  margin-left: calc(-50vw + 50%);
+html:has(.landing-root) {
+  overflow-x: hidden;
+  background: #041e42 !important;
+}
+
+body:has(.landing-root) {
+  background: #041e42 !important;
+  overflow-x: hidden;
+}
+
+#root:has(.landing-root) {
+  width: 100% !important;
+  max-width: 100% !important;
   border: none !important;
   text-align: left;
+  background: #041e42;
+  margin: 0;
+}
+
+.landing-root {
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  overflow-x: hidden;
 }
 
 /* ═══════════════════════════════════════
