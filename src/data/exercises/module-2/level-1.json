@@ -1,0 +1,14 @@
+{
+  "moduloId": 2,
+  "nivelId": 1,
+  "ejercicios": [
+    { "id": "m2_n1_e1", "posicion": 1, "tipo": "1_MC", "nombre": "Elementos del CC", "descripcion": "Identificar EI, EC, RI, RC en el experimento de Pavlov", "pistas": ["", "", ""] },
+    { "id": "m2_n1_e2", "posicion": 2, "tipo": "3_Ordenamiento", "nombre": "Secuencia del Condicionamiento", "descripcion": "Ordenar la secuencia: EN → emparejamiento EN+EI → EC → RC", "pistas": ["", "", ""] },
+    { "id": "m2_n1_e3", "posicion": 3, "tipo": "2_Matching", "nombre": "Tipos de Procedimiento", "descripcion": "Emparejar cada procedimiento con su diagrama temporal", "pistas": ["", "", ""] },
+    { "id": "m2_n1_e4", "posicion": 4, "tipo": "4_Cloze", "nombre": "Definiciones Fundamentales", "descripcion": "Completar definiciones de EI, EC, RI, RC", "pistas": ["", "", ""] },
+    { "id": "m2_n1_e5", "posicion": 5, "tipo": "5_CaseAnalysis_MC", "nombre": "CC en la Vida Cotidiana", "descripcion": "Identificar los elementos del CC en un caso cotidiano", "pistas": ["", "", ""] },
+    { "id": "m2_n1_e6", "posicion": 6, "tipo": "6_Clasificacion", "nombre": "Excitatorio vs Inhibitorio", "descripcion": "Clasificar ejemplos según contingencia positiva o negativa", "pistas": ["", "", ""] },
+    { "id": "m2_n1_e7", "posicion": 7, "tipo": "1_MC", "nombre": "Condicionamiento Apetitivo vs Aversivo", "descripcion": "Distinguir entre CC apetitivo y aversivo", "pistas": ["", "", ""] },
+    { "id": "m2_n1_e8", "posicion": 8, "tipo": "8_VF_MC", "nombre": "Mitos del Condicionamiento Clásico", "descripcion": "V/F sobre CC: ¿enseña nuevas respuestas? ¿o nuevas relaciones E→R?", "pistas": ["", "", ""] }
+  ]
+}

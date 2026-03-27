@@ -1,0 +1,14 @@
+{
+  "moduloId": 4,
+  "nivelId": 1,
+  "ejercicios": [
+    { "id": "m4_n1_e1", "posicion": 1, "tipo": "1_MC", "nombre": "El Modelo E-O-R-K-C", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n1_e2", "posicion": 2, "tipo": "2_Matching", "nombre": "Elementos de la Ecuación Conductual", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n1_e3", "posicion": 3, "tipo": "4_Cloze", "nombre": "Variables Disposicionales", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n1_e4", "posicion": 4, "tipo": "5_CaseAnalysis_MC", "nombre": "Operaciones de Establecimiento", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n1_e5", "posicion": 5, "tipo": "6_Clasificacion", "nombre": "Variable Funcional vs Estructural", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n1_e6", "posicion": 6, "tipo": "15_Refutacion_MC", "nombre": "La O como Cajón de Sastre", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n1_e7", "posicion": 7, "tipo": "1_MC", "nombre": "Relación de Contingencia K", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n1_e8", "posicion": 8, "tipo": "8_VF_MC", "nombre": "Motivación ¿Causa Interna o Variable Disposicional?", "descripcion": "", "pistas": ["", "", ""] }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "moduloId": 4,
+  "nivelId": 3,
+  "ejercicios": [
+    { "id": "m4_n3_e1", "posicion": 1, "tipo": "3_Ordenamiento", "nombre": "Secuencia Bifactorial de Mowrer", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n3_e2", "posicion": 2, "tipo": "9_ConstructionAnalysis_IA", "nombre": "AF de Secuencia Compleja (CC+CO)", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n3_e3", "posicion": 3, "tipo": "5_CaseAnalysis_MC", "nombre": "Mantenimiento de Fobia por Evitación", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n3_e4", "posicion": 4, "tipo": "11_DilemmaClinico_MC", "nombre": "Exposición vs Evitación", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n3_e5", "posicion": 5, "tipo": "10_Comparacion_MC", "nombre": "Mowrer vs Skinner Puro", "descripcion": "", "pistas": ["", "", ""] }
+  ]
+}

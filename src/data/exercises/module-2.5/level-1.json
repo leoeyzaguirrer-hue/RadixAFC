@@ -1,0 +1,13 @@
+{
+  "moduloId": "2.5",
+  "nivelId": 1,
+  "ejercicios": [
+    { "id": "m2.5_n1_e1", "posicion": 1, "tipo": "1_MC", "nombre": "¿Qué es operacionalizar?", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m2.5_n1_e2", "posicion": 2, "tipo": "6_Clasificacion", "nombre": "Etiqueta vs Conducta Observable", "descripcion": "Clasificar: 'tiene baja autoestima' vs 'dice que no sirve para nada 5 veces/día'", "pistas": ["", "", ""] },
+    { "id": "m2.5_n1_e3", "posicion": 3, "tipo": "4_Cloze", "nombre": "Parámetros de Conducta", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m2.5_n1_e4", "posicion": 4, "tipo": "5_CaseAnalysis_MC", "nombre": "Operacionalizar una Queja", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m2.5_n1_e5", "posicion": 5, "tipo": "2_Matching", "nombre": "Parámetro-Definición", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m2.5_n1_e6", "posicion": 6, "tipo": "6_Clasificacion", "nombre": "Motor, Cognitivo o Fisiológico", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m2.5_n1_e7", "posicion": 7, "tipo": "1_MC", "nombre": "¿Cuál está mejor operacionalizada?", "descripcion": "", "pistas": ["", "", ""] }
+  ]
+}
