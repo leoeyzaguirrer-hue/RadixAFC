@@ -1,4 +1,5 @@
 import { useEffect, useRef, useCallback } from 'react'
+import { useNavigate } from 'react-router-dom'
 import './Landing.css'
 
 /* ─── SVG Icons ─── */
@@ -75,7 +76,8 @@ function animateCounter(el, target) {
 }
 
 /* ─── Landing Page Component ─── */
-export default function Landing({ navigate }) {
+export default function Landing() {
+  const navigate = useNavigate()
   const heroRef = useRef(null)
   const spheresRef = useRef([])
   const scrollProgressRef = useRef(null)
@@ -191,7 +193,7 @@ export default function Landing({ navigate }) {
           <li><a onClick={() => scrollTo('fases')}>Programa</a></li>
           <li><a onClick={() => scrollTo('fases')}>Método</a></li>
           <li><a onClick={() => scrollTo('acceder')}>Contacto</a></li>
-          <li><a className="nav-btn" onClick={() => navigate('login')}>Acceder</a></li>
+          <li><a className="nav-btn" onClick={() => navigate('/login')}>Acceder</a></li>
         </ul>
       </nav>
 
@@ -309,7 +311,7 @@ export default function Landing({ navigate }) {
           <form
             className="cta-form"
             data-animate=""
-            onSubmit={(e) => { e.preventDefault(); navigate('login') }}
+            onSubmit={(e) => { e.preventDefault(); navigate('/login') }}
           >
             <input
               type="text"
