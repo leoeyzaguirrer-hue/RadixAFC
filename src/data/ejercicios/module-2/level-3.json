@@ -1,1 +1,116 @@
-{}
+[
+  {
+    "id": "2-3-1",
+    "tipo": "MC",
+    "tipoLabel": "Análisis clínico",
+    "titulo": "Insuficiencia de la intervención verbal",
+    "pregunta": "Carolina tiene miedo intenso a las palomas. Un terapeuta le dice: «Las palomas son inofensivas, no tienes nada que temer». ¿Por qué es probable que esta intervención verbal sea insuficiente?",
+    "opciones": [
+      "Porque Carolina no está prestando atención",
+      "Porque las RC emocionales son elicitadas por el EC de forma respondente, sin depender de la conducta verbal racional. Explicar que 'no hay peligro' no rompe la asociación EC→RC",
+      "Porque el terapeuta usó las palabras equivocadas",
+      "Porque Carolina tiene un trastorno genético"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Las RC no se eliminan con explicaciones racionales. El CC opera a nivel respondente: el EC elicita la RC independientemente de lo que la persona 'sepa'. Por eso se necesita exposición.",
+      "incorrecta": "Sofía 'sabe' que ya no está en quimioterapia, pero eso no elimina las arcadas. ¿Qué nos dice esto?",
+      "pista": "Para cambiar la relación EC→RC, se necesita nueva experiencia con el EC (exposición), no solo información verbal."
+    }
+  },
+  {
+    "id": "2-3-2",
+    "tipo": "MC",
+    "tipoLabel": "Análisis funcional",
+    "titulo": "Doble función del estímulo",
+    "pregunta": "Un consultante reporta: «Cada vez que veo el edificio de mi antigua oficina, me pongo ansioso y cruzo la calle para no pasar por ahí». ¿Cómo describirías la función del 'edificio de la antigua oficina'?",
+    "opciones": [
+      "Solo como EI",
+      "Solo como EC",
+      "El edificio funciona simultáneamente como EC (elicita RC de ansiedad) y como estímulo que establece las condiciones para la conducta de cruzar la calle, que tiene consecuencias que se analizarán con conceptos de módulos posteriores",
+      "Como EN"
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "En la clínica, los estímulos suelen tener múltiples funciones simultáneas. El edificio elicita la RC de ansiedad (función de EC) y al mismo tiempo establece las condiciones para la conducta de evitación.",
+      "incorrecta": "¿El edificio produce la ansiedad de forma innata (EI) o la adquirió por experiencia (EC)? Y si el consultante evita pasar por ahí, ¿el edificio solo funciona como EC o tiene también otra función?",
+      "pista": "Un mismo estímulo puede funcionar como EC (elicita respuestas emocionales) y como estímulo que establece condiciones para conductas."
+    }
+  },
+  {
+    "id": "2-3-3",
+    "tipo": "MC",
+    "tipoLabel": "Técnica terapéutica",
+    "titulo": "Desensibilización Sistemática",
+    "pregunta": "En la Desensibilización Sistemática de Wolpe, ¿cuál es el principio del CC que fundamenta la técnica?",
+    "opciones": [
+      "Extinción respondente",
+      "Contracondicionamiento: emparejar el EC con un estado fisiológico incompatible con la ansiedad (relajación)",
+      "Condicionamiento de segundo orden",
+      "Bloqueo"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Wolpe basó la DS en contracondicionamiento: si el EC se empareja repetidamente con relajación (estado incompatible con la ansiedad), la función del EC cambia.",
+      "incorrecta": "La DS no es simplemente presentar el EC sin el EI (eso sería extinción). La DS añade un ingrediente crucial: ¿qué estado se induce durante la exposición?",
+      "pista": "Wolpe enseñaba relajación profunda PRIMERO y mantenía ese estado DURANTE la exposición gradual."
+    }
+  },
+  {
+    "id": "2-3-4",
+    "tipo": "MC",
+    "tipoLabel": "Error metodológico",
+    "titulo": "Jerarquía de exposición",
+    "pregunta": "Marcos tiene fobia a volar. Su terapeuta diseña una jerarquía: (1) ver fotos de aviones, (2) ir al aeropuerto, (3) entrar a un avión estacionado, (4) taxi corto, (5) vuelo de una hora. Marcos supera los primeros niveles pero fracasa en el nivel 5. ¿Cuál sería el error más probable?",
+    "opciones": [
+      "La jerarquía tiene muy pocos niveles — el salto entre 'taxi corto' y 'vuelo de una hora' es demasiado grande",
+      "Marcos no tiene una verdadera fobia",
+      "La exposición no funciona para fobias a volar",
+      "Debería haber empezado directamente por el vuelo"
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "La jerarquía debe incluir pasos suficientemente graduales. Un salto muy grande genera una RC tan intensa que el contracondicionamiento no puede operar. La solución es insertar pasos intermedios.",
+      "incorrecta": "Piensa en la lógica de la jerarquía gradual: ¿por qué se avanza de menor a mayor intensidad?",
+      "pista": "Cada nivel de la jerarquía debe permitir que la relajación 'gane' sobre la ansiedad."
+    }
+  },
+  {
+    "id": "2-3-5",
+    "tipo": "MC",
+    "tipoLabel": "Protocolo moderno",
+    "titulo": "Exposición en múltiples contextos",
+    "pregunta": "¿Por qué los protocolos modernos de exposición recomiendan realizar la exposición en múltiples contextos?",
+    "opciones": [
+      "Para que el consultante se aburra",
+      "Porque la extinción es parcialmente específica del contexto, y si solo se extingue en un contexto, la RC puede reaparecer en otros (renovación). La exposición en múltiples contextos promueve una extinción más generalizada",
+      "Porque cada contexto añade un EI diferente",
+      "No hay evidencia de que esto sea necesario"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Los fenómenos post-extinción (especialmente la renovación) demuestran que la extinción tiende a ser contextualmente específica. Variar los contextos de exposición es una estrategia directamente derivada de la comprensión de la renovación.",
+      "incorrecta": "Recuerda el caso de Lucía: la exposición exitosa en el consultorio no se generalizó al parque. ¿Qué fenómeno explica esto?",
+      "pista": "Si la extinción ocurrió en el consultorio pero la RC reaparece en el supermercado (renovación), ¿cuál sería la solución lógica?"
+    }
+  },
+  {
+    "id": "2-3-6",
+    "tipo": "MC",
+    "tipoLabel": "Formulación de caso",
+    "titulo": "Análisis funcional con CC",
+    "pregunta": "Un consultante dice: «Siento pánico al oler el perfume que usaba mi ex pareja cuando me agredía verbalmente». ¿Cuál sería la formulación más precisa desde el CC?",
+    "opciones": [
+      "El perfume es el EI",
+      "El perfume (EC) fue emparejado con la agresión verbal (EI aversivo), adquiriendo función de elicitar RC de miedo. Las RC incluyen taquicardia, tensión, y la verbalización 'pánico', que son respuestas al EC, no causas del malestar",
+      "El consultante tiene un problema olfativo",
+      "La agresión verbal no es un EI real"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Esta formulación captura la esencia del análisis funcional con CC: identifica EI original, explica cómo el perfume adquirió función de EC, describe las RC, y enfatiza que la verbalización es PARTE de la respuesta, no su causa.",
+      "incorrecta": "El perfume no produce miedo de forma innata (no es un EI). ¿Esta persona siempre tuvo pánico ante ese perfume?",
+      "pista": "El análisis funcional identifica (1) qué estímulo produjo la respuesta originalmente (EI → RI) y (2) qué estímulo adquirió esa función por emparejamiento (EC → RC)."
+    }
+  }
+]

@@ -1,1 +1,56 @@
-{}
+{
+  "titulo": "Análisis Funcional del CC en Contexto Clínico",
+  "preguntaCentral": "¿Cómo aplica un terapeuta conductual contextual los principios del condicionamiento clásico para comprender y tratar los problemas que sus consultantes traen a consulta?",
+  "aprobacionRequerida": 80,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "El CC en el consultorio: más allá del laboratorio",
+      "contenido": "Cuando un consultante llega diciendo «tengo ansiedad», «tengo fobia a los aviones» o «siento pánico en los supermercados», está describiendo respuestas condicionadas — respuestas emocionales y fisiológicas que alguna vez fueron elicitadas por un EI real y que ahora son elicitadas por estímulos que se emparejaron con ese EI."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Fobias y ansiedad condicionada",
+      "contenido": "Skinner describió las fobias como reacciones de miedo excesivo ante circunstancias que no siempre se hallan claramente asociadas con el control aversivo. La fobia no es solo la respuesta refleja (taquicardia, sudoración) sino un cambio general en el repertorio conductual. Comprender que la fobia implica tanto componentes respondentes (las RC emocionales) como componentes que se verán en módulos posteriores (las conductas de evitación) es fundamental."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Desensibilización Sistemática: Wolpe y el contracondicionamiento",
+      "contenido": "En 1958, Joseph Wolpe presentó la Desensibilización Sistemática, basada en contracondicionamiento: si un EC elicita una RC de ansiedad, se puede emparejar ese EC con un estado fisiológico incompatible con la ansiedad (relajación muscular profunda). El procedimiento incluye: (1) entrenamiento en relajación, (2) construcción de una jerarquía de estímulos ansiógenos, y (3) exposición gradual al EC mientras se mantiene la relajación."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Un mismo estímulo, dos funciones simultáneas",
+      "contenido": "En la realidad clínica, los estímulos no tienen una sola función. Un mismo estímulo puede actuar simultáneamente como EC (elicitando respuestas emocionales condicionadas) y como estímulo que establece las condiciones para conductas que se verán en módulos siguientes.\n\nCuando un consultante dice «ver el logo del hospital me pone ansioso y entonces evito pasar por esa calle», describe esta doble función: el logo actúa como EC (elicita ansiedad, una RC) y simultáneamente establece las condiciones para la conducta de evitación."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Construyendo un análisis funcional con componentes respondentes",
+      "contenido": "Cuando identifiques componentes de CC en un caso clínico, documenta: (1) cuál fue el EI original, (2) qué estímulos se emparejaron y ahora funcionan como EC, (3) cuáles son las RC actuales, (4) si ha habido generalización, (5) si existen estímulos inhibitorios (señales de seguridad), y (6) si algún intento previo de extinción explica fenómenos de renovación o restablecimiento."
+    },
+    {
+      "tipo": "ejemploClinico",
+      "titulo": "Fobia a conducir tras un accidente de tránsito",
+      "contenido": "Roberto, taxista de 45 años, sufrió un accidente grave al ser embestido por detrás en una autopista. Tras recuperarse físicamente, descubre que no puede volver a conducir. Al sentarse en el asiento del conductor experimenta taquicardia, sudoración, temblor.",
+      "pasos": [
+        "EI: La colisión — impacto físico, dolor, amenaza vital. RI: Respuestas de estrés agudo.",
+        "EC principales: Sentarse en el asiento del conductor, ver la autopista, escuchar tráfico detrás → RC: taquicardia, sudoración, temblor.",
+        "Generalización: La RC se extiende a ser pasajero en autopistas y a noticias de accidentes.",
+        "La conducta verbal de Roberto ('algo terrible va a pasar') no es la 'causa' de su ansiedad — es PARTE de la respuesta condicionada.",
+        "Intervención: jerarquía de exposición gradual en múltiples contextos + entrenamiento en relajación (contracondicionamiento)."
+      ]
+    },
+    {
+      "tipo": "ejemploClinico",
+      "titulo": "Aversión condicionada a alimentos tras quimioterapia",
+      "contenido": "Sofía, de 32 años, durante su quimioterapia solía comer milanesas antes de cada sesión. Las náuseas post-quimioterapia fueron intensas. Ahora, un año después, no puede ni ver una milanesa sin sentir arcadas, a pesar de saber racionalmente que ya no está en quimioterapia.",
+      "pasos": [
+        "EI: Efectos de la quimioterapia (náuseas, vómitos). RI: Arcadas, malestar gástrico.",
+        "EN → EC: Sabor y olor de las milanesas, emparejados con los efectos de la quimioterapia.",
+        "RC: Arcadas, asco ante olor/vista de milanesas.",
+        "Que Sofía 'sepa racionalmente' que ya no está en quimioterapia no elimina la RC. El CC opera de forma respondente — no depende de la conducta verbal racional.",
+        "Esto ilustra por qué las explicaciones racionales no bastan para eliminar respuestas condicionadas."
+      ]
+    }
+  ]
+}

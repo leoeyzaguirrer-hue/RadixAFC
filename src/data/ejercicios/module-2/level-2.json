@@ -1,1 +1,141 @@
-{}
+[
+  {
+    "id": "2-2-1",
+    "tipo": "MC",
+    "tipoLabel": "Aplicación clínica",
+    "titulo": "Renovación de la RC",
+    "pregunta": "Pedro desarrolló miedo a los ascensores tras quedarse atrapado en uno. Su terapeuta logró que Pedro subiera a un ascensor sin ansiedad. Sin embargo, un mes después, al entrar a un ascensor diferente en otro edificio, Pedro volvió a sentir ansiedad. ¿Qué fenómeno explica mejor esto?",
+    "opciones": [
+      "El tratamiento fracasó",
+      "Se trata de renovación de la RC: la extinción fue contextualmente específica",
+      "Pedro olvidó lo aprendido en terapia",
+      "Se trata de condicionamiento de segundo orden"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "La renovación de la RC ocurre cuando el EC se presenta en un contexto diferente al de la extinción.",
+      "incorrecta": "La extinción no borra el aprendizaje original, sino que crea un nuevo aprendizaje. Si ese aprendizaje ocurrió en un contexto específico, ¿qué pasa al cambiar de contexto?",
+      "pista": "Si la extinción se hizo siempre en el mismo ascensor, ¿qué predice la teoría sobre un ascensor diferente?"
+    }
+  },
+  {
+    "id": "2-2-2",
+    "tipo": "MC",
+    "tipoLabel": "Discriminación conceptual",
+    "titulo": "Extinción vs. Inhibición",
+    "pregunta": "¿Cuál es la diferencia fundamental entre extinción respondente e inhibición condicionada?",
+    "opciones": [
+      "No hay diferencia",
+      "En la extinción hay acontingencia; en la inhibición hay contingencia negativa (el EC- predice la ausencia del EI)",
+      "La extinción es más rápida",
+      "La inhibición solo ocurre con estímulos aversivos"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "En la extinción, el EI está ausente independientemente del EC (acontingencia). En la inhibición, el EC- señala activamente que el EI NO aparecerá (contingencia negativa).",
+      "incorrecta": "Piensa en la relación predictiva: en la extinción, ¿el EC predice algo? En la inhibición, ¿el EC- predice algo?",
+      "pista": "Extinción: EC → no EI, y también no-EC → no EI. Inhibición: EC- → no EI, pero no-EC- → EI."
+    }
+  },
+  {
+    "id": "2-2-3",
+    "tipo": "MC",
+    "tipoLabel": "Análisis de caso",
+    "titulo": "Generalización + Discriminación",
+    "pregunta": "Ana fue mordida por un pastor alemán negro. Ahora siente miedo ante pastores alemanes de cualquier color, ante rottweilers e incluso ante un golden retriever grande. Sin embargo, no siente miedo ante chihuahuas. ¿Qué combinación de procesos explica este patrón?",
+    "opciones": [
+      "Solo generalización",
+      "Solo discriminación",
+      "Generalización (el miedo se extiende a perros grandes similares) combinada con discriminación (los perros muy pequeños no elicitan la RC)",
+      "Condicionamiento de segundo orden"
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Ana muestra generalización (RC se extiende a perros grandes) y discriminación (chihuahuas no elicitan la RC). Ambos procesos operan juntos.",
+      "incorrecta": "No es solo uno de los procesos. ¿Qué explica que ALGUNOS estímulos sí produzcan la RC pero OTROS no?",
+      "pista": "La generalización explica la extensión a estímulos similares; la discriminación explica los límites."
+    }
+  },
+  {
+    "id": "2-2-4",
+    "tipo": "MC",
+    "tipoLabel": "Fenómeno experimental",
+    "titulo": "Bloqueo de Kamin",
+    "pregunta": "Un investigador condiciona primero un tono (A) con comida. Luego presenta el tono (A) junto con una luz (B) seguidos de comida. Al probar la luz (B) sola, no produce salivación. ¿Qué fenómeno se ha demostrado?",
+    "opciones": [
+      "Ensombrecimiento",
+      "Bloqueo: el condicionamiento previo de A impidió que B se condicionara",
+      "Validez relativa",
+      "Extinción de B"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "El bloqueo (Kamin, 1969) se produce cuando un estímulo previamente condicionado impide el condicionamiento de uno nuevo que se añade al compuesto.",
+      "incorrecta": "La clave es que A fue condicionado ANTES de que B se añadiera. Si A ya predice el EI, ¿qué información nueva aporta B?",
+      "pista": "El bloqueo requiere dos fases: primero A→EI, luego AB→EI."
+    }
+  },
+  {
+    "id": "2-2-5",
+    "tipo": "MC",
+    "tipoLabel": "Post-extinción",
+    "titulo": "Restablecimiento",
+    "pregunta": "Una paciente tiene fobia a las agujas (EC→RC de miedo). La terapeuta le muestra repetidamente agujas sin pinchazos y la paciente deja de tener miedo. Un día, la paciente se pincha accidentalmente con un alfiler en casa. Al día siguiente, vuelve a mostrar miedo ante las agujas. ¿Qué fenómeno es este?",
+    "opciones": [
+      "Recuperación espontánea",
+      "Desinhibición",
+      "Restablecimiento de la excitación condicionada: el EI en solitario restaura la RC",
+      "Renovación contextual"
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Tras extinción exitosa, si se presenta el EI en solitario (pincharse accidentalmente), la RC puede reaparecer. Esto es restablecimiento.",
+      "incorrecta": "No es recuperación espontánea (eso ocurre por el mero paso del tiempo). No es renovación (no cambió el contexto). El dato clave es que experimentó el EI por separado.",
+      "pista": "¿Qué fenómeno post-extinción está vinculado específicamente a la re-presentación del EI?"
+    }
+  },
+  {
+    "id": "2-2-6",
+    "tipo": "CLASIFICAR",
+    "tipoLabel": "Clasificación",
+    "titulo": "Clasifica los fenómenos post-extinción",
+    "instrucciones": "Asigna cada situación al fenómeno que la explica mejor.",
+    "items": [
+      "RC reaparece tras un descanso sin EC ni EI",
+      "RC reaparece al cambiar de contexto",
+      "RC reaparece al presentar el EI aislado",
+      "RC reaparece al presentar EC + estímulo nuevo"
+    ],
+    "categorias": [
+      "Recup. espontánea",
+      "Renovación",
+      "Restablecimiento",
+      "Desinhibición"
+    ],
+    "solucion": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+    }
+  },
+  {
+    "id": "2-2-7",
+    "tipo": "MC",
+    "tipoLabel": "Concepto",
+    "titulo": "Validez relativa de Rescorla",
+    "pregunta": "La validez relativa de Rescorla (1994) establece que cuando hay múltiples estímulos presentes en una situación de condicionamiento:",
+    "opciones": [
+      "Todos se condicionan por igual",
+      "Solo se condiciona el que apareció primero",
+      "El que mejor correlacionado esté con el EI — el que mejor lo prediga — será al que más se atienda y más se condicione",
+      "Solo se condiciona el más intenso"
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Rescorla demostró que los organismos atienden preferentemente al estímulo que mantiene mejor contingencia con el EI. El estímulo más informativo 'gana' la competencia.",
+      "incorrecta": "No es solo cuestión de intensidad (ensombrecimiento) ni de orden temporal (bloqueo). Rescorla habla de correlación estadística.",
+      "pista": "Lo que importa es cuál estímulo predice mejor lo que va a ocurrir."
+    }
+  }
+]

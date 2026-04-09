@@ -1,1 +1,114 @@
-{}
+{
+  "titulo": "Elementos y Procedimientos del Condicionamiento Clásico",
+  "preguntaCentral": "¿Cómo aprenden los organismos a anticipar eventos significativos del entorno a partir de señales que antes eran irrelevantes?",
+  "aprobacionRequerida": 87,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "El descubrimiento accidental que cambió la psicología",
+      "contenido": "En el Módulo 1 exploramos los fundamentos filosóficos del análisis funcional. Ahora vamos a dar un paso crucial: estudiar el primer gran mecanismo de aprendizaje descubierto experimentalmente.\n\nFue el fisiólogo ruso Ivan P. Pavlov quien, mientras estudiaba los procesos digestivos en perros, notó algo inesperado. Sus perros comenzaban a salivar no solo cuando recibían comida en la boca, sino antes: al ver al asistente de laboratorio que les traía el alimento. A estas respuestas las llamó «secreciones psíquicas». El organismo estaba respondiendo a una señal del entorno que, en principio, nada tenía que ver con la comida.\n\nEste hallazgo abrió la puerta al Condicionamiento Clásico (CC): un proceso mediante el cual un estímulo adquiere la capacidad de elicitar una respuesta debido a su emparejamiento repetido con otro estímulo que ya la producía."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Los cuatro elementos fundamentales",
+      "items": [
+        {
+          "sigla": "EI",
+          "nombre": "Estímulo Incondicionado",
+          "descripcion": "Estímulo que, de manera innata, elicita una respuesta no aprendida y medible. Ejemplo: comida en la boca, descarga eléctrica, soplo de aire en el ojo."
+        },
+        {
+          "sigla": "RI",
+          "nombre": "Respuesta Incondicionada",
+          "descripcion": "Respuesta no aprendida suscitada regularmente por el EI. Ejemplo: salivación, parpadeo, flexión de la pata. Lo clave es la relación funcional EI→RI."
+        },
+        {
+          "sigla": "EN/EC",
+          "nombre": "Estímulo Neutro → Condicionado",
+          "descripcion": "Inicialmente no elicita respuesta específica. Tras emparejarse repetidamente con el EI, adquiere la capacidad de producir una respuesta similar a la RI."
+        },
+        {
+          "sigla": "RC",
+          "nombre": "Respuesta Condicionada",
+          "descripcion": "Respuesta aprendida que se asemeja a la RI, ahora elicitada por el EC. Es el resultado final del proceso de condicionamiento."
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "El experimento de Pavlov paso a paso",
+      "contenido": "Pavlov realizó una pequeña incisión en la mejilla del perro y colocó una fístula en la glándula salival para medir con precisión la salivación. Primero hizo sonar un diapasón sin que se produjera salivación. Luego introdujo polvo de carne en la boca del perro, observando salivación inmediata. Después, emparejó ambos estímulos repetidamente. Tras diez emparejamientos, el sonido aislado ya producía un leve incremento de salivación. Tras treinta emparejamientos, el perro salivaba ampliamente ante el sonido solo."
+    },
+    {
+      "tipo": "diagrama",
+      "titulo": "Proceso de CC en tres fases",
+      "fases": [
+        {
+          "label": "Antes del condicionamiento",
+          "descripcion": "EN (Sonido) no produce respuesta. EI (Comida) → RI (Salivación)"
+        },
+        {
+          "label": "Durante el condicionamiento",
+          "descripcion": "EN (Sonido) + EI (Comida) → RI (Salivación). Emparejamiento repetido."
+        },
+        {
+          "label": "Después del condicionamiento",
+          "descripcion": "EC (Sonido) → RC (Salivación). ¡El sonido solo ya elicita la respuesta!"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Condicionamiento Apetitivo vs. Aversivo",
+      "contenido": "Los estímulos que provocan respuestas de acercamiento se denominan estímulos apetitivos (como la comida en el experimento de Pavlov). Pero el condicionamiento también funciona con estímulos aversivos: aquellos que generan respuestas de defensa. H. S. Liddell (1934) aplicó a una oveja una breve descarga eléctrica en la pata delantera, precedida por el sonido de un metrónomo. Tras solo cuatro o cinco emparejamientos, la oveja levantaba la pata y respiraba más deprisa al escuchar el metrónomo solo.\n\nEsta distinción es fundamental para la clínica: gran parte de los problemas que los terapeutas encuentran en consulta involucran condicionamiento aversivo."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Procedimientos excitatorios: la relación temporal importa",
+      "contenido": "No basta con presentar el EC y el EI juntos. La relación temporal entre ambos determina la eficacia del condicionamiento. Los procedimientos son:\n\nDemora corta: EC comienza antes que el EI (máx. 1 min) y continúa hasta que el EI aparece. Es el más efectivo (95% eficacia).\nHuella: EC empieza antes que el EI pero termina antes de que éste comience. Menos efectivo (60%).\nSimultáneo: EC y EI comienzan y terminan al mismo tiempo. Mal procedimiento (15%).\nRetroactivo: El EI ocurre antes que el EC. Inefectivo (10%)."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Contingencia y Contigüidad",
+      "contenido": "La contigüidad se refiere a la proximidad espacio-temporal entre eventos. Pero la contigüidad sola no es suficiente. La contingencia se refiere a la relación predictiva entre los estímulos: existe una contingencia positiva cuando la presencia del EC predice la aparición del EI, y una contingencia negativa cuando la presencia de un estímulo predice la ausencia del EI.\n\nEl condicionamiento excitatorio depende de una contingencia positiva, mientras que el condicionamiento inhibitorio implica que el organismo aprende a predecir la ausencia del EI."
+    },
+    {
+      "tipo": "ejemploCotidiano",
+      "titulo": "El olor de la cocina de la abuela",
+      "contenido": "Cada vez que Martina visitaba a su abuela de niña en Cochabamba, la abuela preparaba sopa de maní. Ahora, de adulta en otra ciudad, cuando percibe el olor de maní tostado en cualquier contexto, experimenta una oleada de nostalgia, salivación e incluso un nudo en la garganta.",
+      "pasos": [
+        "EI: La comida caliente de la abuela + el contexto emocional afectivo → RI: salivación, sensación de bienestar.",
+        "EN: El olor a maní tostado, inicialmente sin carga emocional particular.",
+        "Emparejamiento repetido: Cada visita a la abuela (EI afectivo) iba acompañada del aroma a maní (EN).",
+        "EC: El olor a maní tostado → RC: salivación, sensación de nostalgia, bienestar."
+      ]
+    },
+    {
+      "tipo": "ejemploClinico",
+      "titulo": "La bata blanca y la respuesta de ansiedad",
+      "contenido": "Carlos, de 8 años, fue llevado al hospital para inyecciones dolorosas. El personal siempre vestía bata blanca. Tras varias visitas, Carlos comenzó a llorar y mostrar tensión muscular al ver a cualquier persona con bata blanca, incluyendo al farmacéutico del barrio.",
+      "pasos": [
+        "EI: Pinchazo de la inyección → RI: dolor, llanto, tensión muscular.",
+        "EN: Bata blanca del personal, inicialmente sin respuesta de defensa.",
+        "Emparejamiento: En cada visita, la bata blanca (EN) precedía al pinchazo (EI).",
+        "EC: Bata blanca → RC: llanto, tensión muscular, intento de huida. Nótese la generalización a cualquier bata blanca.",
+        "Relevancia clínica: CC aversivo que interfiere con conducta adaptativa (visitar al médico)."
+      ]
+    },
+    {
+      "tipo": "errorComun",
+      "error": "La RC es idéntica a la RI, es la misma respuesta",
+      "correccion": "La RC se asemeja a la RI pero no es idéntica. Suele ser de menor magnitud y puede diferir en componentes específicos. Lo que las define no es su forma (topografía) sino su función: la RI es elicitada por el EI, la RC es elicitada por el EC."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "El condicionamiento clásico solo aplica a animales de laboratorio, no a humanos",
+      "correccion": "El CC opera en humanos constantemente. Ansiedad al escuchar el taladro del dentista, agua en la boca al ver el logo del restaurante favorito, tensión al recibir una llamada de un número desconocido tras malas noticias — todo es CC."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Para que haya condicionamiento basta con que EC y EI aparezcan juntos",
+      "correccion": "La mera contigüidad temporal no es suficiente. Es necesaria una contingencia positiva: el EC debe predecir de forma fiable la aparición del EI. Además, la secuencia temporal importa: el EC debe preceder al EI."
+    }
+  ]
+}
