@@ -1,20 +1,25 @@
 import { createContext, useState, useEffect } from 'react';
-import { auth } from '../config/firebaseConfig';
-import {
-  signInWithEmailAndPassword,
-  createUserWithEmailAndPassword,
-  signOut,
-  onAuthStateChanged,
-} from 'firebase/auth';
+
+let auth = null;
+let firebaseAuth = null;
+
+try {
+  const config = await import('../config/firebaseConfig');
+  auth = config.auth;
+  firebaseAuth = await import('firebase/auth');
+} catch {
+  console.warn('Firebase not configured — auth disabled');
+}
 
 export const AuthContext = createContext(null);
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(!!auth);
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
+    if (!auth || !firebaseAuth) return;
+    const unsubscribe = firebaseAuth.onAuthStateChanged(auth, (firebaseUser) => {
       if (firebaseUser) {
         setUser({
           uid: firebaseUser.uid,
@@ -30,18 +35,21 @@ export function AuthProvider({ children }) {
   }, []);
 
   const login = async (email, password) => {
-    const result = await signInWithEmailAndPassword(auth, email, password);
+    if (!auth || !firebaseAuth) throw new Error('Firebase not configured');
+    const result = await firebaseAuth.signInWithEmailAndPassword(auth, email, password);
     return result.user;
   };
 
   const register = async (email, password, codigo) => {
+    if (!auth || !firebaseAuth) throw new Error('Firebase not configured');
     // TODO: Validate invitation code in Firestore before creating user
-    const result = await createUserWithEmailAndPassword(auth, email, password);
+    const result = await firebaseAuth.createUserWithEmailAndPassword(auth, email, password);
     return result.user;
   };
 
   const logout = async () => {
-    await signOut(auth);
+    if (!auth || !firebaseAuth) return;
+    await firebaseAuth.signOut(auth);
   };
 
   return (
