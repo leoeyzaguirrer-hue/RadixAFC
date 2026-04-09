@@ -1,38 +1,21 @@
-import { useState } from 'react'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Navigation from './components/Navigation'
-import Landing from './pages/Landing'
-import Login from './pages/Login'
+import { Routes, Route, Navigate } from 'react-router-dom'
+import TopNav from './components/TopNav'
 import Dashboard from './pages/Dashboard'
-import Modulos from './pages/Modulos'
-import NotFound from './pages/NotFound'
+import TheoryView from './pages/TheoryView'
+import ExerciseView from './pages/ExerciseView'
+import Login from './pages/Login'
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('landing')
-
-  const navigate = (page) => setCurrentPage(page)
-
-  const renderPage = () => {
-    switch (currentPage) {
-      case 'landing':
-        return <Landing navigate={navigate} />
-      case 'login':
-        return <Login />
-      case 'dashboard':
-        return <Dashboard navigate={navigate} />
-      case 'modulos':
-        return <Modulos navigate={navigate} />
-      default:
-        return <NotFound navigate={navigate} />
-    }
-  }
-
   return (
     <>
-      <Navigation currentPage={currentPage} navigate={navigate} />
-      <main>{renderPage()}</main>
-      <Footer />
+      <TopNav />
+      <Routes>
+        <Route path="/" element={<Navigate to="/dashboard" replace />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/teoria" element={<TheoryView />} />
+        <Route path="/ejercicios" element={<ExerciseView />} />
+      </Routes>
     </>
   )
 }
