@@ -1,1 +1,107 @@
-{}
+[
+  {
+    "id": "2.5-16",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Primer paso ante demanda vaga",
+    "pregunta": "Un paciente llega y dice: \"Estoy hecho polvo, no aguanto más, creo que me voy a volver loco\". ¿Cuál es el primer paso conductual del terapeuta?",
+    "opciones": [
+      "Diagnosticarlo con un trastorno de ansiedad para tener un marco de referencia",
+      "Preguntar qué hace exactamente cuando \"no aguanta más\", en qué situaciones y con qué frecuencia",
+      "Explicarle que \"no aguanto más\" no es una descripción válida de su problema",
+      "Pedirle que complete inmediatamente un cuestionario de síntomas"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto. Ante cualquier queja vaga, el primer movimiento del terapeuta conductual es operacionalizar: ¿qué hace exactamente? ¿cuándo? ¿con qué frecuencia? Esa información es la materia prima del trabajo clínico.",
+      "incorrecta": "El primer paso no es diagnosticar ni pedir cuestionarios: es preguntar con precisión qué hace el paciente cuando dice que 'no aguanta más'. La etiqueta del paciente es el punto de partida, no el destino.",
+      "pista": "El terapeuta conductual convierte etiquetas vagas en descripciones precisas. ¿Qué herramienta usa para ello?"
+    }
+  },
+  {
+    "id": "2.5-17",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Etiqueta vs. conducta operacionalizada",
+    "pregunta": "Un paciente consulta por \"ansiedad social\". Lee cada descripción y clasifícala como \"Etiqueta\" o \"Conducta operacionalizada\".",
+    "items": [
+      "Me da vergüenza",
+      "Tiemblo al hablar frente a más de 3 personas",
+      "Soy muy nervioso",
+      "Evito intervenir en reuniones de trabajo (3-4 veces/semana)",
+      "Tengo ansiedad social",
+      "Tardo 8-10 min en calmarme después de hablar en público"
+    ],
+    "zonas": ["Etiqueta", "Operacionalizada"],
+    "correctMap": {
+      "Me da vergüenza": "Etiqueta",
+      "Tiemblo al hablar frente a más de 3 personas": "Operacionalizada",
+      "Soy muy nervioso": "Etiqueta",
+      "Evito intervenir en reuniones de trabajo (3-4 veces/semana)": "Operacionalizada",
+      "Tengo ansiedad social": "Etiqueta",
+      "Tardo 8-10 min en calmarme después de hablar en público": "Operacionalizada"
+    },
+    "retroalimentacion": {
+      "correcta": "Excelente. Las etiquetas ('me da vergüenza', 'soy nervioso', 'tengo ansiedad social') describen experiencias globales. Las conductas operacionalizadas especifican qué ocurre, cuándo y con qué parámetros.",
+      "incorrecta": "Revisa: una conducta operacionalizada dice QUÉ hace el paciente, CUÁNDO y con qué frecuencia/intensidad. Las etiquetas son resúmenes globales sin esa especificación.",
+      "pista": "¿La frase dice qué hace exactamente la persona, con datos concretos? → Operacionalizada. ¿Es un resumen vago? → Etiqueta."
+    }
+  },
+  {
+    "id": "2.5-18",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Conducta-objetivo operacionalizada",
+    "pregunta": "Una paciente dice que quiere \"dejar de ser tan dependiente\" de su pareja. ¿Cuál sería una conducta-objetivo bien operacionalizada?",
+    "opciones": [
+      "\"Que se vuelva independiente\" (el opuesto de su etiqueta)",
+      "\"Tomar decisiones sobre actividades de ocio sin consultarlo, al menos 2 veces por semana\"",
+      "\"Que deje de llamar a su pareja\"",
+      "\"Mejorar su autoestima y seguridad personal\""
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto. Una buena conducta-objetivo describe QUÉ hará el paciente (tomar decisiones), CUÁNDO (sobre actividades de ocio) y con qué FRECUENCIA (al menos 2 veces/semana). Eso la hace evaluable.",
+      "incorrecta": "Recuerda: la conducta-objetivo no es el 'opuesto' de la conducta-problema, ni algo tan vago como 'mejorar la autoestima'. Debe ser observable y medible: qué hará, cuándo, cuánto.",
+      "pista": "Busca la opción que describa una acción concreta, con frecuencia y contexto específicos."
+    }
+  },
+  {
+    "id": "2.5-19",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Información para el análisis funcional",
+    "pregunta": "Lucía refiere que \"no puede concentrarse\". El terapeuta ya sabe que esto incluye levantarse de la silla, revisar el teléfono, y pensamientos intrusivos, 5-6 veces/hora. ¿Qué información adicional es imprescindible antes de iniciar el análisis posterior?",
+    "opciones": [
+      "Saber su diagnóstico previo para encuadrarlo en un trastorno específico",
+      "En qué situaciones específicas ocurre y qué pasa inmediatamente después de esas conductas",
+      "Realizar una batería de tests neuropsicológicos para descartar déficits atencionales orgánicos",
+      "Determinar si el problema tiene base neurológica antes de cualquier análisis conductual"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto. La operacionalización nos dice QUÉ está pasando. Para el análisis posterior necesitamos también EN QUÉ SITUACIONES ocurre (contexto/antecedentes) y QUÉ PASA DESPUÉS (consecuentes). Sin eso, el análisis funcional no puede construirse.",
+      "incorrecta": "El diagnóstico o los tests neuropsicológicos no son el próximo paso necesario. Lo que necesitamos antes del análisis es conocer el contexto (¿cuándo ocurre?) y las consecuencias (¿qué pasa después?).",
+      "pista": "Ya sabemos QUÉ hace y CUÁNTO. ¿Qué falta para entender POR QUÉ lo hace?"
+    }
+  },
+  {
+    "id": "2.5-20",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Operacionalización completa",
+    "pregunta": "Tras dos sesiones con un paciente con \"trastorno de pánico\", el terapeuta ha registrado: hiperventilación (fisiológico), pensamientos \"me estoy muriendo\" (cognitivo), llamadas al 112 (motor). Frecuencia: 2-3 episodios/semana. Duración: 15-40 minutos. Intensidad: 8-10/10. ¿Qué ha completado el terapeuta?",
+    "opciones": [
+      "El análisis funcional completo del caso",
+      "La hipótesis de mantenimiento del problema",
+      "Una descripción operacionalizada de la conducta-problema: tres componentes y tres parámetros",
+      "El plan de intervención para el caso"
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Exacto. El terapeuta identificó los tres componentes (fisiológico, cognitivo, motor) y cuantificó tres parámetros (frecuencia, duración, intensidad). Eso es precisamente una operacionalización completa. El análisis funcional viene después.",
+      "incorrecta": "Recuerda: el análisis funcional requiere también conocer antecedentes y consecuentes. Lo que se ha hecho aquí es la descripción operacionalizada del problema —necesaria e imprescindible, pero solo el primer paso.",
+      "pista": "El terapeuta tiene componentes (qué) y parámetros (cuánto). ¿Es eso un análisis funcional o una operacionalización?"
+    }
+  }
+]

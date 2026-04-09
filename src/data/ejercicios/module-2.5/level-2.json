@@ -1,1 +1,149 @@
-{}
+[
+  {
+    "id": "2.5-9",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Método de observación en sesión",
+    "pregunta": "Un terapeuta quiere evaluar si su paciente llora durante las sesiones. ¿Qué método de observación utilizará principalmente?",
+    "opciones": [
+      "Observación indirecta, porque el paciente ya está presente en sesión",
+      "Observación directa, porque el terapeuta presencia la conducta en tiempo real",
+      "Autoobservación, porque el llanto tiene componentes subjetivos",
+      "Cuestionario estandarizado de depresión"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto. La observación directa ocurre cuando el observador presencia la conducta en el momento en que se produce. En sesión, el terapeuta puede observar directamente los episodios de llanto.",
+      "incorrecta": "La observación directa implica presenciar la conducta en tiempo real. En sesión, el terapeuta sí está presente: eso es observación directa.",
+      "pista": "¿El terapeuta está presente mientras ocurre la conducta? Si sí, ¿qué tipo de observación es?"
+    }
+  },
+  {
+    "id": "2.5-10",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Observación directa vs. indirecta",
+    "pregunta": "Clasifica cada estrategia como \"Observación directa\" u \"Observación indirecta\".",
+    "items": [
+      "Terapeuta observa conductas en sesión",
+      "Paciente reporta lo ocurrido la semana pasada",
+      "Familiar completa cuestionario sobre rabia",
+      "Registro en tiempo real durante role-play",
+      "Paciente lleva autorregistro diario"
+    ],
+    "zonas": ["Directa", "Indirecta"],
+    "correctMap": {
+      "Terapeuta observa conductas en sesión": "Directa",
+      "Paciente reporta lo ocurrido la semana pasada": "Indirecta",
+      "Familiar completa cuestionario sobre rabia": "Indirecta",
+      "Registro en tiempo real durante role-play": "Directa",
+      "Paciente lleva autorregistro diario": "Indirecta"
+    },
+    "retroalimentacion": {
+      "correcta": "Bien clasificado. La observación directa implica presenciar la conducta en tiempo real. La indirecta incluye informes, cuestionarios y autorregistros.",
+      "incorrecta": "Recuerda: la observación directa es cuando el observador PRESENCIA la conducta. La indirecta depende de la memoria del informante o de datos recogidos fuera del momento de la conducta.",
+      "pista": "¿Se presencia la conducta en el momento? → Directa. ¿Se recoge información después? → Indirecta."
+    }
+  },
+  {
+    "id": "2.5-11",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Tipo de registro apropiado",
+    "pregunta": "Un terapeuta quiere registrar el tiempo que su paciente dedica a rituales de comprobación (revisar si cerró la puerta, el gas, etc.). ¿Qué tipo de registro es más apropiado?",
+    "opciones": [
+      "Registro de frecuencia, porque ocurre varias veces al día",
+      "Registro de duración, porque lo clínicamente importante es cuánto tiempo ocupa",
+      "Registro de intervalo, porque la conducta es difusa",
+      "Autoobservación, porque solo el paciente puede notar la conducta"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto. Para los rituales de comprobación, lo clínicamente importante es cuánto tiempo ocupa al paciente, no solo cuántas veces ocurren. El registro de duración captura eso mejor.",
+      "incorrecta": "Aunque los rituales ocurren con frecuencia, lo que genera mayor interferencia suele ser el tiempo total que consumen. El registro de duración es más informativo en este caso.",
+      "pista": "La pregunta dice \"el tiempo que dedica\". ¿Qué registro mide tiempo?"
+    }
+  },
+  {
+    "id": "2.5-12",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Fiabilidad inter-observador",
+    "pregunta": "Dos observadores registran la conducta de un paciente de forma independiente. Coinciden en 88 de cada 100 intervalos observados. ¿Cómo se interpreta esto?",
+    "opciones": [
+      "La fiabilidad es demasiado baja; el registro no es válido",
+      "La fiabilidad es aceptable (88% > 80%); el registro es suficientemente consistente",
+      "La fiabilidad es perfecta; los observadores no cometieron errores",
+      "Se necesita un tercer observador para decidir quién tiene razón en el 12% restante"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto. Una FIO del 80% o superior se considera aceptable en evaluación conductual. El 88% indica un acuerdo sustancial, suficiente para confiar en los datos.",
+      "incorrecta": "Recuerda: la fiabilidad inter-observador aceptable es ≥80%. El 88% supera ese umbral. No necesitamos el 100% para que el registro sea válido.",
+      "pista": "El umbral de aceptabilidad para la FIO es 80%. ¿88% está por encima o por debajo?"
+    }
+  },
+  {
+    "id": "2.5-13",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar",
+    "titulo": "Línea de base",
+    "pregunta": "Completa el enunciado sobre la línea de base.",
+    "textoBase": "La línea de base es el nivel ___ de la conducta, medido antes de cualquier intervención terapéutica, que sirve como punto de ___ para evaluar el cambio.",
+    "gaps": [
+      {
+        "id": "gap1",
+        "opciones": ["inicial", "esperado", "ideal"],
+        "correcta": "inicial"
+      },
+      {
+        "id": "gap2",
+        "opciones": ["referencia", "partida emocional", "diagnóstico"],
+        "correcta": "referencia"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Perfecto. La línea de base es el nivel INICIAL de la conducta, antes de cualquier intervención, que sirve como punto de REFERENCIA para evaluar si el tratamiento está produciendo cambio.",
+      "incorrecta": "Revisa: la línea de base documenta el estado inicial (no el esperado ni el ideal) y sirve como referencia (no como diagnóstico) para comparar el progreso posterior.",
+      "pista": "La línea de base documenta cómo están las cosas ANTES de intervenir, y sirve para COMPARAR después."
+    }
+  },
+  {
+    "id": "2.5-14",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Limitación de la autoobservación",
+    "pregunta": "¿Cuál es la principal limitación de la autoobservación como método de registro conductual?",
+    "opciones": [
+      "Solo sirve para conductas fisiológicas, no para pensamientos",
+      "El acto de observarse puede modificar la propia conducta que se está registrando",
+      "No puede usarse en el ámbito clínico por cuestiones éticas de privacidad",
+      "Solo puede usarse para conductas de alta frecuencia"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto. La interferencia observacional —que observarse modifica la propia conducta— es la limitación principal de la autoobservación. No la invalida, pero obliga a interpretarla con cautela.",
+      "incorrecta": "La autoobservación sí puede usarse para pensamientos; no está prohibida éticamente. Su limitación principal es que el acto de observarse puede modificar la conducta que se observa.",
+      "pista": "Piensa en qué pasa cuando una persona empieza a prestar atención a algo que antes hacía sin darse cuenta."
+    }
+  },
+  {
+    "id": "2.5-15",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Ventaja del registro de intervalo",
+    "pregunta": "¿Qué ventaja tiene el registro de intervalo frente al registro de frecuencia?",
+    "opciones": [
+      "Es más preciso en la medición de la duración exacta de cada episodio",
+      "Permite registrar conductas de alta tasa o difíciles de delimitar como eventos discretos",
+      "No requiere ningún entrenamiento previo del observador",
+      "Elimina completamente el sesgo del observador"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Exacto. El registro de intervalo es especialmente útil cuando las conductas ocurren con tanta frecuencia que contarlas individualmente sería inviable, o cuando son difusas y difíciles de delimitar como eventos discretos.",
+      "incorrecta": "El registro de intervalo no mide duración exacta (eso es registro de duración). Su ventaja es poder registrar conductas de alta tasa que serían imposibles de contar una a una.",
+      "pista": "Imagina una conducta que ocurre 50 veces por minuto. ¿Podrías contarla? El registro de intervalo resuelve ese problema."
+    }
+  }
+]
