@@ -30,9 +30,9 @@ function AppRoutes() {
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
-        <Route path="/teoria" element={<ProtectedRoute><TheoryView /></ProtectedRoute>} />
-        <Route path="/ejercicios" element={<ProtectedRoute><ExerciseView /></ProtectedRoute>} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/teoria" element={<TheoryView />} />
+        <Route path="/ejercicios" element={<ExerciseView />} />
         <Route path="/modulo/:moduloId" element={<ProtectedRoute><ModulePage /></ProtectedRoute>} />
         <Route path="/modulo/:moduloId/nivel/:nivelId/teoria" element={<ProtectedRoute><TheoryPage /></ProtectedRoute>} />
         <Route path="/modulo/:moduloId/nivel/:nivelId" element={<ProtectedRoute><ExercisePage /></ProtectedRoute>} />
