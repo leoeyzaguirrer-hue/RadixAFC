@@ -1,16 +1,71 @@
 {
-  "moduloId": 2,
-  "nivelId": 2,
-  "titulo": "Procesos: Extinción, Generalización y Discriminación Respondente",
-  "preguntaCentral": "",
+  "titulo": "Extinción, Generalización y Discriminación Respondente",
+  "preguntaCentral": "Si los organismos pueden aprender nuevas respuestas ante estímulos del entorno, ¿pueden también «desaprenderlas»? Y si se condicionan a un estímulo, ¿responderán igual a estímulos similares?",
+  "aprobacionRequerida": 83,
   "secciones": [
-    { "tipo": "introduccion", "contenido": "" },
-    { "tipo": "desarrollo", "subtitulo": "", "contenido": "" },
-    { "tipo": "ejemplo_cotidiano", "titulo": "", "contenido": "" },
-    { "tipo": "ejemplo_clinico", "titulo": "", "contenido": "" },
-    { "tipo": "diagrama", "titulo": "", "descripcion": "", "tipo_diagrama": "" },
-    { "tipo": "errores_comunes", "errores": [{ "error": "", "correccion": "" }] },
-    { "tipo": "conexion_clinica", "contenido": "" }
-  ],
-  "referencias": []
+    {
+      "tipo": "texto",
+      "titulo": "La extinción NO es olvido ni desaprendizaje",
+      "contenido": "Cuando un EC se presenta repetidamente sin ir seguido del EI, la RC disminuye progresivamente hasta desaparecer. Este proceso se llama extinción. Pero la extinción no supone un «borrado» de lo aprendido. Es un nuevo aprendizaje que sustituye al anterior: el organismo aprende que, en cierto contexto, la relación EC-EI ya no funciona.\n\n¿Cómo sabemos que no es un simple borrado? Porque tras la extinción ocurren fenómenos que demuestran que el aprendizaje original sigue «ahí»."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Fenómenos post-extinción",
+      "items": [
+        {
+          "nombre": "Recuperación Espontánea",
+          "descripcion": "Si dejamos pasar un tiempo sin exponer al organismo al EC y luego lo presentamos, la RC reaparece a un nivel superior al del final de la extinción."
+        },
+        {
+          "nombre": "Desinhibición",
+          "descripcion": "Tras la extinción, si presentamos el EC junto a un estímulo nuevo, la RC puede reaparecer momentáneamente."
+        },
+        {
+          "nombre": "Renovación de la RC",
+          "descripcion": "Si presentamos el EC en un contexto diferente al de la extinción, la RC puede reaparecer. La extinción es en parte específica del contexto."
+        },
+        {
+          "nombre": "Restablecimiento",
+          "descripcion": "Tras extinguir un condicionamiento excitatorio, si presentamos el EI en solitario, la RC vuelve a aparecer ante el EC."
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Generalización y Discriminación Respondente",
+      "contenido": "Cuando un organismo adquiere una pauta nueva de conducta, siempre existe una cierta generalización. Si un perro aprende a salivar ante un tono de cierta frecuencia, probablemente también salivará ante tonos ligeramente diferentes. La discriminación es el proceso complementario: aprender a responder solo ante el EC específico.\n\nClínicamente, la generalización explica por qué una persona que fue mordida por un pastor alemán puede desarrollar miedo ante perros de razas muy diferentes."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Condicionamiento Clásico de Segundo Orden",
+      "contenido": "Una vez que un EC ha adquirido la capacidad de elicitar una RC, ese EC puede funcionar a su vez como si fuera un «EI» para condicionar un nuevo estímulo. Esto extiende enormemente las posibilidades de aprendizaje."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Fenómenos de competencia entre estímulos",
+      "contenido": "El ensombrecimiento ocurre cuando dos estímulos de diferente saliencia se emparejan juntos con el EI: el más saliente se condiciona más rápidamente. El bloqueo (Kamin, 1969) se produce cuando uno de los elementos ya fue condicionado previamente, impidiendo que el nuevo se condicione.\n\nRescorla (1994) formalizó estos hallazgos en el principio de validez relativa: el estímulo que mejor correlacionado esté con el EI será al que más se atienda y más se condicione."
+    },
+    {
+      "tipo": "ejemploCotidiano",
+      "titulo": "El ascensor y la llegada del dueño",
+      "contenido": "Un perro en La Paz aprende que el sonido del ascensor precede la llegada de su dueño. Pero el dueño se muda a la planta baja. El perro sigue escuchando el ascensor, pero ya no predice la llegada del dueño. Con el tiempo, el sonido deja de producir la respuesta cardíaca.",
+      "pasos": [
+        "EC: Sonido del ascensor. EI: Llegada del dueño.",
+        "La mudanza crea acontingencia: el EC ocurre sin el EI.",
+        "Esto es extinción respondente: presentación repetida del EC sin el EI.",
+        "Si el dueño vuelve a usar el ascensor después, probablemente la RC reaparecerá (recuperación espontánea)."
+      ]
+    },
+    {
+      "tipo": "ejemploClinico",
+      "titulo": "Recaída del miedo tras exposición exitosa",
+      "contenido": "Lucía desarrolló miedo intenso a los perros tras ser mordida por un rottweiler. Su terapeuta realizó exposición gradual en el consultorio, logrando que Lucía pudiera estar cerca de perros sin ansiedad. Sin embargo, en un parque (contexto diferente), Lucía volvió a experimentar miedo intenso al ver un labrador.",
+      "pasos": [
+        "Condicionamiento original: Mordedura (EI) + perro grande (EN) → EC + RC (miedo, evitación).",
+        "Exposición en consultorio exitosa: EC (perros) sin EI → extinción de la RC.",
+        "Reaparición del miedo en el parque: renovación de la RC. La extinción fue contextualmente específica.",
+        "Implicación clínica: la exposición debe realizarse en múltiples contextos."
+      ]
+    }
+  ]
 }

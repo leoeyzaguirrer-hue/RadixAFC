@@ -1,0 +1,59 @@
+[
+  {
+    "id": "2-1",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "El estatus de los eventos privados",
+    "pregunta": "Un paciente te dice: \"Tengo ansiedad, y esa ansiedad me impide trabajar.\" Desde el conductismo radical, ¿cuál es la mejor manera de entender esta afirmación?",
+    "opciones": [
+      "La ansiedad es la causa de que no trabaje; hay que eliminar la ansiedad para que pueda volver a trabajar.",
+      "La ansiedad no existe porque no es observable; el paciente está inventando una excusa.",
+      "La ansiedad es una conducta privada (sensaciones, pensamientos) que necesita ser explicada por las mismas variables contextuales que explican el no trabajar. Ambas requieren un análisis funcional, no una relación causal entre ellas.",
+      "La ansiedad es un constructo hipotético que media entre el estímulo y la respuesta."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "¡Exacto! Desde el conductismo radical, la ansiedad no causa la inactividad laboral. Ambas son conductas que requieren ser explicadas por el mismo conjunto de variables contextuales. La ansiedad es conducta privada, no causa.",
+      "incorrecta": "Recuerda: para el conductismo radical, los eventos privados (como la ansiedad) son conducta, no causas de conducta. Tanto la ansiedad como el dejar de trabajar necesitan ser explicados por variables del contexto.",
+      "pista": "Lo privado y lo público son ambos conducta, y ambos requieren un análisis funcional que busque las variables ambientales que los producen y mantienen."
+    }
+  },
+  {
+    "id": "2-2",
+    "tipo": "MC",
+    "tipoLabel": "Discriminación",
+    "titulo": "¿Metodológico o radical?",
+    "pregunta": "Identifica cuál de las siguientes afirmaciones es coherente con el conductismo radical de Skinner:",
+    "opciones": [
+      "\"Solo podemos estudiar científicamente lo que es públicamente observable.\"",
+      "\"Los pensamientos son procesos cognitivos internos que procesan información, como un ordenador.\"",
+      "\"Las conductas observables son indicadores de estados mentales subyacentes que las causan.\"",
+      "\"Pensar y sentir son conductas sujetas a las mismas leyes que cualquier otra conducta; su accesibilidad es limitada pero su naturaleza no es especial.\""
+    ],
+    "respuestaCorrecta": 3,
+    "retroalimentacion": {
+      "correcta": "¡Correcto! Esta es una reformulación directa de la posición de Skinner: pensar y sentir son conducta (no causas de conducta), sujetas a los mismos principios; se distinguen solo por su accesibilidad limitada, no por tener una naturaleza especial.",
+      "incorrecta": "La clave del conductismo radical es que los eventos privados son conducta con los mismos principios que la conducta observable. Se diferencian solo en accesibilidad, no en naturaleza.",
+      "pista": "Conductismo metodológico: \"lo privado existe pero no lo estudiamos\". Conductismo radical: \"lo privado es conducta y se estudia con los mismos principios\"."
+    }
+  },
+  {
+    "id": "2-3",
+    "tipo": "MC",
+    "tipoLabel": "Razonamiento circular",
+    "titulo": "Detectando la trampa mentalista",
+    "pregunta": "Un terapeuta explica en una junta clínica: \"Elena no come porque tiene anorexia. ¿Y cómo sabemos que tiene anorexia? Porque no come.\"\n\n¿Qué problema lógico ilustra este razonamiento?",
+    "opciones": [
+      "Es un razonamiento circular: la \"anorexia\" no explica nada porque se define por la misma conducta que pretende explicar. Es una etiqueta descriptiva usada como si fuera una causa.",
+      "No hay problema: la anorexia es un diagnóstico válido que explica por qué Elena no come.",
+      "El problema es que anorexia no es un diagnóstico DSM correcto para este caso.",
+      "El error es que necesita más información sobre el historial de Elena antes de diagnosticarla."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "¡Exacto! Es un razonamiento circular clásico. \"Tiene anorexia\" se define por \"no come\", así que decir que \"no come porque tiene anorexia\" es decir que \"no come porque no come\". La etiqueta diagnóstica describe pero no explica.",
+      "incorrecta": "El problema no es el diagnóstico en sí, sino usarlo como explicación causal. Si la anorexia se define por la conducta de no comer, entonces \"no come porque tiene anorexia\" es lo mismo que \"no come porque no come\".",
+      "pista": "Señal de razonamiento circular: la \"explicación\" se define por aquello mismo que pretende explicar. ¿Cómo sabes que tiene X? Porque hace Y. ¿Por qué hace Y? Porque tiene X."
+    }
+  }
+]

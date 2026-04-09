@@ -1,16 +1,94 @@
 {
-  "moduloId": "2.5",
-  "nivelId": 3,
   "titulo": "Operacionalización Aplicada a Casos Clínicos",
-  "preguntaCentral": "",
+  "preguntaCentral": "¿Cómo convierte un terapeuta conductual el \"no puedo más\" en información clínicamente accionable?",
+  "aprobacionRequerida": 80,
   "secciones": [
-    { "tipo": "introduccion", "contenido": "" },
-    { "tipo": "desarrollo", "subtitulo": "", "contenido": "" },
-    { "tipo": "ejemplo_cotidiano", "titulo": "", "contenido": "" },
-    { "tipo": "ejemplo_clinico", "titulo": "", "contenido": "" },
-    { "tipo": "diagrama", "titulo": "", "descripcion": "", "tipo_diagrama": "" },
-    { "tipo": "errores_comunes", "errores": [{ "error": "", "correccion": "" }] },
-    { "tipo": "conexion_clinica", "contenido": "" }
-  ],
-  "referencias": []
+    {
+      "tipo": "texto",
+      "titulo": "La demanda del paciente: entre el lenguaje cotidiano y el análisis conductual",
+      "contenido": "Los pacientes llegan con sufrimiento, no con datos. Cuando alguien dice \"tengo depresión\", \"me como el coco\", \"no aguanto la ansiedad\" o \"me bloqueo\", está usando el único lenguaje que tiene disponible: el lenguaje cotidiano de la experiencia vivida. No es un defecto del paciente. Es exactamente lo que debería esperarse.\n\nLa tarea del terapeuta conductual durante la evaluación es hacer la traducción: convertir ese lenguaje de experiencia en descripción conductual precisa. Esta traducción no debe hacerse ignorando lo que el paciente siente —el sufrimiento es real y merece atención— sino añadiendo a la comprensión empática la precisión técnica que permite el análisis.\n\nEl proceso implica una escucha activa particular: el terapeuta escucha buscando siempre la respuesta a las preguntas ¿qué hace exactamente?, ¿cuándo?, ¿con qué frecuencia?, y ¿qué pasa en los tres componentes (motor, cognitivo, fisiológico)?"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Del motivo de consulta a la conducta-problema",
+      "contenido": "El motivo de consulta es lo que el paciente dice en la primera sesión: \"vengo porque tengo ataques de pánico\", \"mi pareja dice que soy agresivo\", \"no puedo concentrarme en el trabajo\". Es el punto de partida, nunca el punto de llegada del análisis.\n\nLa conducta-problema es el resultado de la operacionalización: una descripción precisa, en términos conductuales, de lo que el paciente trae. Para llegar de una a otra, el terapeuta utiliza preguntas de especificación."
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Del motivo de consulta a la conducta-problema",
+      "columnas": ["Motivo de consulta (etiqueta)", "Preguntas de especificación", "Conducta-problema (operacionalizada)"],
+      "filas": [
+        ["\"Tengo ataques de pánico\"", "¿Qué ocurre exactamente durante el ataque? ¿Con qué frecuencia? ¿Cuánto dura? ¿Dónde suele ocurrir?", "Episodios (2-3/sem, 15-40 min) con hiperventilación + taquicardia + pensamientos \"me estoy muriendo\" + llamada a servicios de emergencias"],
+        ["\"Soy muy ansioso\"", "¿Qué hace cuando \"está ansioso\"? ¿Qué situaciones lo desencadenan? ¿Cómo lo nota en el cuerpo?", "Evita salir a reuniones sociales (4-5/sem), verbaliza anticipación negativa, tensión muscular y sensación de ahogo en situaciones evaluativas"],
+        ["\"No puedo con la depresión\"", "¿Qué hace (o deja de hacer) cuando dice \"no puede\"? ¿Cuánto tiempo está en cama? ¿Qué actividades abandonó?", "Permanece en cama +12h/día (5 de 7 días); ha dejado de ir al gimnasio (hace 3 meses); llora en promedio 2 veces/día; verbaliza \"no tiene sentido hacer nada\""]
+      ],
+      "nota": "Las preguntas de especificación no interrumpen el rapport: forman parte de él. Cuando el terapeuta hace preguntas precisas y concretas sobre la experiencia del paciente, transmite que está tomando en serio lo que le pasa —no solo la etiqueta, sino lo que ocurre de forma específica en su vida."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Conducta-problema vs. conducta-objetivo",
+      "contenido": "Una vez operacionalizada la conducta-problema, el clínico necesita también definir con precisión la conducta-objetivo: aquello que se quiere implantar, aumentar o desarrollar. La distinción entre ambas es fundamental.\n\nLa conducta-problema describe qué está ocurriendo que genera sufrimiento o interferencia: las conductas que se quieren eliminar, reducir o modificar. Es descriptiva del estado actual.\n\nLa conducta-objetivo describe hacia dónde vamos: qué conductas queremos que el paciente desarrolle o aumente. No es simplemente el \"opuesto\" de la conducta-problema. Debe ser definida con la misma precisión con que se describió el problema.\n\nEjemplo:\n• Conducta-problema: Evita salir de casa → 5 días/semana. Duración del confinamiento: 10-15h/día. Componente cognitivo: \"algo malo pasará\".\n• Conducta-objetivo: Salir de casa para actividades cotidianas → 5 días/semana. Duración fuera: 2-4h/día. Hacer al menos 1 actividad de ocio/semana.\n\nNótese que la conducta-objetivo no es simplemente \"que deje de evitar\": es una descripción positiva de qué hará, cuándo y con qué frecuencia. Esa precisión es la que permite evaluar si el tratamiento está funcionando."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Preparar los datos para el análisis funcional",
+      "contenido": "La operacionalización es el paso previo al análisis funcional. Sin ella, el análisis funcional no tiene materia prima. Para pasar de la descripción operacionalizada al análisis —que exploraremos en profundidad más adelante en el programa— el clínico necesita haber recogido:\n\n• Una descripción precisa de la conducta-problema en sus tres componentes (motor, cognitivo, fisiológico)\n• Los parámetros relevantes (frecuencia, duración, intensidad, latencia, ocurrencia)\n• Los contextos en que la conducta ocurre: ¿en qué situaciones? ¿con quién? ¿dónde?\n• Lo que ocurre inmediatamente después de la conducta: ¿qué cambia en el entorno o en el organismo del paciente?\n\nLos primeros dos puntos son el resultado directo de la operacionalización. Los dos últimos —el contexto y las consecuencias— pertenecen ya al análisis funcional propiamente dicho, que aprenderemos a construir más adelante. Por ahora, lo importante es que sin una buena operacionalización no podemos comenzar ese análisis."
+    },
+    {
+      "tipo": "nota",
+      "titulo": "Operacionalización vs. Análisis Funcional",
+      "contenido": "La operacionalización nos dice QUÉ está pasando (y cuánto). El análisis funcional responderá a POR QUÉ está pasando. No se puede saber el por qué sin saber primero el qué."
+    },
+    {
+      "tipo": "ejemplo",
+      "subtipo": "cotidiano",
+      "titulo": "\"Me bloqueo en los exámenes\"",
+      "contenido": "Andrés, estudiante, dice que \"se bloquea\". Después de preguntas de especificación:",
+      "items": [
+        "Motor: Deja en blanco preguntas que sabe; escribe y borra repetidamente",
+        "Cognitivo: \"Estoy en blanco\", \"voy a suspender seguro\", \"no sé nada\"",
+        "Fisiológico: Taquicardia, manos frías, visión borrosa al inicio del examen",
+        "Parámetros: Ocurre en 9/10 exámenes; intensidad 8/10; latencia: síntomas empiezan 3 días antes"
+      ]
+    },
+    {
+      "tipo": "ejemplo",
+      "subtipo": "clinico",
+      "titulo": "De \"depresión\" a conducta operacionalizada",
+      "contenido": "Mujer, 34 años, consulta: \"no puedo con la depresión, ya no hago nada\". Operacionalizado tras 2 sesiones:",
+      "items": [
+        "Motor: No trabaja desde hace 3 semanas; no sale de casa (5/7 días); abandona higiene personal (3-4 días/sem)",
+        "Cognitivo: \"Soy una carga\", \"no tiene sentido levantarse\"; imagen recurrente de escenas del pasado",
+        "Fisiológico: Insomnio tardío (se despierta 3-4h); pérdida de apetito (come 1 vez/día)",
+        "Frec: Permanente (7/7 días) · Intens: 8-9/10 · Lat. del día: Síntomas máximos al despertar"
+      ]
+    },
+    {
+      "tipo": "errorComun",
+      "error": "\"Hacer preguntas de especificación interrumpe el rapport y puede incomodar al paciente.\"",
+      "correccion": "Las preguntas de especificación, bien formuladas, fortalecen el rapport. Transmiten al paciente que el terapeuta está interesado no solo en la etiqueta de su problema, sino en lo que realmente vive. \"¿Me puedes contar qué pasa exactamente cuando dices que te bloqueas?\" es una pregunta de interés genuino. La clave está en el tono, no en la pregunta."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "\"La conducta-objetivo es el opuesto directo de la conducta-problema.\"",
+      "correccion": "La conducta-objetivo es independiente de la conducta-problema. Una persona con conductas de evitación social no tiene como objetivo \"no evitar\": tiene como objetivo realizar actividades sociales específicas con una frecuencia concreta. Puede haber múltiples objetivos que no son simples negaciones del problema. Definir objetivos como \"ausencia de X\" dificulta la evaluación del progreso —es difícil medir lo que no ocurre."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "\"Con operacionalizar la conducta ya tenemos toda la información que necesitamos.\"",
+      "correccion": "La operacionalización nos da la descripción de qué ocurre y cuánto. Pero para entender por qué ocurre —que es la base del análisis funcional— necesitamos también información sobre los contextos en que aparece la conducta y lo que ocurre después. La operacionalización es el primer paso imprescindible, pero es solo eso: el primer paso."
+    },
+    {
+      "tipo": "conexionClinica",
+      "contenido": "La operacionalización aplicada a casos clínicos no es un procedimiento que se hace de una sola vez en la primera sesión. Es un proceso que se va afinando a lo largo de las primeras sesiones de evaluación. A medida que el terapeuta conoce mejor al paciente, la descripción se vuelve más precisa: se añaden parámetros, se especifican los contextos, se incorporan conductas que no estaban en la demanda inicial. El resultado de este proceso —una descripción detallada y medible de la conducta-problema y la conducta-objetivo— es la materia prima con la que se construirá el análisis funcional. Sin él, la intervención navega a ciegas."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "La perspectiva conductual establece que la identificación de conductas-problema y su operacionalización es el primer paso de toda evaluación psicológica rigurosa.",
+        "Kazdin, A.E. (1994). Modificación de la conducta y sus aplicaciones prácticas. Manual Moderno.",
+        "Froxán Parga, M.X. (2020). Análisis de la conducta aplicado al tratamiento psicológico. Pirámide."
+      ]
+    }
+  ]
 }

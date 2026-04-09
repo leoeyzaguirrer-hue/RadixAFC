@@ -1,16 +1,1 @@
-{
-  "moduloId": 4,
-  "nivelId": 1,
-  "titulo": "Variables Disposicionales y el Modelo E-O-R-K-C",
-  "preguntaCentral": "",
-  "secciones": [
-    { "tipo": "introduccion", "contenido": "" },
-    { "tipo": "desarrollo", "subtitulo": "", "contenido": "" },
-    { "tipo": "ejemplo_cotidiano", "titulo": "", "contenido": "" },
-    { "tipo": "ejemplo_clinico", "titulo": "", "contenido": "" },
-    { "tipo": "diagrama", "titulo": "", "descripcion": "", "tipo_diagrama": "" },
-    { "tipo": "errores_comunes", "errores": [{ "error": "", "correccion": "" }] },
-    { "tipo": "conexion_clinica", "contenido": "" }
-  ],
-  "referencias": []
-}
+{}

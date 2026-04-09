@@ -1,16 +1,81 @@
 {
-  "moduloId": 3,
-  "nivelId": 1,
   "titulo": "La Ley del Efecto y la Contingencia de Tres Términos",
-  "preguntaCentral": "",
+  "preguntaCentral": "¿Por qué repetimos ciertas acciones y abandonamos otras?",
+  "aprobacionRequerida": 87,
   "secciones": [
-    { "tipo": "introduccion", "contenido": "" },
-    { "tipo": "desarrollo", "subtitulo": "", "contenido": "" },
-    { "tipo": "ejemplo_cotidiano", "titulo": "", "contenido": "" },
-    { "tipo": "ejemplo_clinico", "titulo": "", "contenido": "" },
-    { "tipo": "diagrama", "titulo": "", "descripcion": "", "tipo_diagrama": "" },
-    { "tipo": "errores_comunes", "errores": [{ "error": "", "correccion": "" }] },
-    { "tipo": "conexion_clinica", "contenido": "" }
-  ],
-  "referencias": []
+    {
+      "tipo": "texto",
+      "titulo": "Del organismo reactivo al organismo que opera",
+      "contenido": "El estudio del condicionamiento operante (CO) marca una transición fundamental en la psicología: el paso de ver al organismo como un ente que simplemente reacciona a estímulos (modelo respondente) a verlo como un agente que actúa sobre su entorno para producir cambios."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Thorndike y la Ley del Efecto",
+      "contenido": "Los orígenes históricos del condicionamiento operante se encuentran en los trabajos de Edward Thorndike a finales del siglo XIX. Mediante sus experimentos con la \"caja-problema\", Thorndike observó que los animales no resolvían problemas por \"insight\" o razonamiento, sino por un proceso gradual de ensayo y error.\n\nA partir de esto, formuló la Ley del Efecto, que establece que las conductas seguidas de resultados satisfactorios (recompensas) tienden a repetirse, mientras que aquellas seguidas de resultados insatisfactorios tienden a no ocurrir de nuevo. Por primera vez, se ofrecía una explicación científica de la conducta basada en sus consecuencias, sin recurrir a la conciencia."
+    },
+    {
+      "tipo": "conceptos",
+      "items": [
+        {
+          "nombre": "Conducta Respondente",
+          "descripcion": "Es elicitada automáticamente por estímulos antecedentes (reflejos). Prepara al organismo para la acción."
+        },
+        {
+          "nombre": "Conducta Operante",
+          "descripcion": "Es emitida por el organismo. Su característica principal es que \"opera\" sobre el medio para producir consecuencias."
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "La Contingencia de Tres Términos (Ed → R → C)",
+      "contenido": "Desde el análisis del comportamiento, la unidad básica de análisis no es solo la respuesta, sino la relación funcional entre tres elementos."
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Los tres términos de la contingencia operante",
+      "columnas": ["Término", "Descripción"],
+      "filas": [
+        ["Estímulo Discriminativo (Ed)", "Contexto o señal que indica que, si se emite la conducta, es probable que ocurra una consecuencia."],
+        ["Respuesta (R)", "La acción u operación que el sujeto emite."],
+        ["Consecuencia (C)", "El cambio ambiental que sigue a la conducta y altera su probabilidad futura."]
+      ],
+      "nota": "Un presupuesto central es que la probabilidad de respuesta es nuestra variable dependiente fundamental. No medimos \"voluntad\", medimos con qué frecuencia o probabilidad ocurre una conducta en función de su historia de reforzamiento."
+    },
+    {
+      "tipo": "ejemplo",
+      "subtipo": "cotidiano",
+      "titulo": "El interruptor de la luz",
+      "contenido": "Estás en una habitación a oscuras y necesitas luz.",
+      "items": [
+        "Ed: Ver el interruptor en la pared (señal de disponibilidad de luz).",
+        "R: Presionar el interruptor.",
+        "C: La bombilla se enciende (consecuencia reforzante).",
+        "Resultado: Aumenta la probabilidad de presionar ese interruptor en el futuro cuando esté oscuro."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Función vs. Topografía",
+      "contenido": "En el condicionamiento operante, la forma de la conducta (topografía) es secundaria a su función. Dos conductas pueden verse idénticas (ej. llorar) pero tener funciones operantes distintas (ej. obtener atención vs. evitar una tarea). La operante se define por los efectos que produce en el medio."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Pensar que el Ed \"causa\" la conducta de la misma forma que un EI elicita una RI.",
+      "correccion": "El Ed no obliga a la respuesta; simplemente \"establece la ocasión\" para que la conducta sea reforzada. La conducta operante es voluntaria en el sentido de que es emitida, no provocada mecánicamente."
+    },
+    {
+      "tipo": "conexionClinica",
+      "contenido": "En la práctica clínica, el primer paso es desglosar el motivo de consulta en secuencias Ed→R→C. Si un paciente dice \"tengo ataques de pánico\", el analista funcional busca qué situaciones disparan la crisis (Ed), qué hace exactamente el paciente (R motor, cognitivo, fisiológico) y qué ocurre inmediatamente después (C) que mantiene ese patrón conductual."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Gutiérrez, M. T. (2005). Procesos Psicológicos Básicos. Madrid: Ediciones Pirámide.",
+        "Kazdin, A. E. (2000). Modificación de la conducta y sus aplicaciones prácticas (2ª ed.). México: Manual Moderno.",
+        "Skinner, B. F. (1953). Ciencia y conducta humana. Barcelona: Fontanella (ed. 1970).",
+        "Skinner, B. F. (1974). Sobre el conductismo. Barcelona: Planeta-De Agostini."
+      ]
+    }
+  ]
 }

@@ -1,16 +1,128 @@
 {
-  "moduloId": "2.5",
-  "nivelId": 1,
   "titulo": "Definir Conducta: De lo Vago a lo Observable",
-  "preguntaCentral": "",
+  "preguntaCentral": "¿Por qué decir \"tiene depresión\" no es suficiente para un terapeuta conductual, y qué necesita saber exactamente en su lugar?",
+  "aprobacionRequerida": 87,
   "secciones": [
-    { "tipo": "introduccion", "contenido": "" },
-    { "tipo": "desarrollo", "subtitulo": "", "contenido": "" },
-    { "tipo": "ejemplo_cotidiano", "titulo": "", "contenido": "" },
-    { "tipo": "ejemplo_clinico", "titulo": "", "contenido": "" },
-    { "tipo": "diagrama", "titulo": "", "descripcion": "", "tipo_diagrama": "" },
-    { "tipo": "errores_comunes", "errores": [{ "error": "", "correccion": "" }] },
-    { "tipo": "conexion_clinica", "contenido": "" }
-  ],
-  "referencias": []
+    {
+      "tipo": "texto",
+      "titulo": "¿Por qué necesitamos operacionalizar?",
+      "contenido": "Cuando alguien llega a consulta, rara vez dice: \"tengo estas tres conductas específicas, ocurren en estos contextos, con esta frecuencia\". Lo que dicen es: \"tengo ansiedad\", \"soy muy impulsivo\", \"no puedo con la depresión\". Estas son etiquetas: resúmenes útiles para la comunicación cotidiana, pero científicamente vacíos para el análisis de la conducta.\n\nEn el módulo anterior exploramos cómo la conducta se entiende como un fenómeno de interacción organismo-entorno, no como una propiedad fija del individuo. Y en el primer módulo vimos que la psicología conductual busca predecir e influir en la conducta con precisión. Para ello necesitamos saber exactamente qué conducta estamos analizando. Una etiqueta no nos lo dice.\n\nOperacionalizar la conducta es el proceso de traducir términos vagos o diagnósticos en descripciones concretas, observables y medibles de lo que la persona hace, dice, piensa o siente. No es un trámite burocrático: es la base sobre la que se construye todo el trabajo clínico posterior. Lo que no podemos describir con precisión, tampoco podemos modificar con precisión."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Etiqueta vs. Conducta: una distinción fundamental",
+      "contenido": "Una etiqueta diagnóstica resume —de forma imprecisa— un conjunto de conductas bajo un único término. \"Depresión\", \"ansiedad\", \"impulsividad\" o \"agresividad\" son etiquetas. Comunican algo en el lenguaje cotidiano, pero no dicen nada sobre qué hace exactamente esa persona, ni cuándo, ni con qué frecuencia, ni con qué intensidad.\n\nConsidera la diferencia entre estas dos descripciones del mismo paciente:"
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Etiqueta vs. Conducta operacionalizada",
+      "columnas": ["Etiqueta (insuficiente)", "Conducta operacionalizada (útil)"],
+      "filas": [
+        ["\"Tiene depresión\"", "Permanece en cama más de 12 horas/día (4 de 7 días en la semana), no realiza actividades de ocio que antes hacía (frecuencia = 0 en los últimos 3 meses), llora en promedio 2 veces al día con duración de 10-20 minutos"],
+        ["\"Es ansioso\"", "Evita reuniones de trabajo (3-4 veces/semana), reporta sensación de tensión muscular y taquicardia ante situaciones de evaluación social, verbaliza pensamientos del tipo \"van a criticarme\" antes de hablar en público"],
+        ["\"Es agresivo\"", "Eleva el tono de voz y golpea objetos (2-3 episodios/semana, duración 5-15 min) cuando discute con su pareja; los episodios ocurren principalmente los fines de semana por la noche"]
+      ],
+      "nota": "La segunda columna nos dice qué observar, cuándo ocurre, cuánto dura y con qué frecuencia. Eso es lo que necesitamos para el análisis posterior."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "La topografía de la conducta: cinco parámetros",
+      "contenido": "La topografía de una conducta describe sus características cuantitativas: no qué pasa (eso es la morfología), sino cómo ocurre en términos medibles. Desde la perspectiva conductual, describir la topografía de una conducta implica registrar sus parámetros."
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Parámetros de la conducta",
+      "columnas": ["Parámetro", "Definición", "Ejemplo clínico"],
+      "filas": [
+        ["Ocurrencia", "Si la conducta se presentó o no en un período dado (registro binario: sí / no)", "\"¿Salió de casa esta semana?\" Sí o No"],
+        ["Frecuencia", "Número de veces que se presenta la conducta en un período determinado", "\"Llora 3 veces por semana\" / \"Tiene 2 crisis de pánico por mes\""],
+        ["Duración", "Tiempo total que dura la conducta desde su inicio hasta su fin", "\"Permanece en cama entre 12 y 14 horas al día\" / \"El episodio de llanto dura 15-20 minutos\""],
+        ["Intensidad", "Magnitud, fuerza o severidad con que se da la conducta", "\"La ansiedad reportada es de 8/10 en escala subjetiva\" / \"El llanto es inconsolable\""],
+        ["Latencia", "Tiempo que transcurre entre el inicio de la situación (o señal) y el inicio de la respuesta", "\"Tarda 30 minutos en levantarse después de despertarse\" / \"Responde a mensajes tras 2-3 días de demora\""]
+      ],
+      "nota": "No todos los parámetros son igualmente relevantes para todas las conductas. Elegir cuáles medir depende de qué conducta estemos analizando y qué aspecto de ella es clínicamente importante. Para una conducta de evitación, la frecuencia puede ser lo más relevante. Para un episodio de angustia, la duración e intensidad suelen ser más informativos."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "La morfología de la conducta: tres componentes",
+      "contenido": "Mientras la topografía nos dice cuánto, la morfología nos dice de qué está hecha la conducta. Desde el análisis del comportamiento, toda conducta —por simple que parezca— puede descomponerse en tres componentes que coexisten e interactúan."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Componente motor",
+      "contenido": "Son las acciones manifiestas del organismo: lo que se puede observar directamente desde afuera. Incluye todo lo que hace el cuerpo en el espacio: levantarse, salir corriendo, golpear, hablar, gritar, escribir, evitar, acercarse. Este componente es el más fácilmente observable y, por eso, el primero que se suele registrar."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Componente cognitivo (verbal encubierto)",
+      "contenido": "Son las verbalizaciones encubiertas: los pensamientos, imágenes mentales y diálogos internos que la persona tiene. Se llaman \"encubiertos\" porque ocurren dentro del organismo y no son directamente observables por otros. Son conducta —siguen los mismos principios de aprendizaje que la conducta motora— pero ocurren en el ámbito privado.\n\nEjemplos: \"pensar que algo saldrá mal\", \"imaginar una situación catastrófica\", \"decirse a uno mismo que no vale nada\", \"anticipar verbalmente el rechazo\". La importancia clínica de estos eventos no depende de que sean \"mentales\", sino de que tienen función: afectan qué hace la persona a continuación."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Componente fisiológico",
+      "contenido": "Son las respuestas del organismo que ocurren involuntariamente (o con escaso control voluntario): tensión muscular, taquicardia, sudoración, temblor, sequedad bucal, mareo, hiperventilación, tensión mandibular. Estas respuestas forman parte de la conducta —no son \"síntomas\" separados de ella— y se relacionan con las otras dos vías de la misma manera que el componente motor y cognitivo se relacionan entre sí."
+    },
+    {
+      "tipo": "nota",
+      "titulo": "Nota sobre las emociones",
+      "contenido": "Las respuestas emocionales son el resultado de la combinación de componentes cognitivos y fisiológicos. El \"miedo\" que siente un paciente no es una causa de su conducta: es la suma de tensión muscular, taquicardia (fisiológico) más pensamientos como \"voy a perder el control\" (cognitivo). Ambos componentes son conducta, y ambos operan bajo los mismos principios de aprendizaje."
+    },
+    {
+      "tipo": "diagrama",
+      "titulo": "Los tres componentes de la conducta en un caso clínico",
+      "descripcion": "Diagrama con nodo central CONDUCTA (Hablar en público) conectado a tres componentes: MOTOR (voz temblorosa, manos agitadas, evita mirar al público, habla rápido/en voz baja), COGNITIVO (\"Se van a burlar de mí\"), FISIOLÓGICO (taquicardia, sudoración, tensión muscular, sequedad bucal). Parámetros: Frec. 3×/semana · Dur. 5-20 min · Intens. 7/10 · Latencia: evitación anticipatoria 48h antes."
+    },
+    {
+      "tipo": "ejemplo",
+      "subtipo": "cotidiano",
+      "titulo": "Del \"soy muy ansioso\" al análisis real",
+      "contenido": "Sofía, 28 años, dice que \"es muy ansiosa\". Operacionalizado:",
+      "items": [
+        "Motor: Revisa el teléfono cada 5-10 minutos; cancela planes sociales (2-3 veces/semana)",
+        "Cognitivo: \"Algo malo va a pasar\"; \"No voy a poder controlar la situación\"",
+        "Fisiológico: Tensión en hombros, insomnio de conciliación (>30 min)",
+        "Parámetros: Ocurre 5-6 días/semana, se intensifica por la noche (intensidad 6-8/10)"
+      ]
+    },
+    {
+      "tipo": "ejemplo",
+      "subtipo": "clinico",
+      "titulo": "Caso: fobia a las arañas (demanda)",
+      "contenido": "Paciente refiere \"muchísimo miedo a las arañas\". Operacionalizado en situación A (araña presente):",
+      "items": [
+        "Motor: Sale corriendo, pide ayuda para que la retiren, grita",
+        "Fisiológico: Escalofríos, temblor, tensión mandibular, taquicardia",
+        "Cognitivo: Imágenes anticipatorias de contacto físico con la araña",
+        "Parámetros: Ocurrencia condicional al estímulo; intensidad máxima (9/10); duración hasta 2h post-encuentro"
+      ]
+    },
+    {
+      "tipo": "errorComun",
+      "error": "\"Operacionalizar es simplemente ponerle un nombre técnico a lo que el paciente describe.\"",
+      "correccion": "Operacionalizar no es renombrar. Cambiar \"ansiedad\" por \"trastorno de ansiedad generalizada\" sigue siendo una etiqueta. Operacionalizar exige describir qué hace exactamente el paciente, en qué situaciones, con qué frecuencia y con qué intensidad —información que cualquier observador entrenado podría registrar."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "\"Los pensamientos no son 'conducta' real porque no se pueden ver desde afuera.\"",
+      "correccion": "Los eventos privados —pensamientos, imágenes, sensaciones— son conducta encubierta. No son causas de la conducta observable: son una parte de la conducta total del organismo. Ocurren dentro del mismo organismo que actúa y se rigen por los mismos principios de aprendizaje. Ignorarlos equivale a analizar solo la mitad del cuadro clínico."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "\"Con registrar uno o dos parámetros ya tenemos una descripción suficiente.\"",
+      "correccion": "La elección de parámetros depende de la conducta. Para una crisis de pánico, la duración y la intensidad son cruciales. Para una conducta de evitación, lo importante es la frecuencia y los contextos en que ocurre. Registrar siempre los mismos parámetros de forma mecánica produce descripciones incompletas. La pregunta es: ¿qué aspecto de esta conducta es clínicamente más relevante?"
+    },
+    {
+      "tipo": "conexionClinica",
+      "contenido": "En la primera sesión, el terapeuta conductual no acepta la demanda del paciente tal como llega. \"Tengo depresión\" es el punto de partida, no el destino. Todo el trabajo de la evaluación inicial consiste en ir traduciendo esa etiqueta en conductas concretas, medibles, con parámetros. Preguntar \"¿qué hace exactamente cuando dice que está deprimido?\", \"¿cuándo ocurre?\", \"¿cuánto dura?\", \"¿qué piensa en ese momento?\" no es interrogatorio: es el inicio del análisis. Las respuestas a esas preguntas serán la materia prima de todo lo que viene después.\n\nLa operacionalización también tiene una función terapéutica directa. Cuando el paciente aprende a describir su conducta en términos concretos —en lugar de usar etiquetas globales y aplastantes como \"soy un desastre\"— comienza a ver su problema como algo delimitado, específico, y por tanto modificable."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Skinner, B.F. (1953). Ciencia y conducta humana. Fontanella.",
+        "Skinner, B.F. (1974). Sobre el conductismo. Fontanella.",
+        "Desde el análisis del comportamiento se establece que toda conducta, sea pública o privada, es susceptible de análisis funcional y descripción topográfica.",
+        "Kazdin, A.E. (1994). Modificación de la conducta y sus aplicaciones prácticas. Manual Moderno."
+      ]
+    }
+  ]
 }

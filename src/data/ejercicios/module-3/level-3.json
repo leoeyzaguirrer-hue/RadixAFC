@@ -1,0 +1,104 @@
+[
+  {
+    "id": "3-16",
+    "tipo": "MC",
+    "tipoLabel": "Análisis de caso",
+    "titulo": "Contingencia completa de evitación",
+    "pregunta": "Análisis de Caso: Martina evita ir a fiestas (R) porque teme ser juzgada. Al quedarse en casa, su ansiedad desaparece (C). ¿Cuál es la contingencia completa?",
+    "opciones": [
+      "Ed: Invitación a fiesta / R: Quedarse en casa / C: Reducción de ansiedad (R-).",
+      "Ed: Ansiedad / R: Ir a la fiesta / C: Ser juzgada (C+).",
+      "Ed: Casa / R: Quedarse / C: Aburrimiento (Extinción).",
+      "Ed: Martina / R: Temer / C: Quedarse."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "El Ed es el contexto social, la R es la evitación y la C es la reducción inmediata de la ansiedad displacentera.",
+      "incorrecta": "La ansiedad no es el Ed, sino parte del estado del organismo que la conducta de escape intenta mitigar.",
+      "pista": "El Ed señala cuándo es probable que ocurra la consecuencia."
+    }
+  },
+  {
+    "id": "3-17",
+    "tipo": "MC",
+    "tipoLabel": "Análisis de caso clínico",
+    "titulo": "Doble función operante en sesión",
+    "pregunta": "En una sesión, un paciente empieza a hablar de temas irrelevantes cada vez que el terapeuta pregunta por su trauma. El terapeuta sonríe y le sigue la corriente para no incomodarlo. ¿Qué mantiene la conducta de \"hablar de temas irrelevantes\"?",
+    "opciones": [
+      "Solo reforzamiento positivo (sonrisa del terapeuta).",
+      "Reforzamiento Mixto: R- (escapa del tema traumático) y R+ (atención/sonrisa).",
+      "Castigo positivo por parte del terapeuta.",
+      "No es operante, es un rasgo de personalidad del paciente."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "El paciente escapa de la tensión (R-) y a la vez obtiene la validación del terapeuta (R+), lo que hace muy resistente este patrón.",
+      "incorrecta": "Los procesos operantes a menudo operan en paralelo; no hay una sola función exclusiva para conductas complejas.",
+      "pista": "¿Qué evita el paciente y qué recibe a cambio?"
+    }
+  },
+  {
+    "id": "3-18",
+    "tipo": "MC",
+    "tipoLabel": "Discriminación conceptual",
+    "titulo": "Extinción en CC vs. CO",
+    "pregunta": "Diferencia clave en extinción: ¿En qué se diferencia la extinción en CC de la extinción en CO?",
+    "opciones": [
+      "En CO se presenta el Ed solo, en CC se quita el reforzador.",
+      "No hay diferencia, ambos son el mismo proceso de olvido.",
+      "En CC se rompe la asociación EC-EI; en CO se rompe la relación R-Consecuencia.",
+      "La extinción CC es voluntaria y la CO es automática."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "En CC la extinción ocurre al presentar el EC sin el EI. En CO ocurre al emitir la R sin que la C la siga.",
+      "incorrecta": "Aunque ambas disminuyen la conducta, el mecanismo de aprendizaje afectado es distinto (asociación vs. consecuencia).",
+      "pista": "Uno rompe señales, el otro rompe efectos."
+    }
+  },
+  {
+    "id": "3-19",
+    "tipo": "MC",
+    "tipoLabel": "Dilema clínico",
+    "titulo": "Intervención basada en análisis funcional",
+    "pregunta": "Dilema Clínico: Has detectado que las autocríticas de un paciente son reforzadas por la compasión excesiva de su familia (R+). ¿Cuál sería la intervención más coherente con el AF?",
+    "opciones": [
+      "Castigar las autocríticas con una multa económica.",
+      "Explicarle al paciente que tiene baja autoestima.",
+      "Entrenar a la familia en extinción (no dar atención a la autocrítica) y reforzar conductas de logro.",
+      "Ignorar el ambiente y centrarse en el origen infantil de la conducta."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "El AF indica que la atención mantiene el problema. La intervención debe quitar ese refuerzo (extinción) y darlo ante conductas sanas.",
+      "incorrecta": "Explicar 'por qué' o castigar raramente cambia la función de la conducta a largo plazo si el refuerzo social sigue presente.",
+      "pista": "Cambia las contingencias, no las explicaciones."
+    }
+  },
+  {
+    "id": "3-20",
+    "tipo": "Ordenamiento",
+    "tipoLabel": "Ordenar secuencia",
+    "titulo": "Pasos del moldeamiento",
+    "pregunta": "Ordena los pasos lógicos del MOLDEAMIENTO:",
+    "items": [
+      "Definir la conducta meta final",
+      "Identificar la conducta inicial en el repertorio actual",
+      "Reforzar la aproximación más cercana disponible",
+      "Elevar el criterio gradualmente hacia la meta",
+      "Reforzar solo la conducta meta completa"
+    ],
+    "ordenCorrecto": [
+      "Definir la conducta meta final",
+      "Identificar la conducta inicial en el repertorio actual",
+      "Reforzar la aproximación más cercana disponible",
+      "Elevar el criterio gradualmente hacia la meta",
+      "Reforzar solo la conducta meta completa"
+    ],
+    "retroalimentacion": {
+      "correcta": "El moldeamiento requiere rigor: definir el final, ver dónde estamos, y caminar paso a paso reforzando el progreso.",
+      "incorrecta": "Si exiges la meta final de entrada, nunca habrá oportunidad de reforzar aproximaciones.",
+      "pista": "Pasos de bebé."
+    }
+  }
+]

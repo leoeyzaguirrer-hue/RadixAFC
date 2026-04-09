@@ -1,16 +1,69 @@
 {
-  "moduloId": 1,
-  "nivelId": 3,
   "titulo": "Integración: Del Contextualismo al Análisis Funcional",
-  "preguntaCentral": "",
+  "preguntaCentral": "¿Cómo se traduce todo lo aprendido en los Niveles 1 y 2 en una herramienta concreta que el terapeuta puede usar: el análisis funcional de la conducta?",
+  "aprobacionRequerida": 80,
   "secciones": [
-    { "tipo": "introduccion", "contenido": "" },
-    { "tipo": "desarrollo", "subtitulo": "", "contenido": "" },
-    { "tipo": "ejemplo_cotidiano", "titulo": "", "contenido": "" },
-    { "tipo": "ejemplo_clinico", "titulo": "", "contenido": "" },
-    { "tipo": "diagrama", "titulo": "", "descripcion": "", "tipo_diagrama": "" },
-    { "tipo": "errores_comunes", "errores": [{ "error": "", "correccion": "" }] },
-    { "tipo": "conexion_clinica", "contenido": "" }
-  ],
-  "referencias": []
+    {
+      "tipo": "texto",
+      "titulo": "La conducta como interacción, no como cosa",
+      "contenido": "Después de comprender los presupuestos filosóficos (Nivel 1) y la filosofía específica del conductismo radical (Nivel 2), ahora podemos dar el paso decisivo: entender cómo estos fundamentos se concretan en la herramienta principal del terapeuta conductual — el análisis funcional de la conducta.\n\nLa conducta no es algo que el sujeto \"tiene\" ni algo que \"sale de dentro\" de la persona. La conducta es un tipo de interacción entre un organismo y su entorno. Solo la interacción completa puede ser entendida y analizada como tal. La unidad de análisis del psicólogo no es la persona, sino la persona-en-su-contexto."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Forma vs. Función: la distinción más importante",
+      "contenido": "Quizá no haya distinción más importante para un terapeuta conductual que la diferencia entre analizar la conducta por su forma (topografía) y analizarla por su función."
+    },
+    {
+      "tipo": "comparacion",
+      "lado_incorrecto": {
+        "titulo": "Análisis por forma (topografía)",
+        "contenido": "Describe cómo se ve la conducta: su apariencia externa, sus movimientos, sus palabras exactas. Dos conductas que se ven iguales se tratan como si fueran lo mismo.",
+        "ejemplo": "\"María llora\" — dos episodios de llanto se ven iguales."
+      },
+      "lado_correcto": {
+        "titulo": "Análisis por función",
+        "contenido": "Analiza qué produce la conducta en el contexto: qué la antecede, qué la sigue, qué efecto tiene. Dos conductas idénticas en forma pueden tener funciones completamente diferentes.",
+        "ejemplo": "María llora (1) al recibir una mala noticia → función diferente a María llora (2) cuando su pareja amenaza con irse."
+      }
+    },
+    {
+      "tipo": "texto",
+      "titulo": "E—R—C: La unidad básica del análisis funcional",
+      "contenido": "El análisis funcional descompone la interacción conducta-entorno en unidades funcionales siguiendo el esquema E — R — C (Estímulo antecedente — Respuesta — Consecuencia). Esta es la contingencia de tres términos, la unidad básica del análisis. Las consecuencias de una conducta pueden influir en que esta se \"seleccione\" o no.\n\nEs fundamental entender que este esquema E—R—C es un corte artificial de algo que en realidad es un flujo continuo: E—R—E—R—E—R... Cada consecuencia se convierte en estímulo antecedente de la siguiente respuesta."
+    },
+    {
+      "tipo": "escenario",
+      "titulo": "Entendiendo E—R—C con un ejemplo concreto",
+      "contenido": "Situación: Andrés (28 años) discute con su jefe en el trabajo.\n\nE (Antecedente): El jefe critica públicamente el trabajo de Andrés delante de los compañeros.\nR (Respuesta): Andrés sale de la sala dando un portazo.\nC (Consecuencia): Los compañeros se callan, el jefe no continúa la crítica, Andrés se queda solo en el pasillo.\n\nPregunta funcional: ¿Qué efecto tuvo la consecuencia sobre la probabilidad de que Andrés vuelva a dar un portazo en situaciones similares?"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Por qué la función importa más que la forma?",
+      "contenido": "Hacer un análisis funcional del comportamiento implica analizar dicho comportamiento en términos de sus antecedentes y sus consecuentes. El análisis funcional permite establecer hipótesis explicativas sobre las contingencias de la conducta, de forma que podamos analizar y explicar por qué una persona, en un momento determinado, se comporta de la forma en que lo hace.\n\nDe cara al tratamiento psicológico, el análisis funcional es la mejor estrategia para planificar y guiar la intervención, pues indica paso a paso qué variables manipular."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Hacer un análisis funcional es simplemente poner los datos del paciente en una tabla con columnas de Antecedente, Respuesta y Consecuencia.",
+      "correccion": "Una tabla descriptiva ordena los datos de forma secuencial, pero eso no es un análisis funcional. El verdadero análisis funcional establece hipótesis sobre las relaciones funcionales entre esos elementos: por qué esa consecuencia mantiene esa conducta, qué función cumple el antecedente, cómo se influyen mutuamente."
+    },
+    {
+      "tipo": "ejemploCotidiano",
+      "titulo": "Misma forma, diferente función",
+      "contenido": "Pensemos en la conducta de \"gritar\" en tres contextos distintos:",
+      "pasos": [
+        "En un estadio de fútbol: Gritar cuando el equipo mete un gol. Función: expresión emocional compartida, participación social.",
+        "En una discusión de pareja: Gritar para que el otro se calle. Función: hacer cesar una estimulación aversiva.",
+        "Un niño en un supermercado: Gritar hasta que le compren el juguete. Función: producir acceso a un objeto deseado."
+      ]
+    },
+    {
+      "tipo": "ejemploClinico",
+      "titulo": "El análisis funcional como herramienta clínica",
+      "contenido": "Sofía, de 35 años, consulta porque \"tiene ataques de ira\". El análisis funcional revela:\n\nE (Antecedente): Sofía percibe que su pareja está distante o no le presta atención.\nR (Respuesta): Sofía \"explota\" verbalmente — grita, reprocha, llora.\nC (Consecuencia): La pareja inmediatamente deja lo que está haciendo, se acerca, le pregunta qué le pasa, la abraza.\n\nLa \"ira\" de Sofía no es un problema de impulsos descontrolados. Funcionalmente, es la única forma en que ha aprendido a conseguir atención y cercanía emocional de su pareja. La intervención no será \"control de ira\" sino ampliar su repertorio."
+    },
+    {
+      "tipo": "conexionClinica",
+      "contenido": "El análisis funcional es la herramienta más poderosa del terapeuta conductual porque permite diseñar intervenciones hechas a medida para cada caso. En lugar de aplicar un \"protocolo estándar\" para un diagnóstico, el terapeuta identifica las relaciones funcionales específicas de esa persona en su contexto particular.\n\nTodo lo que aprenderás en los próximos 12 módulos de este programa se construye sobre esta base filosófica que acabas de estudiar. Sin estos cimientos, las técnicas serían recetas aplicadas a ciegas. Con ellos, se convierten en herramientas precisas al servicio de la comprensión funcional de cada persona."
+    }
+  ]
 }

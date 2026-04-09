@@ -1,0 +1,78 @@
+[
+  {
+    "id": "1-1",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Los presupuestos de la ciencia",
+    "pregunta": "Una psicóloga clínica afirma: \"La angustia de mi paciente se debe a un conflicto entre su alma y su cuerpo.\" Desde la perspectiva de los presupuestos filosóficos de la ciencia, ¿cuál es el problema fundamental de esta afirmación?",
+    "opciones": [
+      "Viola el principio de determinismo, porque implica que la angustia no sigue leyes.",
+      "Viola el principio epistemológico, porque no podemos conocer el alma.",
+      "Viola el principio ontológico (monismo), porque postula la existencia de dos sustancias de naturaleza diferente: el alma (inmaterial) y el cuerpo (material).",
+      "No viola ningún presupuesto, es una metáfora válida para explicar la angustia."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "¡Exacto! La afirmación postula dos sustancias de diferente naturaleza (alma = inmaterial vs. cuerpo = material), lo cual es un dualismo ontológico incompatible con el monismo materialista que la ciencia asume como presupuesto.",
+      "incorrecta": "No exactamente. El problema fundamental es ontológico: la afirmación postula la existencia de un \"alma\" (inmaterial) y un \"cuerpo\" (material) como dos sustancias de naturaleza diferente. Esto viola el monismo materialista.",
+      "pista": "Recuerda: el monismo dice que solo existe un tipo de sustancia (la materia). Cualquier explicación que invoque algo inmaterial viola este presupuesto."
+    }
+  },
+  {
+    "id": "1-2",
+    "tipo": "MC",
+    "tipoLabel": "Análisis de caso",
+    "titulo": "Identificando hipótesis del mundo",
+    "pregunta": "Un colega te dice: \"El problema de Marcos es que tiene un esquema cognitivo disfuncional que procesa la información de forma distorsionada, como un ordenador con un programa defectuoso. Si corregimos el programa interno, la conducta cambiará.\"\n\n¿Con qué hipótesis del mundo de Pepper es más coherente esta afirmación?",
+    "opciones": [
+      "Formismo — porque clasifica a Marcos en una categoría (\"esquema disfuncional\").",
+      "Mecanicismo — porque usa la metáfora de la máquina (el ordenador) y busca una causa lineal interna.",
+      "Contextualismo — porque analiza el \"contexto\" cognitivo de Marcos.",
+      "Organicismo — porque ve al cerebro como un organismo que se desarrolla."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "¡Correcto! La metáfora del ordenador es la metáfora de la máquina: el cerebro/mente como un mecanismo que procesa información y causa la conducta como output. Es mecanicismo puro, con causalidad lineal interna.",
+      "incorrecta": "Revisa la respuesta. La clave es la metáfora del \"ordenador con un programa defectuoso\". Esta es la metáfora de la máquina: un mecanismo interno que procesa información y produce outputs (conducta).",
+      "pista": "Cada hipótesis del mundo tiene una metáfora raíz. El mecanicismo usa la máquina; el formismo, la similitud; el organicismo, el ser vivo en desarrollo; el contextualismo, el acto-en-contexto."
+    }
+  },
+  {
+    "id": "1-3",
+    "tipo": "MC",
+    "tipoLabel": "Aplicación",
+    "titulo": "Criterio de verdad pragmático",
+    "pregunta": "Dos terapeutas discuten sobre por qué un adolescente se autolesiona. El Terapeuta A dice: \"Se autolesiona porque tiene Trastorno Límite de Personalidad.\" El Terapeuta B dice: \"Se autolesiona porque, en las situaciones en que experimenta malestar emocional intenso, la autolesión produce un alivio inmediato de ese malestar, y eso hace más probable que repita el patrón.\"\n\nSegún el criterio de verdad del contextualismo funcional (acción exitosa), ¿cuál de las dos explicaciones es más útil y por qué?",
+    "opciones": [
+      "La del Terapeuta A, porque el diagnóstico permite saber exactamente qué tiene el paciente.",
+      "Ambas son igualmente útiles porque describen el mismo fenómeno con distintas palabras.",
+      "La del Terapeuta B, porque identifica variables concretas (contexto + consecuencias) que se pueden modificar para predecir e influir en la conducta.",
+      "La del Terapeuta A, porque nombrar el trastorno es el primer paso para tratarlo."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "¡Excelente! El criterio pragmático del contextualismo funcional (acción exitosa) favorece la explicación que permite actuar: la del Terapeuta B identifica variables modificables (contexto + consecuencias). El diagnóstico del Terapeuta A es una etiqueta que no señala qué cambiar.",
+      "incorrecta": "Recuerda el criterio de verdad del contextualismo funcional: acción exitosa. Una explicación es útil en la medida en que permite predecir e influir en la conducta. ¿Cuál identifica variables concretas que se pueden modificar?",
+      "pista": "La acción exitosa se evalúa por la capacidad de predecir e influir con precisión, alcance y profundidad. Un diagnóstico (etiqueta) no indica qué variables modificar."
+    }
+  },
+  {
+    "id": "1-4",
+    "tipo": "MC",
+    "tipoLabel": "Discriminación conceptual",
+    "titulo": "Determinismo ≠ predestinación",
+    "pregunta": "Un estudiante de psicología dice: \"Si la conducta está determinada, entonces no tiene sentido hacer terapia, porque todo ya está fijado de antemano y no podemos cambiar nada.\" ¿Qué error comete este estudiante?",
+    "opciones": [
+      "Tiene razón: si hay determinismo, la terapia no puede funcionar.",
+      "Confunde determinismo con predestinación. El determinismo significa que la conducta sigue leyes, lo cual es precisamente lo que hace posible la terapia: si conocemos las variables de las que depende la conducta, podemos modificarlas.",
+      "Confunde determinismo con voluntarismo. La conducta es libre pero tiene patrones.",
+      "El error es usar la palabra \"determinismo\" cuando debería decir \"causalidad\"."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "¡Perfecto! El determinismo es precisamente lo que hace posible la terapia. Si la conducta sigue leyes y depende de variables ambientales identificables, entonces podemos modificar esas variables para producir un cambio.",
+      "incorrecta": "Piénsalo así: si la conducta NO siguiera leyes (indeterminismo), ¿cómo podríamos predecirla o modificarla? El determinismo no es el enemigo de la terapia — es su condición de posibilidad.",
+      "pista": "Determinismo = la conducta sigue leyes. Predestinación = todo está fijado y no se puede cambiar. Son conceptos muy diferentes."
+    }
+  }
+]

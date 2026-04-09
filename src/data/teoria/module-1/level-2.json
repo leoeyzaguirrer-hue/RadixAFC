@@ -1,16 +1,105 @@
 {
-  "moduloId": 1,
-  "nivelId": 2,
   "titulo": "Conductismo Radical: La Filosofía de la Ciencia del Comportamiento",
-  "preguntaCentral": "",
+  "preguntaCentral": "¿Por qué el conductismo radical no niega los pensamientos ni las emociones, y en qué se diferencia radicalmente del conductismo de Watson?",
+  "aprobacionRequerida": 83,
   "secciones": [
-    { "tipo": "introduccion", "contenido": "" },
-    { "tipo": "desarrollo", "subtitulo": "", "contenido": "" },
-    { "tipo": "ejemplo_cotidiano", "titulo": "", "contenido": "" },
-    { "tipo": "ejemplo_clinico", "titulo": "", "contenido": "" },
-    { "tipo": "diagrama", "titulo": "", "descripcion": "", "tipo_diagrama": "" },
-    { "tipo": "errores_comunes", "errores": [{ "error": "", "correccion": "" }] },
-    { "tipo": "conexion_clinica", "contenido": "" }
-  ],
-  "referencias": []
+    {
+      "tipo": "texto",
+      "titulo": "Watson: el primer paso (y sus limitaciones)",
+      "contenido": "En 1913, John B. Watson lanzó lo que se considera el manifiesto fundacional del conductismo: un artículo donde proponía que la psicología debía redefinirse como el estudio de la conducta observable. Watson adoptó un monismo materialista que rompía con siglos de tradición dualista.\n\nSin embargo, Watson cayó en una limitación importante: su modelo era esencialmente mecanicista y lineal (Estímulo → Respuesta). Lo que no era públicamente observable quedaba fuera de la ciencia. Esto dejaba sin explicar gran parte de lo que las personas hacen, sienten y piensan. Watson construyó el conductismo metodológico: un enfoque que acepta la existencia de eventos internos pero los excluye del estudio científico por razones de método."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Skinner y el nacimiento del conductismo radical",
+      "contenido": "B. F. Skinner dio un paso que cambió la historia de la psicología. En 1945, incorporó explícitamente los eventos privados como objeto legítimo de estudio, argumentando que cualquier cosa que un organismo hace es conducta — incluyendo pensar, sentir, recordar, imaginar.\n\nNace así el conductismo radical. Es la filosofía de la ciencia psicológica en que se sustenta el Análisis del Comportamiento. Se basa en compartir los presupuestos del resto de ciencias naturales: monismo, materialismo y determinismo. El término \"radical\" proviene de llevar esta asunción hasta sus últimas consecuencias: si no existe nada diferente de la conducta, entonces todo lo que hace un sujeto es conducta, sea manifiesta o encubierta."
+    },
+    {
+      "tipo": "cita",
+      "texto": "Una pequeña parte del universo es privada respecto a cada individuo. No necesitamos suponer que los hechos que acontecen dentro de un organismo poseen, por esta razón, propiedades especiales; un hecho interno se distingue porque su accesibilidad es limitada, pero no, que nosotros sepamos, por una estructura o naturaleza especiales.",
+      "fuente": "Skinner, 1953, Ciencia y Conducta Humana, p. 284"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Lo privado y lo público: misma naturaleza, mismas leyes",
+      "contenido": "El conductismo radical no niega la existencia de la \"mente\", los pensamientos o las emociones. Lo que niega es que sean de una naturaleza diferente a la materia, o que puedan funcionar como causas explicativas de la conducta. Los eventos psicológicos que ocurren en el interior de la persona son conductas privadas sujetas a los mismos principios que explican las conductas observables."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "El conductismo niega que las personas piensen o sientan.",
+      "correccion": "El conductismo radical reconoce plenamente que las personas piensan, sienten, recuerdan e imaginan. Lo que rechaza es que estos eventos privados sean la causa de la conducta. Son conductas en sí mismas — conductas privadas que también necesitan ser explicadas."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Los tres niveles de selección de la conducta",
+      "items": [
+        {
+          "nombre": "Nivel filogenético",
+          "descripcion": "Las circunstancias en las que una especie evolucionó (contingencias de supervivencia). La selección natural ha dotado a los organismos de repertorios innatos."
+        },
+        {
+          "nombre": "Nivel ontogenético",
+          "descripcion": "La historia de aprendizaje de un organismo individual (contingencias de aprendizaje). Las consecuencias de nuestras acciones seleccionan ciertos patrones de conducta."
+        },
+        {
+          "nombre": "Control del contexto actual",
+          "descripcion": "Las contingencias estimulares presentes en el momento de una interacción. El contexto actual \"activa\" o \"desactiva\" repertorios aprendidos."
+        }
+      ]
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Comparación entre conductismos",
+      "columnas": [
+        "Aspecto",
+        "Conductismo Metodológico",
+        "Conductismo Radical"
+      ],
+      "filas": [
+        [
+          "Ontología",
+          "Materialismo explícito, pero dualismo implícito",
+          "Monismo materialista completo"
+        ],
+        [
+          "Eventos privados",
+          "Existen pero se excluyen del estudio científico",
+          "Son conducta, se estudian con los mismos principios"
+        ],
+        [
+          "Conducta como",
+          "Indicador de procesos internos",
+          "Objeto de estudio por derecho propio"
+        ],
+        [
+          "Modelo causal",
+          "Mecanicista lineal (E → R)",
+          "Seleccionista (E → R → Consecuencia)"
+        ],
+        [
+          "Representante",
+          "Watson (1913)",
+          "Skinner (1945–1974)"
+        ]
+      ]
+    },
+    {
+      "tipo": "ejemploCotidiano",
+      "titulo": "Pensar como conducta privada",
+      "contenido": "Marta está en el supermercado y piensa: \"No debería comprar esas galletas, estoy gorda.\" Desde el sentido común, diríamos que su pensamiento causa que no compre las galletas. Pero desde el conductismo radical:",
+      "pasos": [
+        "El pensamiento \"estoy gorda\" es en sí mismo una conducta verbal privada, no la causa de lo que haga después.",
+        "Tanto el pensamiento como la acción de no comprar comparten una misma historia: comentarios de familiares, experiencias con dietas, imágenes en redes sociales — todos eventos del entorno.",
+        "La pregunta funcional no es \"¿qué piensa Marta?\" sino \"¿qué condiciones ambientales producen y mantienen tanto ese pensamiento como esa evitación?\""
+      ]
+    },
+    {
+      "tipo": "ejemploClinico",
+      "titulo": "El problema de usar los pensamientos como explicación",
+      "contenido": "Carlos, de 40 años, llega a consulta y dice: \"No salgo de casa porque tengo miedo.\" Un terapeuta que use los pensamientos como explicaciones concluiría: \"Carlos no sale porque tiene miedo. Hay que eliminar el miedo para que salga.\" Pero un terapeuta conductual radical nota el razonamiento circular: ¿cómo sabemos que Carlos tiene miedo? Porque no sale. ¿Por qué no sale? Porque tiene miedo. No hemos explicado nada. El miedo y la evitación son parte del mismo fenómeno que necesita ser explicado por variables contextuales."
+    },
+    {
+      "tipo": "conexionClinica",
+      "contenido": "La distinción entre conductismo radical y metodológico no es académica: tiene consecuencias directas en cómo se realiza la terapia. Si un terapeuta cree que los pensamientos causan la conducta (posición mentalista), su intervención se centrará en cambiar pensamientos \"desde dentro\". Si entiende que pensamientos y acciones son ambos conducta mantenida por contingencias ambientales, su intervención se centrará en modificar esas contingencias — que es donde está la palanca real del cambio."
+    }
+  ]
 }

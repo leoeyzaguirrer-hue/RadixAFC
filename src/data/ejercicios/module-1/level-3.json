@@ -1,0 +1,78 @@
+[
+  {
+    "id": "3-1",
+    "tipo": "MC",
+    "tipoLabel": "Aplicación clínica",
+    "titulo": "Forma vs. Función",
+    "pregunta": "Dos pacientes llegan a consulta porque \"se autolesionan\" (misma topografía). Después de la evaluación, encuentras que:\n\nPaciente A: Se autolesiona en momentos de soledad intensa; cuando lo hace, su pareja inmediatamente viene a estar con ella.\nPaciente B: Se autolesiona en momentos de angustia emocional desbordante; cuando lo hace, la intensidad de la angustia disminuye temporalmente.\n\n¿Qué conclusión es correcta desde un análisis funcional?",
+    "opciones": [
+      "Ambos casos son iguales porque la conducta es la misma; se debe aplicar el mismo tratamiento.",
+      "Aunque la topografía es idéntica, la función es distinta: en A la conducta produce acceso a atención/compañía; en B produce alivio de una estimulación aversiva. Requieren intervenciones diferentes.",
+      "La distinción no es relevante; lo importante es eliminar la autolesión independientemente de su función.",
+      "Los dos casos son diferentes porque el Paciente A tiene un problema de dependencia y el B tiene un problema emocional."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "¡Excelente análisis! La misma topografía (autolesión) cumple funciones completamente diferentes: acceso a atención social (A) vs. alivio de estimulación aversiva (B). Tratar ambos casos igual sería un grave error clínico.",
+      "incorrecta": "Recuerda: la conducta NO se explica por su forma sino por su función. Dos conductas con la misma topografía pueden cumplir funciones muy diferentes, y requieren intervenciones diferentes.",
+      "pista": "Pregúntate: ¿qué consigue cada paciente con la autolesión? Lo que consigue (la función) es lo que explica y mantiene la conducta, no su apariencia."
+    }
+  },
+  {
+    "id": "3-2",
+    "tipo": "MC",
+    "tipoLabel": "Análisis E-R-C",
+    "titulo": "Identificando la secuencia funcional",
+    "pregunta": "Pablo (10 años) hace berrinches en el supermercado cada vez que pasa por el pasillo de juguetes. Sus padres, para evitar la escena, le compran un juguete pequeño.\n\n¿Cuál es la secuencia funcional (E—R—C) correcta?",
+    "opciones": [
+      "E: El supermercado → R: Pablo llora → C: Los padres se enojan.",
+      "E: Pablo quiere un juguete → R: Los padres compran → C: Pablo deja de llorar.",
+      "E: Pasar por el pasillo de juguetes → R: Pablo hace berrinche → C: Los padres le compran un juguete (acceso al objeto deseado).",
+      "E: Pablo está aburrido → R: Tiene un berrinche → C: Se entretiene con el juguete."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "¡Perfecto! La secuencia E—R—C identifica: el estímulo antecedente (pasillo de juguetes como contexto), la respuesta (berrinche) y la consecuencia que mantiene la conducta (obtener el juguete).",
+      "incorrecta": "En el esquema E—R—C, busca: ¿cuál es el estímulo contextual que antecede la conducta? ¿Cuál es la respuesta del niño? ¿Cuál es la consecuencia que hace probable que repita la conducta?",
+      "pista": "El antecedente no es un deseo interno (\"quiere un juguete\") sino una situación contextual observable (pasar por el pasillo). La consecuencia es lo que obtiene con la conducta."
+    }
+  },
+  {
+    "id": "3-3",
+    "tipo": "MC",
+    "tipoLabel": "Integración filosófica",
+    "titulo": "Del contextualismo al análisis funcional",
+    "pregunta": "¿Cuál de las siguientes afirmaciones refleja mejor cómo el contextualismo funcional fundamenta el análisis funcional de la conducta?",
+    "opciones": [
+      "El contextualismo funcional dice que toda conducta es relativa al contexto, por lo que no se pueden establecer leyes generales.",
+      "El análisis funcional busca las causas internas de la conducta y las ubica en el contexto individual del paciente.",
+      "El contextualismo funcional es solo una filosofía abstracta que no tiene aplicación directa en la práctica clínica.",
+      "El contextualismo funcional establece que la conducta es un acto-en-contexto que solo se entiende por su función; el análisis funcional es la herramienta concreta que aplica este principio: identifica las relaciones entre antecedentes, respuesta y consecuencias para predecir e influir en la conducta."
+    ],
+    "respuestaCorrecta": 3,
+    "retroalimentacion": {
+      "correcta": "¡Excelente integración! El contextualismo funcional proporciona la filosofía (acto-en-contexto, criterio pragmático) y el análisis funcional es su operacionalización práctica.",
+      "incorrecta": "Recuerda: el contextualismo funcional dice que la conducta es un acto-en-contexto que se evalúa por su función (acción exitosa). El análisis funcional es la herramienta que aplica esto en la práctica.",
+      "pista": "La conexión es directa: si la conducta es un acto-en-contexto (filosofía), entonces para entenderla necesitamos analizar la función que cumple en ese contexto (herramienta: análisis funcional)."
+    }
+  },
+  {
+    "id": "3-4",
+    "tipo": "MC",
+    "tipoLabel": "Síntesis final",
+    "titulo": "El gran recorrido",
+    "pregunta": "Si tuvieras que explicar a un colega en una sola oración cómo se conectan el contextualismo funcional, el conductismo radical y el análisis funcional, ¿cuál sería la más precisa?",
+    "opciones": [
+      "El conductismo radical es una técnica de terapia basada en el contextualismo funcional que utiliza el análisis funcional para clasificar trastornos.",
+      "El contextualismo funcional es la filosofía de la ciencia (metáfora raíz: acto-en-contexto; criterio: acción exitosa), el conductismo radical es la filosofía específica de la psicología (monismo, determinismo, eventos privados como conducta), y el análisis funcional es la herramienta metodológica que aplica ambos para identificar las relaciones entre conducta y contexto.",
+      "Son tres nombres distintos para la misma cosa: estudiar la conducta en su contexto.",
+      "El análisis funcional es la filosofía, el conductismo radical es la metodología, y el contextualismo funcional es la herramienta clínica."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "¡Brillante síntesis! Has articulado los tres niveles: filosofía general de la ciencia (contextualismo funcional) → filosofía específica de la psicología (conductismo radical) → herramienta metodológica (análisis funcional). Cada nivel construye sobre el anterior.",
+      "incorrecta": "Es importante distinguir los tres niveles: (1) Contextualismo funcional = filosofía de la ciencia, (2) Conductismo radical = filosofía de la psicología, (3) Análisis funcional = herramienta/metodología. No son lo mismo ni están invertidos.",
+      "pista": "Piensa en capas: la filosofía más amplia (contextualismo funcional) fundamenta la filosofía específica (conductismo radical), que a su vez fundamenta la herramienta práctica (análisis funcional)."
+    }
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "2-1-1",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "El EI en Pavlov",
+    "pregunta": "En el experimento clásico de Pavlov, ¿cuál de los siguientes actuó como Estímulo Incondicionado (EI)?",
+    "opciones": [
+      "El sonido del diapasón",
+      "La salivación del perro",
+      "El polvo de carne introducido en la boca",
+      "La presencia del experimentador"
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "El polvo de carne es el EI porque elicita de forma innata la respuesta de salivación.",
+      "incorrecta": "El EI es el estímulo que produce la respuesta de forma innata, sin aprendizaje previo.",
+      "pista": "¿Qué hacía salivar al perro de forma natural antes de cualquier emparejamiento?"
+    }
+  },
+  {
+    "id": "2-1-2",
+    "tipo": "MC",
+    "tipoLabel": "Aplicación",
+    "titulo": "Procedimiento temporal",
+    "pregunta": "Un niño siempre ve un relámpago (EN) seguido de un trueno fuerte (EI) que le asusta. Tras varias tormentas, el relámpago solo ya le produce miedo. ¿Qué procedimiento temporal describe mejor esta situación natural?",
+    "opciones": [
+      "Condicionamiento simultáneo",
+      "Condicionamiento de demora corta: el EC precede brevemente al EI",
+      "Condicionamiento retroactivo",
+      "Condicionamiento de huella"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "El relámpago (EC) precede al trueno (EI) por un intervalo breve (segundos), lo que corresponde a demora corta, el procedimiento más efectivo.",
+      "incorrecta": "Piensa en la secuencia temporal: ¿qué ocurre primero, el relámpago o el trueno?",
+      "pista": "La luz viaja más rápido que el sonido. El relámpago siempre llega antes que el trueno."
+    }
+  },
+  {
+    "id": "2-1-3",
+    "tipo": "MC",
+    "tipoLabel": "Análisis clínico",
+    "titulo": "Función del EC",
+    "pregunta": "Una persona que fue asaltada en un callejón oscuro ahora experimenta taquicardia y sudoración al entrar a cualquier espacio oscuro y cerrado. Los espacios oscuros y cerrados funcionan como:",
+    "opciones": [
+      "EI — porque causan directamente las respuestas de miedo",
+      "EC — porque adquirieron la función de elicitar respuestas de miedo tras emparejarse con la experiencia traumática",
+      "RI — porque son la respuesta automática del organismo",
+      "EN — porque aún no se han emparejado con nada aversivo"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Los espacios oscuros eran EN respecto al miedo intenso. Al emparejarse con el asalto (EI), adquirieron función de EC.",
+      "incorrecta": "¿Los espacios oscuros producían esas respuestas fisiológicas intensas ANTES del asalto?",
+      "pista": "Si la respuesta cambió a raíz de una experiencia, estamos ante un estímulo que adquirió una nueva función."
+    }
+  },
+  {
+    "id": "2-1-4",
+    "tipo": "CLASIFICAR",
+    "tipoLabel": "Clasificación",
+    "titulo": "Clasifica los elementos del CC",
+    "instrucciones": "Asigna cada elemento a la categoría correcta.",
+    "items": [
+      "Comida en la boca",
+      "Sonido del diapasón (después de emparejar)",
+      "Salivación ante la comida",
+      "Salivación ante el sonido solo",
+      "Descarga eléctrica en la pata",
+      "Flexión de la pata ante el metrónomo"
+    ],
+    "categorias": [
+      "EI",
+      "EC",
+      "RI",
+      "RC"
+    ],
+    "solucion": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 0,
+      "5": 3
+    }
+  },
+  {
+    "id": "2-1-5",
+    "tipo": "MC",
+    "tipoLabel": "Discriminación conceptual",
+    "titulo": "Apetitivo vs. Aversivo",
+    "pregunta": "¿Cuál es la diferencia funcional entre condicionamiento apetitivo y aversivo?",
+    "opciones": [
+      "El apetitivo usa EI que producen respuestas de acercamiento; el aversivo usa EI que producen respuestas de defensa",
+      "El apetitivo funciona solo con animales; el aversivo con humanos",
+      "El apetitivo requiere más ensayos",
+      "El apetitivo produce RC más intensas"
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "La distinción se basa en el tipo de EI y la función de las respuestas que elicita. EI apetitivos producen acercamiento; EI aversivos producen defensa.",
+      "incorrecta": "La diferencia no está en la especie ni en la cantidad de ensayos, sino en qué tipo de respuesta produce cada EI.",
+      "pista": "Pavlov (comida = acercamiento) vs. Liddell (descarga = defensa)."
+    }
+  },
+  {
+    "id": "2-1-6",
+    "tipo": "MC",
+    "tipoLabel": "Aplicación",
+    "titulo": "Procedimiento simultáneo",
+    "pregunta": "María siempre escucha la melodía de un camión de helados (EN) y exactamente al mismo tiempo recibe el helado (EI). Después de muchas repeticiones, la melodía sola NO produce salivación anticipatoria. ¿Por qué?",
+    "opciones": [
+      "Porque la melodía es demasiado agradable para funcionar como EC",
+      "Porque se trata de condicionamiento simultáneo, un procedimiento ineficaz: el EC no precede al EI y por tanto no lo predice",
+      "Porque ya se extinguió la RC",
+      "Porque la salivación no puede condicionarse con sonidos musicales"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Cuando EC y EI ocurren exactamente al mismo tiempo (simultáneo), el EC no cumple función predictiva. Para que haya condicionamiento efectivo, el EC debe preceder al EI.",
+      "incorrecta": "El problema no está en el tipo de estímulo ni en la extinción. Piensa en la relación temporal.",
+      "pista": "El condicionamiento es más eficaz cuando el EC anticipa la llegada del EI. Si ambos aparecen simultáneamente, ¿hay anticipación posible?"
+    }
+  },
+  {
+    "id": "2-1-7",
+    "tipo": "MC",
+    "tipoLabel": "Generalización",
+    "titulo": "Generalización de estímulos",
+    "pregunta": "En un consultorio dental, el sonido del taladro (EC) precede al dolor (EI). Un paciente siente ansiedad no solo con el taladro sino también con sonidos similares como una sierra eléctrica. ¿Qué fenómeno del CC explica mejor esta situación?",
+    "opciones": [
+      "Extinción respondente",
+      "Condicionamiento de segundo orden",
+      "Generalización de estímulos",
+      "Condicionamiento inhibitorio"
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Cuando una RC aparece ante estímulos físicamente similares al EC original pero que nunca fueron emparejados directamente con el EI, hablamos de generalización.",
+      "incorrecta": "Piensa en por qué la respuesta aparece ante un estímulo NUEVO que nunca fue emparejado con el EI.",
+      "pista": "Si un perro condicionado a salivar ante 1000 Hz también saliva ante 900 Hz, ¿cómo se llama?"
+    }
+  },
+  {
+    "id": "2-1-8",
+    "tipo": "MC",
+    "tipoLabel": "Relevancia clínica",
+    "titulo": "Condicionamiento inhibitorio",
+    "pregunta": "¿Cuál es la relevancia clínica del condicionamiento inhibitorio para un terapeuta conductual contextual?",
+    "opciones": [
+      "No tiene relevancia clínica",
+      "Permite entender cómo ciertos estímulos señalan la ausencia de amenaza, reduciendo respuestas de miedo — fundamental para entender las señales de seguridad en el tratamiento de miedos condicionados",
+      "Solo es importante para animales",
+      "Es exactamente lo mismo que la extinción respondente"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Los EC inhibitorios señalan la ausencia del EI aversivo y reducen las respuestas de miedo. En terapia, entender estos «estímulos de seguridad» ayuda a comprender por qué ciertos contextos reducen la ansiedad.",
+      "incorrecta": "El condicionamiento inhibitorio se diferencia de la extinción (en la extinción hay acontingencia; en la inhibición hay contingencia negativa).",
+      "pista": "León (EC+) = miedo, pero león + barrotes (EC-) = menos miedo. Los barrotes señalan que el ataque NO ocurrirá."
+    }
+  }
+]

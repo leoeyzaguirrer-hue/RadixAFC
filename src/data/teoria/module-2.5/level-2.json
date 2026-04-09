@@ -1,16 +1,106 @@
 {
-  "moduloId": "2.5",
-  "nivelId": 2,
   "titulo": "Medir Conducta: Registros y Observación",
-  "preguntaCentral": "",
+  "preguntaCentral": "¿Cómo saber si una conducta realmente cambió durante el tratamiento, si no tenemos una medida precisa de cómo estaba antes de comenzar?",
+  "aprobacionRequerida": 83,
   "secciones": [
-    { "tipo": "introduccion", "contenido": "" },
-    { "tipo": "desarrollo", "subtitulo": "", "contenido": "" },
-    { "tipo": "ejemplo_cotidiano", "titulo": "", "contenido": "" },
-    { "tipo": "ejemplo_clinico", "titulo": "", "contenido": "" },
-    { "tipo": "diagrama", "titulo": "", "descripcion": "", "tipo_diagrama": "" },
-    { "tipo": "errores_comunes", "errores": [{ "error": "", "correccion": "" }] },
-    { "tipo": "conexion_clinica", "contenido": "" }
-  ],
-  "referencias": []
+    {
+      "tipo": "texto",
+      "titulo": "De la descripción a la medición",
+      "contenido": "En el nivel anterior aprendimos a describir conductas con precisión. Ahora damos el siguiente paso: medirlas sistemáticamente. Esta distinción importa. Decir \"el paciente llora frecuentemente\" es una descripción. Decir \"el paciente lloró 4 veces esta semana, con una duración promedio de 12 minutos cada episodio\" es medición.\n\nLa medición conductual rigurosa tiene tres funciones clínicas fundamentales. Primero, nos permite establecer una línea de base: el nivel inicial de la conducta antes de cualquier intervención. Sin ella, no podemos saber si el tratamiento funcionó. Segundo, nos permite monitorear el progreso durante la intervención. Tercero, nos permite tomar decisiones clínicas fundadas en datos: si la conducta no cambia, algo en la hipótesis o en la intervención debe ajustarse.\n\nEl método principal que permite el análisis conductual —tanto para conductas manifiestas como para conductas encubiertas— es la observación. Todo lo demás (registros, escalas, cuestionarios) son extensiones o sustitutos imperfectos de la observación directa."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Observación directa e indirecta",
+      "contenido": "La observación directa ocurre cuando el terapeuta o un observador entrenado presencia la conducta en el momento en que se produce. Es el método de mayor rigor porque no depende de la memoria del paciente ni de su capacidad para describir lo que hizo.\n\nEn el contexto clínico, la observación directa puede ocurrir durante la sesión —el terapeuta observa cómo el paciente interactúa, qué conductas emite, qué dice, cómo reacciona— o en el ambiente natural del paciente, cuando esto es posible (observación in vivo).\n\nUna observación fundamental que suele pasarse por alto: el paciente no solo habla de su problema en sesión. También lo muestra. Cómo se sienta, cómo mira, qué hace con las manos cuando habla de ciertos temas, qué conductas emite en la sala de espera. El clínico observador recoge datos de esas señales de forma permanente."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Observación indirecta",
+      "contenido": "La observación indirecta incluye todos los métodos que no implican presenciar la conducta en tiempo real: entrevistas clínicas, informes del paciente sobre su conducta pasada, escalas de autoinforme, cuestionarios, informes de familiares o allegados. Son métodos de gran utilidad clínica pero con limitaciones conocidas: dependen de la memoria y el juicio del informante, pueden estar sesgados, y la conducta recordada puede diferir de la conducta real.\n\nEn la práctica clínica habitual, ambos métodos se combinan: la observación directa durante sesiones se complementa con la información indirecta que el paciente aporta entre sesiones."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Autoobservación: el caso especial de las conductas encubiertas",
+      "contenido": "Los pensamientos, las sensaciones fisiológicas y los estados emocionales no son directamente observables por el terapeuta. Para registrarlos, se recurre a la autoobservación: el paciente aprende a identificar y registrar sus propias conductas encubiertas en el momento en que ocurren.\n\nLa autoobservación tiene ventajas importantes: es el único método que permite acceder a conductas privadas, y cuando se hace sistemáticamente (con registros estructurados), produce información de alta calidad. Sin embargo, tiene dos limitaciones que el terapeuta debe tener en cuenta."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Interferencia observacional",
+      "contenido": "El simple acto de observarse puede modificar la conducta que se está registrando. Un paciente que lleva un autorregistro de sus pensamientos negativos puede empezar a tenerlos con menos frecuencia —o con más— simplemente porque ahora les presta atención. Este efecto no invalida el método, pero obliga al terapeuta a interpretarlo con cautela."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Sesgo de memoria y de selección",
+      "contenido": "El paciente puede registrar las ocurrencias de forma selectiva: las más intensas, las más recientes, o las que cree que el terapeuta quiere escuchar. Un buen autorregistro minimaliza este sesgo pidiendo al paciente que registre en el momento en que ocurre la conducta, no al final del día."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Tipos de registro conductual",
+      "contenido": "Una vez decidimos qué conducta observar y con qué método, debemos elegir cómo registrar los datos. Los tres tipos básicos de registro corresponden a los parámetros que queremos medir."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Registro de frecuencia",
+      "contenido": "Cuenta el número de veces que ocurre la conducta en un período determinado. Es el más sencillo: cada vez que ocurre la conducta, se anota una marca. Es adecuado para conductas discretas (con un inicio y un fin claros) que duran poco: un tic, un episodio de llanto, una interacción agresiva, una llamada telefónica evitada.\n\nSu limitación es que no captura la duración. Dos pacientes pueden tener la misma frecuencia de crisis de ansiedad pero duraciones completamente distintas —y por tanto experiencias muy diferentes de sufrimiento."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Registro de duración",
+      "contenido": "Mide el tiempo total que dura la conducta desde su inicio hasta su fin. Es adecuado para conductas continuas que varían en duración: tiempo en cama, tiempo de estudio, duración de episodios de angustia, tiempo dedicado a rituales de comprobación. Se puede registrar la duración de cada episodio individual o el tiempo acumulado en un período."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Registro de intervalo",
+      "contenido": "Divide el período de observación en intervalos iguales de tiempo (por ejemplo, intervalos de 10 segundos) y registra si la conducta ocurrió o no en cada intervalo. Existen dos variantes:\n\nIntervalo parcial: Se registra \"ocurrió\" si la conducta ocurrió en algún momento del intervalo, aunque sea brevemente. Tiende a sobreestimar la frecuencia.\n\nIntervalo total: Solo se registra \"ocurrió\" si la conducta se mantuvo durante todo el intervalo. Tiende a subestimar. Es más adecuado para conductas continuas.\n\nEl registro de intervalo es especialmente útil cuando la conducta ocurre con tanta frecuencia que contarla individualmente sería imposible (conductas en clase de un niño con alta actividad motora), o cuando la conducta no tiene límites discretos claros."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Fiabilidad inter-observador",
+      "contenido": "Cuando dos observadores independientes registran la misma conducta al mismo tiempo y obtienen datos similares, decimos que el registro tiene fiabilidad inter-observador (FIO). Es una medida de la consistencia y objetividad del sistema de registro.\n\nLa FIO se calcula como el porcentaje de acuerdo entre dos observadores: FIO = (Acuerdos / (Acuerdos + Desacuerdos)) × 100\n\nUna FIO del 80% o superior se considera generalmente aceptable. Por debajo de ese umbral, el sistema de registro necesita revisión: la definición operacional puede ser ambigua, los observadores pueden necesitar más entrenamiento, o los criterios de registro pueden estar mal especificados.\n\nLa FIO no solo sirve para validar el registro: cuando es baja, nos indica que nuestra operacionalización no es lo suficientemente precisa. Si dos observadores entrenados no se ponen de acuerdo sobre si la conducta ocurrió o no, la definición que usamos no es suficientemente clara."
+    },
+    {
+      "tipo": "diagrama",
+      "titulo": "Árbol de decisión: ¿qué tipo de registro usar?",
+      "descripcion": "Árbol de decisión que parte de \"¿Qué quiero medir?\" → \"¿La conducta es discreta o continua?\". Si es continua → Registro de duración. Si es discreta → \"¿Alta tasa / difícil de contar individualmente?\". Si sí → Registro de intervalo. Si no → Registro de frecuencia. Nota adicional: + Autoobservación para conductas encubiertas (pensamientos, sensaciones)."
+    },
+    {
+      "tipo": "ejemplo",
+      "subtipo": "cotidiano",
+      "titulo": "Registro de frecuencia en conflictos de pareja",
+      "contenido": "Martín y su pareja deciden registrar sus discusiones. Cada vez que ocurre una, anotan: hora, duración aproximada e intensidad (1-10). Después de dos semanas, tienen datos concretos: 6 discusiones, concentradas los domingos por la tarde, con duración media de 20 minutos. Ese patrón —que antes se resumía en \"siempre peleamos\"— ahora tiene forma específica y medible."
+    },
+    {
+      "tipo": "ejemplo",
+      "subtipo": "clinico",
+      "titulo": "Evaluación de evitación social",
+      "contenido": "Clínica: observación directa en sesión (terapeuta registra latencia para hablar espontáneamente = 4-8 min) + autorregistro intersesiones (paciente anota situaciones sociales evitadas: tipo, día, malestar 0-10). Fiabilidad verificada: terapeuta y coterapeuta coinciden en 85% de registros en sesión. Línea de base: 7 situaciones evitadas/semana, malestar promedio 7.2/10."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "\"La observación directa siempre es superior a la indirecta.\"",
+      "correccion": "La observación directa tiene mayor rigor metodológico, pero su aplicabilidad depende del contexto. Muchas conductas clínicamente relevantes ocurren fuera de sesión (en el hogar, en el trabajo) y son inaccesibles para la observación directa del terapeuta. En esos casos, la autoobservación y los registros del paciente son los únicos métodos disponibles. No se trata de superior vs inferior: se trata de usar el método adecuado para cada conducta."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "\"Una sola semana de registro es suficiente para establecer una línea de base.\"",
+      "correccion": "Para que una línea de base sea representativa, necesitamos múltiples muestras que cubran variaciones temporales normales: distintos días de la semana, distintos contextos, distintos niveles de estrés. Una semana puede capturar un período atípico. La estabilidad de la línea de base —que los datos se mantengan relativamente constantes— es lo que indica que el muestreo es suficiente."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "\"Que el autorregistro cambie la conducta del paciente es un problema que invalida el método.\"",
+      "correccion": "La interferencia observacional es una limitación, no una invalidación. En algunos casos, el cambio conductual producido por el autorregistro puede ser clínicamente útil (el paciente empieza a reducir la frecuencia de la conducta-problema al prestarle atención). El terapeuta debe conocer este efecto, tenerlo en cuenta al interpretar los datos, y en ningún caso descartarlo como evidencia de cambio."
+    },
+    {
+      "tipo": "conexionClinica",
+      "contenido": "La medición conductual no es un ejercicio de laboratorio desconectado de la relación terapéutica. Cuando un terapeuta pide al paciente que lleve un autorregistro, está haciendo varias cosas a la vez: obteniendo datos clínicos, entrenando al paciente en la autoobservación de su propia conducta, y comenzando a construir una comprensión compartida del problema. La línea de base no es solo un conjunto de números: es la base sobre la que el paciente y el terapeuta evaluarán juntos si el tratamiento está funcionando."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "La perspectiva conductual establece que la medición objetiva de la conducta es la base de cualquier evaluación científica del comportamiento humano.",
+        "Kazdin, A.E. (1994). Modificación de la conducta y sus aplicaciones prácticas. Manual Moderno. (Caps. 2-3)",
+        "Gutiérrez Domínguez, T. (2005). Procesos psicológicos básicos: Un análisis funcional. Pirámide."
+      ]
+    }
+  ]
 }

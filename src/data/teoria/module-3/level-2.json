@@ -1,16 +1,50 @@
 {
-  "moduloId": 3,
-  "nivelId": 2,
   "titulo": "Los Cuatro Procedimientos Operantes",
-  "preguntaCentral": "",
+  "preguntaCentral": "¿Cómo predecir si una conducta aumentará o disminuirá?",
+  "aprobacionRequerida": 83,
   "secciones": [
-    { "tipo": "introduccion", "contenido": "" },
-    { "tipo": "desarrollo", "subtitulo": "", "contenido": "" },
-    { "tipo": "ejemplo_cotidiano", "titulo": "", "contenido": "" },
-    { "tipo": "ejemplo_clinico", "titulo": "", "contenido": "" },
-    { "tipo": "diagrama", "titulo": "", "descripcion": "", "tipo_diagrama": "" },
-    { "tipo": "errores_comunes", "errores": [{ "error": "", "correccion": "" }] },
-    { "tipo": "conexion_clinica", "contenido": "" }
-  ],
-  "referencias": []
+    {
+      "tipo": "texto",
+      "titulo": "Consecuencias y cambio conductual",
+      "contenido": "La esencia del condicionamiento operante reside en cómo las consecuencias alteran la conducta. Skinner clasificó estas relaciones en procedimientos basados en dos criterios: si la conducta aumenta o disminuye, y si se añade o retira un estímulo."
+    },
+    {
+      "tipo": "nota",
+      "titulo": "Nota Crítica sobre la terminología",
+      "contenido": "En análisis de conducta, \"Positivo\" significa sumar/presentar un estímulo. \"Negativo\" significa restar/retirar un estímulo. Nunca se refieren a \"bueno\" o \"malo\" moralmente."
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Los cuatro procedimientos operantes",
+      "columnas": ["Efecto / Operación", "Añadir Estímulo (+)", "Retirar Estímulo (-)"],
+      "filas": [
+        ["Aumenta Conducta (Reforzamiento)", "Reforzamiento Positivo (R+): Se presenta un estímulo apetitivo.", "Reforzamiento Negativo (R-): Se retira un estímulo aversivo."],
+        ["Disminuye Conducta (Castigo)", "Castigo Positivo (C+): Se presenta un estímulo aversivo.", "Castigo Negativo (C-): Se retira un estímulo apetitivo."]
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Reforzamiento Negativo: Escape y Evitación",
+      "contenido": "El reforzamiento negativo es frecuentemente confundido con el castigo, pero su función es opuesta: incrementa la conducta. Se divide en dos procesos clave:\n\n• Escape: La conducta ocurre cuando el estímulo aversivo ya está presente y logra terminarlo (ej. tomar una aspirina cuando ya duele la cabeza).\n\n• Evitación: La conducta ocurre ante una señal que predice el estímulo aversivo, impidiendo que este llegue a presentarse (ej. ponerse el cinturón antes de que suene la alarma del coche)."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Extinción Operante",
+      "contenido": "Consiste en suspender el reforzamiento de una conducta previamente reforzada. Como resultado, la probabilidad de la conducta disminuye hasta volver a niveles de línea base."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Moldeamiento (Aproximaciones Sucesivas)",
+      "contenido": "Es el procedimiento para enseñar conductas que no están en el repertorio del sujeto. Consiste en reforzar variaciones de la conducta que se acerquen cada vez más a la conducta meta, mientras se extinguen las formas anteriores."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Gutiérrez, M. T. (2005). Procesos Psicológicos Básicos. Madrid: Ediciones Pirámide.",
+        "Kazdin, A. E. (2000). Modificación de la conducta y sus aplicaciones prácticas (2ª ed.). México: Manual Moderno.",
+        "Pérez Álvarez, M. (1996). La psicoterapia desde el punto de vista conductista. Madrid: Biblioteca Nueva.",
+        "Skinner, B. F. (1953). Ciencia y conducta humana. Barcelona: Fontanella (ed. 1970)."
+      ]
+    }
+  ]
 }

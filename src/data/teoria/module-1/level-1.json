@@ -1,16 +1,86 @@
 {
-  "moduloId": 1,
-  "nivelId": 1,
   "titulo": "Contextualismo Funcional y Filosofía de la Ciencia",
-  "preguntaCentral": "",
+  "preguntaCentral": "¿Qué presupuestos filosóficos necesita asumir una ciencia para poder estudiar la conducta humana, y por qué el contextualismo funcional ofrece la mejor base para hacerlo?",
+  "aprobacionRequerida": 87,
   "secciones": [
-    { "tipo": "introduccion", "contenido": "" },
-    { "tipo": "desarrollo", "subtitulo": "", "contenido": "" },
-    { "tipo": "ejemplo_cotidiano", "titulo": "", "contenido": "" },
-    { "tipo": "ejemplo_clinico", "titulo": "", "contenido": "" },
-    { "tipo": "diagrama", "titulo": "", "descripcion": "", "tipo_diagrama": "" },
-    { "tipo": "errores_comunes", "errores": [{ "error": "", "correccion": "" }] },
-    { "tipo": "conexion_clinica", "contenido": "" }
-  ],
-  "referencias": []
+    {
+      "tipo": "texto",
+      "titulo": "¿Qué necesita creer un científico antes de empezar a investigar?",
+      "contenido": "Imagina que quieres entender por qué una persona actúa de determinada manera. Antes de observarla, antes de registrar datos, antes de diseñar cualquier intervención, ya estás asumiendo ciertas cosas sobre cómo funciona el mundo. Esas asunciones —que la mayoría de los profesionales jamás se detiene a examinar— determinan absolutamente todo lo que harás después. Son los presupuestos filosóficos de la ciencia, y este nivel trata de hacerlos visibles.\n\nToda ciencia, desde la física hasta la biología, parte de tres supuestos fundamentales que no pueden demostrarse pero que resultan necesarios para que el proyecto científico funcione."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Los tres presupuestos de la ciencia",
+      "contenido": "El primero es el principio ontológico: monismo y materialismo. La ciencia asume que existe un mundo real, material, que podemos estudiar. Solo existe un tipo de sustancia en el universo: la materia. Esto se opone al dualismo, que sostiene la existencia de dos sustancias —una material y otra espiritual o \"mental\"— como entidades de naturaleza diferente.\n\nEl segundo es el principio de determinismo. Si la ciencia aspira a encontrar un orden en la realidad, debe asumir que los hechos del universo están relacionados entre sí según leyes naturales que no cambian con el tiempo. El determinismo establece que unos eventos causan la aparición de otros mediante relaciones invariantes.\n\nEl tercero es el principio epistemológico: que el universo y sus leyes son cognoscibles. Podemos llegar a un conocimiento de la naturaleza."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Determinismo significa que todo está predestinado y no podemos hacer nada.",
+      "correccion": "Determinismo no es predestinación ni fatalismo. Simplemente significa que los eventos (incluida la conducta) están sujetos a leyes naturales y no ocurren \"porque sí\". Además, determinismo no equivale a mecanicismo: el mecanicismo es solo uno de los posibles modelos causales."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Las cuatro hipótesis del mundo de Pepper",
+      "contenido": "En 1942, el filósofo Stephen C. Pepper publicó World Hypotheses, una obra en la que propuso que a lo largo de la historia de la filosofía occidental se pueden identificar cuatro grandes maneras de entender el mundo. Cada una parte de una metáfora raíz diferente y adopta un criterio de verdad distinto."
+    },
+    {
+      "tipo": "conceptos",
+      "items": [
+        {
+          "nombre": "Formismo",
+          "metaforaRaiz": "la similitud entre objetos",
+          "criterioVerdad": "correspondencia",
+          "descripcion": "El mundo se entiende clasificando cosas por sus rasgos comunes. Es la base de las taxonomías y diagnósticos categóricos."
+        },
+        {
+          "nombre": "Mecanicismo",
+          "metaforaRaiz": "la máquina",
+          "criterioVerdad": "correspondencia",
+          "descripcion": "El mundo funciona como un mecanismo con piezas discretas que causan efectos directos. Es la base de la física clásica y del conductismo lineal E-R de Watson."
+        },
+        {
+          "nombre": "Organicismo",
+          "metaforaRaiz": "el organismo vivo en desarrollo",
+          "criterioVerdad": "coherencia",
+          "descripcion": "Enfatiza totalidades integradas, procesos de desarrollo y síntesis. Es la base de teorías de estadios (como las de Piaget) y perspectivas sistémicas."
+        },
+        {
+          "nombre": "Contextualismo",
+          "metaforaRaiz": "el acto-en-contexto (el evento histórico en curso)",
+          "criterioVerdad": "acción exitosa (trabajo exitoso)",
+          "descripcion": "Lo que importa es entender los eventos como actos situados en un contexto particular. Un conocimiento es \"verdadero\" en la medida en que funciona para lograr ciertos objetivos."
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Del pragmatismo al contextualismo funcional de Hayes",
+      "contenido": "El contextualismo de Pepper tiene profundas raíces en el pragmatismo. En 1993, Steven C. Hayes retomó el contextualismo de Pepper y lo especificó para la ciencia del comportamiento, creando el contextualismo funcional.\n\nLa metáfora raíz es el acto-en-contexto: toda conducta solo tiene sentido cuando se analiza en el contexto en que ocurre.\n\nEl criterio de verdad es la acción exitosa: un análisis es válido en la medida en que permite actuar eficazmente.\n\nLos objetivos preanalíticos son predecir e influir en la conducta con precisión, alcance y profundidad."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "El contextualismo funcional es relativista: como la verdad depende de que 'funcione', entonces cualquier cosa puede ser verdad.",
+      "correccion": "El contextualismo funcional no es relativista. Tiene un criterio de verdad riguroso: la acción exitosa evaluada en función de objetivos específicos (predecir e influir con precisión, alcance y profundidad). No cualquier explicación \"funciona\"."
+    },
+    {
+      "tipo": "ejemploCotidiano",
+      "titulo": "Las cuatro hipótesis del mundo en la vida diaria",
+      "contenido": "Imagina que un niño de 8 años ha dejado de ir al colegio. Cuatro profesionales con filosofías distintas lo analizarían así:",
+      "pasos": [
+        "Formista: \"Este niño tiene un trastorno de ansiedad por separación. Corresponde con los criterios del DSM.\" (Clasifica por rasgos similares.)",
+        "Mecanicista: \"El niño tiene un desequilibrio neuroquímico que causa la ansiedad, que a su vez causa la evitación escolar.\" (Busca cadena causal lineal.)",
+        "Organicista: \"El niño está atravesando una fase de desarrollo que necesita integrarse en una totalidad más madura.\" (Ve etapas y desarrollo.)",
+        "Contextualista funcional: \"¿Qué está ocurriendo en el contexto del niño que hace más probable que se quede en casa que ir al colegio? ¿Qué pasa cuando se queda? ¿Qué pasa cuando va?\" (Analiza el acto-en-contexto.)"
+      ]
+    },
+    {
+      "tipo": "ejemploClinico",
+      "titulo": "El pragmatismo en la consulta",
+      "contenido": "Una terapeuta recibe a Lucía, de 32 años, que dice estar \"deprimida\". Un enfoque formista le asignaría una etiqueta diagnóstica. Un enfoque mecanicista buscaría la \"causa interna\" (serotonina baja). La terapeuta contextual funcional, en cambio, se pregunta: ¿qué está haciendo Lucía en su vida cotidiana? ¿Qué ha dejado de hacer? ¿Qué ocurre cuando se queda en cama? La \"depresión\" no es la causa de la conducta de Lucía: es un nombre genérico para un patrón de interacciones que necesita analizarse funcionalmente."
+    },
+    {
+      "tipo": "conexionClinica",
+      "contenido": "¿Por qué un terapeuta necesita saber filosofía de la ciencia? Porque la filosofía que adoptes —aunque no lo sepas— determina qué preguntas te haces, dónde buscas las causas, qué consideras una explicación satisfactoria y qué tipo de intervención diseñas. Si asumes el mecanicismo, buscarás \"la causa interna\". Si adoptas el contextualismo funcional, buscarás las relaciones entre la persona y su contexto."
+    }
+  ]
 }

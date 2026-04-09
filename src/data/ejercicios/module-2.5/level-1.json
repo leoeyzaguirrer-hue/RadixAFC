@@ -1,0 +1,168 @@
+[
+  {
+    "id": "2.5-1",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Conducta operacionalizada",
+    "pregunta": "¿Cuál de las siguientes opciones constituye una conducta operacionalizada?",
+    "opciones": [
+      "\"El paciente tiene ansiedad social.\"",
+      "\"El paciente evita reuniones de trabajo los lunes y miércoles; esto ocurre en 3 de cada 4 semanas.\"",
+      "\"El paciente es muy tímido en contextos sociales.\"",
+      "\"El paciente tiene problemas de relación interpersonal.\""
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto. La opción B especifica QUÉ hace (evita reuniones), CUÁNDO (lunes y miércoles) y con qué FRECUENCIA (3 de 4 semanas). Eso es operacionalizar.",
+      "incorrecta": "Esta opción sigue siendo una etiqueta o descripción vaga. Operacionalizar exige especificar la conducta, el contexto, la frecuencia y otros parámetros observables.",
+      "pista": "Busca la opción que describa una conducta concreta con parámetros medibles (qué, cuándo, con qué frecuencia)."
+    }
+  },
+  {
+    "id": "2.5-2",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Identificación de parámetros",
+    "pregunta": "Un terapeuta anota que su paciente lloró en 4 ocasiones durante la semana. ¿Qué parámetro está registrando?",
+    "opciones": [
+      "Duración",
+      "Intensidad",
+      "Frecuencia",
+      "Latencia"
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Correcto. La frecuencia registra cuántas veces ocurre una conducta en un período determinado. '4 ocasiones en la semana' es exactamente un registro de frecuencia.",
+      "incorrecta": "Revisalo: la duración mide cuánto tiempo dura la conducta; la intensidad, con qué fuerza; la latencia, el tiempo hasta el inicio. '4 veces en la semana' es una cuenta de ocurrencias, es decir, frecuencia.",
+      "pista": "El terapeuta está contando cuántas veces ocurrió algo. ¿Qué parámetro cuenta ocurrencias?"
+    }
+  },
+  {
+    "id": "2.5-3",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Componentes conductuales en fobia a las alturas",
+    "pregunta": "Un paciente con fobia a las alturas describe su experiencia. Clasifica cada conducta en su componente correspondiente.",
+    "items": [
+      "Taquicardia y sudoración",
+      "Aferrarse a la barandilla",
+      "\"Me voy a caer\"",
+      "Temblor en las piernas",
+      "Evita subir al ascensor"
+    ],
+    "zonas": ["Motor", "Cognitivo", "Fisiológico"],
+    "correctMap": {
+      "Taquicardia y sudoración": "Fisiológico",
+      "Aferrarse a la barandilla": "Motor",
+      "\"Me voy a caer\"": "Cognitivo",
+      "Temblor en las piernas": "Fisiológico",
+      "Evita subir al ascensor": "Motor"
+    },
+    "retroalimentacion": {
+      "correcta": "Excelente clasificación. Los componentes fisiológicos incluyen las respuestas del organismo (taquicardia, temblor); los motores, las acciones manifiestas (aferrarse, evitar); el cognitivo, las verbalizaciones encubiertas ('me voy a caer').",
+      "incorrecta": "Revisa la clasificación. El componente fisiológico incluye las respuestas del cuerpo (taquicardia, sudoración, temblor). El motor incluye acciones visibles (aferrarse, evitar). El cognitivo incluye pensamientos ('me voy a caer').",
+      "pista": "Motor = acciones visibles. Cognitivo = pensamientos. Fisiológico = respuestas del cuerpo."
+    }
+  },
+  {
+    "id": "2.5-4",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Parámetro de latencia",
+    "pregunta": "Un terapeuta nota que su paciente tarda en promedio 25 minutos en levantarse de la cama después de que suena el despertador. ¿Qué parámetro está midiendo?",
+    "opciones": [
+      "Frecuencia",
+      "Duración",
+      "Intensidad",
+      "Latencia"
+    ],
+    "respuestaCorrecta": 3,
+    "retroalimentacion": {
+      "correcta": "Correcto. La latencia mide el tiempo entre el inicio de una situación (o señal) y el inicio de la respuesta. 25 minutos entre que suena el despertador y levantarse es latencia.",
+      "incorrecta": "Recuerda: la latencia es el tiempo que transcurre ANTES de que empiece la conducta, no durante ni cuántas veces ocurre.",
+      "pista": "Se mide el tiempo entre una señal (despertador) y el inicio de la respuesta (levantarse). ¿Qué parámetro captura ese intervalo?"
+    }
+  },
+  {
+    "id": "2.5-5",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar",
+    "titulo": "Definición de operacionalizar",
+    "pregunta": "Completa la siguiente definición seleccionando las palabras correctas.",
+    "textoBase": "Operacionalizar una conducta significa describirla en términos ___ y ___, de manera que cualquier observador entrenado pueda identificarla con precisión.",
+    "gaps": [
+      {
+        "id": "gap1",
+        "opciones": ["observables", "subjetivos", "diagnósticos"],
+        "correcta": "observables"
+      },
+      {
+        "id": "gap2",
+        "opciones": ["inferibles", "medibles", "emocionales"],
+        "correcta": "medibles"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Perfecto. Operacionalizar implica describir la conducta en términos observables (que se pueden percibir) y medibles (que se pueden cuantificar).",
+      "incorrecta": "Revisa. 'Subjetivos' e 'inferibles' son precisamente lo que queremos evitar. Operacionalizar busca lo observable y medible.",
+      "pista": "Lo opuesto a vago y subjetivo es algo que se pueda ver y cuantificar."
+    }
+  },
+  {
+    "id": "2.5-6",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Conducta encubierta",
+    "pregunta": "¿Por qué los pensamientos y las sensaciones internas deben incluirse en el análisis conductual?",
+    "opciones": [
+      "Porque son la causa de la conducta motora que se observa",
+      "Porque son síntomas de trastornos mentales diagnosticables",
+      "Porque son conducta encubierta que opera bajo los mismos principios que la conducta motora",
+      "Porque son más importantes que la conducta motora observable"
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Exacto. Los pensamientos, imágenes y sensaciones son conducta encubierta: ocurren dentro del organismo y operan bajo los mismos principios de aprendizaje que la conducta motora. No son causas: son parte de la conducta total.",
+      "incorrecta": "Atención: los eventos privados NO causan la conducta motora —son parte de la conducta misma. Y no son síntomas de trastornos: son conducta. La conducta conductual los incluye porque siguen los mismos principios de aprendizaje.",
+      "pista": "Desde la perspectiva conductual, los pensamientos no causan la conducta ni son síntomas. Son un tipo de conducta más."
+    }
+  },
+  {
+    "id": "2.5-7",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Tres componentes presentes",
+    "pregunta": "Laura, ante la crítica de su jefe, siente el estómago apretado, le tiembla la voz y dice \"sí, tiene razón\" aunque internamente piensa lo contrario. ¿Cuántos componentes conductuales están presentes?",
+    "opciones": [
+      "Solo uno: el motor (decir \"sí, tiene razón\")",
+      "Dos: motor y fisiológico",
+      "Los tres: motor, fisiológico y cognitivo",
+      "Ninguno, porque son reacciones involuntarias al contexto"
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Correcto. (1) Fisiológico: estómago apretado, voz cortada. (2) Motor: decir 'sí, tiene razón'. (3) Cognitivo: el pensamiento encubierto 'aunque no lo crea'. Los tres componentes están presentes simultáneamente.",
+      "incorrecta": "Hay tres componentes aquí. No te olvides del cognitivo: 'aunque no lo crea' indica un pensamiento encubierto que está presente aunque no se exprese en voz alta.",
+      "pista": "Busca acciones visibles (motor), respuestas del cuerpo (fisiológico) y pensamientos (cognitivo)."
+    }
+  },
+  {
+    "id": "2.5-8",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Parámetro de intensidad",
+    "pregunta": "Un terapeuta registra que el miedo de su paciente ante los perros es \"de 9 sobre 10 en su escala personal\". ¿Qué parámetro está documentando?",
+    "opciones": [
+      "Latencia",
+      "Frecuencia",
+      "Intensidad",
+      "Ocurrencia"
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Correcto. La intensidad mide la magnitud, fuerza o severidad con que se da la conducta. Una escala de 1-10 es una forma común de operacionalizar la intensidad.",
+      "incorrecta": "La frecuencia contaría cuántas veces ocurre; la latencia, cuánto tarda en empezar; la ocurrencia solo dice sí/no. '9 sobre 10 en escala personal' es una medida de intensidad.",
+      "pista": "Una escala numérica de magnitud (1-10) mide la fuerza o severidad de algo. ¿Qué parámetro captura eso?"
+    }
+  }
+]
