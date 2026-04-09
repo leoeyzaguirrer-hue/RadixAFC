@@ -1,1 +1,43 @@
-{}
+{
+  "titulo": "Análisis Funcional Operante Básico",
+  "preguntaCentral": "De la descripción del caso a la relación funcional.",
+  "aprobacionRequerida": 80,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "¿Qué es el Análisis Funcional?",
+      "contenido": "El Análisis Funcional (AF) no es una técnica de intervención, sino un método para identificar las variables ambientales que mantienen una conducta. En su forma más básica, busca responder: ¿Qué función cumple esta conducta para este individuo en este contexto?"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Pasos para la identificación de la Contingencia",
+      "contenido": "1. Operacionalización: Definir la conducta en términos observables y medibles (no \"ansiedad\", sino \"taquicardia y pensamientos de daño inminente\").\n\n2. Identificación del Consecuente: ¿Qué ocurre inmediatamente después? ¿Se obtiene algo (R+) o se elimina algo (R-)?\n\n3. Identificación del Antecedente (Ed): ¿En qué situaciones específicas ocurre y en cuáles no?"
+    },
+    {
+      "tipo": "ejemplo",
+      "subtipo": "clinico",
+      "titulo": "Viñeta Clínica: Caso de Pedro",
+      "contenido": "Pedro (30 años) se muerde las uñas cuando tiene entregas de trabajo importantes. Al hacerlo, siente un alivio momentáneo de la tensión laboral. Sus colegas le preguntan si está bien, lo que le calma aún más.",
+      "items": [
+        "Conducta: Morderse las uñas.",
+        "Función 1 (R-): Alivio de la tensión (escape de la estimulación aversiva interna).",
+        "Función 2 (R+): Atención y apoyo de los colegas."
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Herramientas de Intervención Básicas",
+      "contenido": "Desde el CO básico, disponemos de dos herramientas poderosas en clínica:\n\n• Extinción: Identificar qué reforzador mantiene la conducta problema y asegurar que deje de estar disponible.\n\n• Moldeamiento: Programar el aprendizaje de conductas alternativas saludables mediante el reforzamiento de aproximaciones graduales."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Gutiérrez, M. T. (2005). Procesos Psicológicos Básicos. Madrid: Ediciones Pirámide.",
+        "Kazdin, A. E. (2000). Modificación de la conducta y sus aplicaciones prácticas (2ª ed.). México: Manual Moderno.",
+        "Pérez Álvarez, M. (1996). La psicoterapia desde el punto de vista conductista. Madrid: Biblioteca Nueva.",
+        "Skinner, B. F. (1953). Ciencia y conducta humana. Barcelona: Fontanella (ed. 1970).",
+        "Skinner, B. F. (1974). Sobre el conductismo. Barcelona: Planeta-De Agostini."
+      ]
+    }
+  ]
+}

@@ -1,1 +1,190 @@
-{}
+[
+  {
+    "id": "3-1",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Definición de conducta operante",
+    "pregunta": "¿Qué define fundamentalmente a una conducta como \"operante\"?",
+    "opciones": [
+      "Que es una respuesta refleja ante un estímulo ambiental previo.",
+      "Que es mediada por procesos cognitivos de voluntad superior.",
+      "Que es emitida por el organismo y seleccionada por sus consecuencias.",
+      "Que depende exclusivamente de la estructura biológica heredada."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "La conducta operante es fundamentalmente una respuesta emitida que se mantiene o desaparece según los efectos que produce en el entorno.",
+      "incorrecta": "No es una respuesta refleja (respondente) ni depende de constructos mentales como la 'voluntad'.",
+      "pista": "Piensa en la diferencia entre una rodilla que salta por un golpe y una mano que busca un interruptor."
+    }
+  },
+  {
+    "id": "3-2",
+    "tipo": "Ordenamiento",
+    "tipoLabel": "Ordenar secuencia",
+    "titulo": "Secuencia de la contingencia triple",
+    "pregunta": "Ordena los elementos para formar la secuencia correcta de la contingencia triple:",
+    "items": [
+      "Consecuencia",
+      "Estímulo Antecedente (Ed)",
+      "Respuesta Operante"
+    ],
+    "ordenCorrecto": ["Estímulo Antecedente (Ed)", "Respuesta Operante", "Consecuencia"],
+    "retroalimentacion": {
+      "correcta": "Ed precede a la Respuesta, y la Respuesta produce la Consecuencia. Es la flecha del tiempo conductual.",
+      "incorrecta": "La consecuencia no puede ocurrir antes de la conducta que la genera.",
+      "pista": "Primero la señal, luego el acto, luego el efecto."
+    }
+  },
+  {
+    "id": "3-3",
+    "tipo": "Emparejamiento",
+    "tipoLabel": "Emparejar conceptos",
+    "titulo": "Condicionamiento Clásico vs. Operante",
+    "pregunta": "Empareja los conceptos de Condicionamiento Clásico (CC) y Operante (CO):",
+    "columnaIzquierda": [
+      "Condicionamiento Clásico",
+      "Condicionamiento Operante",
+      "Extinción Operante",
+      "Estímulo Incondicionado (EI)"
+    ],
+    "columnaDerecha": [
+      "Se suspende la consecuencia de la conducta",
+      "Respuesta elicitada por antecedente",
+      "Análogo al reforzador en CO",
+      "Respuesta emitida y seleccionada"
+    ],
+    "paresCorrectos": {
+      "Condicionamiento Clásico": "Respuesta elicitada por antecedente",
+      "Condicionamiento Operante": "Respuesta emitida y seleccionada",
+      "Extinción Operante": "Se suspende la consecuencia de la conducta",
+      "Estímulo Incondicionado (EI)": "Análogo al reforzador en CO"
+    },
+    "retroalimentacion": {
+      "correcta": "Dominar estos pares es vital para no confundir condicionamiento pavloviano con instrumental.",
+      "incorrecta": "Recuerda: Elicitado = Reflejo; Emitido = Operante.",
+      "pista": "Operante opera, Clásico asocia."
+    }
+  },
+  {
+    "id": "3-4",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar",
+    "titulo": "Definición técnica de la contingencia operante",
+    "pregunta": "Completa la definición técnica de la contingencia operante:",
+    "textoBase": "En presencia de un ___, una ___ va seguida de una ___. Esta relación funcional altera la ___ de que dicha conducta se repita bajo condiciones similares en el futuro.",
+    "gaps": [
+      {
+        "id": "gap1",
+        "opciones": ["Ed", "EI"],
+        "correcta": "Ed"
+      },
+      {
+        "id": "gap2",
+        "opciones": ["respuesta", "emoción"],
+        "correcta": "respuesta"
+      },
+      {
+        "id": "gap3",
+        "opciones": ["consecuencia", "explicación"],
+        "correcta": "consecuencia"
+      },
+      {
+        "id": "gap4",
+        "opciones": ["probabilidad", "topografía"],
+        "correcta": "probabilidad"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Esta es la base del análisis funcional de la conducta.",
+      "incorrecta": "Revisa los términos. El CO siempre busca explicar cambios en la probabilidad futura.",
+      "pista": "Ed-R-C y probabilidad."
+    }
+  },
+  {
+    "id": "3-5",
+    "tipo": "MC",
+    "tipoLabel": "Análisis de caso",
+    "titulo": "Identificar la contingencia triple",
+    "pregunta": "Caso: Alicia escucha una notificación en su móvil, lo revisa y encuentra un mensaje de su pareja que le alegra el día. Identifica los términos de la contingencia:",
+    "opciones": [
+      "Ed: Alegría / R: Revisar móvil / C: Notificación",
+      "Ed: Sonido de notificación / R: Revisar móvil / C: Leer el mensaje",
+      "Ed: Pareja / R: Notificación / C: Revisar móvil",
+      "Ed: Revisar móvil / R: Notificación / C: Alegría"
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "El sonido de la notificación funciona como Ed (señala disponibilidad), revisarlo es la R y el mensaje es la consecuencia reforzante que mantiene el ciclo.",
+      "incorrecta": "Identificar incorrectamente los términos impide realizar un análisis funcional preciso del mantenimiento de la conducta.",
+      "pista": "El Ed siempre es lo que sucede justo ANTES de la conducta y señala un posible resultado."
+    }
+  },
+  {
+    "id": "3-6",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Respondente vs. Operante",
+    "pregunta": "Clasifica las siguientes conductas:",
+    "items": [
+      "Salivar ante el olor a comida",
+      "Pedir un vaso de agua",
+      "Retirar la mano de un fogón caliente",
+      "Estudiar para un examen",
+      "Parpadear ante una ráfaga de aire",
+      "Contar un chiste para hacer reír"
+    ],
+    "zonas": ["Respondente (Refleja)", "Operante (Emitida)"],
+    "correctMap": {
+      "Salivar ante el olor a comida": "Respondente (Refleja)",
+      "Pedir un vaso de agua": "Operante (Emitida)",
+      "Retirar la mano de un fogón caliente": "Respondente (Refleja)",
+      "Estudiar para un examen": "Operante (Emitida)",
+      "Parpadear ante una ráfaga de aire": "Respondente (Refleja)",
+      "Contar un chiste para hacer reír": "Operante (Emitida)"
+    },
+    "retroalimentacion": {
+      "correcta": "Las respondentes son biológicas y automáticas; las operantes son aprendidas y funcionales.",
+      "incorrecta": "Si la conducta 'consigue algo' del medio, es operante. Si ocurre sola 'hacia adentro', suele ser respondente.",
+      "pista": "¿Produce un efecto en el mundo?"
+    }
+  },
+  {
+    "id": "3-7",
+    "tipo": "MC",
+    "tipoLabel": "Opción múltiple",
+    "titulo": "Probabilidad de respuesta como variable dependiente",
+    "pregunta": "¿Qué significa que la \"probabilidad de respuesta\" sea la variable dependiente en CO?",
+    "opciones": [
+      "Que el sujeto elige libremente cuándo actuar según su azar.",
+      "Que la conducta es impredecible por naturaleza humana.",
+      "Que medimos la intensidad muscular de cada respuesta.",
+      "Que la frecuencia de la conducta nos indica la fuerza de la relación funcional con sus consecuencias."
+    ],
+    "respuestaCorrecta": 3,
+    "retroalimentacion": {
+      "correcta": "En el análisis de conducta, la probabilidad de emisión es el dato empírico que nos permite hablar de la 'fuerza' de una operante.",
+      "incorrecta": "No se trata de azar o subjetividad, sino de una medida estadística del control ambiental sobre el organismo.",
+      "pista": "Si un animal presiona una palanca 100 veces por hora, esa alta tasa refleja una alta probabilidad."
+    }
+  },
+  {
+    "id": "3-8",
+    "tipo": "VerdaderoFalso",
+    "tipoLabel": "Verdadero o Falso",
+    "titulo": "Función vs. Topografía",
+    "afirmacion": "\"La conducta operante se define principalmente por su forma física o topografía (cómo se ve), más que por la función que cumple en el ambiente.\"",
+    "respuestaCorrecta": false,
+    "justificacionOpciones": [
+      "Porque la topografía es lo único que el conductismo puede medir científicamente.",
+      "Porque una clase operante agrupa conductas que, aunque se vean distintas, producen el mismo efecto ambiental."
+    ],
+    "justificacionCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Definimos las operantes por su función. Por ejemplo, 'pedir ayuda' es una operante que puede ejecutarse gritando, escribiendo o haciendo señas.",
+      "incorrecta": "Si nos limitamos a la topografía, perderíamos de vista que diferentes formas físicas pueden servir al mismo propósito ambiental.",
+      "pista": "Piensa en el concepto de 'clase de respuesta'.",
+      "explicacionVF": "Es falso. La topografía es engañosa; solo la función nos dice qué es realmente la conducta."
+    }
+  }
+]

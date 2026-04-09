@@ -1,1 +1,151 @@
-{}
+[
+  {
+    "id": "3-9",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Procedimientos operantes",
+    "pregunta": "Clasifica estos procedimientos operantes:",
+    "items": [
+      "Un niño recibe un dulce tras recoger sus juguetes (la conducta de recoger aumenta).",
+      "Un conductor paga una multa por exceso de velocidad (la conducta de correr disminuye).",
+      "Cerrar la ventana para que deje de entrar ruido molesto (la conducta de cerrar aumenta).",
+      "Quitarle los videojuegos a un adolescente por insultar (la conducta de insultar disminuye)."
+    ],
+    "zonas": ["R+", "R-", "C+", "C-"],
+    "correctMap": {
+      "Un niño recibe un dulce tras recoger sus juguetes (la conducta de recoger aumenta).": "R+",
+      "Un conductor paga una multa por exceso de velocidad (la conducta de correr disminuye).": "C+",
+      "Cerrar la ventana para que deje de entrar ruido molesto (la conducta de cerrar aumenta).": "R-",
+      "Quitarle los videojuegos a un adolescente por insultar (la conducta de insultar disminuye).": "C-"
+    },
+    "retroalimentacion": {
+      "correcta": "Has identificado correctamente cómo el ambiente suma o resta estímulos para controlar la tasa de conducta.",
+      "incorrecta": "Revisa si el estímulo se añade o se retira tras la acción.",
+      "pista": "Sigue la lógica del cuadro de doble entrada."
+    }
+  },
+  {
+    "id": "3-10",
+    "tipo": "MC",
+    "tipoLabel": "Análisis de caso",
+    "titulo": "Fobia social y uso del móvil",
+    "pregunta": "Un paciente con fobia social utiliza el móvil constantemente en reuniones para no tener que interactuar con otros. Esto reduce su ansiedad de inmediato. ¿Qué procedimiento mantiene el uso del móvil?",
+    "opciones": [
+      "Reforzamiento Positivo (obtiene información del móvil).",
+      "Reforzamiento Negativo (escapa/evita el contacto social aversivo).",
+      "Castigo Negativo (pierde la oportunidad de socializar).",
+      "Extinción (la interacción social no produce efectos)."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Al usar el móvil, el paciente logra 'escapar' de la situación social aversiva. La desaparición de la ansiedad es un reforzador negativo potente.",
+      "incorrecta": "Aunque pueda ver fotos (R+), funcionalmente lo que mantiene la conducta de aislamiento es la eliminación del malestar.",
+      "pista": "Si una conducta quita algo que duele o molesta, es Reforzamiento Negativo."
+    }
+  },
+  {
+    "id": "3-11",
+    "tipo": "MC",
+    "tipoLabel": "Comparación funcional",
+    "titulo": "Castigo Positivo vs. Castigo Negativo",
+    "pregunta": "Compara funcionalmente estos dos escenarios:\nA: Un jefe le grita a un empleado por llegar tarde.\nB: Un jefe le quita el bono de puntualidad por llegar tarde.",
+    "opciones": [
+      "A es R- y B es C-.",
+      "Ambos son castigos negativos porque el empleado se siente mal.",
+      "A es Castigo Positivo (suma aversivo) y B es Castigo Negativo (resta apetitivo).",
+      "No hay diferencia funcional, ambos buscan disminuir la conducta."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "La diferencia es la operación: gritar añade un estímulo aversivo (+), mientras que quitar dinero retira un estímulo apetitivo (-).",
+      "incorrecta": "Aunque el resultado final (disminuir conducta) sea el mismo, las consecuencias colaterales y la naturaleza de la intervención son distintas.",
+      "pista": "Fíjate si el jefe 'da' algo malo o 'quita' algo bueno."
+    }
+  },
+  {
+    "id": "3-12",
+    "tipo": "Ordenamiento",
+    "tipoLabel": "Ordenar secuencia",
+    "titulo": "Secuencia de evitación",
+    "pregunta": "Ordena los elementos de una secuencia de EVITACIÓN:",
+    "items": [
+      "Se previene la aparición del estímulo aversivo",
+      "Aparece una señal de aviso (Ed)",
+      "Se emite la conducta de evitación"
+    ],
+    "ordenCorrecto": ["Aparece una señal de aviso (Ed)", "Se emite la conducta de evitación", "Se previene la aparición del estímulo aversivo"],
+    "retroalimentacion": {
+      "correcta": "Primero la señal (Ed), luego la acción que impide el malestar, y finalmente el resultado de que el malestar no ocurre.",
+      "incorrecta": "Si el malestar ya ocurrió, sería una secuencia de escape, no de evitación.",
+      "pista": "La evitación es preventiva."
+    }
+  },
+  {
+    "id": "3-13",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar",
+    "titulo": "Principios de cambio conductual",
+    "pregunta": "Completa los principios de cambio conductual:",
+    "textoBase": "El reforzamiento ___ implica retirar un estímulo desagradable para que la conducta ___. En cambio, en la ___ operante, la conducta deja de ocurrir porque ya no es seguida por su consecuencia reforzante.",
+    "gaps": [
+      {
+        "id": "gap1",
+        "opciones": ["negativo", "positivo"],
+        "correcta": "negativo"
+      },
+      {
+        "id": "gap2",
+        "opciones": ["aumente", "disminuya"],
+        "correcta": "aumente"
+      },
+      {
+        "id": "gap3",
+        "opciones": ["extinción", "evitación"],
+        "correcta": "extinción"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Dominar la terminología de sumar (+) y restar (-) es el paso 1 del analista.",
+      "incorrecta": "Si la conducta disminuye, no puede ser reforzamiento.",
+      "pista": "Negativo = Quitar."
+    }
+  },
+  {
+    "id": "3-14",
+    "tipo": "MC",
+    "tipoLabel": "Refutación técnica",
+    "titulo": "Reforzamiento negativo ≠ castigo",
+    "pregunta": "Refutación: Un colega te dice que el \"reforzamiento negativo\" es cuando castigas a alguien por portarse mal. ¿Cuál es la refutación técnica correcta?",
+    "opciones": [
+      "\"No, eso es castigo negativo porque le quitas algo que le gusta.\"",
+      "\"Error. El reforzamiento negativo siempre aumenta la conducta mediante la eliminación de un aversivo.\"",
+      "\"En realidad, reforzamiento negativo es cuando ignoras la conducta para que se extinga.\"",
+      "\"Sí, pero solo si el castigo es físico.\""
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "El término 'reforzamiento' siempre indica un aumento en la probabilidad de la conducta, sea por sumar algo bueno o quitar algo malo.",
+      "incorrecta": "Confundir el reforzamiento negativo con el castigo es el error más común en la psicología no especializada.",
+      "pista": "Reforzar = Fortalecer."
+    }
+  },
+  {
+    "id": "3-15",
+    "tipo": "MC",
+    "tipoLabel": "Caso complejo",
+    "titulo": "Trampa de reforzamiento",
+    "pregunta": "Caso Complejo: Un niño llora en el supermercado porque quiere un dulce (R+). La madre, para que el niño deje de gritar y no pasar vergüenza, le compra el dulce. ¿Qué proceso operante está manteniendo la conducta de la madre?",
+    "opciones": [
+      "Reforzamiento Positivo (obtiene un niño feliz).",
+      "Castigo Positivo (el niño le grita).",
+      "Reforzamiento Negativo (escape de los gritos y la vergüenza).",
+      "Extinción (ignora los gritos)."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Para la madre, comprar el dulce es reforzado negativamente porque termina con el estímulo aversivo (los gritos del niño).",
+      "incorrecta": "Este es un ejemplo de trampa de reforzamiento: el niño es reforzado positivamente y la madre negativamente.",
+      "pista": "¿Qué 'gana' la madre al comprar el dulce? El silencio."
+    }
+  }
+]
