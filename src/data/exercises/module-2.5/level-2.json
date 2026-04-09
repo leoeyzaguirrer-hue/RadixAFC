@@ -1,0 +1,12 @@
+{
+  "moduloId": "2.5",
+  "nivelId": 2,
+  "ejercicios": [
+    { "id": "m2.5_n2_e1", "posicion": 1, "tipo": "1_MC", "nombre": "Tipos de Registro", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m2.5_n2_e2", "posicion": 2, "tipo": "2_Matching", "nombre": "Método-Ejemplo", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m2.5_n2_e3", "posicion": 3, "tipo": "5_CaseAnalysis_MC", "nombre": "Elegir Método de Registro para un Caso", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m2.5_n2_e4", "posicion": 4, "tipo": "4_Cloze", "nombre": "Autoobservación de Conducta Encubierta", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m2.5_n2_e5", "posicion": 5, "tipo": "10_Comparacion_MC", "nombre": "Registro de Frecuencia vs Duración", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m2.5_n2_e6", "posicion": 6, "tipo": "1_MC", "nombre": "Fiabilidad de la Observación", "descripcion": "", "pistas": ["", "", ""] }
+  ]
+}

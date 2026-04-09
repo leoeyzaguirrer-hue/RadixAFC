@@ -1,0 +1,11 @@
+{
+  "moduloId": 3,
+  "nivelId": 3,
+  "ejercicios": [
+    { "id": "m3_n3_e1", "posicion": 1, "tipo": "9_ConstructionAnalysis_IA", "nombre": "Construir Contingencia Completa", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n3_e2", "posicion": 2, "tipo": "5_CaseAnalysis_MC", "nombre": "¿Qué Mantiene esta Conducta?", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n3_e3", "posicion": 3, "tipo": "10_Comparacion_MC", "nombre": "Extinción CC vs Extinción CO", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n3_e4", "posicion": 4, "tipo": "11_DilemmaClinico_MC", "nombre": "Intervención Operante Básica", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n3_e5", "posicion": 5, "tipo": "3_Ordenamiento", "nombre": "Pasos del Moldeamiento", "descripcion": "", "pistas": ["", "", ""] }
+  ]
+}

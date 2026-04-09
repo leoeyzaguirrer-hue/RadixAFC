@@ -1,0 +1,16 @@
+{
+  "moduloId": 9,
+  "nivelId": 2,
+  "titulo": "Transformación de Funciones y Redes Relacionales",
+  "preguntaCentral": "",
+  "secciones": [
+    { "tipo": "introduccion", "contenido": "" },
+    { "tipo": "desarrollo", "subtitulo": "", "contenido": "" },
+    { "tipo": "ejemplo_cotidiano", "titulo": "", "contenido": "" },
+    { "tipo": "ejemplo_clinico", "titulo": "", "contenido": "" },
+    { "tipo": "diagrama", "titulo": "", "descripcion": "", "tipo_diagrama": "" },
+    { "tipo": "errores_comunes", "errores": [{ "error": "", "correccion": "" }] },
+    { "tipo": "conexion_clinica", "contenido": "" }
+  ],
+  "referencias": []
+}

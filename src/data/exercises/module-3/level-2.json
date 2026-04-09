@@ -1,0 +1,13 @@
+{
+  "moduloId": 3,
+  "nivelId": 2,
+  "ejercicios": [
+    { "id": "m3_n2_e1", "posicion": 1, "tipo": "6_Clasificacion", "nombre": "Los 4 Procedimientos", "descripcion": "Clasificar ejemplos en R+, R-, C+, C-", "pistas": ["", "", ""] },
+    { "id": "m3_n2_e2", "posicion": 2, "tipo": "5_CaseAnalysis_MC", "nombre": "¿R+ o R-?", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n2_e3", "posicion": 3, "tipo": "10_Comparacion_MC", "nombre": "Castigo Positivo vs Negativo", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n2_e4", "posicion": 4, "tipo": "3_Ordenamiento", "nombre": "Secuencia de Escape vs Evitación", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n2_e5", "posicion": 5, "tipo": "4_Cloze", "nombre": "Definiciones de los 4 Procedimientos", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n2_e6", "posicion": 6, "tipo": "15_Refutacion_MC", "nombre": "Positivo ≠ Bueno, Negativo ≠ Malo", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m3_n2_e7", "posicion": 7, "tipo": "5_CaseAnalysis_MC", "nombre": "Caso Clínico con Múltiples Procedimientos", "descripcion": "", "pistas": ["", "", ""] }
+  ]
+}

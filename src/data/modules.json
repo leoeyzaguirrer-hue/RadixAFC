@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "titulo": "Filosofía y Fundamentos Conductuales",
+    "preguntaCentral": "¿Por qué una ciencia de la conducta y no de la mente?",
+    "totalEjercicios": 20,
+    "ordenDesbloqueo": 1,
+    "patron": "8-7-5",
+    "esMinModulo": false
+  },
+  {
+    "id": 2,
+    "titulo": "Condicionamiento Clásico",
+    "preguntaCentral": "¿Cómo aprende un organismo a responder a nuevos estímulos?",
+    "totalEjercicios": 20,
+    "ordenDesbloqueo": 2,
+    "patron": "8-7-5",
+    "esMinModulo": false
+  },
+  {
+    "id": "2.5",
+    "titulo": "Operacionalización de la Conducta",
+    "preguntaCentral": "¿Cómo definir conducta en términos observables, medibles y funcionales?",
+    "totalEjercicios": 17,
+    "ordenDesbloqueo": 3,
+    "patron": "7-6-4",
+    "esMinModulo": true
+  },
+  {
+    "id": 3,
+    "titulo": "Condicionamiento Operante Básico",
+    "preguntaCentral": "¿Cómo las consecuencias moldean la conducta?",
+    "totalEjercicios": 20,
+    "ordenDesbloqueo": 4,
+    "patron": "8-7-5",
+    "esMinModulo": false
+  },
+  {
+    "id": 4,
+    "titulo": "Condicionamiento Operante Avanzado",
+    "preguntaCentral": "¿Qué variables complejas modulan la relación operante?",
+    "totalEjercicios": 20,
+    "ordenDesbloqueo": 5,
+    "patron": "8-7-5",
+    "esMinModulo": false
+  },
+  {
+    "id": 5,
+    "titulo": "Control de Estímulos y Discriminación",
+    "preguntaCentral": "¿Por qué una conducta ocurre en un contexto y no en otro?",
+    "totalEjercicios": 18,
+    "ordenDesbloqueo": 6,
+    "patron": "7-6-5",
+    "esMinModulo": false
+  },
+  {
+    "id": 6,
+    "titulo": "Programas de Reforzamiento",
+    "preguntaCentral": "¿Cómo afecta el patrón de entrega del reforzador a la conducta?",
+    "totalEjercicios": 18,
+    "ordenDesbloqueo": 7,
+    "patron": "7-6-5",
+    "esMinModulo": false
+  },
+  {
+    "id": 7,
+    "titulo": "Conducta Verbal (Skinner)",
+    "preguntaCentral": "¿Cómo analiza el conductismo radical el lenguaje humano?",
+    "totalEjercicios": 18,
+    "ordenDesbloqueo": 8,
+    "patron": "7-6-5",
+    "esMinModulo": false
+  },
+  {
+    "id": 8,
+    "titulo": "Análisis Funcional Clínico: El Modelo Completo",
+    "preguntaCentral": "¿Cómo se realiza un análisis funcional completo de un caso clínico?",
+    "totalEjercicios": 17,
+    "ordenDesbloqueo": 9,
+    "patron": "7-6-4",
+    "esMinModulo": false
+  },
+  {
+    "id": 9,
+    "titulo": "RFT: Teoría del Marco Relacional (Introducción)",
+    "preguntaCentral": "¿Cómo el lenguaje transforma la función de los estímulos?",
+    "totalEjercicios": 17,
+    "ordenDesbloqueo": 10,
+    "patron": "7-6-4",
+    "esMinModulo": false
+  },
+  {
+    "id": 10,
+    "titulo": "Rigidez Psicológica y Evitación Experiencial",
+    "preguntaCentral": "¿Qué mantiene el sufrimiento psicológico desde una perspectiva funcional?",
+    "totalEjercicios": 15,
+    "ordenDesbloqueo": 11,
+    "patron": "6-5-4",
+    "esMinModulo": false
+  },
+  {
+    "id": 11,
+    "titulo": "ACT: Terapia de Aceptación y Compromiso (sin RFT profunda)",
+    "preguntaCentral": "¿Cómo promover flexibilidad psicológica desde el análisis funcional?",
+    "totalEjercicios": 15,
+    "ordenDesbloqueo": 12,
+    "patron": "6-5-4",
+    "esMinModulo": false
+  },
+  {
+    "id": 12,
+    "titulo": "ACT con RFT: Análisis Funcional Verbal Profundo",
+    "preguntaCentral": "¿Cómo la RFT explica los mecanismos de cambio en ACT?",
+    "totalEjercicios": 15,
+    "ordenDesbloqueo": 13,
+    "patron": "6-5-4",
+    "esMinModulo": false
+  },
+  {
+    "id": 13,
+    "titulo": "Diseño de Intervenciones Reales",
+    "preguntaCentral": "¿Cómo traducir un análisis funcional completo en un plan terapéutico eficaz?",
+    "totalEjercicios": 15,
+    "ordenDesbloqueo": 14,
+    "patron": "6-5-4",
+    "esMinModulo": false
+  }
+]

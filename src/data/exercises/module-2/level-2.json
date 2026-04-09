@@ -1,0 +1,13 @@
+{
+  "moduloId": 2,
+  "nivelId": 2,
+  "ejercicios": [
+    { "id": "m2_n2_e1", "posicion": 1, "tipo": "1_MC", "nombre": "Extinción: ¿Qué es realmente?", "descripcion": "Identificar que la extinción es un nuevo aprendizaje", "pistas": ["", "", ""] },
+    { "id": "m2_n2_e2", "posicion": 2, "tipo": "3_Ordenamiento", "nombre": "Secuencia de Extinción y Recuperación", "descripcion": "Ordenar: condicionamiento → extinción → descanso → recuperación espontánea", "pistas": ["", "", ""] },
+    { "id": "m2_n2_e3", "posicion": 3, "tipo": "5_CaseAnalysis_MC", "nombre": "Generalización en Clínica", "descripcion": "Caso: niño que teme a todos los perros tras mordedura de uno", "pistas": ["", "", ""] },
+    { "id": "m2_n2_e4", "posicion": 4, "tipo": "10_Comparacion_MC", "nombre": "Bloqueo vs Ensombrecimiento", "descripcion": "Comparar dos fenómenos de competencia entre estímulos", "pistas": ["", "", ""] },
+    { "id": "m2_n2_e5", "posicion": 5, "tipo": "2_Matching", "nombre": "Procesos del CC", "descripcion": "Emparejar cada proceso con su definición", "pistas": ["", "", ""] },
+    { "id": "m2_n2_e6", "posicion": 6, "tipo": "4_Cloze", "nombre": "Validez Relativa de Rescorla", "descripcion": "Completar la explicación de por qué atendemos más al EC que mejor predice al EI", "pistas": ["", "", ""] },
+    { "id": "m2_n2_e7", "posicion": 7, "tipo": "15_Refutacion_MC", "nombre": "Contra Mitos del CC", "descripcion": "Refutar: 'el CC solo produce respuestas simples y automáticas'", "pistas": ["", "", ""] }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "moduloId": 4,
+  "nivelId": 2,
+  "ejercicios": [
+    { "id": "m4_n2_e1", "posicion": 1, "tipo": "3_Ordenamiento", "nombre": "Cadena Conductual Completa", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n2_e2", "posicion": 2, "tipo": "5_CaseAnalysis_MC", "nombre": "R como E para la Siguiente Conducta", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n2_e3", "posicion": 3, "tipo": "10_Comparacion_MC", "nombre": "Conducta Moldeada vs Gobernada por Reglas", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n2_e4", "posicion": 4, "tipo": "6_Clasificacion", "nombre": "Pliance, Tracking o Augmenting", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n2_e5", "posicion": 5, "tipo": "1_MC", "nombre": "¿Por Qué las Reglas Pueden Ser Problemáticas?", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n2_e6", "posicion": 6, "tipo": "4_Cloze", "nombre": "Insensibilidad a las Contingencias", "descripcion": "", "pistas": ["", "", ""] },
+    { "id": "m4_n2_e7", "posicion": 7, "tipo": "2_Matching", "nombre": "Tipo de Regla-Ejemplo Clínico", "descripcion": "", "pistas": ["", "", ""] }
+  ]
+}
