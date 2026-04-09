@@ -1,16 +1,1 @@
-{
-  "moduloId": 12,
-  "nivelId": 1,
-  "titulo": "Análisis Funcional Verbal y Drill-Down",
-  "preguntaCentral": "",
-  "secciones": [
-    { "tipo": "introduccion", "contenido": "" },
-    { "tipo": "desarrollo", "subtitulo": "", "contenido": "" },
-    { "tipo": "ejemplo_cotidiano", "titulo": "", "contenido": "" },
-    { "tipo": "ejemplo_clinico", "titulo": "", "contenido": "" },
-    { "tipo": "diagrama", "titulo": "", "descripcion": "", "tipo_diagrama": "" },
-    { "tipo": "errores_comunes", "errores": [{ "error": "", "correccion": "" }] },
-    { "tipo": "conexion_clinica", "contenido": "" }
-  ],
-  "referencias": []
-}
+{}
