@@ -1,1 +1,43 @@
-{}
+{
+  "titulo": "Control de Estímulos en el AF Clínico",
+  "preguntaCentral": "¿Cómo aplicamos rigurosamente el control de estímulos —incluyendo eventos encubiertos y dobles funciones— al análisis funcional de casos clínicos complejos?",
+  "aprobacionRequerida": 80,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Precisión analítica en el contexto clínico",
+      "contenido": "La aplicación rigurosa de los principios de condicionamiento operante nos exige evaluar con precisión el rol del contexto clínico. Los análisis funcionales deben discriminar bajo qué contingencias exactas ocurren las problemáticas."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Eventos Encubiertos como Ed",
+      "contenido": "Coherente con la postura del conductismo radical, las respuestas encubiertas (pensamientos, respuestas emocionales privadas) son conductas en sí mismas, pero en una secuencia comportamental compleja, pueden actuar como estímulos antecedentes (Ed o EΔ) para la emisión de respuestas operantes subsiguientes. Por ejemplo, la percepción propioceptiva de taquicardia puede funcionar como Ed para una conducta de escape (abandonar la habitación)."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Doble Función: EC y Ed Simultáneamente",
+      "contenido": "La delimitación precisa en el Análisis Funcional requiere reconocer que un mismo evento ambiental físico puede ostentar doble función paramétrica. Un estímulo puede funcionar simultáneamente como Estímulo Condicionado (EC) —elicitando una respuesta de ansiedad fisiológica vía condicionamiento clásico— y como Estímulo Discriminativo (Ed) —señalando que la operante de evitación cancelará el estímulo aversivo vía reforzamiento negativo."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Integración con el modelo bifactorial",
+      "contenido": "El modelo bifactorial de Mowrer (revisado en el Módulo 4) integra intrínsecamente este control de estímulos: el EC elicita la respuesta condicionada de miedo, y funciona paralelamente como Ed para la respuesta de evitación que será mantenida por el cese del propio EC."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Implicaciones de Intervención",
+      "contenido": "La manipulación de variables bajo control de estímulos en el plan de intervención clínica abarca intervenciones de primera línea: la modificación topográfica del Ed (alterando el contexto para prevenir el control de la conducta problema), el establecimiento de un nuevo repertorio ante Ed mediante moldeamiento, o la desensibilización/extinción de funciones respondentes para reducir la valencia aversiva que provee la contingencia de refuerzo negativo a las operantes de escape."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Gutiérrez Domínguez, T. et al. Procesos Psicológicos Básicos: Un Análisis Funcional.",
+        "Kazdin, A. Historia de la Modificación de Conducta.",
+        "Segura, M., Sánchez, P., Barbado, P. Análisis Funcional: Un Modelo Explicativo.",
+        "Skinner, B.F. Ciencia y Conducta Humana.",
+        "Sidman, M. Equivalence Relations and Behavior: A Research Story.",
+        "Terrace, H. S. Errorless Discrimination Learning in the Pigeon."
+      ]
+    }
+  ]
+}

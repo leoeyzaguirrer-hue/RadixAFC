@@ -1,1 +1,97 @@
-{}
+[
+  {
+    "id": "5-14",
+    "tipo": "MC",
+    "tipoLabel": "Especificidad analítica",
+    "titulo": "Especificar el Ed clínico",
+    "pregunta": "Sofía reporta sufrir \"ataques de ansiedad incontrolables de la nada\". El rastreo conductual evidencia que los episodios ocurren exclusivamente en reuniones laborales de formato circular, con más de 5 personas, al momento de requerirse la toma de decisiones grupales. Identificar con especificidad el Ed altera fundamentalmente el AF porque:",
+    "opciones": [
+      "Demuestra que la paciente miente sobre la intensidad del ataque.",
+      "Desmiente el factor ambiental, señalando una falla biológica endógena.",
+      "Permite diseñar una intervención basada en la exposición a la configuración específica de ese control de estímulos y no a variables irrelevantes.",
+      "Valida la utilización de constructos de procesamiento para explicar el miedo."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Especificar el Ed con precisión orienta toda la intervención: solo intervienes sobre lo que efectivamente controla la conducta.",
+      "incorrecta": "El objetivo del AF no es invalidar al paciente ni postular causas internas, sino delimitar variables manipulables.",
+      "pista": "¿Para qué sirve identificar bien el antecedente, en términos de tratamiento?"
+    }
+  },
+  {
+    "id": "5-15",
+    "tipo": "MC",
+    "tipoLabel": "Doble función",
+    "titulo": "EC y Ed simultáneamente",
+    "pregunta": "¿Por qué es imperativo que el clínico analice situaciones donde un mismo estímulo ambiental funciona simultáneamente como EC y Ed?",
+    "opciones": [
+      "Para desvincular el condicionamiento clásico de la práctica clínica operante.",
+      "Porque en tal caso el mismo elemento sostiene tanto una respuesta fisiológica condicionada (CC) como una operante mantenida por consecuencias (CO), requiriendo intervención sobre ambas vías de condicionamiento.",
+      "Para demostrar que el reforzamiento positivo es superior a la extinción respondente.",
+      "Porque anula la efectividad técnica del análisis de contingencias directas."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "El modelo bifactorial de Mowrer exige intervenir sobre ambas vías: la respuesta condicionada y la operante de evitación que la cancela.",
+      "incorrecta": "Las vías clásica y operante coexisten en muchos cuadros clínicos; la intervención eficaz aborda ambas.",
+      "pista": "Recuerda el modelo bifactorial: Factor 1 (CC) + Factor 2 (CO)."
+    }
+  },
+  {
+    "id": "5-16",
+    "tipo": "MC",
+    "tipoLabel": "Diagnóstico funcional diferencial",
+    "titulo": "Topografía vs función en el AF",
+    "pregunta": "Caso A: Luis siente malestar en el trabajo por exigencia métrica y delega (R-) para evitar fallar. Caso B: María siente malestar en la misma oficina, pero solo porque está presente su ex-pareja y se aísla (R-). Aunque topográficamente presentan \"aislamiento laboral\", sus planes de tratamiento divergirán primordialmente debido a:",
+    "opciones": [
+      "Las funciones analíticas del control de estímulos discriminativos (métrica de éxito vs. estímulo social aversivo).",
+      "El número de cadenas de respuestas presentes.",
+      "La incapacidad de Luis de generalizar su evitación en otras áreas de vida.",
+      "Ninguna diferencia; ambos casos requieren reforzamiento positivo genérico y generalizado."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "Misma topografía, distintos Ed y distintas funciones: requieren intervenciones distintas dirigidas al control de estímulos específico.",
+      "incorrecta": "Lo que diferencia los casos no es la cadena ni la generalización, sino el Ed específico que controla el aislamiento.",
+      "pista": "Pregunta funcional: ¿qué antecedente diferente está controlando cada caso?"
+    }
+  },
+  {
+    "id": "5-17",
+    "tipo": "MC",
+    "tipoLabel": "Dilema de intervención",
+    "titulo": "Modificar antecedente vs extinción",
+    "pregunta": "En el diseño de la intervención para una conducta operante clínica, ¿es metodológicamente más eficiente modificar la exposición al estímulo antecedente (Ed) o aplicar estrictamente un proceso de extinción alterando la contingencia?",
+    "opciones": [
+      "Siempre aplicar extinción sobre las consecuencias; manipular el contexto antecedente es ineficaz a largo plazo.",
+      "Depende de las variables de control y la gravedad del caso; manipular el antecedente previene la evocación de la conducta disminuyendo el desgaste temporal, mientras que extinguir la consecuencia altera el mantenimiento a mediano plazo.",
+      "Siempre es mejor manipular el antecedente, la extinción es teórica pero inaplicable.",
+      "Se debe aplicar simultáneamente extinción clásica y operante sin evaluación contextual."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Las dos estrategias atacan momentos distintos de la contingencia y son complementarias según el caso.",
+      "incorrecta": "Ni extinción exclusiva ni manipulación exclusiva del antecedente son universalmente superiores; la decisión es funcional.",
+      "pista": "Manipular el Ed previene la evocación; extinguir altera el mantenimiento. Ambas son útiles."
+    }
+  },
+  {
+    "id": "5-18",
+    "tipo": "MC",
+    "tipoLabel": "Integración avanzada",
+    "titulo": "Ed, cadenas y equivalencia",
+    "pregunta": "Un paciente con TEPT ha establecido una clase de equivalencia derivada entre la palabra \"Peligro\", una fecha en el calendario y estímulos propioceptivos. La visualización de la fecha (Ed) inicia una secuencia rígida de evitación motora donde cada paso refuerza al anterior. ¿Qué fenómenos interrelacionan este patrón conductual?",
+    "opciones": [
+      "Extinción operante secundaria y moldeamiento inverso.",
+      "Discriminación intradimensional simple sin factores operantes de segundo orden.",
+      "Relaciones de estímulos derivadas operando como Ed, encadenamiento de respuestas y contingencias de reforzamiento negativo.",
+      "Bloqueo y ensombrecimiento de respuestas condicionales simples."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "El cuadro integra equivalencia (relaciones derivadas), encadenamiento conductual y reforzamiento negativo (evitación).",
+      "incorrecta": "El caso no es una discriminación simple ni extinción/bloqueo: implica relaciones derivadas + cadenas + R-.",
+      "pista": "Fíjate en las tres palabras clave: clase de equivalencia, secuencia rígida, evitación."
+    }
+  }
+]
