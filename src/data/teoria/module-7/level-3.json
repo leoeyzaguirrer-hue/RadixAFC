@@ -1,1 +1,42 @@
-{}
+{
+  "titulo": "Conducta Verbal en el Análisis Funcional Clínico",
+  "preguntaCentral": "¿Cómo analizamos funcionalmente lo que el paciente dice en sesión, y por qué su discurso no es una ventana transparente a su \"mundo interno\"?",
+  "aprobacionRequerida": 80,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "El habla en sesión es conducta",
+      "contenido": "En el Análisis Funcional Clínico, lo que el paciente DICE en sesión no es simplemente una ventana transparente y neutral hacia su experiencia interna. El discurso del paciente es conducta verbal que está ocurriendo en el aquí y el ahora, y está sujeta a las contingencias de la interacción terapéutica.\n\nComo terapeutas, constantemente debemos preguntarnos: ¿Qué función cumple lo que el paciente está diciendo en este momento? ¿Me está tactando un evento privado (\"Siento taquicardia\")? ¿Está emitiendo un mando de reaseguramiento (\"¿Tú crees que me estoy volviendo loco?\")? ¿Es un intraverbal automático de su historia (\"Yo soy así, no hay arreglo\")?"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Lo que dice vs. lo que hace",
+      "contenido": "A menudo encontramos discrepancias entre la conducta verbal y la conducta no verbal. Un paciente puede decir vehementemente en sesión \"Quiero cambiar, estoy listo para hacer las tareas\" (mando de aprobación social del terapeuta), mientras que en la semana no realiza ninguna tarea expuesta (conducta de evitación bajo control de Ed aversivos). Esto no significa que el paciente \"mienta\" deliberadamente; significa que su conducta verbal y su conducta motora en el entorno natural están controladas por contingencias diferentes."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "La conducta verbal encubierta como objeto de análisis",
+      "contenido": "Los \"pensamientos automáticos\" problemáticos son simplemente cadenas de conducta verbal privada. Como toda conducta, tienen antecedentes y consecuentes en el contexto de la persona.\n\nSi el paciente reporta: \"Me viene el pensamiento de que soy un fracaso absoluto\", la pregunta no es si ese pensamiento es ontológicamente verdadero o falso. Las preguntas funcionales son: ¿Qué antecedentes físicos, fisiológicos o verbales disparan ese intraverbal? ¿Qué ocurre después? Quizás ese pensamiento funciona como un Ed para conductas de evitación (quedarse en cama), las cuales se refuerzan negativamente a corto plazo, manteniendo todo el ciclo."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Reglas verbales e insensibilidad",
+      "contenido": "Como se vio en el módulo de reglas y contingencias, la conducta humana puede estar gobernada por reglas (pliance, tracking, augmenting). Las reglas son formulaciones verbales (autoclíticos, intraverbales, mandos y tactos combinados) que alteran la función de los estímulos.\n\nUn paciente que se repite la regla verbal \"Si no soy perfecto, no valgo nada\", se comportará bajo el control de esa instrucción, incluso si el ambiente natural le proporciona reforzadores por un trabajo \"suficientemente bueno\". Esta insensibilidad a las contingencias mediada verbalmente es central en el mantenimiento de múltiples problemas clínicos."
+    },
+    {
+      "tipo": "ejemplo",
+      "titulo": "Viñeta Clínica",
+      "contenido": "Paciente: \"Toda la semana supe que debía hacer el ejercicio de exposición. Me decía 'hoy sí lo hago', pero llegaba la tarde y el pensamiento 'si sales te dará un infarto' era tan fuerte que me paralizaba.\"\n\nAnálisis: El \"hoy sí lo hago\" es metaconducta de intención que choca contra otra cadena verbal posterior ('si sales te dará un infarto'). Esta última regla actúa como un Ed poderoso para la conducta de evitación (quedarse en casa). El terapeuta debe analizar la función de esa regla y cómo desconectar su control discriminativo sobre la evitación motora."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Skinner, B. F. (1953). Ciencia y conducta humana.",
+        "Skinner, B. F. (1957). Verbal Behavior.",
+        "Skinner, B. F. (1974). Sobre el conductismo.",
+        "Pérez Álvarez, M. (1996). El sujeto en la modificación de conducta: Un análisis conductista.",
+        "Gutiérrez Domínguez, M. T. et al. (2017). Procesos psicológicos básicos. Un análisis funcional."
+      ]
+    }
+  ]
+}

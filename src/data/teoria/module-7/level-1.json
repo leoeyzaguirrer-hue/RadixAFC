@@ -1,1 +1,67 @@
-{}
+{
+  "titulo": "Operantes Verbales",
+  "preguntaCentral": "¿Por qué la conducta verbal no se define por su forma sino por su función, y cómo se clasifican las operantes verbales básicas según su control?",
+  "aprobacionRequerida": 87,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Un cambio radical de paradigma",
+      "contenido": "Desde el análisis del comportamiento, el abordaje de lo que comúnmente llamamos \"lenguaje\" supone un cambio radical de paradigma. B.F. Skinner, en su obra monumental sobre la materia, propuso que la conducta verbal no se define por su forma (ya sean sonidos vocales, palabras escritas, gestos manuales o señas), sino exclusivamente por su función."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "La definición funcional de la Conducta Verbal",
+      "contenido": "La perspectiva conductual establece que la conducta verbal es aquella conducta que es reforzada a través de la mediación de otra persona, siempre y cuando esta última haya sido entrenada específicamente por la comunidad verbal para mediar dicho reforzamiento.\n\nLo crucial aquí es la vía por la que se accede al reforzador. Si tienes sed y abres el grifo para servirte agua, tu conducta (no verbal) opera directamente sobre el ambiente físico. Pero si le dices a un compañero \"por favor, dame agua\", la obtención del agua (tu reforzador) ocurre porque tu conducta afectó a otra persona, quien a su vez manipuló el ambiente físico por ti. Esa diferencia en la mediación del reforzamiento es lo que distingue a la conducta verbal."
+    },
+    {
+      "tipo": "nota",
+      "titulo": "Importancia Radical",
+      "contenido": "La conducta verbal NO es una categoría \"especial\", \"superior\" o \"mental\" de comportamiento. Está sujeta exactamente a los mismos principios que estudiaste en los módulos previos: reforzamiento, extinción, control de estímulos (discriminación) y operaciones motivacionales. Desmitificar el lenguaje es el primer paso para analizarlo en sesión."
+    },
+    {
+      "tipo": "conceptos",
+      "items": [
+        {
+          "nombre": "Mando",
+          "descripcion": "Controlado fundamentalmente por Operaciones de Establecimiento (OE) (privación o estimulación aversiva). El hablante especifica el reforzador que necesita. El beneficio primario recae sobre el hablante. Ejemplos: \"¡Agua!\", \"Cierra la puerta\", \"¿Qué hora es?\"."
+        },
+        {
+          "nombre": "Tacto",
+          "descripcion": "Controlado por un estímulo discriminativo (Ed) no verbal. El hablante \"hace contacto\" con el mundo y lo describe o nombra. Reforzado por atención, asentimiento o aprobación. El beneficio primario recae sobre el oyente, a quien se le provee información. Ejemplo: decir \"Hace frío\" al sentir el viento."
+        },
+        {
+          "nombre": "Ecoica",
+          "descripcion": "El estímulo es verbal auditivo y la respuesta reproduce esa misma forma sonora (correspondencia formal). Ej., el terapeuta dice \"Respira\" y el paciente repite \"Respira\"."
+        },
+        {
+          "nombre": "Textual",
+          "descripcion": "El estímulo es un texto escrito y la respuesta es verbal oral (leer en voz alta). Hay correspondencia formal."
+        },
+        {
+          "nombre": "Transcriptiva",
+          "descripcion": "El estímulo es verbal oral y la respuesta es escrita (escribir al dictado). Hay correspondencia formal."
+        },
+        {
+          "nombre": "Intraverbal",
+          "descripcion": "Controlada por un estímulo verbal, pero la respuesta no tiene correspondencia formal con dicho estímulo. Es como el \"eslabón\" de una cadena. Ej., ante \"¿Capital de Bolivia?\", la respuesta es \"Sucre\". Las conversaciones cotidianas y el \"pensamiento\" discursivo interno son en gran parte largas cadenas intraverbales."
+        }
+      ]
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Operantes verbales básicas",
+      "encabezados": ["Operante Verbal", "Controlada por", "Beneficiario Principal", "Ejemplo Clínico"],
+      "filas": [
+        ["Mando", "Operaciones de Establecimiento (Privación / Aversión)", "Hablante", "\"Necesito que me digas que no estoy loco\""],
+        ["Tacto", "Estímulo Discriminativo (Ed) no verbal", "Oyente", "\"Siento una presión muy fuerte en el pecho\""],
+        ["Ecoica", "Estímulo verbal auditivo (con correspondencia formal)", "Ambos (aprendizaje)", "Repetir en voz alta una instrucción dada por el terapeuta."],
+        ["Intraverbal", "Estímulo verbal (sin correspondencia formal)", "Ambos (conversación)", "T: \"¿Qué pasó después?\" / P: \"Me fui a mi habitación.\""]
+      ]
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Asumir que lo que el paciente dice es siempre un Tacto objetivo de la realidad.",
+      "correccion": "Frecuentemente las verbalizaciones del paciente son Mandos disfrazados (ej., \"estoy sufriendo demasiado\" puede funcionar como mando para obtener exención de responsabilidades). Y la \"asociación libre\" no revela estructuras ocultas: refleja fuertes repertorios intraverbales adquiridos en la historia del sujeto."
+    }
+  ]
+}

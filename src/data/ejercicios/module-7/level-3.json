@@ -1,1 +1,92 @@
-{}
+[
+  {
+    "id": "7-14",
+    "tipo": "MC",
+    "tipoLabel": "Caso integrador",
+    "titulo": "Función de las conductas verbales",
+    "pregunta": "Un paciente dice: \"Sé que debería salir más y conocer gente, pero cuando lo pienso me paralizo.\" Analizando la función de las conductas verbales presentes:",
+    "opciones": [
+      "El \"sé que debería\" no tiene función alguna, mientras que \"me paralizo\" es un mando de castigo.",
+      "El \"sé que debería\" es una regla de tipo pliance/augmenting social, y \"me paralizo\" es un tacto de su estado que en la vida real funciona como Ed para la evitación.",
+      "Ambas son respuestas ecoicas a las instrucciones previas del terapeuta."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: el \"debería\" es una regla verbal con función de pliance/augmenting; el tacto de la parálisis a su vez funciona como Ed para la evitación.",
+      "incorrecta": "Toda conducta verbal en sesión cumple alguna función. El \"debería\" opera como regla y el \"me paralizo\" como tacto que en la vida cotidiana se vuelve antecedente de evitación.",
+      "pista": "Pregúntate qué tipo de regla es \"debería\" y qué dispara el tacto de \"paralizarse\"."
+    }
+  },
+  {
+    "id": "7-15",
+    "tipo": "MC",
+    "tipoLabel": "Discrepancia conducta verbal/motora",
+    "titulo": "Dice una cosa y hace otra",
+    "pregunta": "¿Por qué la conducta verbal del paciente en sesión y su conducta motora en su entorno natural pueden mostrar profundas discrepancias (ej., dice querer cambiar pero no hace tareas)?",
+    "opciones": [
+      "Porque el lenguaje en la especie humana falló en su evolución adaptativa.",
+      "Porque el paciente sufre de disonancia cognitiva estructural e inconsciente.",
+      "Porque pueden estar controladas por contingencias diferentes: hablar de cambiar en sesión se refuerza socialmente (R+) por el terapeuta, mientras que hacer la tarea expone a aversivos a corto plazo que refuerzan (R-) su evitación."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Exacto: hablar y hacer son dos clases de respuesta distintas, controladas por contingencias diferentes. No es mentir; es análisis funcional.",
+      "incorrecta": "No es un fallo evolutivo ni disonancia mentalista: la conducta verbal y la motora pueden estar bajo control de contingencias completamente distintas.",
+      "pista": "¿Qué refuerza hablar de cambio en sesión, y qué refuerza no hacer la tarea en casa?"
+    }
+  },
+  {
+    "id": "7-16",
+    "tipo": "MC",
+    "tipoLabel": "Análisis funcional del pensamiento",
+    "titulo": "Preguntas funcionales sobre un pensamiento recurrente",
+    "pregunta": "Ante el reporte de un paciente sobre un pensamiento recurrente encubierto (\"soy un fracaso total\"), ¿qué preguntas son coherentes desde un Análisis Funcional del lenguaje?",
+    "opciones": [
+      "¿Es objetivamente cierto que eres un fracaso? ¿Podemos buscar evidencia a favor y en contra?",
+      "¿De qué trauma infantil profundo proviene este esquema nuclear?",
+      "¿Qué antecedentes disparan esa cadena verbal (intraverbal)? ¿Qué ocurre después? ¿Qué función cumple en tu comportamiento general?"
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Correcto: el AF no debate la verdad del pensamiento, analiza sus antecedentes, consecuentes y función contextual.",
+      "incorrecta": "Las preguntas funcionales no buscan verdad/falsedad ni causas profundas: buscan antecedentes, consecuentes y función del pensamiento como conducta verbal.",
+      "pista": "El AF analiza cadenas verbales como cualquier otra operante: antecedente → respuesta → consecuente."
+    }
+  },
+  {
+    "id": "7-17",
+    "tipo": "MC",
+    "tipoLabel": "Dilema clínico",
+    "titulo": "Debatir contenido vs analizar contingencias",
+    "pregunta": "Un terapeuta novato se enfrasca durante horas debatiendo la lógica del contenido de los pensamientos del paciente (\"pero mira tus logros, ¡no eres un fracaso!\"). ¿Qué abordaje sería más coherente con el análisis de la conducta verbal?",
+    "opciones": [
+      "Analizar las contingencias que producen y mantienen la emisión de esa conducta verbal privada, ya que alterar el contexto (contingencias) suele ser más efectivo que debatir la topografía (forma/contenido).",
+      "Seguir debatiendo pero con un tono de voz más fuerte para usar el castigo positivo (+C) sobre la irracionalidad.",
+      "Ignorar por completo cualquier cosa que el paciente diga, ya que la conducta verbal no es importante en el análisis del comportamiento."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "Exacto: el AF apunta a las contingencias que mantienen la conducta verbal, no a debatir su contenido formal.",
+      "incorrecta": "Ni castigar ni ignorar: lo coherente es analizar las contingencias que producen y mantienen la conducta verbal del paciente.",
+      "pista": "¿Cambiar la forma del pensamiento o cambiar el contexto que lo mantiene?"
+    }
+  },
+  {
+    "id": "7-18",
+    "tipo": "MC",
+    "tipoLabel": "Integración de módulos",
+    "titulo": "Reglas rígidas e insensibilidad a contingencias",
+    "pregunta": "¿Qué papel juegan los autoclíticos rígidos y reglas verbales extremas (ej. \"Nunca seré feliz, la vida siempre es sufrimiento\") en relación con la \"insensibilidad a las contingencias\"?",
+    "opciones": [
+      "Generan una barrera verbal tan fuerte que la persona sigue comportándose según la regla rígida, aislando a su repertorio de los posibles reforzadores positivos disponibles en el ambiente actual.",
+      "No tienen relación; la insensibilidad ocurre solo con programas de intervalo fijo.",
+      "Aumentan la flexibilidad conductual porque la persona ya sabe qué esperar de cada situación adversa."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "Correcto: las reglas rígidas crean insensibilidad a las contingencias naturales, manteniendo el repertorio aislado de reforzadores disponibles en el ambiente.",
+      "incorrecta": "Las reglas rígidas no aumentan flexibilidad ni se limitan a programas IF: bloquean el contacto con las contingencias reales del ambiente.",
+      "pista": "La regla verbal extrema gobierna la conducta incluso cuando el ambiente ofrece otra cosa."
+    }
+  }
+]

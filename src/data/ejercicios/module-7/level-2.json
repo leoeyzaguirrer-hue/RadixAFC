@@ -1,1 +1,137 @@
-{}
+[
+  {
+    "id": "7-8",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Definición funcional del autoclítico",
+    "pregunta": "¿Qué es fundamentalmente un autoclítico en el análisis funcional del lenguaje?",
+    "opciones": [
+      "Una conducta que permite al sujeto condicionar sus propias emociones de manera automática.",
+      "Conducta verbal cuyo estímulo controlador es la propia conducta verbal del hablante, modificando la reacción del oyente.",
+      "Es un error del lenguaje donde el individuo tacta estímulos inexistentes.",
+      "Conducta no verbal que contradice a la conducta verbal del mismo sujeto."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Exacto: el autoclítico es conducta verbal SOBRE la conducta verbal, y modula cómo el oyente debe responder a la operante principal.",
+      "incorrecta": "El autoclítico no es ni una emoción ni un error: es conducta verbal que toma como estímulo controlador a otra conducta verbal del propio hablante.",
+      "pista": "Conducta verbal sobre conducta verbal del mismo hablante."
+    }
+  },
+  {
+    "id": "7-9",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Tipos de autoclítico",
+    "pregunta": "Clasifique los siguientes ejemplos en el tipo de autoclítico predominante:",
+    "items": [
+      "\"Creo que lloverá\"",
+      "\"Todos los lunes me pasa\"",
+      "\"Estoy totalmente seguro de que fracasaré\"",
+      "\"Nunca logro hacer nada bien\"",
+      "\"Te comento esto como amigo:\""
+    ],
+    "zonas": ["Calificativo", "Cuantificador", "Descriptivo"],
+    "correctMap": {
+      "\"Creo que lloverá\"": "Calificativo",
+      "\"Todos los lunes me pasa\"": "Cuantificador",
+      "\"Estoy totalmente seguro de que fracasaré\"": "Calificativo",
+      "\"Nunca logro hacer nada bien\"": "Cuantificador",
+      "\"Te comento esto como amigo:\"": "Descriptivo"
+    },
+    "retroalimentacion": {
+      "correcta": "Calificativos modulan la fuerza (creo, totalmente seguro), cuantificadores delimitan extensión (todos, nunca) y descriptivos hablan sobre cómo se está diciendo lo dicho.",
+      "incorrecta": "Recuerda: los calificativos debilitan o fortalecen (creo/seguro), los cuantificadores marcan extensión (todos/nunca), y los descriptivos describen la propia emisión verbal.",
+      "pista": "¿Está modulando intensidad, marcando extensión o describiendo la propia emisión?"
+    }
+  },
+  {
+    "id": "7-10",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico",
+    "titulo": "Cuantificador absolutista",
+    "pregunta": "Un paciente dice en sesión: \"Siempre me rechazan, absolutamente siempre.\" ¿Qué tipo de autoclítico está usando y cuál es su implicación en la terapia?",
+    "opciones": [
+      "Descriptivo — está relatando hechos objetivos que el terapeuta debe aceptar como literales.",
+      "Relacional — está conectando varias experiencias pasadas de forma lógica.",
+      "Cuantificador absolutista — amplifica la función del enunciado, aumentando su peso como regla verbal rígida que controla la conducta del paciente."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Los cuantificadores absolutistas (\"siempre\", \"nunca\", \"todo\", \"nada\") consolidan el enunciado como regla rígida con alto control sobre el comportamiento del paciente.",
+      "incorrecta": "No es una descripción objetiva: \"siempre/absolutamente\" son cuantificadores que amplifican y rigidizan la regla verbal.",
+      "pista": "Atención a las palabras absolutas: siempre, nunca, todo, nada."
+    }
+  },
+  {
+    "id": "7-11",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar",
+    "titulo": "La metaconducta",
+    "pregunta": "Complete el texto sobre metaconducta:",
+    "textoBase": "En la metaconducta, la respuesta del sujeto se convierte en el estímulo que ___ otra respuesta de ese mismo sujeto. Por ejemplo, al darse instrucciones a sí mismo, el individuo emite conducta ___ (ya sea pública o ___) que pasa a funcionar como un estímulo discriminativo (___) para la ejecución de su propia conducta posterior.",
+    "gaps": [
+      {
+        "id": "gap1",
+        "opciones": ["extingue", "controla"],
+        "correcta": "controla"
+      },
+      {
+        "id": "gap2",
+        "opciones": ["verbal", "motora"],
+        "correcta": "verbal"
+      },
+      {
+        "id": "gap3",
+        "opciones": ["encubierta", "mágica"],
+        "correcta": "encubierta"
+      },
+      {
+        "id": "gap4",
+        "opciones": ["Ed", "OE"],
+        "correcta": "Ed"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "La metaconducta verbal funciona como un Ed que controla la conducta posterior del propio sujeto, ya sea en forma pública o encubierta.",
+      "incorrecta": "Recuerda: en metaconducta el sujeto es a la vez hablante y oyente; sus auto-instrucciones funcionan como Ed para su propio comportamiento.",
+      "pista": "El sujeto se da instrucciones a sí mismo y esas instrucciones funcionan como antecedente discriminativo."
+    }
+  },
+  {
+    "id": "7-12",
+    "tipo": "MC",
+    "tipoLabel": "Diferenciación conceptual",
+    "titulo": "Metaconducta vs \"pensar\" cognitivo",
+    "pregunta": "Desde la perspectiva de la metaconducta conductual, ¿en qué se diferencia esto de la simple noción de \"pensamiento\" cognitivo?",
+    "opciones": [
+      "En nada, son exactamente la misma formulación con distintos nombres.",
+      "La metaconducta se ubica en un nivel fisiológico inconsciente, mientras que el pensar es consciente.",
+      "La metaconducta es conducta verbal analizable en términos de Ed y contingencias, no es una \"causa mental inexplicada\" iniciadora del comportamiento."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "La metaconducta saca al \"pensamiento\" del plano mentalista y lo trata como conducta verbal sujeta a las leyes operantes ordinarias.",
+      "incorrecta": "La diferencia clave no es consciente/inconsciente: es que la metaconducta se analiza con las mismas variables (Ed, contingencias) que cualquier otra conducta.",
+      "pista": "El pensamiento no es una causa mental: es eslabón conductual con antecedentes y consecuentes."
+    }
+  },
+  {
+    "id": "7-13",
+    "tipo": "MC",
+    "tipoLabel": "Identificación funcional",
+    "titulo": "Metaconducta como Ed",
+    "pregunta": "Antes de una presentación difícil en el trabajo, María se dice a sí misma (sin mover los labios): \"Vamos, ya lo has hecho antes, respira y empieza.\" ¿Qué tipo de conducta es y qué función cumple?",
+    "opciones": [
+      "Es una operante no verbal que funciona como reforzador positivo.",
+      "Es metaconducta (conducta verbal privada) que funciona como Ed para iniciar la conducta de afrontamiento posterior.",
+      "Es un tacto público que funciona como operación de abolición de la ansiedad."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "María se autoinstruye encubiertamente: esa conducta verbal privada opera como Ed para la cadena conductual de afrontamiento.",
+      "incorrecta": "No es operante no verbal ni tacto público: es conducta verbal encubierta que funciona como antecedente discriminativo para su propia conducta.",
+      "pista": "Hablante = oyente; el habla privada antecede y dispara la acción."
+    }
+  }
+]
