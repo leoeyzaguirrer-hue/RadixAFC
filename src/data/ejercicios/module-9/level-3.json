@@ -1,1 +1,78 @@
-{}
+[
+  {
+    "id": "9-14",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Por qué las metáforas funcionan mejor que el debate",
+    "pregunta": "Desde RFT, ¿por qué una metáfora terapéutica bien diseñada funciona mejor que un argumento lógico para cambiar la respuesta rígida de un paciente?",
+    "opciones": [
+      "Porque las personas prefieren la literatura a la ciencia empírica.",
+      "Porque opera a través de transformación de funciones, transfiriendo comportamientos útiles sin debatir verbalmente, evitando activar la trampa de coherencia verbal (defensividad).",
+      "Porque hipnotiza temporalmente al paciente usando equivalencia de Sidman.",
+      "Porque le da la razón al paciente y refuerza positivamente su evitación."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Exacto: la metáfora puentea el debate lógico coordinando redes relacionales y transfiriendo funciones útiles, sin disparar la coherencia verbal defensiva.",
+      "incorrecta": "El valor clínico de la metáfora está en evadir el debate lógico: transfiere funciones por coordinación de redes sin activar la trampa de coherencia.",
+      "pista": "¿Qué evita activar el cerebro defensivo del paciente que quiere \"tener razón\"?"
+    }
+  },
+  {
+    "id": "9-15",
+    "tipo": "MC",
+    "tipoLabel": "Análisis de metáfora",
+    "titulo": "Nubes y cielo",
+    "pregunta": "Si usas la metáfora \"Tus pensamientos son como nubes que pasan por el cielo; tú eres el cielo\", ¿qué marco relacional clave estás estableciendo para la intervención y qué función buscas transferir?",
+    "opciones": [
+      "Coordinación estricta; buscas que el paciente piense menos (función de vacío).",
+      "Temporalidad; buscas enseñarle que el tiempo lo cura todo.",
+      "Jerarquía y Distinción; buscas transferir la función de \"espacio inalterable\" al paciente, y \"transitoriedad temporal\" a los pensamientos.",
+      "Oposición; buscas convencerlo de que sus pensamientos son falsos."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Correcto: el paciente es el contenedor (jerarquía) distinto del contenido (distinción). Las nubes pasan, el cielo permanece.",
+      "incorrecta": "No es coordinación física ni oposición: la metáfora establece jerarquía (cielo contiene nubes) y distinción (cielo ≠ nubes).",
+      "pista": "¿Qué relación hay entre el cielo y las nubes? ¿Contención o igualdad?"
+    }
+  },
+  {
+    "id": "9-16",
+    "tipo": "MC",
+    "tipoLabel": "Dilema clínico",
+    "titulo": "Pensamiento fusionado: \"Soy un error\"",
+    "pregunta": "Tienes un paciente profundamente fusionado y creyente literal del pensamiento \"Soy un error que arruina todo\". ¿Cuál intervención verbal es la MÁS coherente con los principios de intervención clínica en RFT?",
+    "opciones": [
+      "Debatir la evidencia: pedirle que haga una lista de todas las veces que hizo cosas buenas para desmentir la creencia.",
+      "Usar una metáfora (como el tablero de ajedrez) que establezca un marco de jerarquía, cambiando su relación funcional con el pensamiento sin debatir su contenido.",
+      "Recomendarle que ignore ese pensamiento o use técnicas de distracción (\"goma elástica\") para castigarlo.",
+      "Validarlo y decirle \"sí, es cierto, eres un error, pero debes aprender a vivir con ello\"."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: cambiar el contexto relacional (jerarquía) debilita el impacto funcional del pensamiento sin debatir su contenido literal.",
+      "incorrecta": "Debatir o suprimir refuerza la coherencia verbal y el marco problemático. La intervención RFT cambia la relación funcional con el pensamiento, no su contenido.",
+      "pista": "RFT trabaja sobre la relación con el pensamiento, no sobre su contenido literal."
+    }
+  },
+  {
+    "id": "9-17",
+    "tipo": "MC",
+    "tipoLabel": "Caso integrador AF + RFT",
+    "titulo": "La metáfora del volante",
+    "pregunta": "CASO INTEGRADOR: Un paciente dice \"No puedo ir a la entrevista de trabajo, la ansiedad que siento en el pecho me dice que no estoy listo\". El terapeuta responde: \"Esa ansiedad es fuerte... como el pitido molesto de la radio en el auto, pero ¿aún con la radio pitando, quién decide girar el volante hacia la empresa?\". Esta intervención:",
+    "opciones": [
+      "Busca eliminar la función aversiva de la ansiedad para que el paciente se relaje y vaya a la entrevista en paz.",
+      "Identifica que la ansiedad tiene función discriminativa para evitar; usa una analogía para establecer distinción paciente-emoción y transferir control conductual al paciente a pesar del malestar.",
+      "Aplica un marco estricto de oposición para que el paciente luche contra la ansiedad en el auto.",
+      "Cambia la equivalencia de estímulos para que el paciente comience a amar su ansiedad (augmenting puro)."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Excelente: integra el AF (la ansiedad opera como Ed para evitar) con RFT (la analogía coordina al paciente con \"conductor\" y a la ansiedad con \"ruido\", transfiriendo el control ejecutivo a pesar del malestar).",
+      "incorrecta": "No busca eliminar la ansiedad ni luchar contra ella: distingue al paciente de su emoción y transfiere el control conductual al paciente, manteniéndose la ansiedad presente.",
+      "pista": "El terapeuta no quita la ansiedad: la deja sonando como ruido y transfiere quién maneja el volante."
+    }
+  }
+]

@@ -1,1 +1,136 @@
-{}
+[
+  {
+    "id": "9-8",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Transformación de funciones",
+    "pregunta": "¿Qué es exactamente la \"Transformación de Funciones\" en RFT?",
+    "opciones": [
+      "La capacidad de cambiar la forma física de un estímulo en el ambiente.",
+      "Cuando un estímulo entra en una red relacional, adquiere algunas funciones psicológicas de los otros estímulos sin requerir contacto directo.",
+      "El proceso de reemplazar una conducta problemática por una adaptativa mediante reforzamiento.",
+      "La mutación de mandos en tactos dentro de la teoría de Skinner."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: la transformación de funciones es la transferencia de funciones psicológicas a través de redes relacionales sin contacto físico directo.",
+      "incorrecta": "No tiene que ver con la forma física ni con reforzamiento operante: es transferencia de funciones psicológicas vía relaciones verbales.",
+      "pista": "El estímulo no cambia físicamente, pero empieza a producir las mismas reacciones que aquello con lo que está relacionado verbalmente."
+    }
+  },
+  {
+    "id": "9-9",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico",
+    "titulo": "Terror al manejar tras accidente ajeno",
+    "pregunta": "Un paciente siente terror al manejar después de que su amigo sufrió un accidente automovilístico, aunque el paciente nunca chocó. ¿Cómo explica esto la RFT?",
+    "opciones": [
+      "Por un déficit en habilidades de afrontamiento directo.",
+      "Por condicionamiento operante directo (castigo positivo).",
+      "Transformación de funciones a través de marcos relacionales: las funciones aversivas del evento del amigo se transfirieron a la conducción propia mediante el lenguaje.",
+      "Por equivalencia de Sidman estrictamente animal."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Exacto: marcos de coordinación y temporalidad transfieren la función aversiva del accidente del amigo a la propia conducción sin experiencia física directa.",
+      "incorrecta": "No hay condicionamiento directo: el paciente nunca chocó. Lo que ocurre es transferencia verbal de funciones aversivas vía marcos relacionales.",
+      "pista": "¿Qué permite que algo no vivido en carne propia genere terror real?"
+    }
+  },
+  {
+    "id": "9-10",
+    "tipo": "Ordenamiento",
+    "tipoLabel": "Ordenamiento",
+    "titulo": "Cómo el lenguaje crea sufrimiento clínico",
+    "pregunta": "Ordena la secuencia típica de cómo el lenguaje crea sufrimiento clínico persistente, desde la experiencia hasta la evitación:",
+    "items": [
+      "Evento interno o externo (Ej. Latidos cardíacos rápidos).",
+      "Evaluación verbal del evento (\"Esto es insoportable, significa que estoy loco\").",
+      "Se crea un marco relacional causal hacia el futuro (\"Si late rápido, tendré un infarto\").",
+      "Transformación de funciones (El evento interno adquiere propiedades temibles).",
+      "Conducta de evitación generalizada ante la situación y las reglas verbales que la mantienen."
+    ],
+    "ordenCorrecto": [0, 1, 2, 3, 4],
+    "retroalimentacion": {
+      "correcta": "Correcto: Evento → Evaluación verbal → Marco condicional futuro → Transformación de funciones → Evitación.",
+      "incorrecta": "Recuerda la secuencia: primero ocurre algo, luego se evalúa verbalmente, luego se proyecta al futuro como amenaza, luego transfiere funciones temibles, finalmente se evita.",
+      "pista": "Empieza por lo que físicamente ocurre y termina con la conducta observable."
+    }
+  },
+  {
+    "id": "9-11",
+    "tipo": "Emparejamiento",
+    "tipoLabel": "Emparejamiento",
+    "titulo": "Procesos del lenguaje que generan sufrimiento",
+    "pregunta": "Clasifica el ejemplo en el proceso por el cual el lenguaje genera sufrimiento:",
+    "pares": [
+      {
+        "izquierda": "\"Todos mis amigos ya se casaron, yo estoy muy atrasado\"",
+        "derecha": "Comparación Verbal"
+      },
+      {
+        "izquierda": "Ignora los elogios de su jefe porque cree fervientemente que \"soy un impostor y me van a descubrir\"",
+        "derecha": "Trampa de Coherencia"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: la primera ilustra comparación verbal contra un estándar; la segunda ilustra cómo la red \"soy impostor\" filtra evidencia contradictoria (coherencia).",
+      "incorrecta": "Recuerda: comparación = mejor/peor que un estándar; trampa de coherencia = ignorar evidencia contradictoria para preservar la red verbal.",
+      "pista": "¿Está midiéndose contra otros, o protegiendo una creencia rígida del feedback contrario?"
+    }
+  },
+  {
+    "id": "9-12",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar",
+    "titulo": "Bidireccionalidad",
+    "pregunta": "Completa sobre la bidireccionalidad:",
+    "textoBase": "A través de un marco de ___, si un estímulo A adquiere propiedades ___, el lenguaje puede ___ estas propiedades hacia un estímulo B de forma ___, haciendo que respondamos ante B como si fuera A.",
+    "gaps": [
+      {
+        "id": "gap1",
+        "opciones": ["oposición", "coordinación"],
+        "correcta": "coordinación"
+      },
+      {
+        "id": "gap2",
+        "opciones": ["neutrales", "aversivas"],
+        "correcta": "aversivas"
+      },
+      {
+        "id": "gap3",
+        "opciones": ["transferir", "bloquear"],
+        "correcta": "transferir"
+      },
+      {
+        "id": "gap4",
+        "opciones": ["derivada", "directa"],
+        "correcta": "derivada"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: por coordinación, las funciones aversivas se transfieren de forma derivada al estímulo relacionado, sin contacto directo.",
+      "incorrecta": "Recuerda: coordinación → transferencia de funciones aversivas de forma derivada (no directa).",
+      "pista": "Marco de igualdad + transferencia sin contacto físico."
+    }
+  },
+  {
+    "id": "9-13",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico",
+    "titulo": "Regla rígida sobre el miedo",
+    "pregunta": "Paciente con la regla rígida \"no debo sentir miedo para poder actuar en mi trabajo\". Analizando desde la RFT, ¿por qué esta regla mantiene la patología?",
+    "opciones": [
+      "Porque el paciente está aplicando un marco de jerarquía invertido entre su pasado y su presente.",
+      "Tracking rígido + Transformación: el miedo entra en un marco causal negativo, adquiriendo función de \"señal de fracaso/parálisis\", lo que hace que sentir miedo de por sí genere evitación de la tarea.",
+      "Porque el miedo no ha sido suficientemente castigado de forma operante.",
+      "Porque está usando equivalencia de Sidman en lugar de marcos relacionales."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: la regla verbal transforma la función del miedo en \"detente\", y el simple hecho de sentirlo activa la evitación.",
+      "incorrecta": "El núcleo es que la regla rígida hace que el miedo en sí mismo se vuelva un Ed para detenerse: tracking rígido + transformación de funciones.",
+      "pista": "¿Qué hace que sentir miedo se convierta automáticamente en \"no actuar\"?"
+    }
+  }
+]

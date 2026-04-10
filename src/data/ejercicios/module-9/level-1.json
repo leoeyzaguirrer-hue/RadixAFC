@@ -1,1 +1,151 @@
-{}
+[
+  {
+    "id": "9-1",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Lo que distingue al responder relacional humano",
+    "pregunta": "¿Qué distingue fundamentalmente al responder relacional humano del de otros animales?",
+    "opciones": [
+      "La capacidad de aprender a través del condicionamiento clásico y operante con mayor rapidez.",
+      "Que los humanos solo responden a relaciones de equivalencia de Sidman (A=B=C).",
+      "La capacidad de aplicar marcos relacionales de forma arbitraria mediante claves verbales, independientemente de las propiedades físicas.",
+      "El uso de herramientas físicas complejas para modificar el ambiente aversivo."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Exacto: lo distintivo es el responder relacional arbitrariamente aplicable (RRAA), guiado por claves verbales y no por propiedades físicas.",
+      "incorrecta": "El núcleo no es velocidad de aprendizaje ni equivalencia estricta: es la capacidad arbitraria de aplicar marcos a cualquier par de estímulos según el contexto verbal.",
+      "pista": "¿Qué pueden hacer los humanos con cualquier par de estímulos que los animales no?"
+    }
+  },
+  {
+    "id": "9-2",
+    "tipo": "Emparejamiento",
+    "tipoLabel": "Emparejamiento",
+    "titulo": "Marcos relacionales y ejemplos clínicos",
+    "pregunta": "Empareja el marco relacional con su ejemplo clínico.",
+    "pares": [
+      {
+        "izquierda": "\"Soy un desastre total\"",
+        "derecha": "Coordinación"
+      },
+      {
+        "izquierda": "\"Mi esposo siempre es mejor que yo en todo\"",
+        "derecha": "Comparación"
+      },
+      {
+        "izquierda": "\"Tengo recuerdos tristes, pero yo soy más que ellos\"",
+        "derecha": "Jerarquía"
+      },
+      {
+        "izquierda": "\"Primero dejo de llorar, luego buscaré trabajo\"",
+        "derecha": "Temporalidad"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: coordinación (igualdad), comparación (mayor/menor), jerarquía (yo contiene mis recuerdos) y temporalidad (antes/después).",
+      "incorrecta": "Recuerda: coordinación = identidad; comparación = mayor/menor; jerarquía = continente/contenido; temporalidad = antes/después.",
+      "pista": "¿La frase iguala, compara, contiene o secuencia en el tiempo?"
+    }
+  },
+  {
+    "id": "9-3",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico",
+    "titulo": "Implicación combinatoria",
+    "pregunta": "Un paciente aprende verbalmente que \"ansiedad = debilidad\". Sin más entrenamiento, empieza a evitar cualquier situación donde anticipe sentir ansiedad porque previamente aprendió que \"la debilidad es peligrosa\". ¿Qué propiedad del responder relacional explica esto?",
+    "opciones": [
+      "Implicación Mutua.",
+      "Implicación Combinatoria.",
+      "Equivalencia Estricta de Sidman.",
+      "Generalización de estímulos físicos."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: combinó Ansiedad=Debilidad y Debilidad=Peligro para derivar Ansiedad=Peligro sin entrenamiento directo.",
+      "incorrecta": "La mutua va de A↔B; aquí hay tres términos (ansiedad-debilidad-peligro) y se deriva ansiedad-peligro: eso es combinatoria.",
+      "pista": "¿Hay 2 términos o 3? Si son 3 y derivas la relación entre los extremos, es combinatoria."
+    }
+  },
+  {
+    "id": "9-4",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar",
+    "titulo": "Propiedades del responder relacional",
+    "pregunta": "Completa el texto sobre las propiedades del responder relacional:",
+    "textoBase": "La capacidad de relacionar estímulos sin depender de sus formas físicas se denomina aplicación ___. Si aprendo que X ocurre antes que Y, la derivación de que Y ocurre después de X es un ejemplo de implicación ___. En cambio, si uso relaciones múltiples para inferir una nueva relación no entrenada, utilizo la implicación ___.",
+    "gaps": [
+      {
+        "id": "gap1",
+        "opciones": ["derivada", "arbitraria", "mutua"],
+        "correcta": "arbitraria"
+      },
+      {
+        "id": "gap2",
+        "opciones": ["mutua", "combinatoria", "marco"],
+        "correcta": "mutua"
+      },
+      {
+        "id": "gap3",
+        "opciones": ["derivada", "combinatoria", "mutua"],
+        "correcta": "combinatoria"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: aplicación arbitraria (no depende de propiedades físicas), mutua (A↔B) y combinatoria (A→B, B→C deriva A↔C).",
+      "incorrecta": "Recuerda: arbitraria = independiente de la forma física; mutua = bidireccional A↔B; combinatoria = encadenamiento de relaciones.",
+      "pista": "Una relación es bidireccional, otra inferencial entre tres términos, otra es independiente de la forma."
+    }
+  },
+  {
+    "id": "9-5",
+    "tipo": "MC",
+    "tipoLabel": "Identificación de marco",
+    "titulo": "Marco temporal/causal",
+    "pregunta": "Clasifica la afirmación en el marco relacional predominante: \"Si me muestro vulnerable, entonces me van a lastimar de inmediato\".",
+    "opciones": [
+      "Marco de Jerarquía.",
+      "Marco de Temporalidad / Causalidad.",
+      "Marco de Oposición.",
+      "Marco de Distinción."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Exacto: \"si... entonces\" establece una relación temporal/causal condicional.",
+      "incorrecta": "La estructura \"si A entonces B\" es típicamente temporal/causal, no jerarquía ni oposición.",
+      "pista": "¿Hay una secuencia condicional o una contención/oposición?"
+    }
+  },
+  {
+    "id": "9-6",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "RFT vs Sidman",
+    "pregunta": "Al comparar la Equivalencia de Estímulos de Sidman (Módulo 5) con la RFT, ¿en qué avanza la RFT?",
+    "opciones": [
+      "RFT rechaza los hallazgos de Sidman y propone un modelo puramente cognitivo.",
+      "Sidman demostró relaciones de igualdad (A=B=C); RFT generaliza esto a TODOS los tipos de relaciones (mayor/menor, parte de, etc.) aplicadas arbitrariamente.",
+      "RFT demuestra que la equivalencia solo ocurre en animales no humanos.",
+      "Sidman se centró en la implicación combinatoria, mientras que RFT se centra solo en la mutua."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: RFT extiende Sidman a múltiples familias de relaciones (marcos), no solo identidad/coordinación.",
+      "incorrecta": "RFT no rechaza a Sidman: lo amplía. Donde Sidman vio igualdad, RFT ve cualquier tipo de relación arbitraria.",
+      "pista": "¿Sidman estudió un solo tipo de relación o muchos?"
+    }
+  },
+  {
+    "id": "9-7",
+    "tipo": "VerdaderoFalso",
+    "tipoLabel": "Verdadero o Falso",
+    "titulo": "Marcos deícticos",
+    "pregunta": "\"Los marcos deícticos (yo/aquí/ahora) son solo marcadores gramaticales sin función psicológica relevante en la clínica.\"",
+    "respuestaCorrecta": false,
+    "retroalimentacion": {
+      "correcta": "Falso: los deícticos son la base fundamental de la perspectiva-taking, la empatía y el \"yo observador\" clínicamente fundamental.",
+      "incorrecta": "Falso: los deícticos no son meros gramaticales: son la base de la toma de perspectiva, la empatía y el sentido de un \"yo\" que observa la propia conducta.",
+      "pista": "¿Qué hace posible decir \"yo veo que pienso esto\"?"
+    }
+  }
+]

@@ -1,1 +1,72 @@
-{}
+{
+  "titulo": "Transformación de Funciones y el Lenguaje como Problema",
+  "preguntaCentral": "¿Por qué la misma capacidad lingüística que nos hace dominar el planeta es también el motor del sufrimiento psicológico humano?",
+  "aprobacionRequerida": 83,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Transformación de Funciones: El Motor del Sufrimiento",
+      "contenido": "Establecer relaciones entre cosas no sería un problema si no fuera por el concepto más crítico de la RFT para la clínica: la Transformación de Funciones. Cuando un estímulo entra en un marco relacional con otro, puede ADQUIRIR las funciones psicológicas del otro, sin necesidad de contacto directo."
+    },
+    {
+      "tipo": "ejemplo",
+      "titulo": "Transformación de funciones en un caso clínico",
+      "contenido": "Un paciente nunca ha sido mordido por un perro. Pero alguien le dice verbalmente \"los perros son tan peligrosos como los lobos salvajes\". Aquí se establece un marco de coordinación. A partir de ese momento, la simple palabra \"perro\" o la vista de un cachorro en el parque adquiere funciones aversivas (ansiedad, miedo, huida) que originalmente pertenecían al concepto de \"lobo salvaje\", todo esto mediado puramente por el lenguaje."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Bidireccionalidad del Lenguaje",
+      "contenido": "En el aprendizaje clásico, el condicionamiento es unidireccional (Campana → Comida → Salivación). En humanos, el lenguaje es bidireccional debido a la implicación mutua. Si el paciente aprende que \"Estar sudando = Pánico inminente\" (coordinación), entonces el pánico se asocia al sudor, pero el simple hecho de sudar (por calor o ejercicio) desencadenará la función de pánico. El lenguaje ensucia la percepción directa del mundo con un barniz verbal constante."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Por qué el Lenguaje Genera Sufrimiento (Villatte et al., 2016)",
+      "items": [
+        {
+          "nombre": "Comparación Verbal",
+          "descripcion": "Podemos compararnos con un \"yo ideal\" que no existe físicamente (\"Debería ser más productivo\"). Como el ideal siempre gana en el marco de comparación, el \"yo real\" adquiere funciones aversivas."
+        },
+        {
+          "nombre": "Evaluación Constante",
+          "descripcion": "Evaluamos todo, incluso nuestro propio malestar. Un animal siente dolor y se lame; un humano siente dolor y evalúa: \"Esto es terrible, no podré trabajar, soy un inútil por enfermarme\"."
+        },
+        {
+          "nombre": "Viaje Verbal en el Tiempo",
+          "descripcion": "Un marco temporal permite traer funciones de dolor pasado al presente (\"Recordar el abuso de hace 10 años me genera llanto hoy\") o traer miedo futuro al presente (\"¿Y si me despiden mañana?\")."
+        },
+        {
+          "nombre": "Trampa de la Coherencia Verbal",
+          "descripcion": "Una vez establecida una red relacional sólida (\"Soy defectuoso\"), tendemos a buscar evidencia que la confirme y rechazamos información contradictoria. El cerebro humano prefiere \"tener razón\" (ser coherente) que ser feliz."
+        }
+      ]
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Conducta Gobernada por Reglas desde la RFT",
+      "items": [
+        {
+          "nombre": "Pliance",
+          "descripcion": "Se basa en un marco de coordinación entre el individuo y la fuente social (\"Lo que dice mi mamá = Lo que debo hacer\")."
+        },
+        {
+          "nombre": "Tracking",
+          "descripcion": "Marco de coordinación entre la regla y el mundo natural (\"Si estudio, aprobaré\")."
+        },
+        {
+          "nombre": "Augmenting",
+          "descripcion": "Es pura transformación de funciones. Cambia el valor de las consecuencias. (\"El dolor en el gimnasio es señal de crecimiento\" → transforma la función del dolor de aversiva a apetitiva)."
+        }
+      ]
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Pensar que la transformación de funciones requiere experiencia directa con el estímulo aversivo.",
+      "correccion": "El núcleo de la RFT clínica es que el lenguaje transfiere funciones SIN contacto directo. Por eso un paciente puede tener pánico ante algo que nunca le ocurrió: basta con que esté en una red relacional con algo aversivo."
+    },
+    {
+      "tipo": "conexionClinica",
+      "titulo": "El miedo al miedo",
+      "contenido": "Cuando un paciente reporta \"tengo miedo a tener un ataque de pánico\", está describiendo una transformación de funciones de segundo orden: el propio miedo (que era una emoción transitoria) ahora porta función aversiva en sí mismo, porque entró en un marco relacional con \"infarto\", \"locura\" o \"perder el control\". Ahí es donde la RFT permite intervenir sobre el contexto relacional, no sobre la emoción."
+    }
+  ]
+}
