@@ -1,1 +1,118 @@
-{}
+[
+  {
+    "id": "12-1",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Formulación RFT vs Hexaflex",
+    "pregunta": "¿En qué se diferencia principalmente una formulación RFT de una formulación ACT basada en el Hexaflex?",
+    "opciones": [
+      "La formulación RFT se enfoca en el contenido de los pensamientos, mientras que ACT se enfoca en la conducta observable.",
+      "La formulación hexaflex identifica QUÉ procesos de inflexibilidad predominan; la formulación RFT va más profundo e identifica QUÉ marcos relacionales específicos generan esos procesos.",
+      "La formulación RFT reemplaza el análisis funcional, mientras que el Hexaflex requiere un análisis funcional previo.",
+      "No hay diferencia funcional, son dos nombres para la misma técnica de reestructuración cognitiva."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: el Hexaflex identifica los procesos de inflexibilidad; RFT baja un nivel y muestra los marcos relacionales concretos que los producen.",
+      "incorrecta": "RFT no reemplaza al Hexaflex: lo profundiza identificando qué marcos verbales específicos sostienen la rigidez.",
+      "pista": "¿Qué mapa es más molecular: los procesos del Hexaflex o los marcos relacionales?"
+    }
+  },
+  {
+    "id": "12-2",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Marcos relacionales dominantes",
+    "pregunta": "Selecciona el marco relacional predominante que sostiene la inflexibilidad en cada afirmación del paciente.",
+    "categorias": ["Coordinación", "Comparación", "Temporalidad", "Jerarquía", "Deíctico pobre"],
+    "items": [
+      { "texto": "\"Soy un fracaso absoluto\"", "categoria": "Coordinación" },
+      { "texto": "\"Siempre fui así y nunca voy a cambiar\"", "categoria": "Temporalidad" },
+      { "texto": "\"Soy mucho peor profesional que mis compañeros\"", "categoria": "Comparación" },
+      { "texto": "\"Mis miedos y mis traumas me definen, lo son todo\"", "categoria": "Jerarquía" },
+      { "texto": "\"No entiendo cómo alguien puede ver esta situación distinto a como yo la veo\"", "categoria": "Deíctico pobre" }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: identificaste los cinco marcos dominantes (coordinación identitaria, temporalidad rígida, comparación, jerarquía invertida y déficit deíctico).",
+      "incorrecta": "Revisa: identidad \"yo = X\" es coordinación; \"siempre/nunca\" es temporalidad; \"más/menos\" es comparación; \"X lo es todo / me define\" es jerarquía; falta de perspectiva del otro es déficit deíctico.",
+      "pista": "Fíjate en el tipo de relación que organiza la afirmación: identidad, orden en el tiempo, magnitud, inclusión o perspectiva."
+    }
+  },
+  {
+    "id": "12-3",
+    "tipo": "MC",
+    "tipoLabel": "Análisis de caso",
+    "titulo": "Transformación de funciones",
+    "pregunta": "Un paciente tiene su discurso organizado en torno al marco de coordinación rígido \"soy débil = malo\". ¿Cómo explica la RFT que este marco mantenga la evitación experiencial?",
+    "opciones": [
+      "Porque el marco elimina la capacidad del paciente de sentir emociones, dejándolo anestesiado emocionalmente.",
+      "Vía transformación de funciones: cualquier señal de \"debilidad\" (dudas, lágrimas) adquiere la función aversiva de ser \"malo\", disparando la evitación inmediata.",
+      "Porque el paciente necesita debatir lógicamente este pensamiento para darse cuenta de que la debilidad no es mala.",
+      "Porque el marco de coordinación bloquea el condicionamiento clásico del miedo."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: la transformación de funciones es el mecanismo por el cual un estímulo neutro asume funciones aversivas mediante el marco relacional.",
+      "incorrecta": "Recuerda: el marco relacional transfiere funciones. Si \"débil = malo\", cualquier signo de debilidad se vuelve aversivo y gatilla evitación.",
+      "pista": "¿Qué proceso RFT hace que una palabra/sensación herede funciones de otra a través del marco?"
+    }
+  },
+  {
+    "id": "12-4",
+    "tipo": "Ordenamiento",
+    "tipoLabel": "Ordenamiento",
+    "titulo": "Secuencia de la formulación RFT",
+    "pregunta": "Ordena los pasos lógicos de una formulación clínica basada en RFT.",
+    "items": [
+      "Escuchar el flujo del discurso del paciente.",
+      "Identificar marcos relacionales dominantes (coordinación, comparación, etc.).",
+      "Mapear la red relacional (cómo se conectan los marcos entre sí).",
+      "Identificar qué funciones aversivas se están transformando y disparan la evitación.",
+      "Diseñar intervenciones verbales que operen sobre esos marcos específicos."
+    ],
+    "ordenCorrecto": [0, 1, 2, 3, 4],
+    "retroalimentacion": {
+      "correcta": "Correcto: escuchar → identificar marcos → mapear red → detectar funciones transferidas → intervenir verbalmente sobre los marcos.",
+      "incorrecta": "La escucha va primero, luego aislar marcos, trazar la red, ver funciones aversivas y finalmente diseñar intervenciones.",
+      "pista": "Empieza por la escucha y termina por la intervención."
+    }
+  },
+  {
+    "id": "12-5",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar espacios",
+    "titulo": "Redes relacionales clínicas",
+    "pregunta": "Completa el texto sobre las redes relacionales clínicas.",
+    "texto": "Cuando un paciente formula la regla verbal \"Si siento miedo, fracasaré\", está estableciendo un {0} de coordinación condicional. A través de este enlace, ocurre una {1} de {2}, haciendo que las sensaciones corporales normales de activación adquieran las propiedades aversivas del fracaso social. El objetivo terapéutico no es discutir cada pensamiento aislado, sino alterar el contexto que sostiene toda esta {3} relacional problemática.",
+    "huecos": [
+      { "opciones": ["marco", "red"], "respuestaCorrecta": "marco" },
+      { "opciones": ["transformación", "funciones"], "respuestaCorrecta": "transformación" },
+      { "opciones": ["transformación", "funciones"], "respuestaCorrecta": "funciones" },
+      { "opciones": ["marco", "red"], "respuestaCorrecta": "red" }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: marco → transformación → funciones → red. La regla establece un marco; el marco transforma funciones; y el objetivo clínico es flexibilizar la red.",
+      "incorrecta": "Recuerda la secuencia: un marco verbal produce transformación de funciones, y esas relaciones conforman una red cuya flexibilización es el foco clínico.",
+      "pista": "¿Qué mecanismo RFT hace que las sensaciones adquieran funciones aversivas a través de un marco?"
+    }
+  },
+  {
+    "id": "12-6",
+    "tipo": "MC",
+    "tipoLabel": "Viñeta compleja",
+    "titulo": "Objetivo primario de intervención",
+    "pregunta": "Caso: \"Siento que me quedo atrás de todos mis amigos [1]. Siempre fue así y parece que mi destino está sellado [2]. El no tener pareja significa que soy defectuoso [3]\". ¿Qué marco relacional representa el número [3] y por qué suele ser el objetivo primario de intervención para flexibilizar la evitación social del paciente?",
+    "opciones": [
+      "Temporalidad; porque es el que proyecta el problema al futuro.",
+      "Jerarquía; porque ubica a los amigos por encima del paciente.",
+      "Coordinación (\"no pareja = defectuoso\"); porque es la equivalencia funcional directa que dota a la soltería de funciones altamente aversivas, provocando el aislamiento.",
+      "Deíctico; porque el paciente no puede ver la perspectiva de sus amigos sobre su soltería."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Correcto: la equivalencia \"no pareja = defectuoso\" es el núcleo de coordinación que transfiere función aversiva al estado civil y mantiene la evitación.",
+      "incorrecta": "La frase [3] establece una equivalencia identitaria directa: es un marco de coordinación, y precisamente por la transferencia de funciones es el punto más cargado aversivamente.",
+      "pista": "¿Qué tipo de marco establece una equivalencia del tipo \"X = Y\"?"
+    }
+  }
+]

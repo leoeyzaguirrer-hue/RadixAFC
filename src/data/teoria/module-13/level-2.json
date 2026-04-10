@@ -1,1 +1,52 @@
-{}
+{
+  "titulo": "Casos Reales: Intervención Guiada por AF",
+  "preguntaCentral": "¿Cómo se elige el punto de entrada al sistema clínico, cómo se ajusta el plan ante fallas en la evolución, y cómo entra el propio terapeuta en la formulación funcional?",
+  "aprobacionRequerida": 83,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Casos complejos y mapa funcional completo",
+      "contenido": "En la práctica real los casos raramente se presentan de forma simple. No hay un solo antecedente, una sola conducta problema y un solo consecuente. Nos enfrentamos a sistemas donde hay múltiples conductas entrelazadas, cadenas conductuales de auto-sabotaje, evitación experiencial, componentes respondentes y entramados de conducta verbal (reglas y marcos relacionales). El terapeuta necesita construir un mapa funcional completo. Al mirar ese mapa, se hará evidente que no se puede intervenir sobre todo al mismo tiempo."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Seleccionar el punto de entrada",
+      "items": [
+        {
+          "nombre": "Efecto Cascada",
+          "descripcion": "¿Qué variable, si se modifica, producirá el mayor impacto sobre las demás? Si detenemos el alcoholismo, se reducen las peleas familiares y mejora la asistencia al trabajo."
+        },
+        {
+          "nombre": "Accesibilidad",
+          "descripcion": "¿Qué variable podemos modificar aquí y ahora con las herramientas de las que disponemos?"
+        },
+        {
+          "nombre": "Alianza y Motivación",
+          "descripcion": "¿Qué problema le importa más resolver al consultante, incluso si no es el más \"grave\" desde nuestra perspectiva teórica? Lograr una victoria temprana refuerza el compromiso terapéutico."
+        }
+      ]
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Cuando el tratamiento no produce cambios, concluir que \"el paciente no tiene motivación\" o \"está resistiendo el cambio\".",
+      "correccion": "El AF inicial no es la \"Verdad\", es la hipótesis más plausible con los datos disponibles. Si una intervención derivada rigurosamente del AF no produce los cambios esperados, no concluimos que el paciente resiste: concluimos que nuestra formulación debe actualizarse. El terapeuta funcional revisa constantemente: ¿está modificando esta técnica la variable que creíamos? ¿Hay nuevas hipótesis más parsimoniosas a la luz de esta falta de avance?"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "La relación terapéutica desde el Análisis Funcional",
+      "contenido": "La consulta no es un vacío aséptico. El terapeuta es parte del contexto del paciente. El comportamiento del profesional es un estímulo en el ambiente de la persona: nuestras preguntas, sonrisas, silencios y asentimientos operan funcionalmente."
+    },
+    {
+      "tipo": "conexionClinica",
+      "titulo": "El terapeuta como Ed y como fuente de reforzamiento",
+      "contenido": "Una buena alianza terapéutica (validación, escucha empática) funciona como un estímulo discriminativo (Ed) que señala que respuestas difíciles (llorar, exponer vergüenzas) no serán castigadas en esta situación. Además, el terapeuta provee consecuentes: refuerza socialmente aproximaciones sucesivas (moldeamiento) hacia el cambio y extingue conductas clínicamente inútiles en sesión. El clínico debe estar extremadamente alerta a qué conductas del cliente está reforzando con su propia atención."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Pérez Álvarez, M. (2014). Las terapias de tercera generación como terapias contextuales. Síntesis.",
+        "Gutiérrez, O. (2010). Terapias contextuales o de tercera generación. Clínica y Salud."
+      ]
+    }
+  ]
+}

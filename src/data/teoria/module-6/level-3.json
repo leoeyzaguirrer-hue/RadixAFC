@@ -1,1 +1,35 @@
-{}
+{
+  "titulo": "Programas de Reforzamiento en el AF Clínico",
+  "preguntaCentral": "¿Cómo se traduce el conocimiento sobre programas de reforzamiento en decisiones técnicas concretas para la formulación e intervención clínica?",
+  "aprobacionRequerida": 80,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Del laboratorio a la consulta",
+      "contenido": "En el terreno aplicado de la psicoterapia, raramente controlamos los programas de reforzamiento con la precisión del laboratorio. Sin embargo, evaluar el tipo de programa que mantiene las respuestas clínicamente relevantes es un paso esencial del Análisis Funcional."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Identificación Funcional",
+      "contenido": "Al formular el caso, el clínico debe preguntarse: ¿Con qué frecuencia se refuerza esta conducta problema? y ¿Es predecible o impredecible la aparición de la consecuencia?\n\nSi una conducta de rumiación obsesiva produce invariablemente la disminución momentánea de la activación fisiológica (R- continuo), el clínico sabe que al bloquear esa consecuencia (extinción), la conducta decaerá relativamente rápido tras un estallido inicial.\n\nSi la conducta de búsqueda de reaseguro es respondida por la familia solo \"a veces\", después de insistir una cantidad impredecible de veces, nos enfrentamos a un programa RV o IV. Estas conductas son las más resistentes al cambio. La \"esperanza\" reportada por el paciente (\"sé que si insisto, a veces me escuchan\") es la traducción verbal de estar operando bajo un programa RV."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Diseño de Intervenciones Basadas en Programas",
+      "contenido": "El conocimiento sobre los programas de reforzamiento guía directamente el diseño de la estrategia clínica:\n\n• Para establecer repertorios nuevos (ej. asertividad): El terapeuta debe proveer o arreglar el ambiente para que la nueva conducta sea reforzada de forma continua (RC) en las primeras fases. Posteriormente, para \"inmunizar\" la conducta contra el fracaso en el ambiente natural, el terapeuta debe espaciar (modificar) las contingencias hacia un programa intermitente.\n\n• Para reducir conductas problemáticas: Aplicar extinción pura a conductas mantenidas intermitentemente (RV/IV) es un riesgo clínico enorme debido a la lenta caída y la frustración asociada (estallidos severos). Una estrategia fundamental es evitar la extinción pura y utilizar el Reforzamiento Diferencial de Conductas Alternativas (DRA): se somete a extinción la conducta problema mientras se densifica un programa de reforzamiento continuo y de mayor calidad para una conducta adaptativa sustituta."
+    },
+    {
+      "tipo": "nota",
+      "titulo": "Integración Clínica",
+      "contenido": "La extinción nunca ocurre en un vacío. El estallido de la extinción no es un signo de que \"la intervención no funciona\", sino la evidencia operante de que la contingencia previa ha sido alterada. Cuando la conducta problema se topa con la extinción, el organismo variará su repertorio buscando acceso a la consecuencia bajo otras morfologías."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Gutiérrez Domínguez, M. T. et al. Procesos Psicológicos Básicos.",
+        "Kazdin, A. E. Historia de la Modificación de Conducta.",
+        "Segura, M., Sánchez, P., Barbado, P. Análisis Funcional de la Conducta: Un Modelo Explicativo."
+      ]
+    }
+  ]
+}

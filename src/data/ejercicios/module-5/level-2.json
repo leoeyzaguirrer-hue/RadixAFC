@@ -1,1 +1,138 @@
-{}
+[
+  {
+    "id": "5-8",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Contingencia de cuatro términos",
+    "pregunta": "¿Qué caracteriza a una contingencia de cuatro términos en el análisis del comportamiento?",
+    "opciones": [
+      "La adición de una segunda consecuencia tras la respuesta operante.",
+      "La presencia de un estímulo selector que modifica la relación funcional entre el Ed y la consecuencia.",
+      "Un proceso exclusivo del condicionamiento respondente de segundo orden.",
+      "La ocurrencia simultánea de cuatro respuestas en cadena."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "El selector es el cuarto término que condiciona el funcionamiento del Ed sobre la respuesta y su consecuencia.",
+      "incorrecta": "El cuarto término no es otra consecuencia ni otra respuesta: es un estímulo contextual que modula la contingencia.",
+      "pista": "Piensa en un contexto que dice 'aquí esta regla aplica, allá no'."
+    }
+  },
+  {
+    "id": "5-9",
+    "tipo": "MC",
+    "tipoLabel": "Análisis de selectores",
+    "titulo": "Identificar el selector",
+    "pregunta": "Ana siempre tiene acceso a cigarrillos en su bolso, pero solo fuma cuando está reunida con ciertos amigos del círculo académico. ¿Cuál elemento cumple la función de selector?",
+    "opciones": [
+      "Los cigarrillos en su bolso.",
+      "La conducta topográfica de encender el cigarro.",
+      "La presencia del grupo específico de amigos.",
+      "La privación de nicotina (OE)."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "El grupo específico es el contexto que selecciona cuándo el Ed (cigarrillo disponible) realmente evoca la conducta de fumar.",
+      "incorrecta": "Los cigarrillos están siempre disponibles (no discriminan); el selector es lo que cambia cuándo esa disponibilidad se traduce en conducta.",
+      "pista": "¿Qué variable contextual cambia entre 'fuma' y 'no fuma' a pesar de tener el mismo Ed?"
+    }
+  },
+  {
+    "id": "5-10",
+    "tipo": "Emparejamiento",
+    "tipoLabel": "Emparejar conceptos",
+    "titulo": "Propiedades de equivalencia (Sidman)",
+    "pregunta": "Empareja cada propiedad documentada por Sidman con su formulación técnica:",
+    "columnaIzquierda": ["Reflexividad", "Simetría", "Transitividad"],
+    "columnaDerecha": [
+      "Si A → B y B → C, entonces A → C",
+      "A = A",
+      "Si A → B, entonces B → A"
+    ],
+    "paresCorrectos": {
+      "Reflexividad": "A = A",
+      "Simetría": "Si A → B, entonces B → A",
+      "Transitividad": "Si A → B y B → C, entonces A → C"
+    },
+    "retroalimentacion": {
+      "correcta": "Las tres propiedades definen una clase de equivalencia y son la base de las relaciones derivadas.",
+      "incorrecta": "Recuerda: reflexividad = identidad; simetría = bidireccionalidad; transitividad = transferencia por nodo común.",
+      "pista": "Reflexividad es el caso más simple (A=A); transitividad requiere tres elementos."
+    }
+  },
+  {
+    "id": "5-11",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar",
+    "titulo": "Sidman y relaciones derivadas",
+    "pregunta": "Completa el texto con los términos precisos:",
+    "textoBase": "Completa las propiedades de formación de una ___ de equivalencia. Cuando una relación emerge sin entrenamiento bidireccional, evidenciamos la propiedad de ___. Si la transferencia de control ocurre a través de un nodo común (A-B, B-C para llegar a A-C), observamos ___. Este hallazgo demuestra empíricamente cómo emerge la conducta relacional ___.",
+    "gaps": [
+      {
+        "id": "gap1",
+        "opciones": ["derivada", "clase"],
+        "correcta": "clase"
+      },
+      {
+        "id": "gap2",
+        "opciones": ["reflexividad", "simetría"],
+        "correcta": "simetría"
+      },
+      {
+        "id": "gap3",
+        "opciones": ["transitividad", "reflexividad"],
+        "correcta": "transitividad"
+      },
+      {
+        "id": "gap4",
+        "opciones": ["derivada", "clase"],
+        "correcta": "derivada"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "El descubrimiento de las relaciones derivadas por Sidman marcó un antes y un después en el análisis del comportamiento humano.",
+      "incorrecta": "Revisa cuál propiedad implica bidireccionalidad y cuál implica transferencia por nodo común.",
+      "pista": "Bidireccional = simetría; nodo común = transitividad."
+    }
+  },
+  {
+    "id": "5-12",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Relación directa vs derivada",
+    "pregunta": "Un clínico entrena a un paciente para asociar un ícono de respiración (A) con la palabra \"calma\" (B). Clasifica las relaciones resultantes:",
+    "items": [
+      "Terapeuta refuerza emparejar ícono(A) con palabra(B)",
+      "Paciente empareja espontáneamente palabra(B) con ícono(A)"
+    ],
+    "zonas": ["Directa (Entrenada)", "Derivada (Emergente)"],
+    "correctMap": {
+      "Terapeuta refuerza emparejar ícono(A) con palabra(B)": "Directa (Entrenada)",
+      "Paciente empareja espontáneamente palabra(B) con ícono(A)": "Derivada (Emergente)"
+    },
+    "retroalimentacion": {
+      "correcta": "La relación A→B es directa porque fue reforzada explícitamente; la relación B→A es derivada (simetría).",
+      "incorrecta": "Pregúntate: ¿esta relación fue reforzada directamente o emergió sin entrenamiento adicional?",
+      "pista": "Si el terapeuta no la reforzó explícitamente, es derivada."
+    }
+  },
+  {
+    "id": "5-13",
+    "tipo": "MC",
+    "tipoLabel": "Traspaso de funciones",
+    "titulo": "Identificar la propiedad",
+    "pregunta": "Un niño aprende explícitamente que el sonido fonético \"alto\" (A) corresponde a la conducta de detenerse (B). Luego aprende que la señal roja octogonal en la calle (C) corresponde al sonido \"alto\" (A). Sin instrucción adicional, al ver la señal roja (C), emite la conducta de detenerse (B). ¿Qué propiedad de equivalencia rige este fenómeno analítico?",
+    "opciones": [
+      "Reflexividad.",
+      "Simetría.",
+      "Transitividad.",
+      "Bloqueo respondente."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Se entrenaron A→B y C→A; la relación derivada C→B emerge por transitividad a través del nodo A.",
+      "incorrecta": "Reflexividad sería A=A; simetría sería bidireccionalidad de un par; bloqueo es de condicionamiento clásico.",
+      "pista": "Hay tres elementos y una transferencia a través de un elemento intermedio."
+    }
+  }
+]

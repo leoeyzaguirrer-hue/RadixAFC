@@ -1,1 +1,126 @@
-{}
+[
+  {
+    "id": "13-1",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Manipulación de variables funcionales",
+    "pregunta": "¿Qué significa en la práctica que el tratamiento psicológico es una \"manipulación de variables funcionales\"?",
+    "opciones": [
+      "Que el terapeuta debe usar técnicas indirectas para que el paciente no note que está siendo intervenido.",
+      "Que cada intervención debe modificar una variable específica (antecedente, consecuente, verbal) identificada en el AF como responsable del mantenimiento, evitando aplicar protocolos a ciegas.",
+      "Que el diagnóstico psiquiátrico dicta exactamente el tipo de manipulación cognitiva que se requiere.",
+      "Que el terapeuta debe hacer análisis estadísticos avanzados del comportamiento antes de cada sesión."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: cada técnica debe responder a una variable específica del AF; aplicarla \"a ciegas\" rompe la lógica funcional del tratamiento.",
+      "incorrecta": "Recuerda: el criterio no es el diagnóstico ni la técnica de moda, sino la variable funcional del AF que buscamos modificar.",
+      "pista": "¿Qué pregunta debe poder responder cada técnica del plan?"
+    }
+  },
+  {
+    "id": "13-2",
+    "tipo": "Emparejamiento",
+    "tipoLabel": "Emparejamiento",
+    "titulo": "Hipótesis de mantenimiento y técnica coherente",
+    "pregunta": "Empareja la hipótesis de mantenimiento del AF con la intervención técnica más coherente.",
+    "pares": [
+      {
+        "izquierda": "Insensibilidad a contingencias (seguimiento rígido de reglas)",
+        "derecha": "Trabajo experiencial y contacto directo con las consecuencias naturales"
+      },
+      {
+        "izquierda": "Evitación experiencial de ansiedad condicionada (R-)",
+        "derecha": "Exposición a las sensaciones sin escape"
+      },
+      {
+        "izquierda": "Fusión con la regla \"Soy un desastre\"",
+        "derecha": "Ejercicios de defusión verbal"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: cada hipótesis funcional dicta una técnica específica; no hay una técnica universal.",
+      "incorrecta": "Recuerda: pliance rígido → experiencial; R- → exposición con prevención de escape; fusión → defusión verbal.",
+      "pista": "¿Qué intervención ataca directamente la variable funcional implicada?"
+    }
+  },
+  {
+    "id": "13-3",
+    "tipo": "Ordenamiento",
+    "tipoLabel": "Ordenamiento",
+    "titulo": "Secuencia del diseño del plan terapéutico",
+    "pregunta": "Ordena la secuencia metodológica correcta del diseño del plan terapéutico.",
+    "items": [
+      "Análisis Funcional completo.",
+      "Hipótesis de mantenimiento.",
+      "Objetivos conductuales y criterios medibles.",
+      "Selección de técnicas coherentes con el AF.",
+      "Anticipar efectos colaterales (ej. estallidos de extinción).",
+      "Evaluar y ajustar según evolución."
+    ],
+    "ordenCorrecto": [0, 1, 2, 3, 4, 5],
+    "retroalimentacion": {
+      "correcta": "Correcto: AF → hipótesis → objetivos → técnicas → anticipar efectos → evaluar y ajustar.",
+      "incorrecta": "Revisa la secuencia: primero el AF, luego las hipótesis, los objetivos, las técnicas, anticipar efectos colaterales y finalmente evaluar y ajustar.",
+      "pista": "Empieza por el análisis y termina por la evaluación."
+    }
+  },
+  {
+    "id": "13-4",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico",
+    "titulo": "Error de coherencia técnica",
+    "pregunta": "Caso: el AF identifica que lavarse las manos compulsivamente se mantiene por R- (alivio de ansiedad condicionada a la suciedad). El terapeuta decide trabajar con \"reestructuración cognitiva sobre la probabilidad real de infección\" porque así lo aprendió en un protocolo estándar. ¿Qué error está cometiendo?",
+    "opciones": [
+      "Ninguno, ya que la reestructuración cognitiva modifica indirectamente el condicionamiento clásico.",
+      "Incoherencia técnica/funcional: intenta modificar el contenido verbal cuando la variable de mantenimiento clave es el alivio de una respuesta condicionada (R-). No modifica la contingencia central.",
+      "El terapeuta olvidó primero buscar la causa subyacente en la infancia antes de aplicar la reestructuración.",
+      "Está aplicando ACT sin haber leído a Skinner primero."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: la técnica no toca la variable funcional. Si el mantenimiento es R-, la intervención debe prevenir el escape, no debatir el contenido verbal.",
+      "incorrecta": "El error es de coherencia funcional: aplica una técnica verbal a un problema mantenido por contingencias respondentes/operantes de escape.",
+      "pista": "¿Está la técnica modificando la variable identificada en el AF?"
+    }
+  },
+  {
+    "id": "13-5",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar espacios",
+    "titulo": "Criterios de cambio operacionales",
+    "pregunta": "Completa la frase sobre los criterios de cambio.",
+    "texto": "Para saber si un objetivo se está logrando, debemos {0} el comportamiento de modo que sea {1} y {2}. Estos sirven como {3} para monitorear la {4} del tratamiento a lo largo del tiempo.",
+    "huecos": [
+      { "opciones": ["ocultar", "operacionalizar"], "respuestaCorrecta": "operacionalizar" },
+      { "opciones": ["observable", "subjetivo"], "respuestaCorrecta": "observable" },
+      { "opciones": ["medible", "intuitivo"], "respuestaCorrecta": "medible" },
+      { "opciones": ["criterio", "diagnóstico"], "respuestaCorrecta": "criterio" },
+      { "opciones": ["personalidad", "evolución"], "respuestaCorrecta": "evolución" }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: operacionalizar → observable → medible → criterio → evolución.",
+      "incorrecta": "Recuerda: los objetivos conductuales son operacionales, observables y medibles, y sirven como criterio para monitorear la evolución.",
+      "pista": "¿Cómo definimos un objetivo conductual riguroso?"
+    }
+  },
+  {
+    "id": "13-6",
+    "tipo": "MC",
+    "tipoLabel": "Verdadero/Falso analizado",
+    "titulo": "¿La mejoría valida el AF?",
+    "pregunta": "\"Si aplicamos una técnica, el paciente mejora y los síntomas desaparecen, esto constituye prueba innegable de que nuestro Análisis Funcional era correcto\". ¿Cuál es la evaluación correcta?",
+    "opciones": [
+      "Verdadero: la mejoría clínica es el principal validador empírico de las hipótesis de mantenimiento.",
+      "Falso: el éxito terapéutico no valida irrefutablemente el AF. La mejoría pudo darse por variables no identificadas, factores inespecíficos o cambios ambientales fortuitos.",
+      "Verdadero, pero solo si el paciente no tuvo medicación simultánea.",
+      "Falso: la mejoría siempre indica efectos placebo."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: el éxito clínico es consistente con el AF, pero no lo prueba. Otras variables pudieron haber actuado en paralelo.",
+      "incorrecta": "El éxito clínico apoya, pero no valida con certeza el AF. Pueden operar variables no identificadas y factores inespecíficos.",
+      "pista": "¿Basta la mejoría para inferir que la única causa fue la técnica aplicada?"
+    }
+  }
+]

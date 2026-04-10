@@ -1,1 +1,100 @@
-{}
+[
+  {
+    "id": "4-16",
+    "tipo": "Ordenamiento",
+    "tipoLabel": "Ordenar secuencia",
+    "titulo": "Secuencia bifactorial: pánico en transporte público",
+    "pregunta": "Construye la secuencia cronológica completa según el modelo bifactorial de Mowrer para un ataque de pánico en el transporte público.",
+    "items": [
+      "El metro queda asociado como EC y produce RC de miedo/ansiedad anticipatoria.",
+      "Se fortalece la operante de evitación y el miedo en el CC se mantiene intacto (no hay extinción).",
+      "El paciente decide bajar del metro, alejándose del EC.",
+      "Experimenta un alivio inmediato de la ansiedad (reforzamiento negativo).",
+      "Primer viaje en metro (EN) ocurre con un episodio de ahogo/palpitaciones (EI) generando pánico (RI)."
+    ],
+    "ordenCorrecto": [
+      "Primer viaje en metro (EN) ocurre con un episodio de ahogo/palpitaciones (EI) generando pánico (RI).",
+      "El metro queda asociado como EC y produce RC de miedo/ansiedad anticipatoria.",
+      "El paciente decide bajar del metro, alejándose del EC.",
+      "Experimenta un alivio inmediato de la ansiedad (reforzamiento negativo).",
+      "Se fortalece la operante de evitación y el miedo en el CC se mantiene intacto (no hay extinción)."
+    ],
+    "retroalimentacion": {
+      "correcta": "Secuencia perfecta del modelo bifactorial: condicionamiento clásico (EN+EI→EC) → conducta operante de escape → R- → mantenimiento del bucle patológico.",
+      "incorrecta": "Recuerda: primero ocurre el condicionamiento clásico, luego el EC genera miedo, luego la persona escapa, obtiene alivio (R-) y el ciclo se perpetúa.",
+      "pista": "Factor 1 (CC) primero, Factor 2 (CO) después. El alivio refuerza la evitación que impide la extinción."
+    }
+  },
+  {
+    "id": "4-17",
+    "tipo": "MC",
+    "tipoLabel": "Identificación de componentes",
+    "titulo": "Componentes CC y CO en fobia",
+    "pregunta": "Una persona sufre un accidente leve de tránsito. Desde entonces, el solo sentarse frente al volante le produce taquicardia severa. En consecuencia, decide vender su auto y tomar taxis exclusivamente. Identifica correctamente los componentes:",
+    "opciones": [
+      "El volante es el reforzador negativo (CO) y la venta del auto es la respuesta incondicionada (CC).",
+      "La taquicardia frente al volante es el componente respondente (CC) y el tomar taxis para no manejar es el componente operante (CO).",
+      "El accidente es una operación de establecimiento operante (CO) y la venta del auto es la respuesta condicionada (CC)."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "La taquicardia es la RC elicitada por el EC (volante) = Factor 1 (CC). Tomar taxis es la conducta operante de evitación reforzada por R- = Factor 2 (CO).",
+      "incorrecta": "Distingue: la respuesta fisiológica involuntaria (taquicardia) es CC. La decisión de evitar manejar es CO.",
+      "pista": "Lo involuntario (taquicardia) es respondente/CC. Lo que la persona hace para escapar (taxis) es operante/CO."
+    }
+  },
+  {
+    "id": "4-18",
+    "tipo": "MC",
+    "tipoLabel": "El bucle mantenedor",
+    "titulo": "Por qué la evitación mantiene el miedo",
+    "pregunta": "Técnicamente, ¿cuál es la razón mecanística por la cual la conducta operante de evitación impide que el miedo irracional desaparezca con el tiempo?",
+    "opciones": [
+      "Porque la evitación aumenta la cantidad de dopamina en el cerebro basal, sobreescribiendo el engrama del miedo original.",
+      "Porque la evitación funciona como un castigo positivo constante sobre las conductas de valentía.",
+      "Porque la evitación corta prematuramente el contacto con el EC, impidiendo que este se presente sin el EI el tiempo suficiente para lograr la extinción respondente."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "La evitación impide el contacto sostenido con el EC sin el EI, que es la condición necesaria para la extinción del condicionamiento clásico. La evitación es el escudo que protege al miedo.",
+      "incorrecta": "No es un mecanismo de dopamina ni de castigo. La evitación simplemente impide que ocurra la extinción respondente al cortar el contacto con el EC.",
+      "pista": "Para extinguir una RC, el EC debe presentarse repetidamente sin el EI. Si la persona huye antes, ¿puede ocurrir la extinción?"
+    }
+  },
+  {
+    "id": "4-19",
+    "tipo": "MC",
+    "tipoLabel": "Dilema clínico",
+    "titulo": "Intervención en patrón bifactorial",
+    "pregunta": "Si la evaluación funcional determina un problema estructurado 100% bajo un patrón bifactorial de Mowrer (fobia severa mantenida por evitación), la intervención conductual más coherente y directa exige:",
+    "opciones": [
+      "Aumentar el reforzamiento positivo de otras conductas no relacionadas y prescribir ansiolíticos para suprimir la respuesta condicionada.",
+      "Exposición sostenida al EC (para lograr extinción respondente) acoplada a la prevención de la respuesta de escape (para extinguir operantemente el R-).",
+      "Aplicar castigo positivo de forma contingente cada vez que el paciente manifiesta miedo o intenta evadir la situación amenazante."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "La exposición con prevención de respuesta ataca ambos factores simultáneamente: extingue la RC (CC) al mantener contacto con el EC, y extingue la operante de evitación (CO) al bloquear el R-.",
+      "incorrecta": "Ni los ansiolíticos solos ni el castigo abordan los dos factores. La exposición + prevención de respuesta es la intervención directa del modelo bifactorial.",
+      "pista": "Hay dos factores que mantener: el CC (miedo) y el CO (evitación). ¿Qué intervención ataca ambos?"
+    }
+  },
+  {
+    "id": "4-20",
+    "tipo": "MC",
+    "tipoLabel": "Comparación de modelos",
+    "titulo": "Aporte del modelo bifactorial",
+    "pregunta": "Comparando el análisis operante estricto (Skinner puro) con el modelo bifactorial (Mowrer), ¿cuál es el gran aporte clínico de este último?",
+    "opciones": [
+      "Integra las respuestas fisiológicas involuntarias de ansiedad (CC) y explica por qué la evitación operante voluntaria paraliza la curación de dichas respuestas orgánicas.",
+      "Rechaza la utilidad del reforzamiento y se centra exclusivamente en reflejos incondicionados como los descubiertos por Pavlov.",
+      "Sustituye la E de la contingencia E-R-C de Skinner por una O organísmica cognitiva mediacional."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "El modelo bifactorial integra CC (respuestas involuntarias de miedo) y CO (evitación voluntaria) en un único marco que explica el mantenimiento patológico y guía la intervención.",
+      "incorrecta": "Mowrer no rechaza el reforzamiento ni sustituye la E por una O cognitiva. Su aporte es integrar los dos paradigmas de aprendizaje en un modelo explicativo del mantenimiento de la ansiedad.",
+      "pista": "El aporte de Mowrer es el puente entre dos paradigmas de aprendizaje para explicar un fenómeno clínico."
+    }
+  }
+]

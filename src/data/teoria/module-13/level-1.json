@@ -1,1 +1,69 @@
-{}
+{
+  "titulo": "Del AF al Plan Terapéutico",
+  "preguntaCentral": "¿Cómo se traduce un Análisis Funcional riguroso en un plan de tratamiento coherente, jerarquizado y medible?",
+  "aprobacionRequerida": 87,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "El tratamiento es manipulación funcional, no un catálogo de técnicas",
+      "contenido": "El plan de tratamiento no es una lista de técnicas que se aplican estandarizadamente a un diagnóstico. El tratamiento es una manipulación planificada de las variables funcionales que el Análisis Funcional (AF) identificó como responsables del mantenimiento del problema. Cada técnica o intervención que se incluye en el plan tiene que responder a una pregunta muy clara: ¿qué variable del AF estoy intentando modificar con esto? Si no puedes responder a esa pregunta basándote en tu formulación del caso, esa técnica no debería estar en tu plan de tratamiento, sin importar cuán \"efectiva\" haya demostrado ser en la literatura general."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Traducir el AF en objetivos terapéuticos",
+      "contenido": "Del AF se extraen las hipótesis de mantenimiento. Cada una debe generar un objetivo de intervención. Si la hipótesis es que \"la evitación se mantiene por refuerzo negativo (alivio de ansiedad condicionada a lugares públicos)\", el objetivo será la exposición para facilitar la extinción respondente y romper esa contingencia operante de escape. Si la hipótesis es que \"los atracones se mantienen por fusión cognitiva con la regla 'soy un fracaso'\", el objetivo será facilitar la defusión de esa regla verbal específica. Los objetivos deben ser conductuales: observables, medibles, cuantificables en frecuencia, intensidad y duración."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Jerarquización de objetivos",
+      "items": [
+        {
+          "nombre": "1. Seguridad inmediata",
+          "descripcion": "Riesgo vital o de daño grave."
+        },
+        {
+          "nombre": "2. Estabilización",
+          "descripcion": "Conductas que impiden el funcionamiento mínimo o imposibilitan la terapia misma (ej. intoxicación severa)."
+        },
+        {
+          "nombre": "3. Cambio sustancial",
+          "descripcion": "Modificación de las variables nucleares de mantenimiento identificadas por el AF."
+        },
+        {
+          "nombre": "4. Consolidación y generalización",
+          "descripcion": "Ampliación del repertorio y prevención de recaídas."
+        }
+      ]
+    },
+    {
+      "tipo": "nota",
+      "contenido": "Los criterios de cambio deben operacionalizarse: \"reducir la evitación de situaciones sociales de 5 veces por semana a menos de 1\" o \"aumentar las conductas de contacto social guiadas por valores de 0 a 3 por semana\". Estos criterios son nuestra herramienta de evaluación continua."
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Seleccionar técnicas coherentes con el AF",
+      "encabezados": ["Variable del AF", "Intervención coherente"],
+      "filas": [
+        ["Evitación respondente (CC)", "Exposición / Extinción respondente"],
+        ["Conducta mantenida por R+ (atención)", "Extinción operante + Reforzamiento Diferencial de Conductas Alternativas (DRA)"],
+        ["Conducta mantenida por R- (escape)", "Prevención de respuesta + modificación de consecuentes"],
+        ["Fusión cognitiva", "Ejercicios de defusión y flexibilidad verbal"],
+        ["Falta de dirección motivacional", "Clarificación de valores"],
+        ["Insensibilidad a las contingencias (Pliance rígido)", "Trabajo experiencial para fomentar contacto directo con consecuencias naturales"]
+      ]
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Aplicar técnicas por moda, por protocolo estandarizado o por zona de confort del terapeuta, sin anticipar efectos colaterales.",
+      "correccion": "Toda intervención produce ramificaciones. Si aplicamos extinción, debemos anticipar el estallido de extinción (aumento temporal de la conducta): si no preparamos al cliente y al entorno, ese incremento se interpretará como fracaso y se cederá, reforzando la conducta con mayor intensidad. Además, al cambiar la conducta del paciente, el entorno (pareja, familia) puede resistirse, produciendo fricciones temporales."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Froxán Parga, M. X., & Santacreu Mas, J. (1999). Qué es un tratamiento psicológico. Biblioteca Nueva.",
+        "Segura, M., Sánchez, P., & Barbado, P. (2015). Análisis Funcional de la Conducta: Un manual operativo. Comares.",
+        "Kazdin, A. E. (2012). Modificación de la conducta y sus aplicaciones prácticas. El Manual Moderno."
+      ]
+    }
+  ]
+}

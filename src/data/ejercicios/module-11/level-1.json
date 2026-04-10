@@ -1,1 +1,143 @@
-{}
+[
+  {
+    "id": "11-1",
+    "tipo": "Emparejamiento",
+    "tipoLabel": "Emparejamiento",
+    "titulo": "Inflexibilidad vs Flexibilidad",
+    "pregunta": "Empareja cada proceso del Hexaflex (flexibilidad) con su contraparte de inflexibilidad psicológica.",
+    "pares": [
+      {
+        "izquierda": "Aceptación",
+        "derecha": "Evitación Experiencial"
+      },
+      {
+        "izquierda": "Defusión Cognitiva",
+        "derecha": "Fusión Cognitiva"
+      },
+      {
+        "izquierda": "Contacto con el Presente",
+        "derecha": "Dominancia Verbal (Pasado/Futuro)"
+      },
+      {
+        "izquierda": "Yo como Contexto",
+        "derecha": "Yo como Contenido"
+      },
+      {
+        "izquierda": "Valores",
+        "derecha": "Falta de Dirección"
+      },
+      {
+        "izquierda": "Acción Comprometida",
+        "derecha": "Inacción / Impulsividad"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: cada proceso de flexibilidad ataca funcionalmente su correspondiente patrón de rigidez.",
+      "incorrecta": "Recuerda los seis ejes del Hexaflex: cada uno transforma un patrón rígido en un repertorio flexible.",
+      "pista": "Piensa en la función opuesta: ¿qué proceso libera lo que el otro restringe?"
+    }
+  },
+  {
+    "id": "11-2",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Defusión funcional",
+    "pregunta": "Desde una perspectiva estrictamente funcional, ¿qué significa la defusión cognitiva?",
+    "opciones": [
+      "Debatir la lógica de los pensamientos automáticos para reducir su credibilidad e intensidad.",
+      "Aplicar técnicas de detención del pensamiento cuando surgen reglas verbales inútiles.",
+      "Cambiar la relación con los pensamientos, observándolos como eventos verbales sin suprimir ni debatir su contenido.",
+      "Modificar el contenido del pensamiento para que sea congruente con los valores del consultante."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Correcto: la defusión altera el contexto relacional con el pensamiento, no su contenido ni su frecuencia.",
+      "incorrecta": "La defusión no debate ni suprime: cambia la función del pensamiento como controlador rígido de la conducta.",
+      "pista": "¿La intervención modifica el contenido del pensamiento o la relación funcional con él?"
+    }
+  },
+  {
+    "id": "11-3",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Intervenciones y procesos",
+    "pregunta": "Clasifica la intervención del clínico según el proceso primario de ACT que promueve.",
+    "categorias": ["Defusión", "Aceptación", "Valores"],
+    "items": [
+      {
+        "texto": "\"Te propongo decir la frase 'Soy un incompetente' muy lentamente durante 30 segundos.\"",
+        "categoria": "Defusión"
+      },
+      {
+        "texto": "\"¿Estarías dispuesto a hacerle espacio a esa sensación de opresión en el pecho, sin intentar que se vaya?\"",
+        "categoria": "Aceptación"
+      },
+      {
+        "texto": "\"Si nadie te estuviera juzgando y el miedo no fuera un obstáculo, ¿qué tipo de hermano te gustaría ser en esta situación?\"",
+        "categoria": "Valores"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: repetir lentamente debilita la literalidad (defusión); hacerle espacio al malestar es aceptación; explorar el tipo de persona que el paciente quiere ser apunta a valores.",
+      "incorrecta": "Identifica la función: ¿cambia la literalidad del pensamiento, abre espacio al evento privado, o conecta con dirección vital?",
+      "pista": "Defusión opera sobre el lenguaje literal; aceptación, sobre el contacto con el malestar; valores, sobre la dirección elegida."
+    }
+  },
+  {
+    "id": "11-4",
+    "tipo": "MC",
+    "tipoLabel": "Análisis de caso",
+    "titulo": "Barrera principal",
+    "pregunta": "Un paciente afirma: \"No puedo retomar la universidad hasta que deje de sentir esta ansiedad paralizante cada mañana\". ¿Qué proceso de inflexibilidad está más directamente operando como barrera conductual?",
+    "opciones": [
+      "Evitación experiencial (la ausencia de ansiedad es prerrequisito para actuar) y falta de valores como motor alternativo.",
+      "Yo como contenido (el paciente asume la identidad de estudiante fracasado).",
+      "Impulsividad (deseo de tomar decisiones académicas sin planificación).",
+      "Defusión excesiva del pensamiento de ansiedad."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "Correcto: poner como condición la ausencia del malestar es la marca distintiva de la evitación experiencial; además, no hay un valor que motive el acercamiento.",
+      "incorrecta": "La regla \"primero deje de sentir, luego actúo\" es la firma de la evitación experiencial.",
+      "pista": "¿Qué condición pone el paciente para actuar?"
+    }
+  },
+  {
+    "id": "11-5",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Valores vs Metas",
+    "pregunta": "En el trabajo clínico en ACT, ¿cuál es la diferencia funcional entre valores y metas?",
+    "opciones": [
+      "Los valores son alcanzables a corto plazo; las metas requieren de planificación a largo plazo.",
+      "Las metas son puntos de llegada que se alcanzan o no; los valores son direcciones que se encarnan y viven continuamente a través de la acción.",
+      "Los valores son constructos internos inmodificables; las metas son reglas de pliance establecidas por el terapeuta.",
+      "Las metas son verbales; los valores son emocionales."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: las metas terminan al alcanzarse; los valores son cualidades de acción continuas (cómo quiero comportarme).",
+      "incorrecta": "Recuerda: las metas son discretas y finitas; los valores son direcciones continuas que orientan la acción.",
+      "pista": "¿Una meta se completa? ¿Un valor se completa?"
+    }
+  },
+  {
+    "id": "11-6",
+    "tipo": "MC",
+    "tipoLabel": "Verdadero o Falso analizado",
+    "titulo": "Reducir pensamientos negativos",
+    "pregunta": "\"En ACT, el objetivo terapéutico es que el paciente reduzca progresivamente la frecuencia de sus pensamientos negativos y dolorosos.\" ¿Cuál de las siguientes evaluaciones es la correcta?",
+    "opciones": [
+      "VERDADERO: al reducir los pensamientos dolorosos, naturalmente surge la acción comprometida.",
+      "FALSO: el objetivo es eliminar las emociones, no los pensamientos.",
+      "FALSO: el objetivo es cambiar la FUNCIÓN de esos pensamientos en la secuencia conductual del consultante, no disminuir su frecuencia o topografía.",
+      "VERDADERO: ACT busca la supresión cognitiva mediante mindfulness."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Correcto: ACT no busca reducir frecuencia ni topografía: cambia la función del pensamiento dentro de la secuencia conductual.",
+      "incorrecta": "ACT no apunta a frecuencia ni a contenido: apunta a la función del evento privado en la conducta del consultante.",
+      "pista": "¿ACT cambia el contenido del pensamiento o su función?"
+    }
+  }
+]

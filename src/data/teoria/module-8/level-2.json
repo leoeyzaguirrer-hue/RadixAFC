@@ -1,1 +1,73 @@
-{}
+{
+  "titulo": "Hipótesis Funcionales y Diseño de Intervención",
+  "preguntaCentral": "¿Cómo se traduce un análisis funcional sólido en un plan de intervención coherente, y cómo se priorizan las conductas problema en casos clínicos reales?",
+  "aprobacionRequerida": 83,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "De la descripción a la hipótesis funcional",
+      "contenido": "Una vez recabada la información descriptiva y delineadas las secuencias comportamentales, el clínico debe establecer hipótesis. Es esencial distinguir rigurosamente entre cómo se originó una conducta y cómo se mantiene en el momento de la consulta."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Hipótesis de origen vs. Hipótesis de mantenimiento",
+      "items": [
+        {
+          "nombre": "Hipótesis de origen",
+          "descripcion": "Responde a ¿cómo se adquirió esta conducta? Tiene que ver con la historia de aprendizaje (condicionamiento inicial, modelado, seguimiento temprano de instrucciones verbales). Aunque es muy relevante para comprender la coherencia del caso e incluso validar la experiencia del paciente, generalmente sus variables pertenecen al pasado y no son modificables."
+        },
+        {
+          "nombre": "Hipótesis de mantenimiento",
+          "descripcion": "Responde a ¿qué está haciendo que esta conducta siga ocurriendo HOY? Se centra en las contingencias actuales, los consecuentes inmediatos y el contexto discriminativo presente. Esta es la hipótesis que guía imperativamente la intervención: si no sabes qué mantiene una conducta hoy, no puedes diseñar una intervención efectiva."
+        }
+      ]
+    },
+    {
+      "tipo": "ejemplo",
+      "titulo": "Variables de adquisición vs. mantenimiento (caso Valentina)",
+      "contenido": "Valentina empezó a fumar por un proceso de moldeamiento y presión social durante la adolescencia (adquisición, controlada por refuerzo positivo social), pero en la actualidad (diez años después) fuma compulsivamente cada vez que enfrenta una sobrecarga laboral para escapar de la ansiedad (mantenimiento, controlado por refuerzo negativo).\n\nEl plan de tratamiento debe apuntar directamente a las variables de mantenimiento, trabajando sobre la regulación de la ansiedad de Valentina y no sobre la presión de sus compañeros adolescentes de hace diez años."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Del AF al plan de intervención",
+      "contenido": "La formulación de un análisis funcional robusto debe traducirse lógicamente en una intervención específica. La coherencia entre el AF y la intervención distingue al clínico funcional de quien aplica protocolos a ciegas.\n\nSi la hipótesis sostiene que la evitación de una tarea (p. ej., ir al colegio) se mantiene por un intenso refuerzo negativo (alivio de la ansiedad social), la intervención debe centrarse en exponer al sujeto a las contingencias naturales y extinguir la función de escape (p. ej., prevención de respuesta, exposición gradual). En cambio, si la misma topografía de conducta (no ir al colegio) se mantiene por refuerzo positivo (quedarse jugando videojuegos con atención exclusiva de los padres), la intervención será diametralmente opuesta (p. ej., extinción operante y costo de respuesta)."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Jerarquización de conductas problema",
+      "items": [
+        {
+          "nombre": "1. Riesgo vital",
+          "descripcion": "Prioridad absoluta para conductas que amenazan la vida o integridad grave del paciente o terceros: autolesiones severas, riesgo suicida inminente, anorexia severa."
+        },
+        {
+          "nombre": "2. Conductas que bloquean la terapia",
+          "descripcion": "Falta de asistencia a sesión, consumo de sustancias antes de la terapia, negarse a hablar. Si la herramienta de trabajo está bloqueada, nada más puede avanzar."
+        },
+        {
+          "nombre": "3. Conductas que interfieren en otras áreas amplias de la vida",
+          "descripcion": "Problemas que incapacitan severamente el funcionamiento social o laboral del paciente."
+        },
+        {
+          "nombre": "4. Conductas que el paciente identifica como prioritarias",
+          "descripcion": "Demandas específicas del usuario, vitales para el rapport siempre que no interfieran con las de mayor rango."
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Variables disposicionales en el caso clínico",
+      "contenido": "Retomando el modelo E-O-R-K-C (de Kanfer y Phillips, modificado en el campo conductual), las variables \"O\" (disposicionales u organísmicas) deben incluirse en el AF. Estas incluyen el sueño, dolor crónico, alimentación, medicación o efectos de enfermedades físicas. Sin embargo, no se utilizan como explicaciones causales o etiquetas mentales (\"hace esto porque tiene depresión\"), sino como operaciones de establecimiento o condiciones que modulan el valor de los reforzadores o la probabilidad de respuesta en un momento dado."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Trabajar la conducta de mayor sufrimiento subjetivo del paciente sin atender primero las que bloquean la terapia.",
+      "correccion": "El criterio de jerarquización exige resolver primero el riesgo vital, luego las conductas que bloquean la terapia (faltar, mentir en autorregistros, sabotear) y solo después las de interferencia vital amplia. Si la terapia está bloqueada, ninguna intervención sobre A es viable."
+    },
+    {
+      "tipo": "conexionClinica",
+      "titulo": "Coherencia AF-intervención",
+      "contenido": "Pregúntate siempre: ¿la intervención que estoy proponiendo apunta directamente a la variable que mi hipótesis señala como mantenedora? Si la respuesta es ambigua, vuelve al AF. Aplicar técnicas porque \"funcionan\" sin coherencia funcional es operar a ciegas."
+    }
+  ]
+}

@@ -1,1 +1,47 @@
-{}
+{
+  "titulo": "Integración Final: Del Contextualismo al Consultorio",
+  "preguntaCentral": "¿Cómo articula el terapeuta funcional contextual la cadena completa — contextualismo, AF, conducta verbal, RFT, Hexaflex — en una praxis clínica coherente?",
+  "aprobacionRequerida": 80,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Desembocadura natural de una base coherente",
+      "contenido": "Hemos recorrido un camino extenso a lo largo de este programa formativo. Llegar a la intervención verbal con RFT no es el aprendizaje de una \"nueva técnica\": es la desembocadura natural de una base filosófica y científica coherente."
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "La Cadena Funcional Completa",
+      "encabezados": ["Módulo / Nivel", "Aporte a la práctica clínica"],
+      "filas": [
+        ["Contextualismo y Conductismo (1)", "La filosofía base: la conducta tiene sentido en contexto. No hay enfermedades del yo, hay interacciones."],
+        ["CC, CO y Control de Estímulos (2-6)", "La física del aprendizaje directo: cómo se adquieren reflejos, miedos y operantes por contingencias directas."],
+        ["Conducta Verbal (7-8)", "La emergencia del lenguaje y el Análisis Funcional Clínico (AFC) como mapa de secuencias A-B-C en sesión."],
+        ["RFT (9)", "Explicar cómo el lenguaje transforma funciones más allá del aprendizaje directo (marcos relacionales)."],
+        ["Evitación y Hexaflex (10-11)", "Modelizar el sufrimiento generalizado derivado del lenguaje: rigidez, fusión y los 6 procesos de ACT."],
+        ["ACT con RFT (12)", "Operar con precisión quirúrgica sobre la función del lenguaje en sesión manipulando marcos relacionales."]
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "El Terapeuta Funcional Contextual",
+      "contenido": "La identidad clínica en este paradigma es particular. El terapeuta no aplica protocolos cerrados como recetas de cocina: comprende funcionalmente. Sabe que no trabaja para \"eliminar síntomas\", sino para ampliar el repertorio conductual del paciente devolviendo flexibilidad allí donde las redes relacionales rígidas dictan evitación. Utiliza el lenguaje como un escalpelo, no como un mero canal de comunicación de información."
+    },
+    {
+      "tipo": "conexionClinica",
+      "titulo": "Viñeta de Integración (TEPT)",
+      "contenido": "Paciente con TEPT. En el AFC: reportar memorias (A) genera alta ansiedad (B) provocando cambios de tema/disociación en sesión (C) reforzados por escape (R-). En el análisis RFT: marco de coordinación estricto \"Recordar el trauma = Ocurrir el trauma de nuevo\" (transferencia de función aversiva total). En el Hexaflex: fusión extrema y desconexión del momento presente. Intervención integrada: el terapeuta no pide \"relajarse\". Aplica validación funcional del miedo a recordar, utiliza deícticos (Yo-Aquí-Ahora vs Yo-Allí-Entonces) preguntando: \"Mientras notas ese recuerdo horrible apareciendo ahora mismo (Allí/Entonces), ¿qué están tocando tus manos en esta habitación en este momento exacto? (Aquí/Ahora)\". Al fortalecer el anclaje físico, debilita el control verbal y construye el Yo-como-contexto."
+    },
+    {
+      "tipo": "nota",
+      "contenido": "Ninguna herramienta por sí sola sostiene una terapia compleja. La competencia clínica real emerge en la fluidez para moverse entre el análisis molecular (contingencias) y el molar (sentido de vida y valores)."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Törneke, N. (2010). Learning RFT: An introduction to relational frame theory and its clinical application. Context Press.",
+        "Villatte, M., Villatte, J. L., & Hayes, S. C. (2016). Mastering the clinical conversation: Language as intervention. Guilford Press.",
+        "Stewart, I., & Barnes-Holmes, D. (2001). Understanding metaphor: A relational frame perspective. The Behavior Analyst, 24(2), 191-199."
+      ]
+    }
+  ]
+}

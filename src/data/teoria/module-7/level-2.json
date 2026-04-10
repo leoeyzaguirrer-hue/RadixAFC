@@ -1,1 +1,57 @@
-{}
+{
+  "titulo": "Autoclíticos y Metaconducta",
+  "preguntaCentral": "¿Cómo opera el lenguaje sobre sí mismo y sobre la propia conducta del hablante, y por qué eso importa clínicamente?",
+  "aprobacionRequerida": 83,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "El Autoclítico: Conducta sobre Conducta",
+      "contenido": "En el estudio de las operantes verbales complejas, nos encontramos con el autoclítico. Un autoclítico es, funcionalmente, una conducta verbal cuyo estímulo controlador es la propia conducta verbal del hablante. Es decir, es conducta verbal SOBRE la conducta verbal. Su función principal es modificar o cualificar la respuesta del oyente ante la operante verbal principal."
+    },
+    {
+      "tipo": "conceptos",
+      "items": [
+        {
+          "nombre": "Descriptivos",
+          "descripcion": "Describen propiedades de la respuesta verbal propia. Ej., \"Te digo esto porque...\"."
+        },
+        {
+          "nombre": "Calificativos",
+          "descripcion": "Modifican la intensidad o fuerza con la que el oyente debe reaccionar. Pueden debilitar (\"Creo que...\", \"Quizás...\") o fortalecer (\"¡Definitivamente!\", \"Estoy totalmente seguro de que...\") la respuesta. La negación (\"No...\") es un autoclítico calificativo fundamental."
+        },
+        {
+          "nombre": "Cuantificadores",
+          "descripcion": "Especifican la extensión de la operante principal: \"Todos...\", \"Algunos...\", \"Nunca...\", \"Siempre...\"."
+        },
+        {
+          "nombre": "Relacionales/Gramaticales",
+          "descripcion": "Organizan y relacionan operantes (preposiciones, orden sintáctico, puntuación oral)."
+        }
+      ]
+    },
+    {
+      "tipo": "conexionClinica",
+      "contenido": "Nota la diferencia funcional entre decir \"No quiero vivir\" frente a \"A veces pienso que no quiero vivir\". El autoclítico \"a veces pienso que\" cambia completamente la función del enunciado, debilitando la literalidad de la operante principal. De igual modo, los autoclíticos cuantificadores absolutos (\"Siempre me pasa\", \"Nunca lo lograré\") suelen requerir atención, pues indican que el paciente está operando bajo reglas muy rígidas."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Metaconducta: El Sujeto como su Propio Oyente",
+      "contenido": "Avanzando sobre la obra original de Skinner, autores contemporáneos (como Pérez Álvarez) profundizan en el concepto de metaconducta. Ésta se define como la conducta (verbal o no verbal) que controla OTRA conducta del mismo sujeto.\n\nEn la metaconducta verbal, el individuo se convierte simultáneamente en hablante y oyente. Un ejemplo cotidiano es decirse a uno mismo antes de una tarea difícil: \"Vamos, tú puedes hacerlo, concéntrate\". En este caso, la conducta verbal privada funciona como un Estímulo Discriminativo (Ed) para facilitar la cadena conductual posterior de afrontamiento."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Autocontrol y motivación como metaconducta",
+      "contenido": "Gran parte de lo que la psicología tradicional llama \"autocontrol\", \"fuerza de voluntad\" o \"motivación interna\", desde nuestra perspectiva funcional, son ejemplos de metaconducta donde el sujeto provee reglas verbales que alteran la probabilidad de sus propias respuestas futuras."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Conducta Verbal Encubierta (Pensamiento)",
+      "contenido": "El pensamiento discursivo no es un proceso de otra dimensión; es conducta verbal privada (o encubierta). Está sujeta a las mismas leyes (reforzamiento, estímulo discriminativo, etc.) que la conducta verbal pública. Se desarrolla evolutivamente a partir del habla pública (los niños primero hablan en voz alta y gradualmente \"internalizan\" esa conducta por exigencias del entorno social)."
+    },
+    {
+      "tipo": "nota",
+      "titulo": "Clave analítica",
+      "contenido": "El pensamiento NO es una causa mental mágica de la conducta manifiesta. Es un eslabón más en la cadena conductual que requiere ser analizado funcionalmente. Un pensamiento encubierto puede ser un mando, un tacto, un intraverbal o contener autoclíticos."
+    }
+  ]
+}

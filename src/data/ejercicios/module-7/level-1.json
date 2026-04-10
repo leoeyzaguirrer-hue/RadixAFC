@@ -1,1 +1,167 @@
-{}
+[
+  {
+    "id": "7-1",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Definición funcional de la conducta verbal",
+    "pregunta": "¿Qué define principalmente a la conducta verbal según la propuesta conductual original?",
+    "opciones": [
+      "El uso de cuerdas vocales, músculos faciales o las manos para emitir signos de un sistema estructurado.",
+      "Es la conducta mediada por procesos cognitivos superiores de representación simbólica.",
+      "Es la conducta reforzada a través de la mediación de otra persona entrenada en la misma comunidad verbal.",
+      "Es una categoría especial de conducta exenta de las leyes del condicionamiento operante clásico."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "La conducta verbal se define por la vía de mediación social del reforzamiento, no por su forma topográfica.",
+      "incorrecta": "Recuerda: Skinner definió la conducta verbal por su función (mediación de otro hablante entrenado), no por su modalidad topográfica.",
+      "pista": "¿Qué tienen en común hablar, escribir y hacer señas que las distingue de abrir un grifo para beber?"
+    }
+  },
+  {
+    "id": "7-2",
+    "tipo": "Emparejamiento",
+    "tipoLabel": "Emparejar conceptos",
+    "titulo": "Operantes verbales y su control",
+    "pregunta": "Empareje la operante verbal con su estímulo controlador principal:",
+    "columnaIzquierda": ["Mando", "Tacto", "Ecoica", "Intraverbal"],
+    "columnaDerecha": [
+      "Ed no verbal",
+      "Operación de Establecimiento (OE)",
+      "Estímulo verbal sin correspondencia",
+      "Estímulo verbal con correspondencia sonora"
+    ],
+    "paresCorrectos": {
+      "Mando": "Operación de Establecimiento (OE)",
+      "Tacto": "Ed no verbal",
+      "Ecoica": "Estímulo verbal con correspondencia sonora",
+      "Intraverbal": "Estímulo verbal sin correspondencia"
+    },
+    "retroalimentacion": {
+      "correcta": "Cada operante verbal se diferencia por la variable independiente que la controla, no por su forma.",
+      "incorrecta": "Recuerda: Mando = OE; Tacto = Ed no verbal; Ecoica = verbal con correspondencia; Intraverbal = verbal sin correspondencia.",
+      "pista": "Pregúntate: ¿qué hace ocurrir esta operante en el momento? Esa es la clave de su control."
+    }
+  },
+  {
+    "id": "7-3",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Identificar operantes verbales",
+    "pregunta": "Clasifique los siguientes ejemplos cotidianos en la operante correspondiente:",
+    "items": [
+      "\"¿Capital de Bolivia?\" → \"Sucre\"",
+      "\"¡Tráeme un café!\"",
+      "Decir \"Hace calor hoy\" al salir al sol.",
+      "Repetir \"gracias\" luego de que alguien te dice \"di gracias\".",
+      "\"¿Cómo te llamas?\" → \"Ana\"",
+      "Al ver al felino en el zoo, decir \"Ese animal es un puma\"."
+    ],
+    "zonas": ["Mando", "Tacto", "Ecoica", "Intraverbal"],
+    "correctMap": {
+      "\"¿Capital de Bolivia?\" → \"Sucre\"": "Intraverbal",
+      "\"¡Tráeme un café!\"": "Mando",
+      "Decir \"Hace calor hoy\" al salir al sol.": "Tacto",
+      "Repetir \"gracias\" luego de que alguien te dice \"di gracias\".": "Ecoica",
+      "\"¿Cómo te llamas?\" → \"Ana\"": "Intraverbal",
+      "Al ver al felino en el zoo, decir \"Ese animal es un puma\".": "Tacto"
+    },
+    "retroalimentacion": {
+      "correcta": "Identificar la operante verbal es identificar la fuente de control: ¿qué hace ocurrir esta verbalización?",
+      "incorrecta": "Pregúntate por cada caso: ¿hay privación/aversión (mando), un estímulo no verbal (tacto), un estímulo verbal con correspondencia (ecoica) o uno sin correspondencia (intraverbal)?",
+      "pista": "Recuerda que las preguntas-respuesta verbales son intraverbales; nombrar lo que se ve es tactar."
+    }
+  },
+  {
+    "id": "7-4",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico",
+    "titulo": "Mando de reaseguramiento",
+    "pregunta": "Un paciente llega a sesión muy alterado y le dice de inmediato: \"Necesito que me digas que voy a mejorar\". Desde el punto de vista del análisis de la conducta verbal, esto funciona como un:",
+    "opciones": [
+      "Tacto, porque está describiendo objetivamente un evento privado.",
+      "Intraverbal, porque está respondiendo a una pregunta del terapeuta.",
+      "Mando, porque especifica el reforzador que busca (tranquilización) y está controlado por un estado de privación/aversión.",
+      "Ecoica, porque imita lo que otros le han dicho antes."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Es un mando de reaseguramiento: especifica su reforzador (la tranquilización verbal) bajo el control de un estado aversivo de ansiedad.",
+      "incorrecta": "Pregunta clave del mando: ¿quién se beneficia del reforzador especificado y bajo qué OE ocurre la verbalización?",
+      "pista": "El paciente NO está describiendo el mundo: está pidiendo algo específico para sí mismo."
+    }
+  },
+  {
+    "id": "7-5",
+    "tipo": "MC",
+    "tipoLabel": "Diferenciación funcional",
+    "titulo": "Mando vs tacto",
+    "pregunta": "¿Cuál es la diferencia funcional fundamental entre un mando y un tacto?",
+    "opciones": [
+      "El mando beneficia principalmente al hablante (obtiene lo que necesita); el tacto beneficia al oyente (informándole del mundo).",
+      "El mando se usa con palabras cortas y el tacto requiere oraciones complejas.",
+      "El mando ocurre siempre en voz alta, mientras que el tacto suele ser encubierto.",
+      "El tacto está bajo el control de operaciones motivacionales y el mando bajo el control de estímulos discriminativos no verbales."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "La distinción es funcional: el mando trabaja para el hablante, el tacto trabaja para informar al oyente.",
+      "incorrecta": "La diferencia no es topográfica (corta vs larga, en voz alta vs baja). Es funcional: ¿quién se beneficia del reforzador?",
+      "pista": "Mando = pedir; tacto = describir."
+    }
+  },
+  {
+    "id": "7-6",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar",
+    "titulo": "La operante intraverbal",
+    "pregunta": "Complete el texto sobre la operante intraverbal:",
+    "textoBase": "La operante intraverbal está controlada por un ___ verbal precedente, pero a diferencia de la ecoica, no guarda una correspondencia ___ con éste. Una conversación fluida suele ser una larga ___ de respuestas intraverbales, y gran parte de lo que experimentamos internamente como ___ discursivo comparte esta misma naturaleza.",
+    "gaps": [
+      {
+        "id": "gap1",
+        "opciones": ["estímulo", "reforzador"],
+        "correcta": "estímulo"
+      },
+      {
+        "id": "gap2",
+        "opciones": ["física", "formal"],
+        "correcta": "formal"
+      },
+      {
+        "id": "gap3",
+        "opciones": ["cadena", "regla"],
+        "correcta": "cadena"
+      },
+      {
+        "id": "gap4",
+        "opciones": ["magia", "pensamiento"],
+        "correcta": "pensamiento"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "La intraverbal es la base operante de gran parte del discurso conversacional y del pensamiento privado.",
+      "incorrecta": "La intraverbal NO copia su antecedente; es eslabón de una cadena de habla.",
+      "pista": "Pregunta-respuesta sin copiar = intraverbal."
+    }
+  },
+  {
+    "id": "7-7",
+    "tipo": "VerdaderoFalso",
+    "tipoLabel": "Verdadero o Falso",
+    "titulo": "¿Categoría especial de conducta?",
+    "afirmacion": "\"La conducta verbal es una categoría especial de conducta que sigue principios distintos a los del condicionamiento operante.\"",
+    "respuestaCorrecta": false,
+    "justificacionOpciones": [
+      "Verdadero - Se basa en reglas sintácticas internas ajenas a las contingencias.",
+      "Falso - Está sujeta exactamente a los mismos principios operantes; lo que la distingue es que el reforzamiento ocurre vía mediación social."
+    ],
+    "justificacionCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "La conducta verbal sigue las mismas leyes operantes; la novedad es la vía social del reforzamiento.",
+      "incorrecta": "No requiere principios separados: las contingencias operantes explican el habla tan bien como cualquier otra conducta.",
+      "pista": "Mismo principio, distinto canal de mediación.",
+      "explicacionVF": "Es falso. Skinner construyó precisamente una teoría que extiende —no reemplaza— los principios operantes al lenguaje."
+    }
+  }
+]

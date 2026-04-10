@@ -1,1 +1,51 @@
-{}
+{
+  "titulo": "Discriminación y Generalización Operante",
+  "preguntaCentral": "¿Cómo aprenden los organismos a emitir conductas en unos contextos y no en otros, y qué es exactamente un estímulo discriminativo?",
+  "aprobacionRequerida": 87,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "La conducta no ocurre en el vacío",
+      "contenido": "En el Módulo 3 estudiamos cómo las consecuencias moldean y mantienen la conducta operante. Sin embargo, la conducta no ocurre en el vacío. Los organismos aprenden a emitir respuestas en situaciones específicas donde el reforzamiento está disponible, y a no emitirlas donde no lo está. A este fenómeno lo denominamos control de estímulos."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "El Estímulo Discriminativo (Ed) y el Estímulo Delta (EΔ)",
+      "contenido": "Un estímulo discriminativo (Ed) es un evento antecedente que señala que en su presencia, una topografía de respuesta específica ha sido seguida sistemáticamente por consecuencias de reforzamiento en el pasado. Su aparición altera la probabilidad actual de la conducta.\n\nPor otro lado, el estímulo delta (EΔ) es un antecedente en cuya presencia la misma conducta no ha sido reforzada, lo cual disminuye la probabilidad de su emisión."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "El Ed causa, dispara o provoca la conducta operante.",
+      "correccion": "Es un error analítico común asumir que el Ed causa la conducta. A diferencia del Estímulo Incondicionado (EI) en el condicionamiento clásico que elicita invariablemente una respuesta fisiológica, el Ed operante funciona exclusivamente como una señal de disponibilidad. Indica una contingencia, no la fuerza."
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Tabla comparativa para el rigor analítico",
+      "encabezados": ["Concepto", "Proceso", "Función"],
+      "filas": [
+        ["Estímulo Incondicionado (EI)", "Condicionamiento Clásico", "Elicita una respuesta refleja invariablemente."],
+        ["Estímulo Condicionado (EC)", "Condicionamiento Clásico", "Elicita una respuesta condicionada por asociación con el EI."],
+        ["Estímulo Discriminativo (Ed)", "Condicionamiento Operante", "Señala la disponibilidad de una consecuencia; evoca (hace más probable) la conducta."]
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Entrenamiento de Discriminación",
+      "contenido": "La discriminación se establece mediante un procedimiento en el que se refuerza diferencialmente una conducta. Se refuerza ante el Ed y no se refuerza ante el EΔ. Progresivamente, el control discriminativo se consolida. Cuando el Ed y el EΔ varían a lo largo de una misma dimensión física (por ejemplo, tonos de luz o frecuencias de sonido), hablamos de discriminación intradimensional."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Discriminación sin error (Terrace)",
+      "contenido": "Históricamente, el entrenamiento por ensayo y error generaba respuestas emocionales indeseadas (frustración) ante el EΔ. Desde el análisis del comportamiento, Terrace desarrolló el procedimiento de discriminación sin error, que consiste en introducir el EΔ de forma muy gradual (en intensidad o duración) para que el organismo aprenda a no responder a él sin experimentar los efectos aversivos de la extinción tradicional."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Gradiente de Generalización Operante",
+      "contenido": "Cuando un estímulo adquiere control discriminativo (Ed), otros estímulos físicamente similares también adquieren cierto grado de control sobre la operante. El gradiente de generalización describe la curva en la cual, a medida que las propiedades físicas del estímulo se alejan del Ed original, la tasa de respuesta disminuye progresivamente."
+    },
+    {
+      "tipo": "conexionClinica",
+      "contenido": "Entender la generalización operante y respondente explica por qué las conductas de evitación y las quejas somáticas se extienden a escenarios que topográficamente se asemejan al contexto de aprendizaje original. El objetivo terapéutico a menudo requerirá discriminar las diferencias contextuales o generalizar habilidades de afrontamiento."
+    }
+  ]
+}

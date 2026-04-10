@@ -1,1 +1,53 @@
-{}
+{
+  "titulo": "Estímulos Compuestos, Selectores y Equivalencia",
+  "preguntaCentral": "¿Cómo se complejiza el control de estímulos cuando los antecedentes son multimodales y cuando aparecen relaciones derivadas que nunca fueron entrenadas directamente?",
+  "aprobacionRequerida": 83,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Más allá de la contingencia de tres términos",
+      "contenido": "Hasta ahora hemos analizado el control de estímulos en su forma más simple (tres términos). En los contextos clínicos naturales, los estímulos rara vez se presentan de forma aislada."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Control por Elementos de un Estímulo Compuesto",
+      "contenido": "Un antecedente natural es habitualmente un estímulo compuesto (multimodal). El control discriminativo puede recaer en un solo elemento del complejo, en varios de forma independiente, o estrictamente en la configuración conjunta. Clínicamente, una situación que evoca ansiedad raramente posee un único Ed; requiere el análisis de múltiples variables antecedentes."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Estímulos Selectores y la Contingencia de Cuatro Términos",
+      "contenido": "La perspectiva conductual establece que las contingencias de tres términos (Ed → Respuesta → Consecuencia) pueden estar subordinadas a condiciones contextuales adicionales. Un estímulo selector es un cuarto término que altera la función discriminativa de otros estímulos."
+    },
+    {
+      "tipo": "ejemplo",
+      "titulo": "Ejemplo de selector",
+      "contenido": "La presencia de la gerencia (selector) modifica si la conducta de \"llegar tarde\" ante el inicio de turno (Ed) será castigada (C-). El Ed solo funciona de cierta manera en presencia del selector. Entender el contexto como selector es fundamental para explicar la variabilidad de la conducta clínica (\"¿Por qué este problema solo ocurre en casa y no en el trabajo?\")."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Equivalencia de Estímulos (Sidman)",
+      "contenido": "Murray Sidman descubrió que los organismos pueden responder de manera sistemática a relaciones entre estímulos que nunca fueron directamente entrenadas. Esto representa un salto analítico crucial: las relaciones pueden ser derivadas o emergentes."
+    },
+    {
+      "tipo": "conceptos",
+      "items": [
+        {
+          "nombre": "Reflexividad",
+          "descripcion": "Un estímulo equivale a sí mismo sin entrenamiento (A = A)."
+        },
+        {
+          "nombre": "Simetría",
+          "descripcion": "Si se entrena explícitamente una relación directa (A → B), emerge de forma bidireccional sin entrenamiento adicional (B → A)."
+        },
+        {
+          "nombre": "Transitividad",
+          "descripcion": "Si se entrenan A → B y B → C, la relación entre A y C emerge de manera derivada (A → C)."
+        }
+      ]
+    },
+    {
+      "tipo": "conexionClinica",
+      "contenido": "La equivalencia de estímulos demuestra rigurosamente cómo el aprendizaje se expande sin contingencias directas para cada conexión. Esto sentará las bases para entender más adelante cómo el lenguaje humano crea conexiones que van mucho más allá del entrenamiento directo, explicando por qué una palabra puede evocar el mismo sufrimiento clínico que el evento traumático original."
+    }
+  ]
+}

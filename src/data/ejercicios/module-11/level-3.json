@@ -1,1 +1,86 @@
-{}
+[
+  {
+    "id": "11-12",
+    "tipo": "MC",
+    "tipoLabel": "Caso completo",
+    "titulo": "Identificación en caso completo",
+    "pregunta": "CASO: Paciente con episodios crónicos de aislamiento social. El AF revela que, ante la perspectiva de un evento social (Ed), emergen recuerdos de un rechazo pasado (dominancia verbal) y el pensamiento \"volveré a hacer el ridículo porque soy defectuoso\" (fusión / yo-como-contenido). El paciente cancela los planes y se queda en cama (conducta), experimentando un alivio inmediato de la ansiedad social (R-), pero reportando vacío y pérdida de oportunidades laborales y relacionales a largo plazo. Según la formulación en ACT, ¿qué procesos de inflexibilidad están estructurando este problema?",
+    "opciones": [
+      "Exclusivamente la evitación experiencial, ya que el R- es el único mecanismo mantenedor activo.",
+      "Una constelación de dominancia del pasado, fusión con autodescripciones aversivas y evitación experiencial que restringe el contacto con valores interpersonales.",
+      "Falta de clarificación de valores e impulsividad en la toma de decisiones al momento de cancelar planes.",
+      "Yo como contexto excesivo y defusión disfuncional."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: el caso muestra una constelación de procesos (dominancia verbal del pasado, fusión, yo-como-contenido y evitación experiencial), todos restringiendo el contacto con valores.",
+      "incorrecta": "El AF muestra varios procesos operando en paralelo: dominancia del pasado, fusión con \"soy defectuoso\", evitación experiencial y desconexión de valores.",
+      "pista": "¿Cuántos procesos del Hexaflex aparecen en la descripción del caso?"
+    }
+  },
+  {
+    "id": "11-13",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Intervenciones y el caso",
+    "pregunta": "Basado en el caso del Ejercicio 11-12 (aislamiento social por miedo al ridículo), clasifica si cada intervención propuesta es funcionalmente pertinente al caso.",
+    "categorias": ["Sí pertinente (Defusión)", "No pertinente (refuerza Evitación)", "Sí pertinente (Valores/Acción)"],
+    "items": [
+      {
+        "texto": "Pedir al consultante que repita la frase \"soy defectuoso\" con voz de un personaje de dibujos animados para alterar su función literal.",
+        "categoria": "Sí pertinente (Defusión)"
+      },
+      {
+        "texto": "Enseñar respiración diafragmática para que logre reducir la ansiedad social a cero antes de intentar ir a una reunión.",
+        "categoria": "No pertinente (refuerza Evitación)"
+      },
+      {
+        "texto": "Explorar cómo se vería una vida donde pudiera ser una persona de apoyo y conexión para otros, incluso sintiendo el miedo al ridículo.",
+        "categoria": "Sí pertinente (Valores/Acción)"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: voz de dibujo animado = defusión funcional; relajación con criterio de \"ansiedad cero\" = refuerza evitación experiencial; explorar conexión = clarificación de valores.",
+      "incorrecta": "Atención al criterio funcional: si la técnica exige eliminar la ansiedad para actuar, está reforzando la evitación. La pertinencia depende de la función, no de la técnica.",
+      "pista": "¿Qué intervención convierte la ansiedad en prerrequisito para actuar? Esa es la trampa."
+    }
+  },
+  {
+    "id": "11-14",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Valores como contexto motivacional",
+    "pregunta": "¿Por qué clarificar valores en ACT no es simplemente preguntarle al paciente \"¿qué es importante para ti?\" y listar sus intereses?",
+    "opciones": [
+      "Porque los valores operan como augmentals motivacionales que alteran el valor reforzante de las consecuencias. Se requiere un contexto donde el paciente discrimine estas direcciones libremente, más allá del control por demandas sociales.",
+      "Porque el paciente no conoce sus valores debido a la fusión cognitiva; el terapeuta debe prescribir los valores basados en el marco cultural del sujeto.",
+      "Porque requiere enseñar los principios de condicionamiento operante para que el paciente entienda cómo la sociedad ha condicionado sus respuestas.",
+      "Porque los valores son rasgos de personalidad estables que solo se descubren con tests psicométricos."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "Correcto: los valores son augmentals que reorganizan funciones reforzantes; clarificarlos requiere contextos verbales libres de pliance.",
+      "incorrecta": "Los valores no se listan ni se prescriben: se construyen contextualmente como augmentals motivacionales libres del control social rígido.",
+      "pista": "¿Qué función psicológica cumple un valor? ¿Es información o es alteración del reforzamiento?"
+    }
+  },
+  {
+    "id": "11-15",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple integradora",
+    "titulo": "Caso integrador AF + RFT + ACT",
+    "pregunta": "Integrando hexaflex, RFT y AF: un individuo restringe drásticamente su comportamiento tras sufrir un ataque de pánico en un centro comercial. Las palabras \"centro comercial\", \"gente\" y \"ansiedad\" están insertas en un marco de coordinación o causalidad que transfiere funciones de amenaza. Funcionalmente, la topografía de quedarse en casa se mantiene por R-. Para flexibilizar el repertorio de este paciente, el terapeuta ACT se enfocará primordialmente en:",
+    "opciones": [
+      "Extinguir el reforzamiento negativo forzando la exposición inmediata sin un contexto motivacional previo, para romper la red de marcos relacionales de amenaza.",
+      "Analizar y debatir el contenido irracional de la equivalencia entre \"centro comercial\" y \"peligro inminente\" (reestructuración del contenido).",
+      "Socavar el control verbal (Defusión), facilitar el contacto voluntario con las respuestas fisiológicas emergentes (Aceptación) y establecer consecuencias apetitivas amplias (Valores) que guíen el acercamiento al centro comercial.",
+      "Suprimir farmacológicamente las respuestas fisiológicas hasta que la red relacional aversiva se extinga sola."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Excelente integración: defusión sobre la red verbal, aceptación de la activación fisiológica y valores como contexto motivacional para la acción de acercamiento.",
+      "incorrecta": "ACT no debate contenidos ni extingue por la fuerza: cambia el contexto verbal (defusión), abre espacio al malestar (aceptación) y motiva por valores.",
+      "pista": "¿Qué tres procesos del hexaflex permiten flexibilizar la red verbal sin debatir su contenido?"
+    }
+  }
+]

@@ -1,1 +1,78 @@
-{}
+[
+  {
+    "id": "13-12",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "El terapeuta funcional contextual",
+    "pregunta": "¿Qué distingue fundamentalmente a un terapeuta funcional contextual de uno que simplemente \"usa técnicas o metáforas\"?",
+    "opciones": [
+      "Que usa metáforas orientales para que el paciente se relaje sin tocar directamente las contingencias problemáticas.",
+      "Que sabe exactamente por qué hace lo que hace: puede articular qué variable funcional está manipulando con cada técnica, cómo evaluar si el cambio está ocurriendo, y reconoce la función del lenguaje en ese cambio.",
+      "Que diagnostica a todos los pacientes con rigidez psicológica usando manuales estadísticos (DSM) antes de evaluar.",
+      "Que improvisa en cada sesión según su intuición."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: lo que distingue al terapeuta funcional es la articulación explícita entre técnica, variable funcional y mecanismo de cambio.",
+      "incorrecta": "No se trata del repertorio técnico sino de la capacidad de articular por qué hace cada cosa y qué variable está modificando.",
+      "pista": "¿Puede el terapeuta responder \"¿qué variable estoy modificando con esta intervención?\" en cada momento?"
+    }
+  },
+  {
+    "id": "13-13",
+    "tipo": "MC",
+    "tipoLabel": "Dilema clínico",
+    "titulo": "La \"experiencia\" como regla rígida",
+    "pregunta": "Un colega veterano te dice: \"Yo no hago análisis funcionales formales... con mi experiencia ya sé qué técnica aplicar apenas el paciente entra al consultorio\". Desde el modelo contextual, ¿cuál es el peligro latente de esa postura?",
+    "opciones": [
+      "Que la \"experiencia\" del terapeuta puede convertirse en un repertorio rígido; sin un AF explícito evaluando las variables reales de ese paciente único, el clínico termina aplicando su propia regla verbal de manera dogmática, replicando la rigidez.",
+      "Que pierde tiempo al no clasificar rápidamente el trastorno según criterios de tiempo y frecuencia estándar.",
+      "Que es imposible memorizar todas las variables, el AF siempre requiere software automatizado para completarse.",
+      "Ninguno: la experiencia clínica acumulada es siempre superior al análisis funcional formal."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "Correcto: la \"experiencia\" sin AF explícito se convierte en pliance terapéutico — el terapeuta sigue su propia regla verbal rígida en lugar de analizar al paciente único.",
+      "incorrecta": "Irónicamente, el terapeuta reproduce la rigidez verbal que pretende tratar: aplica reglas en lugar de analizar funcionalmente al paciente único.",
+      "pista": "¿Qué concepto RFT describe la aplicación rígida de reglas verbales sin contacto con las contingencias presentes?"
+    }
+  },
+  {
+    "id": "13-14",
+    "tipo": "MC",
+    "tipoLabel": "Caso integrador",
+    "titulo": "Pánico, fusión, pliance y R+ secundario",
+    "pregunta": "Consultante con ataques de pánico (condicionamiento interoceptivo rápido). Cuando siente una palpitación (EC) huye de la situación (R-). Su esposo compensa todas sus tareas hogareñas (R+ secundario). Se ha aferrado verbalmente (fusión / marco de equivalencia: \"si salgo, moriré igual que mi madre\"). Toda su conducta se ha vuelto insensible a nuevas contingencias (pliance estricto). Selecciona la intervención multicomponente funcionalmente más coherente:",
+    "opciones": [
+      "Discusión socrática sobre la probabilidad real de un infarto, seguida de ejercicios de respiración para evitar la palpitación.",
+      "Trabajo de clarificación de valores (dirección vital alterada), defusión verbal del marco de equivalencia (\"sensación = infarto\"), exposición interoceptiva sin escape (para extinción de EC y R-), y reestructuración de contingencias en casa con el esposo (extinción de R+).",
+      "Reforzamiento de intervalo fijo cuando logra respirar con calma e indagar el evento traumático infantil originario, olvidando la conducta del esposo.",
+      "Derivación exclusiva a tratamiento farmacológico hasta que desaparezcan las palpitaciones."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: intervención multicomponente que ataca cada variable del sistema — valores, fusión verbal, CC interoceptivo/R-, y R+ secundario del entorno.",
+      "incorrecta": "La intervención debe tocar cada variable funcional: valores, defusión, exposición interoceptiva con prevención de escape y reestructuración de contingencias familiares.",
+      "pista": "¿Cuántas variables funcionales operan en este caso y qué técnica ataca cada una?"
+    }
+  },
+  {
+    "id": "13-15",
+    "tipo": "MC",
+    "tipoLabel": "Pregunta filosófica final",
+    "titulo": "¿Por qué el Contextualismo Funcional era el cimiento?",
+    "pregunta": "¿Por qué el Contextualismo Funcional (Módulo 1) era el cimiento obligatorio para todo lo que aprendimos después sobre diseño de planes y terapias contextuales?",
+    "opciones": [
+      "Porque establece el criterio de verdad de nuestra ciencia empírica: la \"acción exitosa\" (predecir e influir con precisión, alcance y profundidad), obligándonos a ver siempre la conducta como un \"acto-en-contexto\" (inseparable de su historia y entorno).",
+      "Porque nos enseñó que la mente humana está estructurada como un ordenador, dándonos el lenguaje para reprogramarla mediante lógicas aristotélicas y racionales.",
+      "Porque era un requisito administrativo del programa de formación.",
+      "Porque es una filosofía opcional que puede ser reemplazada por cualquier otro marco."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "Correcto: el contextualismo funcional fija el criterio de verdad (acción exitosa) y la unidad de análisis (acto-en-contexto). Sin eso, todo lo demás pierde fundamento.",
+      "incorrecta": "El contextualismo no es opcional ni computacional: fija el criterio pragmático de verdad y obliga a ver la conducta como acto-en-contexto.",
+      "pista": "¿Cuál es el criterio de verdad del contextualismo funcional y cuál es su unidad de análisis?"
+    }
+  }
+]

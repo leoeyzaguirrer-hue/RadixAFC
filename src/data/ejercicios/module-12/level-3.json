@@ -1,1 +1,90 @@
-{}
+[
+  {
+    "id": "12-12",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Secuencia analítica integradora",
+    "pregunta": "Ante un paciente con ideación rígida severa, ¿cuál es la secuencia analítica más coherente para el clínico contextual antes de lanzar una intervención (como una metáfora)?",
+    "opciones": [
+      "Aplicar técnica de mindfulness → realizar análisis funcional → formular el caso en el hexaflex.",
+      "Detectar distorsión cognitiva → debatirla lógicamente → si no funciona, aplicar RFT para mostrar el error.",
+      "Realizar Análisis Funcional Clínico (A-B-C) → formular qué procesos del Hexaflex están activos → identificar qué marcos relacionales sostienen esa rigidez → diseñar intervención verbal basada en esos marcos.",
+      "Explicar qué es RFT al paciente → identificar los marcos relacionales juntos → hacer un contrato conductual."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Correcto: AFC → Hexaflex → mapa de marcos RFT → intervención verbal precisa. Esa es la cadena funcional completa.",
+      "incorrecta": "La secuencia es siempre de lo molar a lo molecular y luego a la intervención: AFC primero, procesos del Hexaflex, marcos RFT, y por último la técnica verbal.",
+      "pista": "¿Qué análisis va primero: el funcional o la técnica?"
+    }
+  },
+  {
+    "id": "12-13",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Herramientas en sesión (caso TEPT)",
+    "pregunta": "En medio de la sesión descrita en la viñeta (TEPT), el terapeuta usa distintas herramientas. Clasifícalas según el mecanismo que utilizan.",
+    "categorias": ["Validación Funcional", "Opera sobre Jerarquía", "Ejercicio Experiencial", "Pregunta (Marco Temporal)"],
+    "items": [
+      {
+        "texto": "\"Es completamente esperable que tu cuerpo quiera huir al tocar este tema, tu cerebro aprendió que esa memoria es peligro inminente.\"",
+        "categoria": "Validación Funcional"
+      },
+      {
+        "texto": "\"¿Quién es el que está notando el dolor ahora mismo, la memoria o tú?\"",
+        "categoria": "Opera sobre Jerarquía"
+      },
+      {
+        "texto": "\"Cierra los ojos un momento y concéntrate únicamente en la sensación térmica del aire al entrar por tu nariz.\"",
+        "categoria": "Ejercicio Experiencial"
+      },
+      {
+        "texto": "\"¿Qué crees que pensarás de este dolor intenso cuando hayan pasado cinco años y ya hayas retomado tu carrera?\"",
+        "categoria": "Pregunta (Marco Temporal)"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: validación funcional, jerarquía (yo-observador), ejercicio experiencial (anclaje) y marco temporal — cuatro herramientas verbales con mecanismos distintos.",
+      "incorrecta": "Revisa el mecanismo de cada intervención: validar función, instaurar yo-observador, anclar en contingencias directas o desplazar en el tiempo.",
+      "pista": "¿Qué marco o qué operación funcional está haciendo cada frase?"
+    }
+  },
+  {
+    "id": "12-14",
+    "tipo": "MC",
+    "tipoLabel": "Comparación clínica",
+    "titulo": "Profundidad teórica y práctica",
+    "pregunta": "Dos terapeutas trabajan con el mismo caso. El Terapeuta A aplica técnicas ACT estándar (\"metáfora de las hojas en el río\") de forma automática. El Terapeuta B usa la formulación profunda RFT para mapear marcos y diseña metáforas específicas in situ. ¿En qué escenarios la profundidad teórica del Terapeuta B marca la diferencia crucial?",
+    "opciones": [
+      "En casos leves, donde el paciente solo necesita información educativa básica.",
+      "Especialmente en casos con altísima fusión verbal e insensibilidad a contingencias directas, donde las metáforas \"enlatadas\" fallan por no golpear la red relacional específica y problemática del individuo.",
+      "En todos los casos sin excepción, las técnicas ACT estándar son perjudiciales si no se explican con jerga RFT.",
+      "La profundidad RFT solo importa para la investigación de laboratorio, en la clínica ambos enfoques producen siempre resultados idénticos."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: las metáforas enlatadas fallan cuando la red verbal del paciente es muy rígida y específica; la formulación RFT permite diseñar la intervención ajustada a esa red.",
+      "incorrecta": "La diferencia no es ideológica: las metáforas enlatadas fallan precisamente en los casos de mayor fusión y rigidez verbal, donde no golpean la red específica del paciente.",
+      "pista": "¿En qué casos una metáfora genérica no alcanza la red relacional particular del consultante?"
+    }
+  },
+  {
+    "id": "12-15",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Psicopatología desde el contextualismo funcional",
+    "pregunta": "En su praxis última, ¿cómo entiende el terapeuta funcional contextual el concepto de \"enfermedad mental\" o psicopatología integrando todo lo aprendido?",
+    "opciones": [
+      "Como fallas orgánicas o esquemas desadaptativos alojados en la estructura cerebral profunda que requieren extirpación o reestructuración.",
+      "Como déficits del carácter derivados de una historia infantil traumática inalterable.",
+      "Como patrones de conducta (incluyendo repertorios relacionales verbales) que, aunque funcionaron bajo ciertas contingencias históricas, actualmente generan una gran restricción del repertorio vital al contactar rígidamente con el contexto.",
+      "Como una ilusión lingüística que no requiere intervención directa, bastando con escuchar activamente en silencio."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Correcto: la psicopatología se conceptualiza como patrones conductuales y verbales que tuvieron lógica histórica pero hoy restringen el repertorio vital del paciente.",
+      "incorrecta": "No hay enfermedades del yo: hay patrones aprendidos en contextos históricos que hoy producen restricción del repertorio por rigidez verbal y conductual.",
+      "pista": "¿La psicopatología es una entidad oculta o un patrón conductual que tuvo sentido en su historia?"
+    }
+  }
+]

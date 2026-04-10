@@ -1,1 +1,171 @@
-{}
+[
+  {
+    "id": "5-1",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Definición de estímulo discriminativo",
+    "pregunta": "Técnicamente, ¿qué define a un estímulo discriminativo (Ed)?",
+    "opciones": [
+      "Es un evento que elicita automáticamente la conducta del organismo por su fuerza incondicionada.",
+      "Es un estímulo en cuya presencia una conducta ha sido reforzada; señala disponibilidad de consecuencias.",
+      "Es la consecuencia directa que incrementa la probabilidad de que la conducta ocurra en el futuro.",
+      "Es un estímulo neutro que requiere emparejamiento simultáneo con un reforzador para funcionar."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Exacto. El Ed es una señal de disponibilidad de reforzamiento, no una causa que dispare la conducta.",
+      "incorrecta": "Recuerda: el Ed no elicita ni causa la conducta como el EI; tampoco es una consecuencia ni un estímulo neutro pendiente de emparejamiento.",
+      "pista": "Piensa en la señal que indica que 'aquí ya pasó algo bueno antes por hacer X'."
+    }
+  },
+  {
+    "id": "5-2",
+    "tipo": "Emparejamiento",
+    "tipoLabel": "Emparejar conceptos",
+    "titulo": "Funciones de los estímulos antecedentes",
+    "pregunta": "Empareja cada tipo de estímulo antecedente con su función técnica:",
+    "columnaIzquierda": ["Ed", "EΔ", "EC", "EI"],
+    "columnaDerecha": [
+      "Produce una RI incondicionada",
+      "Señala disponibilidad de R+",
+      "Elicita una RC por historial de asociación",
+      "Señala no disponibilidad de contingencia"
+    ],
+    "paresCorrectos": {
+      "Ed": "Señala disponibilidad de R+",
+      "EΔ": "Señala no disponibilidad de contingencia",
+      "EC": "Elicita una RC por historial de asociación",
+      "EI": "Produce una RI incondicionada"
+    },
+    "retroalimentacion": {
+      "correcta": "Distinguir señalización operante (Ed/EΔ) de elicitación respondente (EI/EC) es la base del rigor analítico.",
+      "incorrecta": "Recuerda: los antecedentes operantes señalan; los antecedentes respondentes elicitan.",
+      "pista": "EI y EC pertenecen al condicionamiento clásico; Ed y EΔ al operante."
+    }
+  },
+  {
+    "id": "5-3",
+    "tipo": "MC",
+    "tipoLabel": "Análisis de caso",
+    "titulo": "Identificar la función de un antecedente",
+    "pregunta": "Pablo solo presenta la conducta de \"pedir ayuda\" a su jefa cuando la puerta de su oficina está abierta. Si la puerta está cerrada, nunca lo intenta. Funcionalmente, ¿qué rol cumple la puerta abierta en este análisis?",
+    "opciones": [
+      "Estímulo Condicionado (EC), porque provoca la respuesta condicionada de hablar.",
+      "Reforzador Positivo (R+), porque la puerta abierta refuerza su conducta de caminar hacia la oficina.",
+      "Estímulo Discriminativo (Ed), porque señala que la conducta de pedir ayuda tiene probabilidad de ser reforzada.",
+      "Operación de Establecimiento (OE), porque altera el valor reforzante de la ayuda temporalmente."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "La puerta abierta es el antecedente que señala que pedir ayuda 'funciona' aquí; es un Ed clásico.",
+      "incorrecta": "La puerta abierta no elicita una respuesta refleja, no es la consecuencia, y no altera el valor del reforzador como una OE.",
+      "pista": "¿Qué señala que pedir ayuda será reforzado en este momento?"
+    }
+  },
+  {
+    "id": "5-4",
+    "tipo": "Ordenamiento",
+    "tipoLabel": "Ordenar secuencia",
+    "titulo": "Procedimiento de entrenamiento de discriminación",
+    "pregunta": "Ordena los pasos requeridos para establecer un procedimiento de entrenamiento de discriminación operante estándar:",
+    "items": [
+      "Repetición sistemática hasta lograr control discriminativo",
+      "Presentar Ed → Emitir conducta → Reforzar",
+      "Presentar EΔ → Emitir conducta → No reforzar"
+    ],
+    "ordenCorrecto": [
+      "Presentar Ed → Emitir conducta → Reforzar",
+      "Presentar EΔ → Emitir conducta → No reforzar",
+      "Repetición sistemática hasta lograr control discriminativo"
+    ],
+    "retroalimentacion": {
+      "correcta": "El reforzamiento diferencial requiere alternar Ed (reforzado) y EΔ (no reforzado) repetidamente hasta consolidar el control.",
+      "incorrecta": "Sin reforzamiento diferencial entre Ed y EΔ, no hay discriminación que consolidar.",
+      "pista": "Primero refuerzas en presencia del Ed, luego retiras refuerzo en presencia del EΔ, y luego consolidas."
+    }
+  },
+  {
+    "id": "5-5",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar",
+    "titulo": "Generalización operante",
+    "pregunta": "Completa el texto con los términos precisos:",
+    "textoBase": "Cuando se establece un ___, estímulos con topografía ___ también adquieren capacidad evocativa. El gradiente de ___ describe cómo el control sobre la respuesta ___ a medida que las propiedades físicas del estímulo se alejan de la contingencia original de ___.",
+    "gaps": [
+      {
+        "id": "gap1",
+        "opciones": ["EΔ", "Ed", "EC"],
+        "correcta": "Ed"
+      },
+      {
+        "id": "gap2",
+        "opciones": ["diferente", "similar"],
+        "correcta": "similar"
+      },
+      {
+        "id": "gap3",
+        "opciones": ["generalización", "discriminación"],
+        "correcta": "generalización"
+      },
+      {
+        "id": "gap4",
+        "opciones": ["aumenta", "disminuye"],
+        "correcta": "disminuye"
+      },
+      {
+        "id": "gap5",
+        "opciones": ["generalización", "discriminación"],
+        "correcta": "discriminación"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "El gradiente de generalización es la curva clásica donde el control disminuye con la disimilitud topográfica.",
+      "incorrecta": "Recuerda: la generalización emerge del entrenamiento de discriminación con un Ed; estímulos similares evocan respuesta en menor grado.",
+      "pista": "Entrenas un Ed → estímulos parecidos también evocan, pero menos."
+    }
+  },
+  {
+    "id": "5-6",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Ed vs EΔ",
+    "pregunta": "Clasifica los siguientes eventos antecedentes como Ed o EΔ respecto a la conducta indicada:",
+    "items": [
+      "Luz verde (conducta: cruzar calle)",
+      "Luz roja (conducta: cruzar calle)",
+      "Letrero de Cerrado (conducta: empujar puerta)",
+      "Contacto en línea (conducta: enviar mensaje)"
+    ],
+    "zonas": ["Ed", "EΔ"],
+    "correctMap": {
+      "Luz verde (conducta: cruzar calle)": "Ed",
+      "Luz roja (conducta: cruzar calle)": "EΔ",
+      "Letrero de Cerrado (conducta: empujar puerta)": "EΔ",
+      "Contacto en línea (conducta: enviar mensaje)": "Ed"
+    },
+    "retroalimentacion": {
+      "correcta": "Identificaste correctamente cuándo el antecedente señala disponibilidad y cuándo no.",
+      "incorrecta": "Pregúntate: ¿en presencia de este antecedente, la conducta indicada ha sido reforzada históricamente?",
+      "pista": "Ed = 'aquí sí'; EΔ = 'aquí no'."
+    }
+  },
+  {
+    "id": "5-7",
+    "tipo": "MC",
+    "tipoLabel": "Diferenciación teórica",
+    "titulo": "Generalización operante vs respondente",
+    "pregunta": "¿En qué difieren técnicamente la generalización operante y la generalización respondente?",
+    "opciones": [
+      "La respondente ocurre por el historial de consecuencias; la operante ocurre por el emparejamiento de estímulos.",
+      "No difieren; ambas son constructos para explicar la emergencia de conductas sin entrenamiento.",
+      "La generalización operante involucra a un Ed que evoca respuestas mantenidas por consecuencias; la respondente involucra a un EC que elicita reflejos fisiológicos condicionados.",
+      "La generalización operante solo ocurre en humanos, mientras que la respondente ocurre en todos los organismos."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Cada tipo de generalización corresponde al proceso de aprendizaje del que deriva: operante (Ed/consecuencias) o respondente (EC/reflejo).",
+      "incorrecta": "La opción 1 invierte los procesos. Ambas existen pero corresponden a vías de aprendizaje distintas.",
+      "pista": "Operante = consecuencias; respondente = reflejo y emparejamiento de estímulos."
+    }
+  }
+]

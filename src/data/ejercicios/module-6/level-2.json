@@ -1,1 +1,110 @@
-{}
+[
+  {
+    "id": "6-8",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Ley de Igualación (Herrnstein)",
+    "pregunta": "¿Qué postula, en esencia, la Ley de Igualación (Matching Law) de Herrnstein en programas concurrentes?",
+    "opciones": [
+      "Que los individuos siempre elegirán la opción que requiere menos esfuerzo físico, ignorando la magnitud del reforzador.",
+      "Que la proporción de conducta dirigida hacia una alternativa igualará la proporción de reforzadores obtenidos de esa alternativa.",
+      "Que la conducta se distribuye al azar cuando hay más de dos opciones disponibles."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "La distribución de la conducta iguala la distribución de los reforzadores: si A entrega 80%, A recibe 80% de la conducta.",
+      "incorrecta": "Ni el esfuerzo solo ni el azar describen el matching; el principio es proporcional al reforzamiento obtenido.",
+      "pista": "Proporción de conducta = proporción de reforzamiento."
+    }
+  },
+  {
+    "id": "6-9",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico",
+    "titulo": "\"Elegir\" series sobre socializar",
+    "pregunta": "Caso: Luis \"elige\" frecuentemente quedarse en su habitación mirando series en lugar de salir a reuniones sociales con sus compañeros. Desde la ley de igualación, ¿qué explica fundamentalmente esta \"elección\"?",
+    "opciones": [
+      "Luis tiene un déficit intrínseco en su voluntad de socialización.",
+      "La conducta de ver series proporciona un reforzamiento proporcionalmente más denso, inmediato y seguro que la interacción social en el ambiente de Luis.",
+      "Luis está respondiendo bajo un programa secuencial donde ver series es un requisito para salir después."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "La conducta se distribuye según las contingencias: la opción más densa, inmediata y segura captura mayor proporción de la conducta.",
+      "incorrecta": "El AF no apela a déficits internos; explica la \"elección\" por las propiedades de los reforzadores disponibles.",
+      "pista": "Densidad + inmediatez + certeza > opción competitiva."
+    }
+  },
+  {
+    "id": "6-10",
+    "tipo": "MC",
+    "tipoLabel": "Comparación",
+    "titulo": "Secuencial vs concurrente",
+    "pregunta": "¿Cuál es la diferencia funcional clave entre un programa secuencial y un programa concurrente?",
+    "opciones": [
+      "En el secuencial hay que cumplir los requisitos de un programa para pasar al siguiente; en el concurrente, las opciones están disponibles simultáneamente.",
+      "En el concurrente los reforzadores son siempre de castigo, mientras que en el secuencial son refuerzos positivos."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "Secuencial = en cadena (uno tras otro); concurrente = en paralelo (al mismo tiempo).",
+      "incorrecta": "El tipo de consecuencia (positiva o aversiva) no define la diferencia entre secuencial y concurrente.",
+      "pista": "¿Las opciones están al mismo tiempo o una después de la otra?"
+    }
+  },
+  {
+    "id": "6-11",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Programas compuestos",
+    "pregunta": "Clasifique las siguientes situaciones:",
+    "items": [
+      "Un estudiante en clase puede prestar atención a la pizarra o mirar su celular por debajo del pupitre.",
+      "Un paciente debe primero completar el módulo de exposición imaginaria (RF) para luego poder acceder a la exposición en vivo con su terapeuta."
+    ],
+    "zonas": ["Alternante", "Secuencial", "Concurrente"],
+    "correctMap": {
+      "Un estudiante en clase puede prestar atención a la pizarra o mirar su celular por debajo del pupitre.": "Concurrente",
+      "Un paciente debe primero completar el módulo de exposición imaginaria (RF) para luego poder acceder a la exposición en vivo con su terapeuta.": "Secuencial"
+    },
+    "retroalimentacion": {
+      "correcta": "El estudiante tiene ambas opciones disponibles a la vez (concurrente); el paciente debe completar un programa para acceder al siguiente (secuencial).",
+      "incorrecta": "Pregúntate: ¿las contingencias coexisten en paralelo o son requisitos en cadena?",
+      "pista": "Concurrente = simultáneo; secuencial = en cadena."
+    }
+  },
+  {
+    "id": "6-12",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "\"Elegir\" como conducta operante",
+    "pregunta": "Desde el análisis del comportamiento clínico, ¿por qué afirmamos que \"elegir\" no es una capacidad interna especial?",
+    "opciones": [
+      "Porque las personas con psicopatología pierden la capacidad de elección consciente.",
+      "Porque elegir es simplemente emitir una conducta operante específica de entre varias disponibles, sujeta a los principios de las contingencias ambientales e históricas."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Elegir es conducta operante: está sujeta a las mismas leyes del reforzamiento que cualquier otra respuesta.",
+      "incorrecta": "El AF no postula \"capacidades internas\" ni asume que la psicopatología las anula; explica la conducta por contingencias.",
+      "pista": "La elección no es metafísica: es función del historial de reforzamiento."
+    }
+  },
+  {
+    "id": "6-13",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico",
+    "titulo": "Permanencia en relación disfuncional",
+    "pregunta": "Caso: Una paciente permanece en una relación de pareja altamente disfuncional. El terapeuta nota que la pareja proporciona afecto de manera extrema, pero muy infrecuente y completamente impredecible. La paciente sufre, pero la conducta de \"quedarse\" persiste rígidamente. ¿Qué explica esta resistencia funcionalmente?",
+    "opciones": [
+      "Está mantenida bajo un programa concurrente donde ambas opciones ofrecen castigo.",
+      "Está mantenida por un poderoso programa intermitente de Razón/Intervalo Variable, maximizando la persistencia frente al malestar debido a la impredictibilidad de la consecuencia positiva."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "La intermitencia impredecible del afecto opera como un programa variable: máxima persistencia clínica.",
+      "incorrecta": "No es un castigo concurrente: es la entrega impredecible de un reforzador positivo lo que mantiene la conducta.",
+      "pista": "Recuerda la analogía con la tragamonedas: refuerzo intermitente impredecible."
+    }
+  }
+]

@@ -1,1 +1,65 @@
-{}
+{
+  "titulo": "Responder Relacional Derivado y Marcos Relacionales",
+  "preguntaCentral": "¿Cómo extiende la RFT el trabajo de Sidman para explicar la generatividad del lenguaje humano y por qué los humanos pueden sufrir por estímulos que no están físicamente presentes?",
+  "aprobacionRequerida": 87,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "El Puente desde Sidman a la Clínica",
+      "contenido": "En el Módulo 5 estudiamos la equivalencia de estímulos de Sidman. Vimos cómo los organismos pueden aprender a responder a relaciones entre estímulos que nunca fueron entrenadas directamente (A=B, B=C, luego A=C). En el Módulo 7 analizamos las funciones del lenguaje (mandos, tactos) a través del lente del conductismo clásico de Skinner.\n\nSin embargo, la taxonomía de Skinner, aunque útil, no lograba explicar completamente la inmensa generatividad del lenguaje humano ni por qué las personas sufren por cosas que no están físicamente presentes. Aquí es donde entra la Teoría del Marco Relacional (RFT), como señalan Törneke (2010) y Villatte et al. (2016). RFT extiende el trabajo de Sidman: los humanos no solo respondemos a relaciones de equivalencia (igualdad), sino a todo tipo de relaciones (mayor que, opuesto a, parte de, etc.)."
+    },
+    {
+      "tipo": "nota",
+      "titulo": "Responder Relacional Derivado",
+      "contenido": "Es la capacidad de establecer y responder a relaciones entre estímulos basadas en claves contextuales verbales, incluso sin entrenamiento directo con esos estímulos. \"Derivado\" significa que emerge de forma indirecta. Si aprendes que la Ansiedad es peor que la Tristeza, y la Tristeza es peor que el Aburrimiento, derivas automáticamente que la Ansiedad es peor que el Aburrimiento sin haberlas comparado directamente."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Responder Relacional Arbitrariamente Aplicable (RRAA)",
+      "contenido": "Lo que nos hace únicos como especie es que estas relaciones son arbitrarias. \"Arbitrariamente aplicable\" significa que podemos aplicar cualquier marco relacional a cualquier par de estímulos, guiados por convenciones sociales (el lenguaje) y no por las propiedades físicas de los objetos.\n\nPor ejemplo, físicamente un billete de 100 pesos es igual a uno de 10 pesos, e incluso un elefante es inmensamente más grande que una moneda. Pero verbalmente establecemos que la moneda tiene \"más valor\" en ciertos contextos. Los animales responden a relaciones físicas (el pedazo de comida más grande); los humanos podemos crear relaciones verbales arbitrarias sobre cualquier cosa."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Propiedades Clave del Responder Relacional",
+      "items": [
+        {
+          "nombre": "Implicación Mutua",
+          "descripcion": "Si aprendo que A se relaciona con B de cierta manera, derivo automáticamente cómo B se relaciona con A. Ejemplo: si el terapeuta me enseña que \"el valor\" es lo opuesto del \"miedo\", derivo mutuamente que \"el miedo\" es lo opuesto del \"valor\"."
+        },
+        {
+          "nombre": "Implicación Combinatoria",
+          "descripcion": "Si A se relaciona con B, y B se relaciona con C, derivo la relación entre A y C. Ejemplo clínico: el paciente piensa \"Soy un fracaso\" (A=B), y ha aprendido culturalmente que \"los fracasados no merecen amor\" (B=C). Deriva por implicación combinatoria: \"No merezco amor\" (A=C). Nadie le enseñó directamente esa relación; su lenguaje la construyó."
+        }
+      ]
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Principales Marcos Relacionales en la Práctica Clínica",
+      "encabezados": ["Marco Relacional", "Definición", "Ejemplo Clínico Típico"],
+      "filas": [
+        ["Coordinación", "A es igual a / es lo mismo que B", "\"Soy un inútil.\" (Yo = Inútil)"],
+        ["Oposición", "A es lo contrario de B", "\"La tranquilidad es lo opuesto a la ansiedad\" (si hay ansiedad, no puedo estar tranquilo)."],
+        ["Distinción", "A es diferente de B", "\"Mi vida real no es como esta vida que estoy viviendo.\""],
+        ["Comparación", "A es mayor/menor/mejor/peor que B", "\"Mi hermano es mucho más exitoso que yo\" / \"Soy menos que los demás.\""],
+        ["Jerarquía", "A contiene a B / B es atributo de A", "\"Mis pensamientos de muerte son solo una parte de mí\" (Yo > pensamientos)."],
+        ["Temporalidad", "A ocurre antes/después de B", "\"Primero debo eliminar la ansiedad, y después podré salir a la calle.\""],
+        ["Deícticos", "Perspectiva: Yo/Tú, Aquí/Allí, Ahora/Entonces", "\"Yo\" sintiendo dolor \"aquí y ahora\" vs \"Tú\" entendiéndome \"allí\". Base de la empatía y la toma de perspectiva."]
+      ]
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Creer que los marcos deícticos (yo/aquí/ahora) son sólo gramática sin función psicológica clínica.",
+      "correccion": "Los deícticos son la base fundamental de la toma de perspectiva, la empatía y la capacidad de observar la propia conducta como un \"yo observador\". Son cruciales para la clínica contextual."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Suponer que cada verbalización del paciente involucra un solo marco relacional.",
+      "correccion": "Una sola frase suele involucrar múltiples marcos simultáneos (redes relacionales). \"Ahora soy más débil que antes\" combina deícticos temporales, comparación y coordinación al mismo tiempo."
+    },
+    {
+      "tipo": "conexionClinica",
+      "titulo": "Cómo escuchar marcos en sesión",
+      "contenido": "Cuando un paciente habla, no escuches solo el contenido. Pregúntate: ¿qué tipo de marco está usando? Si dice \"primero tengo que dejar de sentir ansiedad y después podré ir a trabajar\" está usando temporalidad/causalidad rígida. Identificar el marco te dice qué intervención lingüística podría flexibilizarlo."
+    }
+  ]
+}

@@ -1,1 +1,59 @@
-{}
+{
+  "titulo": "Metáforas, Analogías y Lenguaje como Intervención",
+  "preguntaCentral": "Si el lenguaje es la fuente del sufrimiento humano, ¿cómo se utiliza el propio lenguaje terapéuticamente para cambiar la relación funcional del paciente con sus eventos internos?",
+  "aprobacionRequerida": 80,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "El Lenguaje No Es Solo el Problema, Es la Solución",
+      "contenido": "Como indican Stewart y Barnes-Holmes (2001), si el lenguaje crea sufrimiento estableciendo redes relacionales que transforman funciones (haciendo que los pensamientos duelan como objetos punzantes), la intervención terapéutica debe consistir en utilizar el propio lenguaje para cambiar la relación funcional con esos eventos internos, en lugar de intentar borrarlos."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Cómo Funcionan las Metáforas desde la RFT",
+      "contenido": "Una metáfora terapéutica no es solo una \"historia bonita\". Técnicamente, establece un marco de coordinación entre dos redes relacionales distintas:\n\n1) La red relacional del dominio fuente (ej., conducir un autobús, la lucha en lodo, el clima).\n2) La red relacional del dominio objetivo (el paciente y sus problemas).\n\nAl coordinar ambas redes (A es como B), se transfieren funciones útiles del dominio fuente al objetivo. Si el paciente intenta no hundirse en arenas movedizas, forcejear (luchar contra la ansiedad) lo hunde más; la solución es extenderse y dejar de luchar (cesar la evitación). Esto altera las funciones conductuales del paciente hacia su ansiedad sin necesidad de argumentar o debatir lógicamente, lo que evita que se active la trampa de la coherencia verbal defensiva."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Analogías: Coordinación entre Relaciones",
+      "contenido": "Una analogía es un tipo complejo de metáfora donde se establece coordinación entre relaciones, no entre objetos. \"La relación entre tus pensamientos y tú es como la relación entre las nubes y el cielo\". No estamos diciendo que el paciente sea de gas azul (coordinación física), sino que la estructura relacional (continente amplio vs. contenido transitorio) es la misma. Esto promueve un marco de Jerarquía/Distinción (\"Yo soy el contexto donde ocurren mis eventos internos\")."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "El Lenguaje del Terapeuta (Villatte et al., 2016)",
+      "items": [
+        {
+          "nombre": "Preguntas Terapéuticas",
+          "descripcion": "No buscan \"información\", buscan forzar al paciente a derivar nuevas relaciones. (\"¿Qué parte de ti está observando ese pensamiento de que eres inútil?\")"
+        },
+        {
+          "nombre": "Validación Funcional",
+          "descripcion": "Nombra el sentido que tiene la conducta en su contexto (\"Tiene sentido que evites ir a la fiesta si el miedo se siente como una alarma de incendio\"), creando un marco de coordinación con la normalidad humana."
+        },
+        {
+          "nombre": "Ejercicios Experienciales",
+          "descripcion": "Cortocircuitan temporalmente las redes verbales rígidas, promoviendo un contacto directo con las funciones no-arbitrarias del momento presente (marcos deícticos de \"Aquí/Ahora\")."
+        }
+      ]
+    },
+    {
+      "tipo": "conexionClinica",
+      "titulo": "Viñeta clínica: la metáfora del autobús",
+      "contenido": "Paciente: \"Es que si pienso que soy un fracaso, me siento paralizado y no envío mi currículum.\"\n\nTerapeuta: \"Imagina que estás conduciendo un autobús (tú) y ese pensamiento es un pasajero ruidoso en el fondo. El pasajero grita '¡eres un fracaso, da la vuelta!'. El pasajero grita fuerte, pero... ¿quién tiene las manos en el volante del autobús?\"\n\n[Nota RFT: el terapeuta establece coordinación entre \"Paciente = Conductor\" y \"Pensamiento = Pasajero\". Transfiere la función de \"control de dirección\" al paciente, y \"ruido sin control físico\" al pensamiento, separándolos (Distinción)]."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Debatir lógicamente el contenido de un pensamiento rígido (\"pero mira tus logros, no eres un fracaso\").",
+      "correccion": "Debatir alimenta la trampa de coherencia verbal y suele reforzar el marco problemático. La intervención RFT cambia el contexto relacional (jerarquía/distinción) sin debatir el contenido literal del pensamiento."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Skinner, B. F. (1974). Sobre el conductismo. Ediciones Martínez Roca.",
+        "Stewart, I., & Barnes-Holmes, D. (2001). Understanding Metaphor: A Relational Frame Perspective. The Behavior Analyst, 24(2), 191-199.",
+        "Törneke, N. (2010). Learning RFT: An Introduction to Relational Frame Theory and Its Clinical Application. Context Press / New Harbinger Publications.",
+        "Villatte, M., Villatte, J. L., & Hayes, S. C. (2016). Mastering the Clinical Conversation: Language as Intervention. Guilford Press."
+      ]
+    }
+  ]
+}

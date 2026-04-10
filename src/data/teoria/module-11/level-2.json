@@ -1,1 +1,45 @@
-{}
+{
+  "titulo": "Procesos ACT y Análisis Funcional",
+  "preguntaCentral": "¿Cómo se conecta cada proceso del Hexaflex con las variables de mantenimiento que el Análisis Funcional identifica en cada caso?",
+  "aprobacionRequerida": 83,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "ACT como Terapia Funcional",
+      "contenido": "El modelo clínico de ACT carece de sentido si se divorcia de su fundamentación en el Análisis Funcional. En el Módulo 8 vimos cómo estructurar hipótesis de mantenimiento; ACT aporta un marco preciso para intervenir sobre las variables responsables del mantenimiento de la conducta problemática. Una intervención es \"ACT\" no por la forma que adopta (la metáfora, el ejercicio experiencial, la hoja de trabajo), sino por la función que cumple. Dos clínicos pueden emplear técnicas diametralmente distintas y ambas ser intervenciones válidas de ACT si promueven los mismos cambios funcionales orientados a la flexibilidad."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "El protocolo sirve a la función, no al revés",
+      "contenido": "Este principio distingue a ACT de enfoques fundamentados en protocolos estandarizados por topografía. Si una técnica de defusión se usa para \"calmarse\", el clínico, inadvertidamente, está reforzando la evitación experiencial. El Análisis Funcional nos indica QUÉ mantiene la conducta; los procesos de ACT nos dictan CÓMO alterar esas relaciones de control."
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Conexión entre el AF y el Hexaflex",
+      "encabezados": ["Variable de Mantenimiento en el AF", "Proceso ACT Prioritario", "Cambio Funcional Esperado"],
+      "filas": [
+        ["La conducta problema es mantenida primariamente por Reforzamiento Negativo (R-) mediante el escape de eventos privados aversivos.", "Aceptación", "El evento privado aversivo pierde su función discriminativa para conductas de escape/evitación restrictivas."],
+        ["La conducta está controlada rígidamente por reglas verbales literales (fusión con antecedentes).", "Defusión Cognitiva", "Debilitamiento del control por estímulo de la regla verbal; discriminación del evento como \"conducta de pensar\"."],
+        ["El repertorio conductual carece de contacto con reforzadores positivos naturales, dominado por el alivio a corto plazo.", "Valores", "Establecimiento de estímulos verbales (augmentals) que alteran la función reforzante de contingencias a largo plazo."],
+        ["Ausencia de variabilidad conductual (extinción por inacción o impulsividad).", "Acción Comprometida", "Ampliación del repertorio mediante moldeamiento, discriminando las nuevas consecuencias de la acción orientada a valores."]
+      ]
+    },
+    {
+      "tipo": "conexionClinica",
+      "titulo": "Viñeta: agresividad de pareja",
+      "contenido": "Un paciente reporta episodios de agresividad verbal con su pareja. El AF revela que la agresividad ocurre cuando la pareja hace un reclamo, suscitando la regla verbal \"me está atacando, soy inadecuado\" (fusión) y una fuerte activación ansiosa. La agresión funciona para callar a la pareja y disminuir temporalmente la activación (R- de evitación experiencial). En lugar de enseñar técnicas de relajación (que podrían perpetuar la necesidad de eliminar la activación), el terapeuta prioriza Defusión de la regla \"soy inadecuado\" y Aceptación de la activación ansiosa, conectando con el Valor de ser una pareja amorosa para generar una respuesta alternativa (Acción Comprometida)."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Aplicar ACT como protocolo lineal: \"primero defusión, luego aceptación, luego valores\".",
+      "correccion": "ACT es funcional, no protocolar. El AF dicta qué proceso intervenir y en qué orden. Una misma técnica (ej. una metáfora) puede servir a defusión en un caso y a aceptación en otro: lo relevante es la función, no la topografía."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Hayes, S. C., Strosahl, K. D., & Wilson, K. G. (2012). Acceptance and commitment therapy: The process and practice of mindful change. Guilford Press.",
+        "Villatte, M., Villatte, J. L., & Hayes, S. C. (2015). Mastering the clinical conversation: Language as intervention. Guilford Press."
+      ]
+    }
+  ]
+}

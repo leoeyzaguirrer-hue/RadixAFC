@@ -1,1 +1,158 @@
-{}
+[
+  {
+    "id": "4-9",
+    "tipo": "Ordenamiento",
+    "tipoLabel": "Ordenar secuencia",
+    "titulo": "Cadena conductual de aislamiento social",
+    "pregunta": "Ordena cronológicamente los eslabones funcionales típicos de una cadena conductual de aislamiento social mantenida por reforzamiento negativo.",
+    "items": [
+      "Refuerzo de toda la cadena (probabilidad futura aumentada)",
+      "Reducción inmediata de la ansiedad (alivio/R-)",
+      "Ocurrencia de respuesta fisiológica de ansiedad severa",
+      "Conducta de escape (ej. salir corriendo del lugar)",
+      "Antecedente: exposición repentina a una situación social imprevista"
+    ],
+    "ordenCorrecto": [
+      "Antecedente: exposición repentina a una situación social imprevista",
+      "Ocurrencia de respuesta fisiológica de ansiedad severa",
+      "Conducta de escape (ej. salir corriendo del lugar)",
+      "Reducción inmediata de la ansiedad (alivio/R-)",
+      "Refuerzo de toda la cadena (probabilidad futura aumentada)"
+    ],
+    "retroalimentacion": {
+      "correcta": "Secuencia perfecta: antecedente → ansiedad → escape → alivio → refuerzo de toda la cadena.",
+      "incorrecta": "Piensa en la cronología: primero ocurre algo, luego aparece la ansiedad, luego se escapa, luego hay alivio, y eso refuerza todo.",
+      "pista": "Sigue la lógica temporal E-R-C de la cadena."
+    }
+  },
+  {
+    "id": "4-10",
+    "tipo": "MC",
+    "tipoLabel": "Intervención en cadenas",
+    "titulo": "Romper la cadena conductual de atracones",
+    "pregunta": "Un paciente con atracones describe esta cadena: Llega estresado del trabajo (E1) -> se sienta en el sofá a pensar (R1) -> siente vacío (E2) -> va a la cocina (R2) -> abre la heladera (E3) -> come impulsivamente (R3). Clínicamente, la intervención con mayor probabilidad de éxito para romper el patrón consistirá en:",
+    "opciones": [
+      "Aplicar control de estímulos en E3 (poner candado a la heladera).",
+      "Modificar o buscar alternativas para R1 (el primer eslabón accesible), como no sentarse en el sofá o dar un paseo antes de entrar a casa.",
+      "Castigar R3 (el atracón) para disminuir la probabilidad futura de toda la secuencia."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Intervenir en los primeros eslabones es más efectivo porque los eslabones finales tienen mayor inercia por proximidad al reforzador.",
+      "incorrecta": "Los eslabones finales tienen demasiada inercia. Es más efectivo romper la cadena al principio, antes de que la secuencia cobre fuerza.",
+      "pista": "¿En qué punto de la cadena es más fácil cambiar de dirección?"
+    }
+  },
+  {
+    "id": "4-11",
+    "tipo": "MC",
+    "tipoLabel": "Sensibilidad ambiental",
+    "titulo": "Conducta moldeada vs. gobernada por reglas",
+    "pregunta": "Al comparar la conducta moldeada por contingencias y la conducta gobernada por reglas, ¿cuál de las siguientes afirmaciones es correcta?",
+    "opciones": [
+      "La gobernada por reglas es la más flexible y la que más rápido se ajusta cuando las contingencias de la vida real cambian de improviso.",
+      "La moldeada por contingencias es más sensible a los cambios ambientales, mientras que la gobernada por reglas tiende a ser más rígida frente a cambios en las consecuencias reales."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "La conducta moldeada por contingencias se ajusta flexiblemente al ambiente real. La gobernada por reglas puede volverse rígida e insensible a las contingencias.",
+      "incorrecta": "Es al revés. Las reglas verbales pueden generar insensibilidad a las contingencias, haciendo que la persona persista en conductas dañinas.",
+      "pista": "Si aprendiste por experiencia directa, te adaptas rápido. Si sigues una regla ciega, puede que no notes que la realidad cambió."
+    }
+  },
+  {
+    "id": "4-12",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Tipos de seguimiento de reglas",
+    "pregunta": "Clasifica los ejemplos clínicos según el tipo funcional de seguimiento de regla que representan (Pliance, Tracking o Augmenting).",
+    "items": [
+      "\"Hago mis registros porque mi terapeuta se enojaría si no.\"",
+      "\"Esta meditación representa vivir en conexión profunda con mi hijo.\"",
+      "\"Sigo esta receta al pie de la letra porque así la torta sale rica.\"",
+      "\"No lloro en sesión porque los hombres buenos no lloran frente a otros.\"",
+      "\"El dolor de estudiar de madrugada ahora significa forjar mi futuro.\"",
+      "\"Hablo bajo en la biblioteca para que el bibliotecario no me expulse.\""
+    ],
+    "zonas": ["Pliance", "Tracking", "Augmenting"],
+    "correctMap": {
+      "\"Hago mis registros porque mi terapeuta se enojaría si no.\"": "Pliance",
+      "\"Esta meditación representa vivir en conexión profunda con mi hijo.\"": "Augmenting",
+      "\"Sigo esta receta al pie de la letra porque así la torta sale rica.\"": "Tracking",
+      "\"No lloro en sesión porque los hombres buenos no lloran frente a otros.\"": "Pliance",
+      "\"El dolor de estudiar de madrugada ahora significa forjar mi futuro.\"": "Augmenting",
+      "\"Hablo bajo en la biblioteca para que el bibliotecario no me expulse.\"": "Pliance"
+    },
+    "retroalimentacion": {
+      "correcta": "Excelente clasificación. Pliance = controlado por el hablante social. Tracking = controlado por correspondencia con la realidad. Augmenting = altera el valor motivacional.",
+      "incorrecta": "Revisa: ¿La conducta se mantiene por aprobación social (pliance), por verificación con la realidad (tracking), o por transformación del valor de las consecuencias (augmenting)?",
+      "pista": "Pliance: \"para que no se enoje\". Tracking: \"porque así funciona\". Augmenting: \"ahora significa algo valioso\"."
+    }
+  },
+  {
+    "id": "4-13",
+    "tipo": "MC",
+    "tipoLabel": "Insensibilidad a las contingencias",
+    "titulo": "Persistencia en conductas dañinas",
+    "pregunta": "Desde la perspectiva del análisis funcional, ¿cuál es la razón primordial por la cual una persona sigue ejecutando una conducta que visiblemente la destruye en el mediano/largo plazo?",
+    "opciones": [
+      "Porque el ser humano tiene una pulsión intrínseca autodestructiva inmodificable (destrudo).",
+      "Porque la conducta está bajo un control verbal rígido (gobernada por reglas) que produce insensibilidad a las contingencias naturales adversas.",
+      "Porque el aprendizaje operante deja de funcionar en adultos con historial crónico psicopatológico."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "La insensibilidad a las contingencias es un fenómeno clave: las reglas verbales rígidas pueden hacer que la persona no contacte los efectos reales de su conducta.",
+      "incorrecta": "No hay pulsiones autodestructivas ni el aprendizaje operante deja de funcionar. El problema es que las reglas verbales se superponen al contacto con la realidad.",
+      "pista": "Si alguien repite \"el sacrificio siempre trae recompensa\" mientras su vida se destruye, ¿qué controla su conducta?"
+    }
+  },
+  {
+    "id": "4-14",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar",
+    "titulo": "Tipos de reglas en la práctica",
+    "pregunta": "Completa los tipos de seguimiento de reglas:",
+    "textoBase": "Un paciente dice: \"Hice el ejercicio de exposición, me dolió pero valió la pena por mi libertad\". Esta alteración del valor del dolor es un caso de ___. Por otro lado, si dice: \"Me expuse solo para demostrarte que soy un buen paciente\", está bajo control del reforzamiento social del hablante, lo cual es ___. Finalmente, si dice: \"Me expuse y comprobé que mi ansiedad baja con el tiempo natural\", el paciente contactó las contingencias del entorno guiado por ___.",
+    "gaps": [
+      {
+        "id": "gap1",
+        "opciones": ["augmenting", "pliance"],
+        "correcta": "augmenting"
+      },
+      {
+        "id": "gap2",
+        "opciones": ["tracking", "pliance"],
+        "correcta": "pliance"
+      },
+      {
+        "id": "gap3",
+        "opciones": ["tracking", "augmenting"],
+        "correcta": "tracking"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Perfecto. Augmenting transforma el valor del dolor. Pliance es controlado por aprobación social. Tracking verifica la correspondencia con la realidad.",
+      "incorrecta": "Augmenting = altera el valor motivacional. Pliance = controlado por el hablante social. Tracking = verificado con la realidad.",
+      "pista": "\"Valió la pena por mi libertad\" = valor transformado. \"Para demostrarte\" = aprobación social. \"Comprobé que...\" = contacto con la realidad."
+    }
+  },
+  {
+    "id": "4-15",
+    "tipo": "MC",
+    "tipoLabel": "Identificación clínica",
+    "titulo": "Seguimiento rígido de reglas",
+    "pregunta": "Una paciente permanece en un trabajo donde la explotan crónicamente (no le pagan horas extras y la maltratan). Ella repite constantemente la máxima: \"El trabajo duro y el sacrificio absoluto siempre traen la recompensa dorada al final\". Su persistencia patológica se explica mejor como:",
+    "opciones": [
+      "Un seguimiento rígido de una regla verbal que genera insensibilidad a las contingencias reales (castigo continuo) que el ambiente le está entregando.",
+      "Un déficit en el condicionamiento clásico de respuestas de alerta biológica.",
+      "Un caso puro de moldeamiento operante exitoso por medio de reforzamiento positivo del jefe."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "La regla verbal rígida (\"el sacrificio siempre trae recompensa\") la hace insensible al castigo real que recibe. Este es un caso clásico de insensibilidad a las contingencias por control verbal.",
+      "incorrecta": "No hay déficit biológico ni reforzamiento positivo del jefe. La regla verbal se superpone al contacto con la realidad adversa.",
+      "pista": "La máxima que repite actúa como una regla verbal que controla su conducta independientemente de lo que el ambiente le entrega."
+    }
+  }
+]
