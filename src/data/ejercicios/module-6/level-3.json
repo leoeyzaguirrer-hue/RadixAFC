@@ -1,1 +1,96 @@
-{}
+[
+  {
+    "id": "6-14",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico",
+    "titulo": "Quejas somáticas atendidas \"a veces\"",
+    "pregunta": "Caso clínico: Un paciente adulto muestra constantes conductas de quejas somáticas vagas. En el AF se constata que la familia suele ignorarlo la mayor parte del tiempo, pero ocasionalmente, si la queja es suficientemente intensa o el día ha sido largo, un familiar interrumpe todo y le presta gran atención médica y afectiva. ¿Bajo qué programa se mantiene esta conducta problema y qué implicación tiene?",
+    "opciones": [
+      "RC: la atención se da cada vez, por lo que la extinción será rápida y sencilla.",
+      "RV o IV intermitente: generará una alta resistencia a la extinción, por lo que la intervención requerirá constancia extrema y reforzamiento diferencial de alternativas."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "La atención \"a veces\" es exactamente un programa intermitente variable: alta persistencia y necesidad de DRA.",
+      "incorrecta": "Si la atención no se da cada vez, no es RC. La intermitencia es lo que genera la persistencia clínica.",
+      "pista": "Atención ocasional impredecible = programa variable."
+    }
+  },
+  {
+    "id": "6-15",
+    "tipo": "MC",
+    "tipoLabel": "Comparación clínica",
+    "titulo": "Resistencia a la extinción",
+    "pregunta": "Tenemos dos pacientes que exhiben conductas autolesivas superficiales. El Paciente A siempre obtiene atención inmediata del personal (RC). El Paciente B lo hace a escondidas, y solo a veces el personal interviene (Intermitente RV). Si se decide aplicar una estricta extinción, ¿quién mostrará mayor resistencia al cambio funcionalmente?",
+    "opciones": [
+      "El Paciente A, porque el reforzador siempre estuvo presente, haciendo la conducta \"más fuerte\".",
+      "El Paciente B, porque el reforzamiento impredecible en su historia dificulta discriminar el paso hacia la extinción."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "El RV genera la mayor resistencia a la extinción: la impredictibilidad bloquea la discriminación del cambio de contingencia.",
+      "incorrecta": "Más reforzadores no implica más resistencia. La paradoja del reforzamiento parcial dice lo contrario.",
+      "pista": "El que recibió refuerzo impredecible tarda más en \"darse cuenta\" de que cambió la regla."
+    }
+  },
+  {
+    "id": "6-16",
+    "tipo": "Ordenamiento",
+    "tipoLabel": "Ordenar pasos",
+    "titulo": "Diseño de intervención basada en programas",
+    "pregunta": "Ordene los pasos lógicos para diseñar una intervención conductual basada en el análisis de programas:",
+    "items": [
+      "Identificar topográfica y funcionalmente la conducta problema.",
+      "Identificar el programa de reforzamiento histórico de mantenimiento (ej. intermitente vs continuo).",
+      "Evaluar la potencial resistencia a la extinción y los riesgos del estallido.",
+      "Diseñar estrategia de alteración de contingencias (Extinción o DRA).",
+      "Establecer un nuevo programa (inicialmente continuo) para la conducta adaptativa sustituta."
+    ],
+    "ordenCorrecto": [
+      "Identificar topográfica y funcionalmente la conducta problema.",
+      "Identificar el programa de reforzamiento histórico de mantenimiento (ej. intermitente vs continuo).",
+      "Evaluar la potencial resistencia a la extinción y los riesgos del estallido.",
+      "Diseñar estrategia de alteración de contingencias (Extinción o DRA).",
+      "Establecer un nuevo programa (inicialmente continuo) para la conducta adaptativa sustituta."
+    ],
+    "retroalimentacion": {
+      "correcta": "Identificación → análisis del programa → predicción de resistencia → estrategia → repertorio sustituto.",
+      "incorrecta": "Sin identificar el programa que mantiene la conducta no puedes predecir la resistencia ni diseñar correctamente.",
+      "pista": "Primero entender, luego predecir, luego intervenir, luego sustituir."
+    }
+  },
+  {
+    "id": "6-17",
+    "tipo": "MC",
+    "tipoLabel": "Dilema clínico",
+    "titulo": "Estallido de extinción",
+    "pregunta": "El terapeuta y los padres implementan la extinción (ignorar consistentemente) para demandas disruptivas en sesión. En la primera semana, los padres llaman alarmados porque la conducta ha escalado notablemente en intensidad y frecuencia. Como clínico con formación en análisis de la conducta, ¿cómo interpreta este evento?",
+    "opciones": [
+      "Es un error de diagnóstico; la conducta está siendo reforzada negativamente y la intervención fracasó.",
+      "Es un \"estallido de extinción\": un incremento transitorio predecible cuando se suspende la consecuencia, lo que indica que la contingencia previa sí mantenía la conducta."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "El estallido de extinción es esperable y, paradójicamente, confirma que el AF era correcto: la consecuencia retirada era la que mantenía la conducta.",
+      "incorrecta": "El estallido no es un fracaso: es evidencia de que la contingencia previa sí controlaba la conducta.",
+      "pista": "Cuando una contingencia se suspende, la primera reacción del organismo es intensificar la conducta antes de extinguirla."
+    }
+  },
+  {
+    "id": "6-18",
+    "tipo": "MC",
+    "tipoLabel": "Integración avanzada",
+    "titulo": "Rituales bajo Ed y R-",
+    "pregunta": "Integración de módulos anteriores: Una paciente ejecuta una cadena conductual compleja de rituales de limpieza ante la presencia de un estímulo antecedente específico (Ed). Esta respuesta se rige actualmente bajo un poderoso control discriminativo y un programa de Reforzamiento Negativo Continuo. Para desmantelar este patrón funcional, ¿qué resulta teóricamente más preciso?",
+    "opciones": [
+      "Alterar la función del estímulo antecedente (discriminación) y bloquear consistentemente la evitación (impedir la finalización aversiva), facilitando la habituación y la extinción operante.",
+      "Explicarle verbalmente por qué los rituales son irracionales para que elija no hacerlos basándose en la ley de igualación."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "Exposición + prevención de respuesta: alterar el control del Ed y bloquear el R- es la estrategia técnicamente precisa.",
+      "incorrecta": "La explicación verbal no altera contingencias: el AF interviene sobre las variables ambientales, no sobre la racionalidad.",
+      "pista": "Recuerda el modelo bifactorial: hay que romper la operante de evitación bloqueando su consecuencia."
+    }
+  }
+]

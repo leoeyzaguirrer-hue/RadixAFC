@@ -1,1 +1,38 @@
-{}
+{
+  "titulo": "Programas Simples: Razón e Intervalo",
+  "preguntaCentral": "¿Cómo distribuye el ambiente sus reforzadores en el tiempo y según las respuestas, y por qué eso determina la persistencia de la conducta?",
+  "aprobacionRequerida": 87,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Reforzamiento Continuo vs. Intermitente",
+      "contenido": "Desde el análisis del comportamiento, no solo importa qué consecuencia sigue a la conducta, sino cuándo y con qué frecuencia ocurre. La forma en que se distribuyen los reforzadores a lo largo del tiempo o de las respuestas se denomina programa de reforzamiento.\n\nReforzamiento Continuo (RC): Cada vez que se emite la conducta objetivo, se entrega un reforzador. Resulta fundamental para el moldeamiento y para establecer conductas nuevas de forma rápida. Sin embargo, genera una muy baja resistencia a la extinción. Si el reforzador se detiene, la conducta decae velozmente.\n\nReforzamiento Intermitente: Solo algunas emisiones de la conducta son reforzadas. El aprendizaje es más gradual, pero genera una enorme resistencia a la extinción. Esto es clave en clínica: explica por qué muchas conductas problemáticas o desadaptativas son tan difíciles de erradicar, ya que han sido mantenidas intermitentemente a lo largo de la historia del paciente."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Programas de Razón (Respuestas)",
+      "contenido": "En estos programas, la entrega del reforzador depende del número de respuestas emitidas.\n\nRazón Fija (RF): El reforzador se entrega después de un número fijo y predecible de respuestas (ej. RF5 significa que se refuerza cada quinta respuesta). Genera un patrón de pausa post-reforzamiento seguida de una tasa alta y constante (\"carrera\" hacia el siguiente reforzador). Ejemplo: ganar un café gratis tras completar 10 sellos en una tarjeta.\n\nRazón Variable (RV): El reforzador se entrega después de un número variable de respuestas (el número oscila alrededor de un promedio). Debido a la impredictibilidad, el organismo no hace pausas. Genera una tasa de respuesta muy alta y constante, y la mayor resistencia a la extinción. Ejemplo: las máquinas tragamonedas o revisar las notificaciones del celular buscando un \"like\". En la clínica, las conductas disruptivas mantenidas por RV son las más persistentes."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Programas de Intervalo (Tiempo)",
+      "contenido": "Aquí, el reforzador se entrega por la primera respuesta emitida después de que haya transcurrido un tiempo determinado.\n\nIntervalo Fijo (IF): El reforzador está disponible tras un período de tiempo fijo. La tasa de respuesta baja justo después del reforzador y se acelera progresivamente a medida que se acerca el momento de disponibilidad, formando un patrón conocido como \"festón\" (scallop). Ejemplo: estudiar intensamente solo en los días previos a un examen programado.\n\nIntervalo Variable (IV): El reforzador está disponible tras un período de tiempo que varía en torno a un promedio. Genera una tasa de respuesta moderada pero muy estable y constante, sin pausas, con alta resistencia a la extinción. Ejemplo: salir a pescar o revisar un correo electrónico cuando no hay un horario de entrega predefinido."
+    },
+    {
+      "tipo": "nota",
+      "titulo": "Resistencia a la extinción",
+      "contenido": "El orden general, de mayor a menor resistencia a la extinción, es RV ≈ IV > RF > IF > RC. La regla funcional es simple: cuanto más impredecible ha sido la entrega de la consecuencia en el pasado, más le costará al organismo discriminar que las contingencias han cambiado (que ya no hay refuerzo), manteniendo el comportamiento durante más tiempo."
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Comparación de programas simples",
+      "encabezados": ["Programa", "Patrón de Respuesta", "Resistencia a la Extinción", "Ejemplo Cotidiano"],
+      "filas": [
+        ["RF", "Pausa post-reforzamiento, luego alta tasa.", "Moderada baja", "Pago por destajo (ej. cada 5 prendas cosidas)."],
+        ["RV", "Tasa alta, sin pausas.", "Muy alta (máxima)", "Máquinas tragamonedas."],
+        ["IF", "\"Festón\": pausa, luego aceleración gradual.", "Baja", "Revisión periódica semanal de un supervisor."],
+        ["IV", "Tasa moderada, constante y estable.", "Alta", "Revisar si ha pasado el bus sin saber el horario."]
+      ]
+    }
+  ]
+}

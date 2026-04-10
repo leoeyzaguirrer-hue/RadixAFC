@@ -1,1 +1,173 @@
-{}
+[
+  {
+    "id": "6-1",
+    "tipo": "Emparejamiento",
+    "tipoLabel": "Emparejar conceptos",
+    "titulo": "Programas y patrones de respuesta",
+    "pregunta": "Empareje el programa con el patrón de respuesta correspondiente:",
+    "columnaIzquierda": [
+      "Razón Fija (RF)",
+      "Razón Variable (RV)",
+      "Intervalo Fijo (IF)",
+      "Intervalo Variable (IV)"
+    ],
+    "columnaDerecha": [
+      "Tasa alta y constante sin pausas, máxima resistencia.",
+      "Tasa moderada, constante y estable.",
+      "Pausa seguida de aceleración gradual (patrón de festón).",
+      "Pausa post-reforzamiento seguida de carrera rápida."
+    ],
+    "paresCorrectos": {
+      "Razón Fija (RF)": "Pausa post-reforzamiento seguida de carrera rápida.",
+      "Razón Variable (RV)": "Tasa alta y constante sin pausas, máxima resistencia.",
+      "Intervalo Fijo (IF)": "Pausa seguida de aceleración gradual (patrón de festón).",
+      "Intervalo Variable (IV)": "Tasa moderada, constante y estable."
+    },
+    "retroalimentacion": {
+      "correcta": "Cada programa tiene una huella de tasa característica que permite identificarlo a partir del registro acumulativo.",
+      "incorrecta": "Recuerda: razón = depende del número de respuestas; intervalo = depende del tiempo. Variable = sin pausas; fijo = con pausa post-reforzamiento o festón.",
+      "pista": "El festón es exclusivo del IF; la tasa más alta y persistente es del RV."
+    }
+  },
+  {
+    "id": "6-2",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Identificar el programa",
+    "pregunta": "Clasifique los siguientes ejemplos en el programa correspondiente:",
+    "items": [
+      "Máquina tragamonedas",
+      "Pago de salario el día 30 de cada mes",
+      "Tarjeta de café (el 10mo es gratis)",
+      "Revisar la bandeja de entrada esperando un correo de respuesta urgente"
+    ],
+    "zonas": ["RF", "RV", "IF", "IV"],
+    "correctMap": {
+      "Máquina tragamonedas": "RV",
+      "Pago de salario el día 30 de cada mes": "IF",
+      "Tarjeta de café (el 10mo es gratis)": "RF",
+      "Revisar la bandeja de entrada esperando un correo de respuesta urgente": "IV"
+    },
+    "retroalimentacion": {
+      "correcta": "Identificar el programa que mantiene una conducta es el primer paso para predecir su persistencia.",
+      "incorrecta": "Pregúntate: ¿la consecuencia depende del número de respuestas o del paso del tiempo? ¿Es predecible o variable?",
+      "pista": "El salario mensual es tiempo fijo; la tragamonedas es número variable de jugadas."
+    }
+  },
+  {
+    "id": "6-3",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Persistencia en redes sociales y tragamonedas",
+    "pregunta": "¿Por qué las máquinas tragamonedas o los \"likes\" en redes sociales generan conductas tan persistentes y difíciles de extinguir?",
+    "opciones": [
+      "Porque el reforzador siempre se entrega con la misma magnitud cada vez que se presiona el botón (Reforzamiento Continuo).",
+      "Porque operan bajo Razón Variable (RV): la impredictibilidad de la consecuencia genera altas tasas de respuesta y máxima resistencia a la extinción.",
+      "Porque el programa de Intervalo Fijo (IF) hace que las personas esperen pacientemente hasta que pase el tiempo adecuado."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "El RV es el programa con máxima resistencia a la extinción; la impredictibilidad evita discriminar el cambio de contingencia.",
+      "incorrecta": "El RC sería rapidamente extinguible y el IF no aplica a tragamonedas: ambas funcionan por número variable de respuestas.",
+      "pista": "Piensa en \"impredecible\" + \"depende del número de jugadas\"."
+    }
+  },
+  {
+    "id": "6-4",
+    "tipo": "Ordenamiento",
+    "tipoLabel": "Ordenar (mayor a menor)",
+    "titulo": "Resistencia a la extinción",
+    "pregunta": "Ordene de MAYOR a MENOR resistencia a la extinción:",
+    "items": [
+      "Razón Variable (RV)",
+      "Intervalo Variable (IV)",
+      "Razón Fija (RF)",
+      "Intervalo Fijo (IF)",
+      "Reforzamiento Continuo (RC)"
+    ],
+    "ordenCorrecto": [
+      "Razón Variable (RV)",
+      "Intervalo Variable (IV)",
+      "Razón Fija (RF)",
+      "Intervalo Fijo (IF)",
+      "Reforzamiento Continuo (RC)"
+    ],
+    "retroalimentacion": {
+      "correcta": "La regla es: cuanto más impredecible el reforzamiento histórico, más cuesta discriminar la extinción.",
+      "incorrecta": "Recuerda la regla general: RV ≈ IV > RF > IF > RC.",
+      "pista": "Variables resisten más que fijos; razón resiste más que intervalo; continuo es el más frágil."
+    }
+  },
+  {
+    "id": "6-5",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar",
+    "titulo": "Patrón de respuesta del RF",
+    "pregunta": "Complete la frase sobre el patrón de respuesta de un programa RF:",
+    "textoBase": "En un programa de ___ ___, típicamente se observa una ___ inmediatamente después de recibir el ___, seguida de una carrera hacia la siguiente consecuencia.",
+    "gaps": [
+      {
+        "id": "gap1",
+        "opciones": ["intervalo", "razón"],
+        "correcta": "razón"
+      },
+      {
+        "id": "gap2",
+        "opciones": ["variable", "fija"],
+        "correcta": "fija"
+      },
+      {
+        "id": "gap3",
+        "opciones": ["aceleración", "pausa"],
+        "correcta": "pausa"
+      },
+      {
+        "id": "gap4",
+        "opciones": ["castigo", "reforzamiento"],
+        "correcta": "reforzamiento"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "La pausa post-reforzamiento es una huella distintiva del RF: el organismo \"descansa\" tras conseguir el reforzador antes de iniciar la siguiente carrera.",
+      "incorrecta": "Recuerda: en RF hay pausa post-reforzamiento; en RV no, porque la impredictibilidad evita la pausa.",
+      "pista": "Pausa + carrera = patrón clásico del RF."
+    }
+  },
+  {
+    "id": "6-6",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico",
+    "titulo": "Berrinches resistentes",
+    "pregunta": "Caso: Unos padres intentan extinguir los berrinches de su hijo ignorándolos completamente. Aguantan tres semanas siendo consistentes, pero el niño sigue realizando berrinches con gran intensidad. ¿Qué principio explica probablemente esto?",
+    "opciones": [
+      "El niño discrimina que el berrinche ahora produce consecuencias aversivas directas.",
+      "Los berrinches fueron mantenidos históricamente por un programa intermitente (RV), lo que genera una enorme resistencia a la extinción.",
+      "Ignorar una conducta funciona como castigo negativo, por lo que la conducta debería desaparecer el primer día."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Los berrinches que en algún momento fueron atendidos \"a veces\" están bajo RV y mantienen alta resistencia frente a la extinción.",
+      "incorrecta": "La historia intermitente es lo que explica la persistencia, no que ignorar funcione como castigo.",
+      "pista": "¿La atención al berrinche ha sido siempre dada o solo a veces?"
+    }
+  },
+  {
+    "id": "6-7",
+    "tipo": "VerdaderoFalso",
+    "tipoLabel": "Verdadero o Falso",
+    "titulo": "RC vs intermitente y persistencia",
+    "afirmacion": "\"El reforzamiento continuo (RC) genera conductas mucho más persistentes y resistentes a la extinción que el reforzamiento intermitente, porque el organismo 'aprende mejor'.\"",
+    "respuestaCorrecta": false,
+    "justificacionOpciones": [
+      "VERDADERO: A mayor cantidad de reforzadores recibidos, más inquebrantable es la conducta.",
+      "FALSO: El reforzamiento intermitente genera mucha mayor resistencia a la extinción porque la imprevisibilidad dificulta que el organismo discrimine el cambio de contingencias."
+    ],
+    "justificacionCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "El RC es eficiente para adquirir conducta nueva, pero el intermitente la inmuniza contra la extinción.",
+      "incorrecta": "Más reforzadores no equivale a más persistencia: la clave es la impredictibilidad de la entrega.",
+      "pista": "Piensa por qué las tragamonedas son tan persistentes a pesar de no reforzar siempre.",
+      "explicacionVF": "Es falso. La paradoja del reforzamiento parcial: la intermitencia produce más resistencia que la continuidad."
+    }
+  }
+]

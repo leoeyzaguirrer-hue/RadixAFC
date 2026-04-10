@@ -1,1 +1,43 @@
-{}
+{
+  "titulo": "Programas Compuestos y Conducta de Elección",
+  "preguntaCentral": "¿Cómo se comporta un organismo cuando hay varias contingencias actuando a la vez, y por qué \"elegir\" es una conducta operante más?",
+  "aprobacionRequerida": 83,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Más allá del programa simple",
+      "contenido": "La conducta rara vez ocurre bajo el control de un único programa aislado. En los ambientes naturales y clínicos, los organismos se enfrentan a múltiples contingencias simultáneas o secuenciales. Estos arreglos se denominan programas compuestos."
+    },
+    {
+      "tipo": "conceptos",
+      "items": [
+        {
+          "nombre": "Alternantes",
+          "descripcion": "El organismo experimenta dos (o más) programas que se alternan sucesivamente. Las claves ambientales (Ed) suelen señalar qué programa está vigente en cada momento."
+        },
+        {
+          "nombre": "Secuenciales (encadenados)",
+          "descripcion": "Se debe completar un programa para tener acceso a un segundo programa. El reforzador final solo se obtiene al final de la cadena (el cumplimiento del primer programa funciona como reforzador condicionado y como estímulo discriminativo para el siguiente)."
+        },
+        {
+          "nombre": "Concurrentes",
+          "descripcion": "Dos o más programas de reforzamiento están disponibles simultáneamente para dos o más respuestas distintas. El organismo debe \"distribuir\" su tiempo o respuestas entre las alternativas. Este arreglo es el modelo experimental de la elección."
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "La Ley de Igualación (Matching Law)",
+      "contenido": "Formulada por Herrnstein, establece un principio fundamental de la conducta de elección en situaciones concurrentes. A nivel conceptual, la ley dicta que la proporción de respuestas emitidas hacia una alternativa tiende a igualar la proporción de reforzadores obtenidos de dicha alternativa.\n\nSi la alternativa A proporciona el 80% de los reforzadores disponibles y la alternativa B el 20%, el individuo dedicará aproximadamente el 80% de su conducta a la alternativa A. Los organismos son notablemente \"sensibles\" a las variaciones en las tasas, magnitudes y latencias del reforzamiento disponible en el ambiente."
+    },
+    {
+      "tipo": "nota",
+      "titulo": "La \"Elección\" como Conducta Operante",
+      "contenido": "Desde la perspectiva conductual, \"elegir\" no es un acto interno de voluntad o una capacidad mental especial. Elegir es simplemente la emisión de una conducta de entre varias alternativas disponibles en un contexto dado, y está enteramente sujeta a los principios del reforzamiento. La elección es función directa del historial de reforzamiento y de las contingencias actuales en el ambiente."
+    },
+    {
+      "tipo": "conexionClinica",
+      "contenido": "Cuando un paciente \"elige\" mantenerse en un patrón de evitación, aislamiento o conductas desadaptativas, el análisis funcional asume que dichas respuestas están generando una densidad de reforzamiento (usualmente R-) proporcionalmente mayor —o más inmediata— que las alternativas adaptativas. Por ejemplo, el paciente prefiere el aislamiento a la interacción social porque históricamente el aislamiento produce alivio seguro y rápido de la ansiedad, mientras que la interacción social presenta un reforzamiento incierto (RV/IV) o demorado. La intervención clínica no consiste en \"enseñar a decidir mejor\", sino en alterar las contingencias: disminuir el valor reforzante de la conducta problema y aumentar (densificar) el reforzamiento para la conducta alternativa adaptativa."
+    }
+  ]
+}
