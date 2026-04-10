@@ -1,1 +1,99 @@
-{}
+[
+  {
+    "id": "13-7",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico",
+    "titulo": "Punto de entrada al sistema",
+    "pregunta": "Caso: consultante con insomnio severo, consumo excesivo de ansiolíticos (R- de ansiedad), aislamiento social y evitación experiencial intensa al contacto interpersonal (CC). Todo en un ciclo cerrado. Al diseñar el plan debes elegir un punto de entrada. ¿Cuál justificación denota mejor juicio clínico conductual?",
+    "opciones": [
+      "Empezar por el contacto social exponiéndolo a fiestas para extinguir su fobia, ya que es la causa original del problema.",
+      "Atender primero al consumo de ansiolíticos y las variables que controlan el sueño, porque son conductas de estabilización que bloquean recursos cognitivos y biológicos para afrontar intervenciones más complejas como la exposición social.",
+      "Abordar directamente la evitación experiencial filosóficamente para que, de golpe, todo lo demás se resuelva solo.",
+      "Derivar al paciente a un internamiento hasta que desaparezcan los síntomas."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: la estabilización precede al cambio sustancial. Sin sueño ni regulación farmacológica básica no hay recursos para la exposición social.",
+      "incorrecta": "Revisa la jerarquización: seguridad y estabilización van antes que cambio sustancial. Hay conductas que impiden el propio tratamiento.",
+      "pista": "¿Qué conductas bloquean la posibilidad misma de la terapia?"
+    }
+  },
+  {
+    "id": "13-8",
+    "tipo": "MC",
+    "tipoLabel": "Dilema clínico",
+    "titulo": "6 semanas sin cambio",
+    "pregunta": "Llevas 6 semanas de intervención aplicando control de estímulos y reforzamiento diferencial según tu hipótesis de AF. No hay cambios clínicamente significativos. ¿Qué debe hacer el terapeuta funcional contextual?",
+    "opciones": [
+      "Concluir que el paciente sufre de ganancias secundarias ocultas y falta de motivación estructural.",
+      "Insistir con la misma técnica por 6 semanas más, asumiendo que es una simple resistencia temporal o un \"estallido prolongado\".",
+      "Revisar las hipótesis de mantenimiento a la luz de los nuevos datos (la ausencia de mejora es un dato) y buscar un nuevo modelo funcional que encaje mejor con esta información.",
+      "Abandonar el abordaje conductual y derivar a terapia farmacológica exclusiva."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Correcto: la ausencia de cambio es un dato. Si la intervención estaba bien derivada del AF y no funciona, el AF debe actualizarse.",
+      "incorrecta": "Atribuir a \"resistencia\" o \"ganancias secundarias\" es abandonar la disciplina funcional. La falla del plan exige revisar la formulación.",
+      "pista": "¿Qué significa que el AF es una hipótesis y no una verdad?"
+    }
+  },
+  {
+    "id": "13-9",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "El terapeuta dentro del AF",
+    "pregunta": "¿Por qué la conducta del terapeuta dentro de la sesión forma parte indispensable del AF del caso?",
+    "opciones": [
+      "Porque el terapeuta es un elemento del contexto del paciente; sus atenciones, palabras y validaciones proveen refuerzo o extinción, moldeando la conducta en vivo, y la alianza sirve como Ed para ensayar conductas nuevas.",
+      "Porque el AF busca que el paciente se haga amigo del terapeuta para facilitar la transferencia psicoanalítica.",
+      "Porque el terapeuta debe aprender a controlar sus microexpresiones faciales de asco o sorpresa para mantener el encuadre estático.",
+      "Porque el terapeuta debe ser neutral e invisible, sin influencia alguna en la conducta del paciente."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "Correcto: el terapeuta es parte del contexto, su atención refuerza o extingue en vivo, y la alianza actúa como Ed para conductas nuevas.",
+      "incorrecta": "El terapeuta no es un espectador neutral: su conducta es una variable funcional operando sobre la conducta del paciente en sesión.",
+      "pista": "¿Qué función cumple la atención del terapeuta sobre las conductas del paciente?"
+    }
+  },
+  {
+    "id": "13-10",
+    "tipo": "MC",
+    "tipoLabel": "Comparación",
+    "titulo": "Protocolo estándar vs AF idiosincrático",
+    "pregunta": "El Terapeuta A aplica de memoria un protocolo manualizado estricto para \"Depresión Mayor\". El Terapeuta B realiza un AF idiográfico y diseña intervenciones a medida. ¿En qué escenario clínico brilla fundamentalmente la ventaja del abordaje B?",
+    "opciones": [
+      "En casos estándar, típicos y sin ninguna comorbilidad.",
+      "En casos atípicos, complejos o que \"no responden\" al tratamiento estándar. El AF permite entender por qué no funciona y provee un mapa de la topografía única del sujeto, permitiendo ajustes finos.",
+      "En todos los casos, sin diferencia alguna.",
+      "En ningún caso, los protocolos estandarizados son siempre superiores."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: la ventaja idiográfica del AF brilla especialmente en casos complejos, atípicos o refractarios al tratamiento estándar.",
+      "incorrecta": "Los protocolos pueden funcionar para casos típicos; el AF idiográfico es crítico cuando el caso no encaja en el molde.",
+      "pista": "¿Cuándo falla un protocolo estandarizado y por qué un AF puede ajustarlo?"
+    }
+  },
+  {
+    "id": "13-11",
+    "tipo": "Ordenamiento",
+    "tipoLabel": "Ordenamiento",
+    "titulo": "Ajuste del plan ante una falla en la evolución",
+    "pregunta": "Ordena los pasos ante una falla en la evolución del caso clínico, para ajustar el plan.",
+    "items": [
+      "Registrar cuidadosamente los datos empíricos de no-cambio.",
+      "Revisar las hipótesis de mantenimiento iniciales.",
+      "Generar hipótesis explicativas alternativas del sistema.",
+      "Evaluar cuál de las nuevas hipótesis es más parsimoniosa.",
+      "Ajustar las técnicas de intervención y los objetivos.",
+      "Continuar evaluando en base a la nueva evidencia."
+    ],
+    "ordenCorrecto": [0, 1, 2, 3, 4, 5],
+    "retroalimentacion": {
+      "correcta": "Correcto: registrar datos → revisar hipótesis → generar alternativas → evaluar parsimonia → ajustar técnicas → seguir evaluando.",
+      "incorrecta": "Recuerda la secuencia: primero los datos empíricos del no-cambio, luego revisar hipótesis, generar alternativas, elegir la más parsimoniosa, ajustar técnicas y seguir evaluando.",
+      "pista": "El método parte del dato empírico y vuelve a la evaluación continua."
+    }
+  }
+]

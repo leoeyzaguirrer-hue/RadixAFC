@@ -1,1 +1,49 @@
-{}
+{
+  "titulo": "El Terapeuta Funcional Contextual",
+  "preguntaCentral": "¿Desde qué lugar habita el rol clínico un terapeuta funcional contextual, y por qué la filosofía del Módulo 1 sigue siendo el cimiento de toda su praxis?",
+  "aprobacionRequerida": 80,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Científicos-clínicos, no técnicos conductuales",
+      "contenido": "Al llegar al final de este trayecto, la pregunta no es solo qué técnicas manejas, sino desde dónde habitas el rol clínico. La identidad del terapeuta funcional contextual no es la de un \"técnico conductual\" que aplica mecánicamente lo que dictan las guías. Somos científicos-clínicos."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Precisión y humildad",
+      "items": [
+        {
+          "nombre": "Precisión",
+          "descripcion": "Sabemos qué variable modifica nuestra intervención, cómo operan los marcos relacionales en las reglas verbales que atrapan a nuestros consultantes, y distinguimos rigurosamente la topografía de la función. Sabemos que gritar y guardar silencio pueden tener la misma función (aislar al otro) y que llorar puede tener múltiples funciones distintas en un solo día."
+        },
+        {
+          "nombre": "Humildad",
+          "descripcion": "El AF es una construcción nuestra, no una entidad material dentro del paciente. Nunca está \"completo\". Siempre existirá historia de aprendizaje inalcanzable para nosotros. La honestidad científica implica cuestionar nuestras hipótesis constantemente."
+        }
+      ]
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Aceptar la etiqueta diagnóstica como causa (\"está triste porque tiene depresión\") y tratar el diagnóstico en lugar de la persona.",
+      "correccion": "El terapeuta contextual no rechaza la topografía ni el diagnóstico descriptivo (son resúmenes de información útiles), pero defiende ferozmente que el tratamiento debe derivar del entendimiento funcional de la persona individual. Argumentar desde la etiqueta es un razonamiento circular que confunde descripción con explicación."
+    },
+    {
+      "tipo": "conexionClinica",
+      "titulo": "Por qué empezamos donde empezamos",
+      "contenido": "Si miras atrás hacia el Módulo 1 (Contextualismo Funcional, la filosofía de la ciencia propuesta por Pepper y extendida por Hayes), ahora verás por qué no hay atajos. Entender terapias de \"tercera generación\" (ACT) o modelos complejos (Teoría de Marcos Relacionales, RFT) exige un dominio íntimo de los principios básicos del condicionamiento clásico, operante y el control de estímulos. ACT no son metáforas poéticas: es ciencia conductual aplicada con precisión para socavar la rigidez (pliance destructivo, fusión, evitación experiencial) y promover la sensibilidad a las contingencias naturales y valiosas."
+    },
+    {
+      "tipo": "nota",
+      "contenido": "Has recorrido todo el camino: del contextualismo funcional al diseño de intervenciones reales. Nunca dejes de observar, de analizar funcionalmente y de abrazar la complejidad del ser humano."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Skinner, B. F. (1953). Science and Human Behavior. Macmillan.",
+        "Hayes, S. C., Barnes-Holmes, D., & Roche, B. (2001). Relational Frame Theory: A Post-Skinnerian account of human language and cognition. Kluwer Academic.",
+        "Törneke, N. (2010). Learning RFT: An introduction to Relational Frame Theory and its clinical application. Context Press.",
+        "Villatte, M., Villatte, J. L., & Hayes, S. C. (2015). Mastering the clinical conversation: Language as therapeutic tool. Guilford Press."
+      ]
+    }
+  ]
+}
