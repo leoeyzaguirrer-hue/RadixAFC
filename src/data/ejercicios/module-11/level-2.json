@@ -1,1 +1,109 @@
-{}
+[
+  {
+    "id": "11-7",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Terapia funcional",
+    "pregunta": "¿Por qué ACT se considera una terapia estrictamente funcional y no un protocolo de técnicas acumulativas?",
+    "opciones": [
+      "Porque agrupa las técnicas cognitivas tradicionales en seis fases protocolizadas estrictas.",
+      "Porque lo relevante es la función que cumple cada intervención en el contexto terapéutico y el AF, no la topografía de la técnica utilizada.",
+      "Porque requiere enseñar al paciente la teoría de los marcos relacionales antes de cualquier intervención.",
+      "Porque sigue un manual estandarizado de aplicación lineal."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: en ACT lo que define una intervención no es su forma sino la función que cumple en la formulación funcional del caso.",
+      "incorrecta": "ACT no es un manual lineal: es funcional. La misma técnica puede ser ACT o no según la función que cumpla en el caso.",
+      "pista": "¿Qué define una intervención ACT: la técnica usada o el efecto funcional buscado?"
+    }
+  },
+  {
+    "id": "11-8",
+    "tipo": "Emparejamiento",
+    "tipoLabel": "Emparejamiento",
+    "titulo": "Variables de mantenimiento y procesos ACT",
+    "pregunta": "Empareja el proceso de ACT con la variable de mantenimiento del AF que ataca directamente.",
+    "pares": [
+      {
+        "izquierda": "Aceptación",
+        "derecha": "Mantenimiento por R- (evitación de malestar)"
+      },
+      {
+        "izquierda": "Defusión",
+        "derecha": "Fusión cognitiva (control rígido por reglas)"
+      },
+      {
+        "izquierda": "Contacto Presente",
+        "derecha": "Dominancia verbal temporal (rumiación/preocupación)"
+      },
+      {
+        "izquierda": "Valores",
+        "derecha": "Falta de función reforzante apetitiva en consecuencias"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: cada proceso de ACT ataca una variable funcional específica identificada por el AF.",
+      "incorrecta": "Recuerda: aceptación → R- por evitación; defusión → fusión rígida con reglas; contacto presente → rumiación/preocupación; valores → falta de reforzamiento positivo natural.",
+      "pista": "¿Qué proceso desactiva específicamente cada mecanismo del AF?"
+    }
+  },
+  {
+    "id": "11-9",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico",
+    "titulo": "Determinación del proceso",
+    "pregunta": "Caso de perfeccionismo paralizante. La hipótesis de mantenimiento es que la postergación de tareas (conducta) está fuertemente controlada por la regla literal: \"Si cometo un error, mi carrera está terminada y soy un fracaso absoluto\" (antecedente verbal que restringe el repertorio). ¿Qué proceso de ACT resulta el punto de intervención más directo y coherente con este AF?",
+    "opciones": [
+      "Trabajar los Valores para que encuentre un área profesional que no requiera evaluación.",
+      "Trabajar Defusión para alterar la relación funcional con esa regla verbal, sin debatir si el error arruinará su carrera o no.",
+      "Trabajar Contacto con el Presente recomendando meditación diaria durante las horas de trabajo.",
+      "Aplicar técnicas de relajación para que la ansiedad anticipatoria desaparezca antes de actuar."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: si la conducta está controlada por la literalidad de una regla, la defusión es el proceso prioritario.",
+      "incorrecta": "El AF identificó fusión con una regla literal: el proceso prioritario es defusión, no debatir el contenido ni huir de la evaluación.",
+      "pista": "¿Cuál es la variable funcional que mantiene la postergación según el AF?"
+    }
+  },
+  {
+    "id": "11-10",
+    "tipo": "Ordenamiento",
+    "tipoLabel": "Ordenamiento",
+    "titulo": "Formulación clínica con ACT",
+    "pregunta": "Ordena cronológica y lógicamente el proceso de formulación de un caso desde la perspectiva de ACT:",
+    "items": [
+      "Realizar el AF completo del caso (identificar contingencias y variables mantenedoras).",
+      "Identificar qué procesos específicos de inflexibilidad predominan en la dinámica del paciente.",
+      "Priorizar los procesos a intervenir según su impacto en la restricción del repertorio vital.",
+      "Seleccionar intervenciones y ejercicios que promuevan la flexibilidad en dichos procesos.",
+      "Evaluar el progreso basado en el cambio funcional (ampliación del repertorio), no solo en reducción sintomática."
+    ],
+    "ordenCorrecto": [0, 1, 2, 3, 4],
+    "retroalimentacion": {
+      "correcta": "Correcto: AF → mapeo de inflexibilidad → priorización → intervención funcional → evaluación funcional del progreso.",
+      "incorrecta": "Recuerda la secuencia: primero el AF identifica las contingencias, luego se mapea la inflexibilidad, se priorizan procesos, se eligen técnicas funcionales, y finalmente se evalúa el cambio funcional.",
+      "pista": "Empieza por el análisis funcional y termina por la evaluación del cambio funcional."
+    }
+  },
+  {
+    "id": "11-11",
+    "tipo": "MC",
+    "tipoLabel": "Dilema clínico",
+    "titulo": "Reducción vs función",
+    "pregunta": "Un consultante ingresa a sesión con un intenso nivel de sufrimiento, expresando: \"Por favor, hagamos algo para que yo deje de sentir este dolor hoy mismo\". El clínico desde ACT se enfrenta a un dilema. ¿Cuál debe ser su directriz terapéutica primaria?",
+    "opciones": [
+      "Trabajar en alterar la relación funcional con el malestar (Aceptación/Defusión) orientando la acción hacia Valores, ya que el objetivo central es aumentar la flexibilidad, no suprimir el síntoma.",
+      "Atender a la demanda del paciente implementando técnicas de distracción cognitiva para asegurar la adherencia terapéutica temprana.",
+      "Validar su dolor e informarle que su meta clínica será erradicar esa experiencia privada a largo plazo mediante exposición prolongada.",
+      "Derivar al paciente a tratamiento farmacológico exclusivo hasta que el malestar disminuya."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "Correcto: ceder a la agenda de eliminación del síntoma reforzaría la evitación experiencial. ACT trabaja la relación funcional con el malestar y la dirección valiosa de la acción.",
+      "incorrecta": "Aceptar la agenda de \"hacer desaparecer el dolor\" reforzaría la evitación experiencial: el foco de ACT está en flexibilidad, no en supresión.",
+      "pista": "¿El objetivo de ACT es eliminar el síntoma o cambiar su función?"
+    }
+  }
+]

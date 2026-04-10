@@ -1,1 +1,47 @@
-{}
+{
+  "titulo": "El Hexaflex y la Flexibilidad Psicológica",
+  "preguntaCentral": "¿Cómo articula ACT seis procesos funcionales para promover la flexibilidad psicológica en lugar de eliminar el sufrimiento?",
+  "aprobacionRequerida": 87,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "ACT como Modelo Funcional, no Topográfico",
+      "contenido": "El sufrimiento clínico es el punto de partida ineludible en psicoterapia. Sin embargo, en la Terapia de Aceptación y Compromiso (ACT), el objetivo no radica en la eliminación topográfica del sufrimiento o de los síntomas, sino en alterar la función que esos eventos privados ejercen sobre la conducta del individuo. ACT es un modelo terapéutico basado en principios funcionales, no un compendio de técnicas. Su propósito central es promover la flexibilidad psicológica: la capacidad de contactar el momento presente plenamente y sin defensas innecesarias, y de actuar según los propios valores aun en presencia de eventos privados aversivos."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Los 6 Procesos Funcionales",
+      "contenido": "La flexibilidad psicológica emerge del trabajo conjunto de seis procesos interrelacionados. En ACT no intervenimos sobre el contenido, sino sobre la función. Cada proceso de flexibilidad busca desarticular un patrón de rigidez, operando directamente sobre la función discriminativa o reforzante de los eventos del entorno (públicos y privados)."
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "El Hexaflex: Inflexibilidad vs Flexibilidad",
+      "encabezados": ["Proceso de Inflexibilidad", "Proceso de Flexibilidad (ACT)", "Mecanismo Funcional"],
+      "filas": [
+        ["Evitación Experiencial: patrón de escape/evitación mantenido por reforzamiento negativo ante eventos privados aversivos.", "Aceptación: contacto activo y voluntario con eventos privados sin intentar alterarlos.", "Altera la función de los eventos privados como señales de amenaza o estímulos aversivos condicionados."],
+        ["Fusión Cognitiva: pensamientos y reglas controlan la conducta como si fueran el evento mismo que describen.", "Defusión Cognitiva: observar los pensamientos como eventos verbales en curso.", "Cambia la relación con el contenido verbal; debilita el control por estímulo de la literalidad."],
+        ["Dominancia Verbal (Pasado/Futuro): conducta controlada por rumiación o anticipación.", "Contacto con el Presente: atención flexible al momento actual.", "Facilita que las contingencias directas presentes asuman función discriminativa sobre la conducta."],
+        ["Yo como Contenido: identidad fusionada con autodescripciones (\"soy defectuoso\").", "Yo como Contexto: perspectiva del yo observador estable (yo-aquí-ahora).", "Entrena responder relacional deíctico frente a contenidos que cambian (allí-entonces)."],
+        ["Falta de Dirección: conducta organizada en torno a la evitación de malestar.", "Valores: cualidades de acción elegidas libremente.", "Operan como augmentals, alterando la función reforzante de ciertas consecuencias a largo plazo."],
+        ["Inacción / Impulsividad: parálisis por evitación o acción guiada por alivio inmediato.", "Acción Comprometida: patrón conductual guiado por valores.", "Moldeamiento progresivo de clases de respuesta más amplias orientadas a contingencias apetitivas."]
+      ]
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Confundir Valores con Metas, o creer que la Defusión es supresión de pensamientos.",
+      "correccion": "Las metas son eventos discretos que se alcanzan y finalizan (obtener un título); los valores son direcciones continuas que se viven y encarnan en la acción (aprender continuamente). La defusión, por su parte, no evalúa la verdad del pensamiento ni debate su contenido: altera la respuesta del individuo ante la presencia del pensamiento."
+    },
+    {
+      "tipo": "conexionClinica",
+      "titulo": "Los procesos no operan aislados",
+      "contenido": "En el contexto terapéutico, raramente se trabaja un solo proceso de manera puramente aséptica. Por ejemplo, al pedir a un consultante que note su respiración mientras observa un pensamiento aversivo sin juzgarlo, el clínico está promoviendo simultáneamente contacto con el momento presente, defusión y aceptación."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Hayes, S. C., Strosahl, K. D., & Wilson, K. G. (2012). Acceptance and commitment therapy: The process and practice of mindful change. Guilford Press.",
+        "Luciano, C. (2001). Terapia de Aceptación y Compromiso (ACT) y la nueva generación de terapias de conducta. Análisis y Modificación de Conducta."
+      ]
+    }
+  ]
+}

@@ -1,1 +1,48 @@
-{}
+{
+  "titulo": "Formulación de Casos con ACT",
+  "preguntaCentral": "¿Cómo se mapea el Análisis Funcional al Hexaflex para diseñar una intervención quirúrgica y orientada a valores?",
+  "aprobacionRequerida": 80,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Integrar AF y Hexaflex",
+      "contenido": "La formulación de casos integra el rigor del conductismo analítico con la profundidad del modelo hexaflex. No se aplican los seis procesos de forma secuencial en todos los casos: se interviene de manera fluida y quirúrgica según lo que dicte el Análisis Funcional."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Mapeando el AF al Hexaflex",
+      "items": [
+        {
+          "nombre": "1. Identificación (AF Base)",
+          "descripcion": "¿Cuál es la clase funcional de conductas problema? ¿Qué variables contextuales la anteceden y qué consecuencias la mantienen?"
+        },
+        {
+          "nombre": "2. Mapeo de Inflexibilidad",
+          "descripcion": "Evaluamos qué procesos operan como barreras: ¿Intenta el paciente suprimir crónicamente ciertas emociones? (Evitación). ¿Responde a su propio discurso como si fuera realidad literal inquebrantable? (Fusión). ¿Carece de contacto con fuentes significativas de reforzamiento positivo? (Falta de Dirección)."
+        },
+        {
+          "nombre": "3. Intervención Funcional",
+          "descripcion": "Se diseña el plan de tratamiento priorizando los procesos alterados que más restringen la vida del paciente. Se selecciona la técnica por su función esperada, no por su topografía."
+        }
+      ]
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Reducir la clarificación de valores a preguntar \"¿Qué es importante para ti en la vida?\" y listar las respuestas del paciente.",
+      "correccion": "Frecuentemente los pacientes reportarán reglas de pliance o lo que la cultura demanda. Desde una perspectiva contextual, los valores funcionan como augmentals motivacionales: el objetivo clínico es alterar el contexto verbal para que ciertas consecuencias distantes asuman una potente función reforzante en el momento actual, dotando a la conducta de una dirección persistente a pesar de los obstáculos aversivos."
+    },
+    {
+      "tipo": "conexionClinica",
+      "titulo": "Caso integrador: aislamiento social",
+      "contenido": "Paciente con episodios crónicos de aislamiento social. AF: ante la perspectiva de un evento social emergen recuerdos de un rechazo pasado (dominancia verbal) y el pensamiento \"volveré a hacer el ridículo porque soy defectuoso\" (fusión / yo-como-contenido). Cancela los planes y se queda en cama (conducta), experimentando alivio inmediato de la ansiedad social (R-) pero reportando vacío y pérdida de oportunidades laborales y relacionales a largo plazo. La formulación ACT identifica una constelación: dominancia del pasado + fusión con autodescripciones aversivas + evitación experiencial que restringe el contacto con valores interpersonales. La intervención prioriza defusión de \"soy defectuoso\", aceptación de la ansiedad social y conexión con valores de conexión interpersonal."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Hayes, S. C., Strosahl, K. D., & Wilson, K. G. (2012). Acceptance and commitment therapy: The process and practice of mindful change. Guilford Press.",
+        "Kazdin, A. E. (2012). Behavior modification in applied settings. Waveland Press.",
+        "Törneke, N. (2010). Learning RFT: An introduction to relational frame theory and its clinical application. Context Press."
+      ]
+    }
+  ]
+}
