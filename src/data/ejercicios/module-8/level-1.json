@@ -1,1 +1,162 @@
-{}
+[
+  {
+    "id": "8-1",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Descriptivo vs funcional",
+    "pregunta": "¿Cuál es la diferencia fundamental entre un análisis descriptivo y un análisis funcional?",
+    "opciones": [
+      "El descriptivo evalúa variables distales; el funcional evalúa el modelo E-O-R-K-C.",
+      "El descriptivo se centra en respuestas motoras; el funcional en verbales encubiertas.",
+      "El descriptivo ordena cronológicamente los datos (qué ocurre); el funcional establece hipótesis sobre las relaciones que mantienen la conducta (por qué ocurre).",
+      "El descriptivo busca diagnosticar; el funcional busca medicar."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Exacto: el descriptivo responde a \"¿qué ocurre?\" y el funcional responde a \"¿por qué se mantiene esto hoy?\" mediante hipótesis sobre las contingencias.",
+      "incorrecta": "El AF no tiene que ver con diagnóstico ni con qué tipo de respuesta se observa: es la diferencia entre describir cronología y formular hipótesis funcionales.",
+      "pista": "¿Qué pregunta responde cada uno: \"qué ocurre\" o \"por qué se mantiene\"?"
+    }
+  },
+  {
+    "id": "8-2",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Tipos de antecedentes y consecuentes",
+    "pregunta": "Clasifica los siguientes elementos en la categoría correcta:",
+    "items": [
+      "Situación laboral estresante",
+      "Pensamiento \"no puedo\"",
+      "Alivio inmediato al evitar",
+      "Deterioro relacional progresivo",
+      "Presencia de personas desconocidas",
+      "Sensación de palpitaciones"
+    ],
+    "zonas": [
+      "Antecedente manifiesto",
+      "Antecedente encubierto",
+      "Consecuente a corto plazo",
+      "Consecuente a largo plazo"
+    ],
+    "correctMap": {
+      "Situación laboral estresante": "Antecedente manifiesto",
+      "Pensamiento \"no puedo\"": "Antecedente encubierto",
+      "Alivio inmediato al evitar": "Consecuente a corto plazo",
+      "Deterioro relacional progresivo": "Consecuente a largo plazo",
+      "Presencia de personas desconocidas": "Antecedente manifiesto",
+      "Sensación de palpitaciones": "Antecedente encubierto"
+    },
+    "retroalimentacion": {
+      "correcta": "Correcto: los manifiestos son observables externos, los encubiertos son eventos privados, y los consecuentes se distinguen por su asimetría temporal (CP refuerza, LP deteriora).",
+      "incorrecta": "Recuerda: lo observable externamente = manifiesto; eventos privados (pensamientos, sensaciones) = encubierto; y distingue CP (alivio inmediato) de LP (deterioro diferido).",
+      "pista": "¿Es observable o privado? ¿Ocurre antes o después de la conducta? ¿Inmediatamente o a largo plazo?"
+    }
+  },
+  {
+    "id": "8-3",
+    "tipo": "MC",
+    "tipoLabel": "Ordenamiento conceptual",
+    "titulo": "Pasos del análisis funcional clínico",
+    "pregunta": "Ordena los pasos del análisis funcional clínico (selecciona la secuencia correcta):",
+    "opciones": [
+      "Identificar secuencias completas → Formular hipótesis → Recoger datos descriptivos → Diseñar intervención.",
+      "Diseñar intervención → Recoger datos → Formular hipótesis → Identificar secuencias.",
+      "Recoger datos descriptivos → Identificar secuencias E-R-C completas → Identificar antecedentes y consecuentes → Formular hipótesis funcionales de mantenimiento → Diseñar intervención coherente."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Correcto: primero datos descriptivos, luego secuencias, luego antecedentes/consecuentes, luego hipótesis funcionales y finalmente intervención coherente con esas hipótesis.",
+      "incorrecta": "El AF se construye desde abajo: primero los datos, luego las secuencias, después las hipótesis y finalmente la intervención. No al revés.",
+      "pista": "Sin datos no hay secuencias, sin secuencias no hay hipótesis, sin hipótesis no hay intervención coherente."
+    }
+  },
+  {
+    "id": "8-4",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico",
+    "titulo": "Tabla A-B-C ≠ AF",
+    "pregunta": "El terapeuta de Mateo (rumiación obsesiva) elabora una exhaustiva tabla A-B-C de los últimos 15 días y afirma: \"Ya tengo el análisis funcional terminado\". ¿Qué le falta fundamentalmente a este trabajo?",
+    "opciones": [
+      "Le falta operacionalizar las variables encubiertas en términos de marcos relacionales.",
+      "La tabla es solo un análisis descriptivo; falta formular las hipótesis sobre qué función cumplen esas conductas y qué contingencias las mantienen actualmente.",
+      "Le falta incorporar el componente respondente de la extinción operante."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Exacto: la tabla A-B-C es descriptiva. Para que sea AF debe haber hipótesis explícitas sobre qué función cumple la conducta y qué contingencias la mantienen.",
+      "incorrecta": "El error central no es técnico/teórico avanzado: es que llenar A-B-C es sólo describir. Falta el salto a hipótesis funcionales de mantenimiento.",
+      "pista": "¿Está describiendo lo que ocurre o explicando por qué se mantiene?"
+    }
+  },
+  {
+    "id": "8-5",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar",
+    "titulo": "Asimetría temporal",
+    "pregunta": "Completa el texto sobre la asimetría temporal:",
+    "textoBase": "Las conductas problemáticas suelen mantenerse por una asimetría temporal en sus ___. A ___, la persona experimenta un rápido ___ (frecuentemente por refuerzo negativo), lo cual ___ el comportamiento. El efecto perjudicial a ___ (como perder un trabajo) no compite con la contingencia inmediata.",
+    "gaps": [
+      {
+        "id": "gap1",
+        "opciones": ["consecuencias", "antecedentes"],
+        "correcta": "consecuencias"
+      },
+      {
+        "id": "gap2",
+        "opciones": ["largo plazo", "corto plazo"],
+        "correcta": "corto plazo"
+      },
+      {
+        "id": "gap3",
+        "opciones": ["alivio", "malestar"],
+        "correcta": "alivio"
+      },
+      {
+        "id": "gap4",
+        "opciones": ["mantiene", "extingue"],
+        "correcta": "mantiene"
+      },
+      {
+        "id": "gap5",
+        "opciones": ["largo plazo", "corto plazo"],
+        "correcta": "largo plazo"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: el alivio inmediato a corto plazo mantiene la conducta por R-, y el daño a largo plazo no compite porque está temporalmente lejos.",
+      "incorrecta": "Recuerda: lo que mantiene la conducta es la consecuencia inmediata (alivio); el daño a largo plazo no compite con el refuerzo negativo inmediato.",
+      "pista": "¿Qué refuerza la evitación: lo inmediato o lo lejano?"
+    }
+  },
+  {
+    "id": "8-6",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Por qué el AF guía la intervención",
+    "pregunta": "¿Por qué el análisis funcional (y no el descriptivo) es el que resulta directamente útil para diseñar la intervención?",
+    "opciones": [
+      "Porque el descriptivo es idiográfico, mientras que el funcional se basa en los manuales de diagnóstico.",
+      "Porque el funcional nos indica por qué se mantiene la conducta (hipótesis de mantenimiento), dictando sobre qué variables específicas intervenir para modificarla.",
+      "Porque el descriptivo no tiene en cuenta las operaciones de establecimiento."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Exacto: el AF identifica las variables de mantenimiento, y son esas las que dictan sobre qué se debe intervenir.",
+      "incorrecta": "El AF, no el descriptivo, es idiográfico, y su valor clínico está en señalar las variables modificables que mantienen la conducta hoy.",
+      "pista": "Sin saber qué mantiene la conducta hoy, no se puede saber sobre qué intervenir."
+    }
+  },
+  {
+    "id": "8-7",
+    "tipo": "VerdaderoFalso",
+    "tipoLabel": "Verdadero o Falso",
+    "titulo": "Origen vs mantenimiento",
+    "pregunta": "\"El objetivo principal del análisis funcional clínico es identificar las causas históricas (de origen) de la conducta problema para poder cambiarla.\"",
+    "respuestaCorrecta": false,
+    "retroalimentacion": {
+      "correcta": "Correcto: el AF clínico se centra en variables de mantenimiento actuales, que son las accesibles y modificables. Las variables de origen contextualizan, pero no se intervienen.",
+      "incorrecta": "Falso: el AF clínico apunta al mantenimiento, no al origen. Las variables históricas pertenecen al pasado y no son modificables.",
+      "pista": "¿Qué variables son modificables hoy: las del pasado o las contingencias actuales?"
+    }
+  }
+]

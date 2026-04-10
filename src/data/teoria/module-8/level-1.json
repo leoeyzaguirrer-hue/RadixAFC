@@ -1,1 +1,74 @@
-{}
+{
+  "titulo": "Análisis Descriptivo vs. Análisis Funcional",
+  "preguntaCentral": "¿Cuál es la diferencia entre describir lo que ocurre alrededor de una conducta y formular hipótesis sobre por qué se mantiene?",
+  "aprobacionRequerida": 87,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Del aprendizaje básico a la integración clínica",
+      "contenido": "Tras haber estudiado los principios básicos del aprendizaje (condicionamiento clásico, operante, discriminación, programas de reforzamiento y conducta verbal) en los módulos anteriores, nos encontramos ahora en el momento de integrar todo este conocimiento en la principal herramienta del clínico: el análisis funcional.\n\nEn la formación clínica inicial, la confusión más frecuente radica en no distinguir entre un análisis descriptivo y un análisis funcional genuino. Muchos estudiantes aprenden a hacer una \"tabla de análisis funcional\" con columnas de Antecedente / Conducta / Consecuente. Sin embargo, llenar esa tabla es realizar un análisis descriptivo. El análisis funcional verdadero va un paso más allá y establece hipótesis sobre las relaciones funcionales entre esos elementos."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Qué es el análisis descriptivo?",
+      "contenido": "El análisis descriptivo ordena cronológicamente los datos del caso. Identifica qué ocurre antes y después de la conducta problema. Aunque es un paso previo y necesario, no es suficiente para intervenir. El análisis descriptivo responde a la pregunta \"¿qué ocurre?\", pero no explica \"¿por qué ocurre?\"."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "¿Qué es el análisis funcional?",
+      "contenido": "Desde el análisis del comportamiento, el análisis funcional establece hipótesis explicativas sobre las contingencias. Responde a una pregunta fundamental: ¿qué función cumple esta conducta para este organismo en este contexto particular? Su objetivo no es diagnosticar ni etiquetar, sino identificar las variables que mantienen la conducta hoy. Es un modelo idiográfico, específico para cada caso, y no la mera aplicación de un protocolo estándar de diagnóstico."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Secuencias conductuales E-R-E-R-E-R",
+      "contenido": "El análisis funcional clínico no evalúa conductas aisladas, sino secuencias de interacción recíproca. Lo que en un momento es el consecuente de una respuesta, inmediatamente se convierte en el antecedente (como estímulo discriminativo o elicitador) de la siguiente conducta en la cadena. El terapeuta debe mapear estas secuencias completas para no tratar cada episodio como un evento desconectado del flujo vital del paciente."
+    },
+    {
+      "tipo": "diagrama",
+      "titulo": "Ejemplo Clínico: Secuencia E-R-E-R-E-R",
+      "contenido": "E1 (Jefe pide tarea extra) → R1 (Pensamiento \"no voy a poder\") → E2 (Pensamiento actúa como Ed/Elicitador de ansiedad) → R2 (Evitación: ir al baño) → E3/C (Alivio temporal inmediato) → R3 (Quedarse en el baño prolongadamente)..."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Tipos de Antecedentes",
+      "items": [
+        {
+          "nombre": "Manifiestos",
+          "descripcion": "Eventos observables externamente: situaciones, personas concretas, lugares, momentos del día."
+        },
+        {
+          "nombre": "Encubiertos",
+          "descripcion": "Eventos privados (pensamientos, emociones, sensaciones fisiológicas) que pueden funcionar como estímulos discriminativos (Ed) o condicionados (EC)."
+        },
+        {
+          "nombre": "Distales",
+          "descripcion": "Ocurrieron tiempo atrás pero siguen influyendo (la historia de aprendizaje del sujeto o variables disposicionales organísmicas \"O\" del modelo E-O-R-K-C)."
+        },
+        {
+          "nombre": "Proximales",
+          "descripcion": "Ocurren inmediatamente antes de la emisión de la conducta."
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Tipos de Consecuentes y Asimetría Temporal",
+      "contenido": "Los consecuentes determinan la probabilidad futura de la conducta. Es vital distinguir entre los consecuentes a corto plazo (lo que ocurre inmediatamente después y que generalmente mantiene la conducta) y a largo plazo (lo que ocurre tiempo después y que, con frecuencia en la clínica, es aversivo o perjudicial para el paciente).\n\nEsta asimetría temporal explica por qué conductas aparentemente \"irracionales\" se mantienen a lo largo del tiempo: el peso del alivio inmediato (consecuente a corto plazo, por reforzamiento negativo) supera al daño o deterioro diferido (consecuente a largo plazo). Si un paciente con ansiedad social rechaza una invitación a una fiesta, el alivio inmediato de la ansiedad mantiene la conducta de evitación, aunque a largo plazo el aislamiento lo deprima profundamente."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "El contexto como parte del análisis",
+      "contenido": "Finalmente, no solo importa qué antecede o sigue a una conducta, sino el contexto completo en el que ocurre. Las variables culturales, relacionales e históricas modulan toda la secuencia. Aquí es donde el contextualismo funcional (revisado en el Módulo 1) cobra vida en la práctica clínica."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Una tabla A-B-C exhaustiva equivale a un análisis funcional clínico.",
+      "correccion": "Una tabla A-B-C es solo un análisis descriptivo. Para que sea funcional debes formular hipótesis explícitas sobre qué función cumplen esas conductas y qué contingencias las mantienen actualmente."
+    },
+    {
+      "tipo": "conexionClinica",
+      "titulo": "El AF como hipótesis, no como descripción",
+      "contenido": "Cuando un terapeuta novato presenta su \"AF\" y solo enumera A-B-C, devuélvele una pregunta: ¿qué hipótesis funcional explica POR QUÉ esta conducta sigue ocurriendo hoy? Si no puede responderla, todavía está en el plano descriptivo y no tiene aún las claves para diseñar una intervención coherente."
+    }
+  ]
+}

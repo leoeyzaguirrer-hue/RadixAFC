@@ -1,1 +1,72 @@
-{}
+{
+  "titulo": "Casos Clínicos Complejos y el AF Integrado",
+  "preguntaCentral": "¿Cómo se construye un análisis funcional que integre componentes respondentes, operantes, verbales y disposicionales en redes de contingencias clínicas reales?",
+  "aprobacionRequerida": 80,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Redes de contingencias en la clínica real",
+      "contenido": "En el mundo real de la clínica, los pacientes no presentan \"una conducta problema\" nítidamente recortada como en el laboratorio. Las conductas problema se presentan interconectadas conformando verdaderas redes de contingencias."
+    },
+    {
+      "tipo": "ejemplo",
+      "titulo": "Múltiples conductas problema interrelacionadas",
+      "contenido": "Una conducta puede servir de antecedente directo (Ed) o ser una operación de establecimiento para otra conducta en la misma cadena. Por ejemplo, en un paciente la rumiación (conducta verbal encubierta) elicita ansiedad (condicionamiento respondente), que a su vez se convierte en antecedente discriminativo para aislarse socialmente (evitación operante). El aislamiento deteriora su red de apoyo, produciendo una falta de contingencias positivas, lo cual incrementa el malestar anímico que alimenta más rumiación. El AF debe mapear las interrelaciones sin tratar las conductas como islas desconectadas."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Análisis Funcional con todos los componentes integrados",
+      "items": [
+        {
+          "nombre": "Componente respondente",
+          "descripcion": "¿Qué respuestas emocionales o fisiológicas surgen de condicionamientos clásicos (EI/EC)?"
+        },
+        {
+          "nombre": "Componente operante",
+          "descripcion": "¿Qué consecuencias ambientales o encubiertas mantienen las respuestas motoras instrumentales por R+, R-, C+, C-?"
+        },
+        {
+          "nombre": "Componente verbal",
+          "descripcion": "¿Qué reglas (pliance, tracking) está siguiendo el paciente? ¿Qué tactos distorsionados, mandos ineficaces o formas de metaconducta están interfiriendo en su sensibilidad a las contingencias?"
+        },
+        {
+          "nombre": "Control discriminativo",
+          "descripcion": "¿En qué contextos temporoespaciales ocurren sistemáticamente estas interacciones (Ed/Eδ)?"
+        },
+        {
+          "nombre": "Variables disposicionales",
+          "descripcion": "¿Qué variables (sueño, salud, sustancias) están operando como operaciones de establecimiento o abolición del valor de los reforzadores?"
+        },
+        {
+          "nombre": "Programas de mantenimiento",
+          "descripcion": "¿Bajo qué programa (IV, RV, intervalo) se refuerza la conducta, explicando su resistencia a la extinción?"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Cómo presentar el AF al paciente",
+      "contenido": "La formulación clínica no es un documento secreto que el terapeuta guarda en un cajón. Es una herramienta de comunicación con el paciente. Un proceso terapéutico exitoso incluye una \"devolución de la información\" en la cual se le explica al paciente el AF en términos accesibles, sin tecnicismos (\"refuerzo negativo\" se explica como \"lo haces para sentir un alivio rápido del malestar\").\n\nCompartir este análisis despatologiza al paciente (le hace ver que su conducta tiene una lógica funcional dados sus aprendizajes, no que \"está loco\"), fomenta una fuerte alianza terapéutica y lo convierte en un co-investigador activo de sus propios procesos y recuperación."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Tratar cada conducta problema como una isla desconectada del resto del repertorio del paciente.",
+      "correccion": "Las conductas se mantienen en redes: una respuesta es a la vez consecuente de la anterior y antecedente de la siguiente. El AF integrado debe mapear esas interrelaciones para no dejar contingencias clave fuera del plan."
+    },
+    {
+      "tipo": "conexionClinica",
+      "titulo": "Parsimonia y accesibilidad en hipótesis múltiples",
+      "contenido": "Cuando dos hipótesis son igualmente plausibles, prioriza la que sea más fácil de intervenir y comprobar empíricamente en el entorno actual del paciente. Detenerse a buscar la \"causa profunda\" antes de actuar suele ser una estrategia inerte: el AF se valida en la práctica, contrastando sus predicciones con la respuesta del paciente a la intervención."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Froxán Parga, M. X. (Ed.). Qué es un tratamiento psicológico. Perspectiva conductual.",
+        "Segura, M., Sánchez, P., y Barbado, P. Análisis Funcional de la Conducta: Un modelo explicativo. Universidad de Granada.",
+        "Kazdin, A. E. Historia de la modificación de conducta.",
+        "Skinner, B. F. Ciencia y conducta humana.",
+        "Gutiérrez Domínguez, M. T. et al. Procesos psicológicos básicos. Un análisis funcional."
+      ]
+    }
+  ]
+}

@@ -1,1 +1,144 @@
-{}
+[
+  {
+    "id": "8-8",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico",
+    "titulo": "Hipótesis que guía la intervención",
+    "pregunta": "Camila comenzó a autolesionarse a los 14 años tras observar a una amiga hacerlo en el colegio. Hoy, a los 22 años, se corta superficialmente cada vez que siente un pánico abrumador de ser abandonada por su pareja, lo que le produce un cese temporal inmediato de la angustia. ¿Cuál hipótesis debe guiar tu intervención?",
+    "opciones": [
+      "La de origen: el aprendizaje vicario a los 14 años, mediante reestructuración del recuerdo.",
+      "La de mantenimiento: la función actual de refuerzo negativo (alivio del pánico), buscando entrenar respuestas alternativas al malestar.",
+      "Ambas por igual, ya que no se puede intervenir sin un modelo etiológico histórico."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Exacto: la conducta hoy se mantiene por R- (alivio del pánico). La intervención debe entrenar respuestas alternativas al malestar, no reescribir el origen.",
+      "incorrecta": "El origen contextualiza el caso pero no es intervenible. Lo que mantiene HOY la autolesión (R- del pánico) es lo único que puedes modificar.",
+      "pista": "¿Qué función cumple el corte aquí y ahora? Ahí está la diana de la intervención."
+    }
+  },
+  {
+    "id": "8-9",
+    "tipo": "Emparejamiento",
+    "tipoLabel": "Emparejamiento",
+    "titulo": "Jerarquización de conductas problema",
+    "pregunta": "Empareja cada conducta problema con el criterio de jerarquización que define su prioridad de intervención:",
+    "pares": [
+      {
+        "izquierda": "Intentos de suicidio estructurados",
+        "derecha": "Riesgo vital"
+      },
+      {
+        "izquierda": "Llegar sistemáticamente tarde a las sesiones o faltar",
+        "derecha": "Bloquea terapia"
+      },
+      {
+        "izquierda": "Evitación que le impide salir a trabajar hace meses",
+        "derecha": "Interfiere vida cotidiana"
+      },
+      {
+        "izquierda": "Quiere dejar de morderse las uñas (aunque tú ves fobias más graves)",
+        "derecha": "Prioridad del paciente"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: el orden jerárquico es riesgo vital → bloqueo de terapia → interferencia vital amplia → prioridades del paciente.",
+      "incorrecta": "Recuerda los 4 niveles: riesgo vital, conductas que bloquean la terapia, interferencia vital amplia y prioridades del paciente. Ese es el orden estricto.",
+      "pista": "¿Pone en peligro la vida? ¿Bloquea la terapia misma? ¿Interfiere ampliamente? ¿Es una preferencia del paciente?"
+    }
+  },
+  {
+    "id": "8-10",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Coherencia AF-intervención",
+    "pregunta": "¿Por qué la coherencia entre AF e intervención es el criterio más importante para evaluar un plan terapéutico?",
+    "opciones": [
+      "Porque el paciente necesita entender la jerga técnica para curarse.",
+      "Porque si la intervención no apunta a las variables de mantenimiento del AF, el clínico opera a ciegas; podría funcionar por azar, pero no por la comprensión funcional del caso.",
+      "Porque la terapia de la conducta rechaza las variables O organísmicas."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Exacto: sin coherencia AF-intervención, el clínico aplica técnicas a ciegas. La eficacia eventual sería azar, no comprensión funcional.",
+      "incorrecta": "La cuestión no es jerga ni rechazo de variables: es que la intervención solo es defendible si apunta directamente a las variables que el AF identificó como mantenedoras.",
+      "pista": "Si tu intervención no toca lo que tu hipótesis dice que mantiene la conducta, ¿qué estás haciendo realmente?"
+    }
+  },
+  {
+    "id": "8-11",
+    "tipo": "MC",
+    "tipoLabel": "Dilema clínico",
+    "titulo": "¿Qué conducta abordar primero?",
+    "pregunta": "Como terapeuta detectas dos conductas problema. Una (A) le impide al paciente relacionarse socialmente y deprime su calidad de vida drásticamente. Otra (B) es su costumbre de desviar el tema en terapia, no hacer las tareas pactadas y mentir en los autorregistros. ¿Cuál abordas primero?",
+    "opciones": [
+      "La A, porque es la que causa el mayor sufrimiento medible en su vida y es ético aliviar el dolor primero.",
+      "La B, porque bloquea el trabajo terapéutico. No es posible trabajar y generalizar habilidades sociales (A) si el paciente sabotea las condiciones básicas para que el cambio suceda.",
+      "Ambas simultáneamente para garantizar que el paciente se sienta comprendido."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: las conductas que bloquean la terapia tienen prioridad por encima de la interferencia vital (aunque sea más dolorosa) porque sin terapia funcional nada más puede avanzar.",
+      "incorrecta": "Por más que A duela más, B bloquea la herramienta misma. Mientras la terapia esté saboteada, no podrás trabajar A.",
+      "pista": "Si la herramienta está rota, no puedes usarla para arreglar nada más."
+    }
+  },
+  {
+    "id": "8-12",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar",
+    "titulo": "Variables etiológicas",
+    "pregunta": "Completa el texto sobre variables etiológicas:",
+    "textoBase": "Las variables de ___ explican cómo surgió el problema por razones ___. Sin embargo, son las variables de ___ las que describen las ___ actuales. La ___ debe dirigirse siempre hacia las variables presentes para ser efectiva.",
+    "gaps": [
+      {
+        "id": "gap1",
+        "opciones": ["adquisición", "mantenimiento"],
+        "correcta": "adquisición"
+      },
+      {
+        "id": "gap2",
+        "opciones": ["contingencias", "históricas"],
+        "correcta": "históricas"
+      },
+      {
+        "id": "gap3",
+        "opciones": ["adquisición", "mantenimiento"],
+        "correcta": "mantenimiento"
+      },
+      {
+        "id": "gap4",
+        "opciones": ["contingencias", "históricas"],
+        "correcta": "contingencias"
+      },
+      {
+        "id": "gap5",
+        "opciones": ["intervención", "evaluación"],
+        "correcta": "intervención"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: la adquisición explica historias; el mantenimiento describe contingencias actuales; la intervención apunta a las variables presentes.",
+      "incorrecta": "Recuerda: adquisición = pasado/historia; mantenimiento = contingencias actuales; intervención = sobre lo presente y modificable.",
+      "pista": "Pasado vs presente; explicar el origen vs explicar lo que ocurre HOY."
+    }
+  },
+  {
+    "id": "8-13",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico",
+    "titulo": "Sebastián: foco de la intervención",
+    "pregunta": "Sebastián, un joven de 28 años, empezó a beber a los 16 años por presión de grupo (sus amigos lo incitaban). Hoy consume alcohol a diario en su casa a solas, primariamente para evitar el malestar físico de la abstinencia y apagar pensamientos ansiosos. ¿A qué variable debe apuntar la intervención?",
+    "opciones": [
+      "A entrenar habilidades para resistir la presión social (adquisición).",
+      "A manejar el malestar de la abstinencia y proveer respuestas alternativas para la ansiedad en soledad (mantenimiento).",
+      "A cambiar las reglas verbales que sus amigos le implantaron hace 12 años."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Exacto: hoy bebe en soledad por R- (alivio de abstinencia y ansiedad). La intervención debe enseñar manejo del malestar y respuestas alternativas, no entrenar habilidades para una presión social que ya no opera.",
+      "incorrecta": "La presión social fue origen, pero hoy bebe solo. Lo que mantiene la conducta es el alivio del malestar, y ahí debe ir la intervención.",
+      "pista": "¿Por qué bebe ESTE LUNES por la noche, solo en su casa?"
+    }
+  }
+]

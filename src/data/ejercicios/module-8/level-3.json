@@ -1,1 +1,86 @@
-{}
+[
+  {
+    "id": "8-14",
+    "tipo": "MC",
+    "tipoLabel": "Caso clínico integrado",
+    "titulo": "Secuencia funcional completa (Andrés)",
+    "pregunta": "Andrés siente un \"nudo en el pecho\" (sudor, taquicardia) al pensar en la junta semanal del trabajo. Para evitar ir, ingiere una alta dosis de analgésicos argumentando una migraña severa. Como resultado, se queda en casa, su taquicardia desciende rápidamente, pero a los días recibe una advertencia formal de despido por ausentismo. Identifica la secuencia funcional.",
+    "opciones": [
+      "EI (junta) → RC (migraña) → Refuerzo positivo (quedarse en casa).",
+      "EC (pensamiento de la junta) → RC (ansiedad/taquicardia) funciona como Ed → Respuesta operante (evitación/ingerir pastillas) → Consecuente CP (alivio por R-) → Consecuente LP (castigo/advertencia).",
+      "Ed (analgésico) → R operante (pensamiento) → Consecuencia de extinción de evitación."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: el pensamiento es EC, la ansiedad RC que opera como Ed, la evitación es operante mantenida por R- (alivio), y a LP aparece el castigo (despido).",
+      "incorrecta": "La junta no es EI; es la representación verbal de la junta lo que opera como EC. Y la conducta operante (evitación) se mantiene por R- inmediato, no por R+.",
+      "pista": "Componentes respondente (EC→RC) y operante (Ed→R→C) en cadena, con asimetría temporal CP/LP."
+    }
+  },
+  {
+    "id": "8-15",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "AF integrado del caso Andrés",
+    "pregunta": "Clasifica cada elemento técnico del AF integrado del caso Andrés:",
+    "items": [
+      "Taquicardia/sudoración ante el pensamiento",
+      "\"Si voy me humillarán como en mi empleo pasado\"",
+      "Tomar la pastilla y llamar reportándose enfermo",
+      "Déficit de horas de sueño acumulado por el estrés (empeora todo el cuadro)"
+    ],
+    "zonas": [
+      "Componente respondente",
+      "Componente operante",
+      "Componente verbal (regla)",
+      "Variable disposicional"
+    ],
+    "correctMap": {
+      "Taquicardia/sudoración ante el pensamiento": "Componente respondente",
+      "\"Si voy me humillarán como en mi empleo pasado\"": "Componente verbal (regla)",
+      "Tomar la pastilla y llamar reportándose enfermo": "Componente operante",
+      "Déficit de horas de sueño acumulado por el estrés (empeora todo el cuadro)": "Variable disposicional"
+    },
+    "retroalimentacion": {
+      "correcta": "Correcto: respuestas fisiológicas = respondente; reglas verbales = componente verbal; conducta motora instrumental = operante; sueño/salud = disposicional.",
+      "incorrecta": "Recuerda: respondente = fisiología elicitada; verbal = reglas (\"si... entonces\"); operante = conducta instrumental con consecuente; disposicional = condiciones que modulan reforzadores.",
+      "pista": "¿Es algo que se elicitó, una regla verbal, una conducta instrumental o una condición moduladora?"
+    }
+  },
+  {
+    "id": "8-16",
+    "tipo": "MC",
+    "tipoLabel": "Jerarquización",
+    "titulo": "Caso complejo: por dónde empezar",
+    "pregunta": "Dado un caso complejo con: [1] Atracones nocturnos por ansiedad, [2] Cortes profundos en los brazos con hemorragia, [3] Negativa rotunda a hablar de los atracones en sesión con ataques verbales al terapeuta. Ordena los objetivos de intervención según los criterios de jerarquización conductual.",
+    "opciones": [
+      "Atracones → Ataques al terapeuta → Cortes en los brazos.",
+      "[2] Riesgo vital (cortes) → [3] Bloqueo de terapia (ataques/negativa a hablar) → [1] Interferencia en vida (atracones).",
+      "[3] Bloqueo de terapia → [1] Atracones → [2] Riesgo vital (porque el paciente no quiere hablar de los cortes)."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Exacto: riesgo vital primero (cortes con hemorragia), luego bloqueo de terapia (ataques), luego interferencia vital (atracones). Orden estricto.",
+      "incorrecta": "El criterio jerárquico es inflexible: riesgo vital → bloqueo de terapia → interferencia vital. Cortes con hemorragia son riesgo vital y van primero.",
+      "pista": "¿Qué amenaza la vida ahora mismo? Eso siempre es lo primero."
+    }
+  },
+  {
+    "id": "8-17",
+    "tipo": "MC",
+    "tipoLabel": "Dilema clínico",
+    "titulo": "Hipótesis múltiples: parsimonia y accesibilidad",
+    "pregunta": "Al integrar el AF de un paciente con agorafobia, encuentras dos hipótesis de mantenimiento operante igualmente plausibles. La Hipótesis A involucra reforzamiento negativo por evitación de ruidos fuertes (difícil de probar sin exponerlo a calles de alto tráfico) y la Hipótesis B indica refuerzo positivo de atención por parte de su madre (presente en la sala y fácilmente medible/intervenible). ¿Qué criterio usas para decidir por cuál intervenir primero?",
+    "opciones": [
+      "Elijo buscar el trauma inconsciente de la infancia que explique por qué reacciona a los ruidos.",
+      "Por el principio de parsimonia y accesibilidad, elijo la hipótesis más fácil de intervenir y comprobar en el entorno actual del paciente (Hipótesis B), evaluando su impacto.",
+      "Detengo el tratamiento hasta tener la certeza absoluta de un solo programa de mantenimiento."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: parsimonia + accesibilidad. La hipótesis más fácil de intervenir y comprobar empíricamente va primero, y la respuesta clínica del paciente la valida o la descarta.",
+      "incorrecta": "El AF se valida en la práctica. Detenerse o buscar causas profundas es inerte. La hipótesis más accesible se prueba primero y se evalúa empíricamente.",
+      "pista": "El AF se prueba interviniendo y observando el efecto, no antes."
+    }
+  }
+]
