@@ -1,1 +1,41 @@
-{}
+{
+  "titulo": "Modelo Bifactorial y Secuencias Complejas",
+  "preguntaCentral": "¿Cómo interactúan el condicionamiento clásico y el operante para mantener los trastornos de ansiedad?",
+  "aprobacionRequerida": 80,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "El cruce entre CC y CO en la clínica",
+      "contenido": "Llegamos al punto donde el Condicionamiento Clásico (CC) y el Condicionamiento Operante (CO) colisionan para explicar los cuadros clínicos más persistentes de la psicopatología moderna: los trastornos de ansiedad y estrés traumático."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "El Modelo Bifactorial de Mowrer (1947)",
+      "contenido": "Mowrer observó que la extinción en el condicionamiento operante de conductas de evitación era extremadamente lenta. Propuso un modelo de dos factores para explicar cómo se originan y mantienen fobias y ansiedades:\n\n• Factor 1 (Condicionamiento Clásico): Un evento neutro (EN) se asocia temporalmente con un estímulo aversivo (EI), convirtiéndose en un estímulo condicionado (EC) que elicita respuestas fisiológicas de miedo o ansiedad (RC).\n\n• Factor 2 (Condicionamiento Operante): El organismo escapa o evita el EC. Esta conducta de evitación produce una reducción inmediata de la ansiedad, lo que resulta en un poderoso Reforzamiento Negativo (R-) de la conducta operante de huida."
+    },
+    {
+      "tipo": "diagrama",
+      "titulo": "Secuencia Bifactorial",
+      "descripcion": "EN + EI → EC (Genera Miedo/RC) → Evitación (R) (Escape del EC) → Alivio (C- / R-) (Mantiene el problema)"
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Por qué la ansiedad persiste eternamente",
+      "contenido": "La genialidad clínica del modelo radica en explicar el bucle patológico: para que una fobia desaparezca, el EC debe presentarse repetidamente en ausencia del EI (extinción respondente). Sin embargo, la conducta operante de evitación impide que el individuo contacte el EC el tiempo suficiente. Al huir tempranamente, el organismo experimenta alivio a corto plazo, fortaleciendo la conducta operante, pero frustra la posibilidad anatómica de la extinción clásica del miedo. La evitación es el escudo que protege al miedo de extinguirse."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Análisis Funcional e Intervención",
+      "contenido": "Toda intervención en estos cuadros (como la terapia de exposición sistemática) requiere bloquear la respuesta operante de evitación/escape (prevenir R-) para permitir que el estímulo condicionado elicite la respuesta fisiológica completa hasta su habituación y extinción (anulación del CC)."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Mowrer, O. H. (1947). On the dual nature of learning—a re-interpretation of \"conditioning\" and \"problem-solving\". Harvard Educational Review, 17, 102-148.",
+        "Kazdin, A. E. (1983). Historia de la Modificación de Conducta. Desclée de Brouwer.",
+        "Gutiérrez, T. et al. (2017). Procesos psicológicos básicos: Un análisis funcional. UNED.",
+        "Pérez Álvarez, M. (1996). La psicoterapia desde el punto de vista conductista. Biblioteca Nueva."
+      ]
+    }
+  ]
+}

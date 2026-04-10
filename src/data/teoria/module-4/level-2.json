@@ -1,1 +1,50 @@
-{}
+{
+  "titulo": "Cadenas Conductuales y Conducta Gobernada por Reglas",
+  "preguntaCentral": "¿Cómo se organizan las secuencias conductuales complejas y qué papel juega el lenguaje en el control de la conducta?",
+  "aprobacionRequerida": 83,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Más allá de la unidad E-R-C aislada",
+      "contenido": "La conducta humana rara vez ocurre en unidades aisladas de un solo E-R-C. Ocurre en secuencias complejas y, de vital importancia para la práctica clínica, a menudo está controlada por el lenguaje verbal más que por el contacto directo con el mundo material."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Encadenamiento Conductual",
+      "contenido": "Una cadena conductual es una secuencia en la que cada respuesta altera el entorno de manera que produce el estímulo discriminativo para la siguiente respuesta, creando un patrón E-R-E-R-E-R. El reforzador final mantiene unida toda la cadena."
+    },
+    {
+      "tipo": "diagrama",
+      "titulo": "Ejemplo de cadena conductual",
+      "descripcion": "E1 (Alarma) → R1 (Apagar) → E2 (Silencio) → R2 (Dormir más) → R- (Alivio sueño)"
+    },
+    {
+      "tipo": "nota",
+      "titulo": "Regla clínica sobre cadenas",
+      "contenido": "Al intervenir en un hábito problemático, es mucho más efectivo bloquear o alterar los primeros eslabones de la cadena, ya que los eslabones finales tienen mayor inercia y fuerza por proximidad al reforzador."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Conducta Moldeada vs. Gobernada por Reglas",
+      "contenido": "No toda conducta es aprendida por ensayo y error. A partir del marco desarrollado por Skinner y ampliado teóricamente por autores como S.C. Hayes, diferenciamos:\n\n• Conducta moldeada por las contingencias: Adquirida por contacto directo con las consecuencias. Es altamente sensible a los cambios del ambiente.\n\n• Conducta gobernada por reglas: Emitida en respuesta a descripciones verbales de las contingencias (ej. \"si tocas el fuego, te quemas\"). Permite aprender sin necesidad de experimentar consecuencias mortales, pero puede volverse rígida."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Tipos de Seguimiento de Reglas",
+      "contenido": "• Pliance (Placimiento): Seguimiento de reglas controlado por contingencias sociales mediadas por quien da la regla. Clínica: El paciente hace una tarea terapéutica solo \"para complacer al terapeuta\" y evitar su desaprobación.\n\n• Tracking (Rastreo): Seguimiento de reglas controlado por la correspondencia entre la regla y el funcionamiento real del ambiente físico o social. Clínica: El paciente sigue un consejo porque en su experiencia real comprueba que \"así funciona el mundo\".\n\n• Augmenting (Aumento): Comportamiento bajo el control de redes verbales que alteran el valor motivacional de las consecuencias. Clínica: Las metáforas y la clarificación de valores transforman el dolor terapéutico (algo aversivo) en algo valioso (\"dolor con propósito\")."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "La trampa de la insensibilidad a las contingencias: ¿Por qué las personas persisten en conductas que visiblemente les hacen daño?",
+      "correccion": "Cuando la conducta está fuertemente gobernada por reglas (ej. \"Debo ser perfecto para que me quieran\"), la persona se vuelve insensible al hecho de que, en la realidad, el perfeccionismo le está generando rechazo y agotamiento. La regla verbal se superpone al contacto con las contingencias naturales."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Hayes, S. C. (1989). Rule-governed behavior: Cognition, contingencies, and instructional control. Plenum Press.",
+        "Gutiérrez, T. et al. (2017). Procesos psicológicos básicos: Un análisis funcional. UNED.",
+        "Pérez Álvarez, M. (1996). La psicoterapia desde el punto de vista conductista. Biblioteca Nueva."
+      ]
+    }
+  ]
+}

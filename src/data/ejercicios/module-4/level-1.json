@@ -1,1 +1,183 @@
-{}
+[
+  {
+    "id": "4-1",
+    "tipo": "MC",
+    "tipoLabel": "Conceptos clave",
+    "titulo": "Variable O en el modelo E-O-R-K-C",
+    "pregunta": "En el modelo E-O-R-K-C, ¿qué representa correctamente la variable \"O\"?",
+    "opciones": [
+      "Constructos mentales internos que causan la conducta, como la fuerza de voluntad o la autoestima.",
+      "Variables biológicas e históricas del organismo que modulan cómo los estímulos afectan la conducta.",
+      "La observación clínica directa que hace el terapeuta sobre las respuestas motoras del paciente."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "La variable O incluye condiciones biológicas (privación de sueño, dolor) y la historia de aprendizaje previa. Nunca debe usarse como cajón de sastre para constructos mentalistas.",
+      "incorrecta": "La variable O no se refiere a constructos mentales ni a la observación del terapeuta, sino a condiciones biológicas e históricas del organismo.",
+      "pista": "Piensa en estados del organismo como privación de sueño, dolor crónico o historia de rechazos repetidos."
+    }
+  },
+  {
+    "id": "4-2",
+    "tipo": "Emparejamiento",
+    "tipoLabel": "Emparejar conceptos",
+    "titulo": "Elementos del modelo E-O-R-K-C",
+    "pregunta": "Empareja cada elemento del modelo E-O-R-K-C con su definición funcional.",
+    "columnaIzquierda": ["E", "O", "R", "K", "C"],
+    "columnaDerecha": [
+      "Modulador biológico/histórico",
+      "Antecedente ambiental",
+      "Alteración posterior de la probabilidad",
+      "Consistencia temporal/estadística",
+      "Topografía emitida"
+    ],
+    "paresCorrectos": {
+      "E": "Antecedente ambiental",
+      "O": "Modulador biológico/histórico",
+      "R": "Topografía emitida",
+      "K": "Consistencia temporal/estadística",
+      "C": "Alteración posterior de la probabilidad"
+    },
+    "retroalimentacion": {
+      "correcta": "Todos los elementos emparejados correctamente. El modelo E-O-R-K-C amplía la contingencia triple para incluir variables del organismo y la relación de contingencia.",
+      "incorrecta": "Revisa las definiciones. E es el antecedente, O el modulador biológico/histórico, R la respuesta emitida, K la consistencia de la contingencia y C la consecuencia.",
+      "pista": "K es la consistencia con la que R produce C; O modula cómo E afecta a R."
+    }
+  },
+  {
+    "id": "4-3",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar",
+    "titulo": "Operaciones Motivacionales",
+    "pregunta": "Completa la definición de Operaciones Motivacionales:",
+    "textoBase": "Una operación de establecimiento, como la ___, tiene dos efectos principales: primero, aumenta el ___ de una consecuencia específica; y segundo, ___ la probabilidad de emisión de la ___ que históricamente la ha producido. Por el contrario, la saciación actúa como una operación de ___.",
+    "gaps": [
+      {
+        "id": "gap1",
+        "opciones": ["privación", "abolición"],
+        "correcta": "privación"
+      },
+      {
+        "id": "gap2",
+        "opciones": ["valor reforzante", "conducta"],
+        "correcta": "valor reforzante"
+      },
+      {
+        "id": "gap3",
+        "opciones": ["aumenta", "disminuye"],
+        "correcta": "aumenta"
+      },
+      {
+        "id": "gap4",
+        "opciones": ["conducta", "abolición"],
+        "correcta": "conducta"
+      },
+      {
+        "id": "gap5",
+        "opciones": ["abolición", "privación"],
+        "correcta": "abolición"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Perfecto. La privación es una OE que aumenta valor y probabilidad; la saciación es una OA que los disminuye.",
+      "incorrecta": "Revisa: la privación establece (aumenta valor y probabilidad), la saciación abole (disminuye ambos).",
+      "pista": "Hambre (privación) = más valor de comida + más buscar comida. Lleno (saciación) = menos valor + menos buscar."
+    }
+  },
+  {
+    "id": "4-4",
+    "tipo": "MC",
+    "tipoLabel": "Análisis de caso",
+    "titulo": "Variable O: evitar el cajón de sastre",
+    "pregunta": "Un terapeuta afirma en sesión de supervisión: \"Mi paciente no sale de casa porque su agorafobia ha debilitado su fuerza de voluntad\". ¿Cuál sería la reformulación correcta desde el análisis de la conducta evitando usar O como \"cajón de sastre\"?",
+    "opciones": [
+      "El paciente sufre de un trastorno neurobiológico del miedo que actúa como una O inmodificable, requiriendo medicación previa a la terapia.",
+      "El paciente tiene una historia de evitación exitosa (R-) al quedarse en casa (O histórica), lo que fortalece la conducta de no salir ante estímulos ansiógenos.",
+      "La voluntad del paciente está intacta, pero sus creencias disfuncionales sobre la calle operan como el antecedente directo (E) de la agorafobia."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "La O se especifica como historia de evitación exitosa (R-), no como un constructo vago. Esto permite identificar variables modificables.",
+      "incorrecta": "Evita usar la O como cajón de sastre. Especifica qué historia de aprendizaje concreta modula la conducta actual.",
+      "pista": "La \"fuerza de voluntad\" no es una variable conductual. ¿Qué historia de contingencias explica que no salga?"
+    }
+  },
+  {
+    "id": "4-5",
+    "tipo": "Clasificacion",
+    "tipoLabel": "Clasificación",
+    "titulo": "Variables funcionales vs. disposicionales",
+    "pregunta": "Clasifica las siguientes variables en funcionales (parte directa de la contingencia) o disposicionales (moduladores del valor/estado).",
+    "items": [
+      "Fatiga extrema",
+      "Luz roja del semáforo",
+      "Privación de agua de 24h",
+      "Historia de maltrato",
+      "Alabanza verbal recibida",
+      "Dolor crónico lumbar"
+    ],
+    "zonas": ["Funcional", "Disposicional"],
+    "correctMap": {
+      "Fatiga extrema": "Disposicional",
+      "Luz roja del semáforo": "Funcional",
+      "Privación de agua de 24h": "Disposicional",
+      "Historia de maltrato": "Disposicional",
+      "Alabanza verbal recibida": "Funcional",
+      "Dolor crónico lumbar": "Disposicional"
+    },
+    "retroalimentacion": {
+      "correcta": "Correcto. Las variables funcionales (luz roja, alabanza) forman parte directa de la contingencia E-R-C. Las disposicionales (fatiga, privación, historia, dolor) modulan el valor de la contingencia.",
+      "incorrecta": "Las funcionales son parte directa de la contingencia (antecedentes y consecuencias). Las disposicionales alteran la susceptibilidad del organismo.",
+      "pista": "¿Es un estímulo antecedente o consecuente directo? → Funcional. ¿Modifica el valor o estado? → Disposicional."
+    }
+  },
+  {
+    "id": "4-6",
+    "tipo": "MC",
+    "tipoLabel": "Discriminación de conceptos",
+    "titulo": "OE vs. Estímulo Discriminativo",
+    "pregunta": "¿Cuál es la diferencia técnica entre una Operación de Establecimiento (OE) y un Estímulo Discriminativo?",
+    "opciones": [
+      "El antecedente señala que la consecuencia está disponible; la OE altera el valor motivacional de dicha consecuencia.",
+      "El antecedente siempre es ambiental; la OE siempre es un estado biológico interno como el hambre.",
+      "El antecedente elicita reflejos incondicionados; la OE refuerza conductas operantes."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "El Ed señala disponibilidad (\"el restaurante está abierto\"), la OE altera el valor (\"tengo hambre\"). Ambos son necesarios para el análisis completo.",
+      "incorrecta": "La OE no es siempre biológica y el Ed no elicita reflejos. La diferencia es disponibilidad vs. valor motivacional.",
+      "pista": "\"El restaurante está abierto\" (Ed) vs. \"Tengo hambre\" (OE). Uno señala, el otro motiva."
+    }
+  },
+  {
+    "id": "4-7",
+    "tipo": "MC",
+    "tipoLabel": "Aplicación clínica",
+    "titulo": "Falta de sueño como variable O",
+    "pregunta": "Llega un paciente con depresión grave que reporta llevar 48 horas sin dormir. Al intentar programar una activación conductual (ej. salir a caminar por refuerzo natural), notas rechazo total. Funcionalmente, la falta de sueño actúa como:",
+    "opciones": [
+      "Una consecuencia negativa (C-) que castiga cualquier intento del terapeuta por ayudar.",
+      "Un estímulo discriminativo que le avisa al paciente que caminar no servirá de nada.",
+      "Una variable O que disminuye radicalmente el valor reforzante del ambiente (OA) y reduce la probabilidad de emitir conductas con alto costo de respuesta."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "La privación de sueño actúa como OA: disminuye el valor de los reforzadores ambientales y reduce la probabilidad de conductas con costo elevado. Priorizar el sueño es intervenir en la O.",
+      "incorrecta": "La falta de sueño no es una consecuencia ni un Ed. Es una variable del organismo que modula toda la contingencia.",
+      "pista": "Si el organismo está devastado, ningún reforzador ambiental tendrá valor suficiente. Eso es una OA."
+    }
+  },
+  {
+    "id": "4-8",
+    "tipo": "VerdaderoFalso",
+    "tipoLabel": "Verdadero o Falso",
+    "titulo": "K perfecta vs. K intermitente",
+    "afirmacion": "\"Una contingencia donde la relación K es perfecta (la conducta siempre produce la consecuencia) genera hábitos mucho más resistentes a la extinción a largo plazo que una K intermitente.\"",
+    "respuestaCorrecta": false,
+    "retroalimentacion": {
+      "correcta": "Falso. Es al revés: la K intermitente genera conductas mucho más resistentes a la extinción. Por eso muchas conductas problemáticas se mantienen con reforzamiento inconsistente.",
+      "incorrecta": "Es falso. El reforzamiento intermitente (K imperfecta) produce mayor resistencia a la extinción que el reforzamiento continuo (K perfecta).",
+      "pista": "Piensa en una máquina tragamonedas (K intermitente) vs. un interruptor de luz (K perfecta). ¿Cuál genera más persistencia?"
+    }
+  }
+]

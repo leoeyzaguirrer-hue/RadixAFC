@@ -1,1 +1,51 @@
-{}
+{
+  "titulo": "Variables Disposicionales y Modelo E-O-R-K-C",
+  "preguntaCentral": "¿Qué variables históricas, biológicas y contextuales alteran cómo interactúa la persona con su ambiente?",
+  "aprobacionRequerida": 87,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Del modelo E-R-C al modelo E-O-R-K-C",
+      "contenido": "En el Módulo 3 estudiamos la contingencia de tres términos (E-R-C) de Skinner. Sin embargo, para realizar un análisis funcional clínico riguroso, necesitamos integrar variables históricas, biológicas y contextuales que alteran cómo interactúa la persona con su ambiente. Desde el análisis del comportamiento, el modelo E-O-R-K-C (propuesto por Kanfer y Phillips) proporciona una estructura ampliada y fundamental."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "El Modelo E-O-R-K-C",
+      "contenido": "• E (Antecedentes Ambientales): Las condiciones estimulares que preceden y acompañan a la conducta.\n\n• O (Variables del Organismo): Condiciones biológicas (ej. privación de sueño, dolor, intoxicación) y la historia de aprendizaje previa. Atención: La variable O nunca debe utilizarse como un \"cajón de sastre\" para incluir constructos mentalistas inexplicados (ej. \"baja motivación\", \"baja autoestima\", \"trauma interno\").\n\n• R (Respuesta): La conducta emitida, especificada en su topografía (motora, cognitiva, fisiológica).\n\n• K (Relación de Contingencia): La consistencia temporal y estadística con la que la Respuesta produce la Consecuencia.\n\n• C (Consecuencias): Los eventos ambientales que siguen a la conducta y alteran su probabilidad futura (reforzadores y castigos)."
+    },
+    {
+      "tipo": "diagrama",
+      "titulo": "Modelo E-O-R-K-C",
+      "descripcion": "E → O → R → K → C. O = Modula la relación E-R y el valor de C; K = Probabilidad de que R produzca C."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Error clínico común (\"Cajón de sastre\"): Un terapeuta explica: \"Marcos no busca empleo porque tiene baja motivación (variable O)\".",
+      "correccion": "Análisis correcto: \"Marcos lleva 3 años experimentando rechazos repetidos (historia de extinción/castigo, variable O), lo que reduce el valor reforzante de enviar CVs y probabiliza conductas de escape\". La \"motivación\" no es una cosa que se tiene; es el resultado de la historia de contingencias."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Variables Disposicionales vs. Funcionales",
+      "contenido": "La perspectiva conductual establece una diferencia crítica. Las variables funcionales forman parte directa de la contingencia contingente (el estímulo antecedente, la conducta, la consecuencia). Las variables disposicionales, en cambio, modifican el valor de la contingencia, alterando la susceptibilidad del organismo a dichas variables funcionales."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Operaciones Motivacionales (Establecimiento y Abolición)",
+      "contenido": "Un tipo central de variable disposicional son las Operaciones de Establecimiento (OE) y de Abolición (OA). Una OE es una condición (ej. privación de alimento) que logra dos cosas simultáneamente: aumenta el valor motivacional de una consecuencia (la comida es más reforzante) y aumenta la probabilidad de la conducta que históricamente la ha producido. Una OA (ej. saciación) hace lo inverso.\n\nDistinción crítica: No hay que confundir una OE con un Estímulo Discriminativo. El estímulo discriminativo señala la disponibilidad de una consecuencia (\"el restaurante está abierto\"). La OE altera el valor de esa consecuencia (\"tengo hambre\")."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "La Relación K",
+      "contenido": "La consistencia de la contingencia (K) es vital en clínica. Una K perfecta (siempre que lloro, me atienden) genera aprendizaje rápido, pero es poco resistente al cambio (extinción rápida). Una K imperfecta o intermitente (a veces me atienden, a veces me ignoran) genera conductas sumamente arraigadas y resistentes a la extinción. Muchas conductas problemáticas se mantienen precisamente por una K intermitente."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Kanfer, F.H., & Phillips, J.S. (1970). Learning foundations of behavior therapy. Wiley.",
+        "Gutiérrez, T. et al. (2017). Procesos psicológicos básicos: Un análisis funcional. UNED.",
+        "Skinner, B. F. (1974). Sobre el Conductismo. Fontanella.",
+        "Segura, M., Sánchez, P., & Barbado, P. (1991). Análisis Funcional de la Conducta: Un modelo explicativo. Universidad de Granada."
+      ]
+    }
+  ]
+}
