@@ -1,1 +1,56 @@
-{}
+{
+  "titulo": "El Lenguaje como Intervención Terapéutica",
+  "preguntaCentral": "¿Cómo usa el clínico contextual el lenguaje — preguntas, validaciones y metáforas — de forma deliberada para construir nuevos marcos relacionales de flexibilidad?",
+  "aprobacionRequerida": 83,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Psicoterapia como empresa verbal",
+      "contenido": "Desde la óptica de la RFT, la psicoterapia es una empresa fundamentalmente verbal. Cada cosa que el terapeuta dice o pregunta establece, refuerza o debilita marcos relacionales en el paciente. Esto no es una metáfora poética: es el mecanismo funcional operante mediante el cual las intervenciones producen cambios. Un clínico contextual usa el lenguaje de forma deliberada."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Preguntas que crean nuevos marcos",
+      "items": [
+        {
+          "nombre": "Establecer Jerarquía (Yo Observador)",
+          "descripcion": "\"¿Qué parte de ti se da cuenta de que estás teniendo el pensamiento de que eres inútil?\" Sitúa al \"Yo\" por encima/como contenedor del contenido verbal."
+        },
+        {
+          "nombre": "Condicionalidad (Defusión)",
+          "descripcion": "\"¿Qué paso darías ahora mismo si no necesitaras que el miedo desaparezca primero?\" Separa funcionalmente la presencia de la emoción de la ejecución de la acción."
+        },
+        {
+          "nombre": "Temporalidad / Perspectiva",
+          "descripcion": "\"Si pudieras viajar 10 años al futuro, ¿cómo vería tu 'Yo' del futuro esta situación que tanto te agobia hoy?\" Altera las funciones aversivas masivas del momento presente."
+        },
+        {
+          "nombre": "Deíctico Tú-Aquí",
+          "descripcion": "\"¿Qué le dirías con compasión a tu mejor amigo si estuviera sufriendo exactamente lo mismo que tú?\" Promueve transferencia de funciones compasivas hacia el propio self."
+        }
+      ]
+    },
+    {
+      "tipo": "conexionClinica",
+      "titulo": "Validación Funcional (Villatte)",
+      "contenido": "La validación funcional implica nombrar y validar la FUNCIÓN de la conducta del paciente, legitimando su lógica de aprendizaje, pero formulándola de un modo que amplíe su perspectiva conductual sin reforzar la rigidez. Ejemplo: \"Tiene total sentido que te aísles cuando sientes esta ansiedad social. A lo largo de tu vida has aprendido a coordinar 'exponerte' con 'ser humillado', y el aislamiento funciona perfectamente a corto plazo para apagar esa alarma. Tu cerebro está haciendo su trabajo para protegerte... Y al mismo tiempo, podemos observar cómo ese aislamiento te está alejando de la conexión que realmente deseas\". Esta intervención valida la contingencia histórica y la función de escape (R-), pero añade un marco de distinción/jerarquía respecto a las metas vitales."
+    },
+    {
+      "tipo": "ejemplo",
+      "titulo": "Diseño Deliberado de Metáforas",
+      "contenido": "Una metáfora clínica no es un \"cuento bonito\". Estructuralmente en RFT es el establecimiento de un marco de coordinación entre dos redes relacionales: la del problema clínico (A) y la del dominio fuente (B). Si se diseña correctamente, las funciones (soluciones, perspectivas) de B se transfieren a A. Pasos: (1) Identificar la función a cambiar — ej. paciente fusionado que intenta controlar pensamientos aversivos. (2) Encontrar un dominio análogo — algo cotidiano donde intentar controlar sea ineficaz. (3) Establecer coordinación — \"Tener este ruido mental es como ir conduciendo tu auto mientras suena una radio muy molesta\". (4) Transferir función deseada — \"Puedes soltar el volante para apagar la radio y chocar, o mantener las manos en el volante dirigiendo el coche hacia tu destino, permitiendo que la radio suene de fondo\" (instaura marco de Jerarquía: Yo=Conductor > Pensamientos=Radio)."
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Ejercicios Experienciales y RFT",
+      "contenido": "Prácticas como mindfulness o exposición interoceptiva no son técnicas de relajación en CBS. Su mecanismo de acción desde la RFT consiste en debilitar temporalmente el control verbal estricto sobre la conducta. Al anclar al paciente en contingencias no-verbales directas (la respiración, la sensación del tacto), se reduce la influencia de las redes relacionales rígidas, facilitando el contacto con las contingencias del momento presente."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Villatte, M., Villatte, J. L., & Hayes, S. C. (2016). Mastering the clinical conversation: Language as intervention. Guilford Press.",
+        "Stewart, I., & Barnes-Holmes, D. (2001). Understanding metaphor: A relational frame perspective. The Behavior Analyst, 24(2), 191-199."
+      ]
+    }
+  ]
+}

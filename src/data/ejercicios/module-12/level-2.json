@@ -1,1 +1,109 @@
-{}
+[
+  {
+    "id": "12-7",
+    "tipo": "Emparejamiento",
+    "tipoLabel": "Emparejamiento",
+    "titulo": "Preguntas terapéuticas y marcos",
+    "pregunta": "Empareja la pregunta terapéutica con el marco relacional que establece y su función clínica.",
+    "pares": [
+      {
+        "izquierda": "\"¿Qué parte de ti observa que estás teniendo ese pensamiento?\"",
+        "derecha": "Jerarquía / Yo-observador"
+      },
+      {
+        "izquierda": "\"¿Cómo lo verías si avanzamos 10 años en el tiempo?\"",
+        "derecha": "Temporalidad / Perspectiva en el tiempo"
+      },
+      {
+        "izquierda": "\"¿Qué paso darías si no necesitaras sentirte seguro primero?\"",
+        "derecha": "Condicional / Separar acción de emoción"
+      },
+      {
+        "izquierda": "\"¿Qué le dirías a tu mejor amigo si estuviera en tu lugar?\"",
+        "derecha": "Deíctico Tú / Perspectiva alternativa"
+      }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: cada pregunta opera sobre un marco relacional distinto, induciendo derivación en el paciente.",
+      "incorrecta": "Fíjate en qué relación establece cada pregunta: contenedor/contenido (jerarquía), línea temporal, separación entre emoción y acción (condicional), o cambio de perspectiva (deíctico).",
+      "pista": "¿Qué marco RFT promueve cada pregunta a través de la derivación del paciente?"
+    }
+  },
+  {
+    "id": "12-8",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Metáfora deliberada para defusión",
+    "pregunta": "Un paciente está fusionado con pensamientos de inutilidad (\"soy un desastre, todo lo hago mal\"). Quieres usar una metáfora basada en RFT para fomentar defusión. ¿Cuál es la estructura metafórica más adecuada?",
+    "opciones": [
+      "Una metáfora que establezca un marco de coordinación alternativa (\"eres como un diamante en bruto, tienes mucho valor oculto\").",
+      "Una metáfora que establezca un marco de jerarquía y distinción entre el \"Yo\" y los pensamientos (\"tus pensamientos son pasajeros en el autobús, pero tú eres quien conduce el autobús\").",
+      "Una metáfora que le enseñe a debatir con los pasajeros del autobús para demostrarles que están equivocados.",
+      "Una metáfora que le instruya sobre cómo bajar a los pasajeros del autobús (eliminar los pensamientos)."
+    ],
+    "respuestaCorrecta": 1,
+    "retroalimentacion": {
+      "correcta": "Correcto: la metáfora del autobús instaura un marco de jerarquía (Yo=Conductor > Pensamientos=Pasajeros), base estructural de la defusión.",
+      "incorrecta": "Una coordinación alternativa no defusiona, solo sustituye un contenido por otro. La defusión requiere jerarquía/distinción entre el yo y el contenido verbal.",
+      "pista": "¿Qué marco relacional separa al observador del observado?"
+    }
+  },
+  {
+    "id": "12-9",
+    "tipo": "Cloze",
+    "tipoLabel": "Completar espacios",
+    "titulo": "Validación funcional",
+    "pregunta": "Completa el concepto de validación funcional en RFT.",
+    "texto": "La validación funcional no solo expresa empatía, sino que valida la {0} del aprendizaje histórico del paciente. Nombra la {1} de su conducta (por ejemplo, el escape del malestar) dándole sentido al {2} actual. Al hacerlo así, el terapeuta despatologiza la reacción, reduce la lucha verbal y {3} la perspectiva hacia nuevas acciones valoradas, cuidando de legitimar el sufrimiento sin {4} la regla de evitación.",
+    "huecos": [
+      { "opciones": ["lógica", "reforzar"], "respuestaCorrecta": "lógica" },
+      { "opciones": ["función", "patrón"], "respuestaCorrecta": "función" },
+      { "opciones": ["patrón", "amplía"], "respuestaCorrecta": "patrón" },
+      { "opciones": ["amplía", "reforzar"], "respuestaCorrecta": "amplía" },
+      { "opciones": ["reforzar", "función"], "respuestaCorrecta": "reforzar" }
+    ],
+    "retroalimentacion": {
+      "correcta": "Correcto: lógica → función → patrón → amplía → reforzar. La validación funcional legitima la lógica del aprendizaje sin consolidar la evitación.",
+      "incorrecta": "Recuerda: valida la lógica del aprendizaje, nombra la función de la conducta, da sentido al patrón, y amplía la perspectiva sin reforzar la evitación.",
+      "pista": "¿Qué dimensión de la conducta se valida en la validación funcional: contenido o función?"
+    }
+  },
+  {
+    "id": "12-10",
+    "tipo": "MC",
+    "tipoLabel": "Selección múltiple",
+    "titulo": "Mecanismo RFT de los ejercicios experienciales",
+    "pregunta": "Desde la perspectiva de RFT, ¿cuál es el mecanismo principal por el cual funcionan los ejercicios experienciales (mindfulness, enraizamiento)?",
+    "opciones": [
+      "Generan un estado de relajación profunda que inhibe fisiológicamente el estrés condicionado.",
+      "Ayudan a descubrir traumas ocultos en el inconsciente a través de asociaciones libres.",
+      "Debilitan temporalmente el control verbal estricto sobre la conducta, permitiendo que las contingencias directas tengan más influencia que las reglas verbales inflexibles.",
+      "Alteran permanentemente el contenido de las redes relacionales, borrando los pensamientos negativos."
+    ],
+    "respuestaCorrecta": 2,
+    "retroalimentacion": {
+      "correcta": "Correcto: al anclar al paciente en contingencias no-verbales directas, los ejercicios experienciales reducen temporalmente la influencia de las reglas verbales rígidas.",
+      "incorrecta": "El mecanismo RFT de estos ejercicios no es la relajación ni la catarsis: es el debilitamiento temporal del control verbal estricto sobre la conducta.",
+      "pista": "En CBS, mindfulness no es relajación: es contacto con contingencias directas ¿frente a qué?"
+    }
+  },
+  {
+    "id": "12-11",
+    "tipo": "MC",
+    "tipoLabel": "Dilema clínico",
+    "titulo": "Defusión vs debate racional",
+    "pregunta": "Un consultante sostiene: \"No soy lo suficientemente capaz para este trabajo\". ¿Por qué la defusión RFT (\"noto que estás teniendo el pensamiento...\") es clínicamente superior a debatir la evidencia del pensamiento?",
+    "opciones": [
+      "Operar sobre el marco de ilusión de literalidad cambia la función del pensamiento sin debatir su contenido; debatir el contenido puede reforzar la fusión al obligar al paciente a interactuar con el pensamiento como si fuera una verdad a resolver.",
+      "Porque el terapeuta nunca debe contradecir al paciente bajo ninguna circunstancia, ya que rompería la alianza terapéutica.",
+      "Porque los pacientes rara vez tienen la capacidad cognitiva para entender el debate lógico durante una crisis emocional.",
+      "Porque la defusión destruye el pensamiento negativo más rápido que el debate racional."
+    ],
+    "respuestaCorrecta": 0,
+    "retroalimentacion": {
+      "correcta": "Correcto: debatir el contenido trata al pensamiento como \"verdad a resolver\" y refuerza la fusión. La defusión altera el contexto de literalidad, no el contenido.",
+      "incorrecta": "La superioridad de la defusión no es conversacional ni de rapidez: es estructural — evita reforzar la fusión que debatir el contenido introduce.",
+      "pista": "¿Qué hace que debatir el contenido de un pensamiento refuerce su función controladora?"
+    }
+  }
+]

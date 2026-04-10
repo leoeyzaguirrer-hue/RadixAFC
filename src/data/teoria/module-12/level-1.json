@@ -1,1 +1,60 @@
-{}
+{
+  "titulo": "Formulación de Casos con RFT",
+  "preguntaCentral": "¿Cómo identificar los marcos relacionales específicos que sostienen la inflexibilidad psicológica y transformar el caso clínico en un mapa de redes verbales?",
+  "aprobacionRequerida": 87,
+  "secciones": [
+    {
+      "tipo": "texto",
+      "titulo": "Del Hexaflex a los Marcos Relacionales",
+      "contenido": "En el Módulo 11 aprendimos a formular un caso utilizando el modelo del Hexaflex. Esta formulación es vital para identificar qué procesos de inflexibilidad predominan en la vida del paciente (evitación experiencial, fusión cognitiva, apego al yo conceptualizado). La formulación clínica desde la Teoría de los Marcos Relacionales (RFT) nos permite ir un nivel más profundo: identificar cómo el paciente construye esas trampas inflexibles. La formulación con RFT no reemplaza a la formulación ACT; la enriquece. Nos permite identificar qué marcos relacionales específicos están generando el sufrimiento, cómo se conectan en una red y cómo mantienen la inflexibilidad psicológica al transformar las funciones de los estímulos cotidianos."
+    },
+    {
+      "tipo": "conceptos",
+      "titulo": "Marcos Relacionales Dominantes en el Discurso",
+      "items": [
+        {
+          "nombre": "Marco de Coordinación dominante",
+          "descripcion": "\"Soy un fracaso\". Al enmarcar el 'yo' en coordinación de identidad con el 'fracaso', las funciones de uno se transfieren al otro. La persona se fusiona con el concepto."
+        },
+        {
+          "nombre": "Marco de Comparación dominante",
+          "descripcion": "\"Soy menos valioso que mis compañeros\". Genera un estado de insuficiencia y alerta crónica, independiente de los logros reales del individuo."
+        },
+        {
+          "nombre": "Marco de Temporalidad rígido",
+          "descripcion": "\"Siempre me abandonan, nunca voy a estar bien\". Generaliza el sufrimiento a todo el pasado y proyecta una condena ineludible al futuro."
+        },
+        {
+          "nombre": "Marco de Jerarquía problemático",
+          "descripcion": "\"Mis miedos son más fuertes que yo y dictan mi vida\". Los eventos privados se ubican jerárquicamente por encima del yo observador."
+        },
+        {
+          "nombre": "Marcos Deícticos poco desarrollados",
+          "descripcion": "Dificultad severa para tomar perspectiva. El paciente está atrapado en el Yo/Aquí/Ahora rígido, incapaz de observar su experiencia desde el Yo/Allí/Entonces."
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "titulo": "Cómo los marcos mantienen el sufrimiento clínico",
+      "contenido": "El sufrimiento no reside en las palabras per se, sino en la transformación de funciones que ocurre a través de estos marcos. Si un paciente tiene un marco de coordinación rígido (\"mostrar emoción = debilidad\"), cualquier situación de intimidad que evoque emoción adquirirá funciones aversivas. El paciente evitará la intimidad no porque sea inherentemente peligrosa, sino porque, por vía verbal, se ha coordinado con vulnerabilidad y peligro."
+    },
+    {
+      "tipo": "diagrama",
+      "titulo": "Red Relacional Clínica (ejemplo)",
+      "descripcion": "\"Soy inferior\" (COMPARACIÓN) → \"Si muestro mi ansiedad, me van a rechazar\" (COORDINACIÓN) + \"Sentir ansiedad es señal de fracaso social\" (COORDINACIÓN) → CONDUCTA: evitación de eventos sociales, aislamiento → \"Ves, estoy solo. Esto confirma que soy inferior\" (CIERRE DEL BUCLE). Para desarmar este patrón, el clínico contextual no debate el contenido (esto fortalece la red al añadir más relaciones coordinadas al concepto de 'yo'): busca alterar las funciones de la red manipulando el contexto de literalidad o construyendo nuevos marcos (distinción, jerarquía)."
+    },
+    {
+      "tipo": "errorComun",
+      "error": "Nombrar marcos sin especificar su función, o perder de vista la contingencia operante subyacente.",
+      "correccion": "Etiquetar \"aquí hay coordinación, aquí comparación\" sin especificar qué función aversiva se transfiere es un ejercicio intelectual estéril. Además, la red relacional existe porque en algún momento fue reforzada: la regla verbal mantiene la conducta, pero la conducta obedece a principios operantes."
+    },
+    {
+      "tipo": "referencias",
+      "items": [
+        "Törneke, N. (2010). Learning RFT: An introduction to relational frame theory and its clinical application. Context Press.",
+        "Villatte, M., Villatte, J. L., & Hayes, S. C. (2016). Mastering the clinical conversation: Language as intervention. Guilford Press."
+      ]
+    }
+  ]
+}
