@@ -1,22 +1,22 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation, Link } from 'react-router-dom'
 import ThemeToggle from './ThemeToggle'
 
 export default function TopNav() {
+  const location = useLocation()
+
+  // Ocultar TopNav en landing/login/register
+  const hiddenPaths = ['/', '/login', '/register']
+  if (hiddenPaths.includes(location.pathname)) return null
+
   return (
     <nav className="topnav">
       <div className="topnav-inner">
-        <div className="topnav-brand">
+        <Link to="/dashboard" className="topnav-brand" style={{ textDecoration: 'none' }}>
           <span className="brand-afc">AFC</span> <span className="brand-praxis">Praxis</span>
-        </div>
+        </Link>
         <div className="topnav-tabs">
           <NavLink to="/dashboard" className={({ isActive }) => `topnav-tab${isActive ? ' active' : ''}`}>
             Dashboard
-          </NavLink>
-          <NavLink to="/teoria" className={({ isActive }) => `topnav-tab${isActive ? ' active' : ''}`}>
-            Teoria
-          </NavLink>
-          <NavLink to="/ejercicios" className={({ isActive }) => `topnav-tab${isActive ? ' active' : ''}`}>
-            Ejercicios
           </NavLink>
         </div>
         <div className="topnav-right">
