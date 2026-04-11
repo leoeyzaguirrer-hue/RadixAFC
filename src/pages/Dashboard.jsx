@@ -7,34 +7,58 @@ import { useProgress } from '../hooks/useProgress'
 const ADMIN_EMAIL = 'leo.eyzaguirre@gmail.com'
 
 const MODULE_EMOJIS = {
-  '1': '🧠', '2': '🔗', '2.5': '📏', '3': '⚡', '4': '📊',
-  '5': '🎯', '6': '🛠️', '7': '📋', '8': '💬', '9': '🕸️',
-  '10': '🌿', '11': '🤝', '12': '🔄', '13': '🏁',
+  '1':'🧠','2':'🔗','2.5':'📏','3':'⚡','4':'📊',
+  '5':'🎯','6':'🛠️','7':'📋','8':'💬','9':'🕸️',
+  '10':'🌿','11':'🤝','12':'🔄','13':'🏁',
 }
 
-// ── SVG path coordinates (640-wide viewBox, 200px rows) ──
-const ROW_H    = 200  // height per module row (px)
-const NODE_T   = 35   // row-top → card-top offset
-const NODE_B   = 165  // row-top → card-bottom offset (NODE_T + 130)
-const LEFT_X   = 140  // x-center of left-column cards
-const RIGHT_X  = 500  // x-center of right-column cards
-const VBOX_W   = 640
-const TOTAL_H  = ROW_H * 14  // 2800
+const MODULE_SHORT = {
+  '1' :'Filosofía y Fundamentos', '2'  :'Condicionamiento Clásico',
+  '2.5':'Operacionalización',      '3'  :'Condicionamiento Operante',
+  '4' :'Análisis Funcional',       '5'  :'Evaluación Conductual',
+  '6' :'Técnicas de Intervención', '7'  :'Medición y Registro',
+  '8' :'Conducta Verbal',          '9'  :'RFT',
+  '10':'ACT',                      '11' :'FAP',
+  '12':'Integración Clínica',      '13' :'Síntesis Final',
+}
 
-function buildPathD() {
+// ── Layout constants (must match CSS) ──
+const ROW_H   = 290   // CSS row height
+const NODE_T  = 25    // gap above card (card vertically centered ≈ 25px top)
+const CARD_H  = 240   // card height desktop
+const LEFT_X  = 224   // SVG x-center of left cards  (= padding-left + half card-width = 114+110)
+const RIGHT_X = 416   // SVG x-center of right cards (= 306+110)
+const VBOX_W  = 640
+
+function buildPathD(count) {
   let d = ''
-  for (let i = 0; i < modulesManifest.length - 1; i++) {
+  for (let i = 0; i < count - 1; i++) {
     const x1 = i % 2 === 0 ? LEFT_X : RIGHT_X
     const x2 = i % 2 === 0 ? RIGHT_X : LEFT_X
-    const y1 = i * ROW_H + NODE_B
-    const y2 = (i + 1) * ROW_H + NODE_T
+    const y1 = i * ROW_H + NODE_T + CARD_H       // card bottom
+    const y2 = (i + 1) * ROW_H + NODE_T           // next card top
     const my = (y1 + y2) / 2
-    d += `M ${x1} ${y1} C ${x1} ${my} ${x2} ${my} ${x2} ${y2} `
+    d += `M${x1} ${y1} C${x1} ${my} ${x2} ${my} ${x2} ${y2} `
   }
   return d.trim()
 }
 
-const PATH_D = buildPathD()
+// Deterministic pseudo-random (stable between renders)
+function sr(n) {
+  const x = Math.sin(n * 127.1 + 311.7) * 43758.5453
+  return x - Math.floor(x)
+}
+
+const PARTICLES = Array.from({ length: 18 }, (_, i) => ({
+  id:       i,
+  size:     +(8  + sr(i)       * 32).toFixed(1),
+  top:      +(sr(i + 50)       * 94).toFixed(2),
+  left:     +(sr(i + 100)      * 94).toFixed(2),
+  opacity:  +(0.06 + sr(i+150) * 0.04).toFixed(3),
+  duration: +(15 + sr(i + 200) * 20).toFixed(1),
+  delay:    -(sr(i + 250)      * 20).toFixed(1),
+  anim:     i % 4,
+}))
 
 export default function Dashboard() {
   const { user } = useAuth()
@@ -49,129 +73,170 @@ export default function Dashboard() {
     return () => clearTimeout(t)
   }, [lockedMsg])
 
-  const completedCount = modulesManifest.filter(m => getModuloCompletado(m.id)).length
-
   function getModStatus(mod) {
     if (isAdmin) return 'available'
     if (getModuloCompletado(mod.id)) return 'completed'
-    if (getModuloDesbloqueado(mod.id)) return 'available'
-    return 'locked'
+    if (!getModuloDesbloqueado(mod.id)) return 'locked'
+    const lvls = [1, 2, 3].filter(n => getNivelAprobado(mod.id, n)).length
+    return lvls > 0 ? 'in-progress' : 'available'
   }
 
-  function getDotClass(modId, nivelId, status) {
-    if (status === 'locked') return 'off'
-    if (getNivelAprobado(modId, nivelId)) return 'done'
-    return 'off'
-  }
+  const completedCount = modulesManifest.filter(m => getModuloCompletado(m.id)).length
+  const totalCount     = modulesManifest.length
+  const totalSvgH      = ROW_H * totalCount
+  const pathD          = buildPathD(totalCount)
+
+  // Dot at center of current active module
+  const currentModIdx = modulesManifest.findIndex(m => {
+    const s = getModStatus(m)
+    return s === 'available' || s === 'in-progress'
+  })
+  const dotX = currentModIdx >= 0
+    ? (currentModIdx % 2 === 0 ? LEFT_X : RIGHT_X)
+    : LEFT_X
+  const dotY = currentModIdx >= 0
+    ? currentModIdx * ROW_H + ROW_H / 2   // vertical center of row
+    : ROW_H / 2
 
   return (
-    <div className="path-screen">
-      {/* Floating background spheres */}
-      <div className="path-bg-sphere pbs-1" />
-      <div className="path-bg-sphere pbs-2" />
-      <div className="path-bg-sphere pbs-3" />
-      <div className="path-bg-sphere pbs-4" />
-      <div className="path-bg-sphere pbs-5" />
+    <div className="dpv3-screen">
 
-      <div className="path-outer">
-        {/* ── Progress header ── */}
-        <div className="path-header">
-          <p className="path-header-tag">Tu camino de aprendizaje</p>
-          <h1 className="path-header-title">AFC Praxis</h1>
-          <div className="path-progress-wrap">
+      {/* ── Floating particles ── */}
+      {PARTICLES.map(p => (
+        <div
+          key={p.id}
+          className={`dpv3-particle dpv3-pa${p.anim}`}
+          style={{
+            width:             p.size,
+            height:            p.size,
+            top:               `${p.top}%`,
+            left:              `${p.left}%`,
+            opacity:           p.opacity,
+            animationDuration: `${p.duration}s`,
+            animationDelay:    `${p.delay}s`,
+          }}
+        />
+      ))}
+
+      <div className="dpv3-outer">
+
+        {/* ── Header ── */}
+        <header className="dpv3-header">
+          <p className="dpv3-h-sub">Del análisis a la práctica</p>
+          <h2 className="dpv3-h-mid">Tu camino de aprendizaje</h2>
+          <h1 className="dpv3-h-brand">AFC Praxis</h1>
+          <svg className="dpv3-sep" width="148" height="14" viewBox="0 0 148 14" aria-hidden="true">
+            <polygon points="4,7 7,4 10,7 7,10"   fill="#fdc413" />
+            <line x1="12" y1="7" x2="136" y2="7"  stroke="#fdc413" strokeWidth="1.5" />
+            <polygon points="138,7 141,4 144,7 141,10" fill="#fdc413" />
+          </svg>
+        </header>
+
+        {/* ── Progress bar ── */}
+        <div className="dpv3-prog-wrap">
+          <p className="dpv3-prog-label">
+            <span className="dpv3-prog-n">{completedCount}</span>
+            {` de ${totalCount} módulos completados`}
+          </p>
+          <div className="dpv3-prog-track">
             <div
-              className="path-progress-fill"
-              style={{ width: `${(completedCount / modulesManifest.length) * 100}%` }}
+              className="dpv3-prog-fill"
+              style={{ width: `${(completedCount / totalCount) * 100}%` }}
             />
           </div>
-          <p className="path-progress-label">
-            <span className="path-progress-count">{completedCount}</span>
-            {' de '}
-            <span className="path-progress-total">{modulesManifest.length}</span>
-            {' módulos completados'}
-          </p>
         </div>
 
         {/* ── Zigzag path ── */}
-        <div className="path-scroll-wrap">
-          <div className="path-container">
-            {/* SVG connector lines */}
+        <div className="dpv3-scroll">
+          <div className="dpv3-container">
+
+            {/* SVG connector */}
             <svg
-              className="path-svg"
-              viewBox={`0 0 ${VBOX_W} ${TOTAL_H}`}
-              preserveAspectRatio="none"
+              className="dpv3-svg"
+              viewBox={`0 0 ${VBOX_W} ${totalSvgH}`}
               width={VBOX_W}
-              height={TOTAL_H}
+              height={totalSvgH}
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
             >
-              {/* Subtle glow duplicate */}
+              {/* Glow layer */}
+              <path d={pathD} stroke="rgba(253,196,19,0.1)" strokeWidth="14" fill="none" strokeLinecap="round" />
+              {/* Animated dashed flow */}
               <path
-                d={PATH_D}
-                stroke="rgba(23,143,206,0.15)"
-                strokeWidth="10"
+                d={pathD}
+                className="dpv3-flow"
+                stroke="rgba(253,196,19,0.32)"
+                strokeWidth="3"
+                strokeDasharray="8 6"
                 fill="none"
                 strokeLinecap="round"
               />
-              {/* Main dashed line */}
-              <path
-                d={PATH_D}
-                stroke="rgba(23,143,206,0.5)"
-                strokeWidth="2.5"
-                strokeDasharray="9 7"
-                fill="none"
-                strokeLinecap="round"
-              />
+              {/* Progress dot */}
+              {currentModIdx >= 0 && (
+                <>
+                  <circle cx={dotX} cy={dotY} r="16" fill="rgba(240,130,35,0.18)" className="dpv3-dot-ring" />
+                  <circle cx={dotX} cy={dotY} r="9"  fill="#f08223" />
+                  <circle cx={dotX} cy={dotY} r="3.5" fill="rgba(255,255,255,0.9)" />
+                </>
+              )}
             </svg>
 
-            {/* Module nodes */}
+            {/* ── Module nodes ── */}
             {modulesManifest.map((mod, i) => {
-              const isLeft = i % 2 === 0
-              const status  = getModStatus(mod)
-              const emoji   = MODULE_EMOJIS[mod.id] || '📚'
+              const isLeft   = i % 2 === 0
+              const status   = getModStatus(mod)
+              const emoji    = MODULE_EMOJIS[mod.id] || '📚'
+              const name     = MODULE_SHORT[mod.id] || mod.titulo
+              const lvls     = !isAdmin
+                ? [1, 2, 3].filter(n => getNivelAprobado(mod.id, n)).length
+                : 0
+              const isLocked = status === 'locked'
 
               const card = (
-                <div className={`pnc pnc-${status}`}>
-                  <div className="pnc-top">
-                    <span className="pnc-emoji" aria-hidden="true">{emoji}</span>
-                    <span className="pnc-num">{mod.numero}</span>
-                    {status === 'completed' && (
-                      <span className="pnc-done-badge" aria-label="Completado">✓</span>
-                    )}
-                    {status === 'locked' && (
-                      <span className="pnc-lock-icon" aria-label="Bloqueado">🔒</span>
-                    )}
+                <div className={`dpv3-card dpv3-c-${status}`}>
+                  {status === 'completed' && (
+                    <span className="dpv3-badge-done" aria-label="Completado">✓</span>
+                  )}
+                  <div className="dpv3-c-top">
+                    <span className="dpv3-c-emoji" aria-hidden="true">
+                      {isLocked ? '🔒' : emoji}
+                    </span>
+                    <span className="dpv3-c-num">{mod.numero}</span>
                   </div>
-                  <p className="pnc-title">{mod.titulo}</p>
-                  <div className="pnc-dots">
-                    {mod.niveles.map(n => (
-                      <div
-                        key={n.nivelId}
-                        className={`pnc-dot ${getDotClass(mod.id, n.nivelId, status)}`}
-                        aria-hidden="true"
-                      />
-                    ))}
-                  </div>
+                  <p className="dpv3-c-title">{name}</p>
+                  {lvls > 0 && (
+                    <div className="dpv3-c-minibar">
+                      <div className="dpv3-c-mitrack">
+                        <div className="dpv3-c-mifill" style={{ width: `${(lvls / 3) * 100}%` }} />
+                      </div>
+                      <span className="dpv3-c-milabel">Nivel {lvls}/3</span>
+                    </div>
+                  )}
+                  {(status === 'available' || status === 'in-progress') && (
+                    <span className="dpv3-c-cta">
+                      {status === 'in-progress' ? 'Continuar' : 'Comenzar'} →
+                    </span>
+                  )}
                 </div>
               )
 
               return (
                 <div
                   key={mod.id}
-                  className={`path-row ${isLeft ? 'path-row-left' : 'path-row-right'}`}
+                  className={`dpv3-row ${isLeft ? 'dpv3-r-l' : 'dpv3-r-r'}`}
                 >
-                  {status === 'locked' ? (
+                  {isLocked ? (
                     <div
+                      className="dpv3-trigger"
                       role="button"
                       tabIndex={0}
-                      className="pnc-trigger"
                       onClick={() => setLockedMsg(true)}
                       onKeyDown={e => e.key === 'Enter' && setLockedMsg(true)}
                     >
                       {card}
                     </div>
                   ) : (
-                    <Link to={`/modulo/${mod.id}`} className="pnc-trigger">
+                    <Link to={`/modulo/${mod.id}`} className="dpv3-trigger">
                       {card}
                     </Link>
                   )}

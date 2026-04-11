@@ -1014,6 +1014,458 @@ h1, h2, h3, h4, .heading-font {
 .pnc-available .pnc-dot.off { background: rgba(5,82,160,0.2); }
 
 /* ═══════════════════════════════════════════════
+   DASHBOARD V3 — LEARNING PATH (WHITE)
+   ═══════════════════════════════════════════════ */
+
+/* ── Screen ── */
+.dpv3-screen {
+  min-height: 100vh;
+  padding-top: 64px;
+  background:
+    radial-gradient(ellipse 80% 40% at 50% 0%, rgba(23,143,206,0.07) 0%, transparent 70%),
+    #ffffff;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* ── Particles ── */
+.dpv3-particle {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(circle at 35% 35%,
+    rgba(23,143,206,1),
+    rgba(5,82,160,0.4) 60%,
+    transparent 80%);
+  will-change: transform;
+}
+
+/* float1–float4 keyframes defined in LEARNING PATH DASHBOARD above */
+.dpv3-pa0 { animation: float1 20s ease-in-out infinite; }
+.dpv3-pa1 { animation: float2 22s ease-in-out infinite; }
+.dpv3-pa2 { animation: float3 18s ease-in-out infinite; }
+.dpv3-pa3 { animation: float4 24s ease-in-out infinite; }
+
+/* ── Outer wrapper ── */
+.dpv3-outer {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 8rem;
+}
+
+/* ── Header ── */
+.dpv3-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.dpv3-h-sub {
+  font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: rgba(5,82,160,0.6);
+  letter-spacing: 0.15em;
+  margin-bottom: 0.4rem;
+}
+
+.dpv3-h-mid {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #fdc413;
+  margin-bottom: 0.3rem;
+  line-height: 1.2;
+}
+
+.dpv3-h-brand {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #041e42;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.6rem;
+  line-height: 1;
+  text-shadow:
+    1px 1px 0 #fdc413,
+    2px 2px 0 rgba(253,196,19,0.4),
+    0 0 40px rgba(253,196,19,0.15);
+}
+
+.dpv3-sep { display: block; margin: 0 auto; }
+
+/* ── Progress bar ── */
+.dpv3-prog-wrap {
+  max-width: 400px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+}
+
+.dpv3-prog-label {
+  font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+  font-size: 0.9rem;
+  color: #0552a0;
+  margin-bottom: 0.5rem;
+}
+
+.dpv3-prog-n {
+  font-weight: 700;
+  color: #f08223;
+}
+
+.dpv3-prog-track {
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.dpv3-prog-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #f08223, #fdc413);
+  border-radius: 999px;
+  transition: width 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  min-width: 4px;
+}
+
+/* ── Scroll wrapper ── */
+.dpv3-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ── Path container ── */
+.dpv3-container {
+  position: relative;
+  width: 640px;
+  margin: 0 auto;
+}
+
+/* SVG connector overlay */
+.dpv3-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+/* Flowing dashes */
+.dpv3-flow {
+  animation: dpv3Flow 3s linear infinite;
+}
+
+@keyframes dpv3Flow {
+  to { stroke-dashoffset: -100; }
+}
+
+/* Progress dot pulse ring */
+.dpv3-dot-ring {
+  animation: dpv3DotPulse 2s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+@keyframes dpv3DotPulse {
+  0%, 100% { transform: scale(1);   opacity: 0.5; }
+  50%       { transform: scale(1.4); opacity: 0.15; }
+}
+
+/* ── Module rows ── */
+.dpv3-row {
+  height: 290px;
+  display: flex;
+  align-items: center;
+  position: relative; /* for mobile ::before dot */
+}
+
+/* Left cols: card center at x=224 → padding = 224-110 = 114 */
+.dpv3-r-l { justify-content: flex-start; padding-left: 114px; }
+/* Right cols: card center at x=416 → padding = 416-110 = 306 */
+.dpv3-r-r { justify-content: flex-start; padding-left: 306px; }
+
+/* ── Trigger (Link or div) ── */
+.dpv3-trigger {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.dpv3-trigger[role="button"] { cursor: not-allowed; }
+
+/* ── Card base ── */
+.dpv3-card {
+  width: 220px;
+  min-height: 240px;
+  border-radius: 14px;
+  padding: 1.1rem 1.1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* ── Available ── */
+.dpv3-c-available {
+  background: rgba(5,82,160,0.72);
+  border: 1.5px solid rgba(253,196,19,0.5);
+  box-shadow:
+    0 4px 24px rgba(5,82,160,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+  cursor: pointer;
+}
+
+.dpv3-trigger:not([role="button"]):hover .dpv3-c-available {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(253,196,19,0.25);
+  border-color: rgba(253,196,19,0.85);
+}
+
+/* ── In-progress ── */
+.dpv3-c-in-progress {
+  background: rgba(5,82,160,0.72);
+  border: 1.5px solid #f08223;
+  box-shadow:
+    0 4px 24px rgba(240,130,35,0.2),
+    0 0 0 3px rgba(240,130,35,0.08);
+  animation: dpv3BorderPulse 2.5s ease infinite;
+  cursor: pointer;
+}
+
+.dpv3-trigger:not([role="button"]):hover .dpv3-c-in-progress {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(240,130,35,0.3), 0 0 0 3px rgba(240,130,35,0.1);
+  animation: none;
+}
+
+@keyframes dpv3BorderPulse {
+  0%, 100% { box-shadow: 0 4px 24px rgba(240,130,35,0.2), 0 0 0 3px rgba(240,130,35,0.08); }
+  50%       { box-shadow: 0 4px 24px rgba(240,130,35,0.2), 0 0 0 6px rgba(240,130,35,0.04); }
+}
+
+/* ── Completed ── */
+.dpv3-c-completed {
+  background: rgba(4,30,66,0.85);
+  border: 1.5px solid #22c55e;
+  box-shadow: 0 4px 24px rgba(34,197,94,0.12);
+  animation: dpv3Shimmer 4s ease infinite;
+}
+
+.dpv3-trigger:not([role="button"]):hover .dpv3-c-completed {
+  transform: translateY(-4px);
+  animation: none;
+  border-color: #fdc413;
+  box-shadow: 0 8px 32px rgba(253,196,19,0.2);
+}
+
+@keyframes dpv3Shimmer {
+  0%, 100% { border-color: #22c55e; box-shadow: 0 4px 24px rgba(34,197,94,0.12); }
+  50%       { border-color: #fdc413; box-shadow: 0 0 20px rgba(253,196,19,0.3); }
+}
+
+/* ── Locked ── */
+.dpv3-c-locked {
+  background: rgba(4,30,66,0.35);
+  border: 1.5px solid rgba(220,218,219,0.2);
+  opacity: 0.5;
+  cursor: not-allowed;
+  filter: saturate(0.3);
+}
+
+/* Completed badge */
+.dpv3-badge-done {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  background: #22c55e;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 0.72rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ── Card internals ── */
+.dpv3-c-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dpv3-c-emoji { font-size: 1.8rem; line-height: 1; }
+
+.dpv3-c-num {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fdc413;
+  opacity: 0.7;
+  letter-spacing: 0.08em;
+}
+
+.dpv3-c-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 1.35;
+  margin: 0;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dpv3-c-locked .dpv3-c-title { color: #dcdadb; opacity: 0.6; }
+
+/* Mini progress bar */
+.dpv3-c-minibar {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.dpv3-c-mitrack {
+  flex: 1;
+  height: 4px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.dpv3-c-mifill {
+  height: 100%;
+  background: #f08223;
+  border-radius: 999px;
+  transition: width 0.5s ease;
+}
+
+.dpv3-c-milabel {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.68rem;
+  color: rgba(255,255,255,0.5);
+  white-space: nowrap;
+}
+
+/* CTA */
+.dpv3-c-cta {
+  display: block;
+  text-align: center;
+  background: #f08223;
+  color: #fff;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.15s ease;
+  margin-top: auto;
+  user-select: none;
+}
+
+.dpv3-trigger:not([role="button"]):hover .dpv3-c-cta {
+  background: #d97020;
+  transform: scale(1.02);
+}
+
+/* ══ RESPONSIVE ══════════════════════════════════ */
+@media (max-width: 768px) {
+  .dpv3-h-brand { font-size: 3rem; }
+  .dpv3-h-mid   { font-size: 1.8rem; }
+}
+
+@media (max-width: 639px) {
+  .dpv3-outer  { padding: 2rem 1rem 5rem; }
+  .dpv3-h-brand { font-size: 2.8rem; }
+  .dpv3-h-mid   { font-size: 1.5rem; }
+  .dpv3-h-sub   { font-size: 0.85rem; }
+
+  /* Hide horizontal scroll path, use vertical timeline */
+  .dpv3-scroll    { overflow-x: visible; }
+  .dpv3-svg       { display: none; }
+  .dpv3-container { width: 100%; padding-left: 44px; }
+
+  /* Vertical timeline line */
+  .dpv3-container::before {
+    content: '';
+    position: absolute;
+    left: 18px;
+    top: 24px;
+    bottom: 24px;
+    width: 2px;
+    background: linear-gradient(to bottom, rgba(253,196,19,0.6), rgba(253,196,19,0.08));
+    border-radius: 2px;
+  }
+
+  /* Rows: stacked */
+  .dpv3-row {
+    height: auto;
+    margin-bottom: 1rem;
+    justify-content: flex-start !important;
+    padding-left: 0 !important;
+  }
+
+  /* Timeline dot per row */
+  .dpv3-row::before {
+    content: '';
+    position: absolute;
+    left: -26px; /* container padding 44 → dot at 44-26=18 = timeline center */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fdc413;
+    border: 2px solid #fff;
+    z-index: 2;
+  }
+
+  /* Horizontal card layout */
+  .dpv3-card {
+    width: 280px;
+    min-height: 120px;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.85rem 1rem;
+  }
+
+  .dpv3-c-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+    flex-shrink: 0;
+    width: 48px;
+    justify-content: center;
+  }
+
+  .dpv3-c-emoji { font-size: 1.5rem; }
+
+  .dpv3-c-title {
+    font-size: 0.88rem;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .dpv3-badge-done {
+    top: 6px;
+    right: 6px;
+    width: 20px;
+    height: 20px;
+    font-size: 0.65rem;
+  }
+}
+
+/* ═══════════════════════════════════════════════
    THEORY SCREEN
    ═══════════════════════════════════════════════ */
 .reading-progress {
