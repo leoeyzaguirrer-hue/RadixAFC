@@ -1,9 +1,11 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
 import { collection, query, where, getDocs, updateDoc, doc, setDoc, serverTimestamp } from 'firebase/firestore';
 import { auth, db } from '../config/firebaseConfig';
 
 export default function Login() {
+  const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [invitationCode, setInvitationCode] = useState('');
@@ -92,9 +94,7 @@ export default function Login() {
 
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      setSuccess('¡Bienvenido!');
-      setEmail('');
-      setPassword('');
+      navigate('/dashboard');
     } catch (err) {
       setError('Email o contraseña incorrectos');
     }
