@@ -19,7 +19,10 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git push:*)",
-      "Bash(git pull:*)"
+      "Bash(git pull:*)",
+      "Bash(wc -l /c/Users/leoey/OneDrive/Documentos/GitHub/RadixAFC/.claude/worktrees/angry-sutherland/src/styles/*.css /c/Users/leoey/OneDrive/Documentos/GitHub/RadixAFC/.claude/worktrees/angry-sutherland/src/utils/constants.js)",
+      "Bash(npx vite:*)",
+      "Bash(curl -s http://localhost:5173/)"
     ]
   }
 }
