@@ -1522,6 +1522,195 @@ h1, h2, h3, h4, .heading-font {
 }
 
 /* ═══════════════════════════════════════════════
+   DYNAMIC CONTENT EXTENSIONS
+   ═══════════════════════════════════════════════ */
+
+/* Theory: tabla */
+.theory-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+.theory-table th,
+.theory-table td {
+  border: 1px solid var(--border);
+  padding: 0.65rem 0.85rem;
+  text-align: left;
+  vertical-align: top;
+  color: var(--text-secondary);
+}
+.theory-table th {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* Theory: comparacion */
+.theory-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+@media (max-width: 700px) {
+  .theory-compare { grid-template-columns: 1fr; }
+}
+
+/* Theory: diagrama phases */
+.theory-phases {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+/* Theory: referencias */
+.theory-refs {
+  margin-top: 0.5rem;
+  padding-left: 1.25rem;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+.theory-refs li { margin-bottom: 0.4rem; }
+
+/* Exercise: title inside card */
+.ex-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0.5rem 0 0.75rem;
+}
+
+/* Exercise: dot bad/fail variant */
+.ex-dot.fail { background: var(--rojo); }
+
+/* Exercise: matching vertical */
+.match-grid-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+.match-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 0.75rem;
+}
+.match-select {
+  padding: 0.55rem 0.75rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-size: 0.85rem;
+}
+.match-item.wrong {
+  background: rgba(239,68,68,0.1);
+  border-color: rgba(239,68,68,0.4);
+}
+
+/* Exercise: ordering */
+.ordering-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.ordering-controls {
+  margin-left: auto;
+  display: flex;
+  gap: 0.25rem;
+}
+.ordering-controls button {
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+.ordering-controls button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Exercise: clasificacion */
+.classify-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+.classify-row {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1rem;
+  background: var(--bg-card);
+}
+.classify-row.right {
+  border-color: rgba(34,197,94,0.5);
+  background: rgba(34,197,94,0.08);
+}
+.classify-row.wrong {
+  border-color: rgba(239,68,68,0.5);
+  background: rgba(239,68,68,0.08);
+}
+.classify-text {
+  margin: 0 0 0.55rem;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+}
+.classify-opts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.classify-chip {
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.classify-chip:hover:not(:disabled) {
+  background: var(--bg-card-hover);
+}
+.classify-chip.picked {
+  background: rgba(59,130,246,0.15);
+  border-color: rgba(59,130,246,0.4);
+  color: var(--text-primary);
+}
+.classify-chip.right {
+  background: rgba(34,197,94,0.15);
+  border-color: rgba(34,197,94,0.4);
+  color: var(--verde);
+}
+.classify-chip:disabled { cursor: default; }
+
+/* Cloze: select-as-gap variants */
+.cloze-gap {
+  font-family: inherit;
+  font-size: inherit;
+}
+.cloze-gap.right {
+  background: rgba(34,197,94,0.15);
+  border-color: rgba(34,197,94,0.4);
+}
+.cloze-gap.wrong {
+  background: rgba(239,68,68,0.15);
+  border-color: rgba(239,68,68,0.4);
+}
+
+/* Hint button disabled */
+.hint-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ═══════════════════════════════════════════════
    RESPONSIVE
    ═══════════════════════════════════════════════ */
 @media (max-width: 900px) {
