@@ -82,12 +82,20 @@ export default function Login() {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const uid = userCredential.user.uid;
 
-      // 3. Guardar usuario en Firestore colección "users"
+      // 3. Guardar usuario en Firestore colección "users" con estructura completa
       await setDoc(doc(db, 'users', uid), {
         uid,
         email,
         createdAt: serverTimestamp(),
-        estado: 'activo',
+        active: true,
+        supervisorAccess: false,
+        profileCompleted: false,
+        name: '',
+        lastName: '',
+        country: '',
+        profession: '',
+        university: '',
+        avatarColor: '#0552a0',
       });
 
       // 4. Marcar código como usado en Supabase

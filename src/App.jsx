@@ -10,7 +10,8 @@ import Dashboard from './pages/Dashboard';
 import ModulePage from './pages/ModulePage';
 import TheoryPage from './pages/TheoryPage';
 import ExercisePage from './pages/ExercisePage';
-import AdminRoute from './pages/AdminRoute';
+import AdminRoute from './pages/AdminRoute'
+import Profile from './pages/Profile';
 
 const Login = lazy(() => import('./pages/Login'));
 
@@ -25,6 +26,7 @@ function AppRoutes() {
         <Route path="/modulo/:moduloId" element={<ModulePage />} />
         <Route path="/modulo/:moduloId/nivel/:nivelId/teoria" element={<TheoryPage />} />
         <Route path="/modulo/:moduloId/nivel/:nivelId/ejercicios" element={<ExercisePage />} />
+        <Route path="/perfil" element={<Profile />} />
         <Route path="*" element={<Navigate to="/dashboard" replace />} />
       </Routes>
     </Suspense>

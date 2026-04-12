@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useEffect, useState, useContext } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 import { modulesManifest } from '../data/contentLoader'
 import { useAuth } from '../hooks/useAuth'
 import { useProgress } from '../hooks/useProgress'
+import { AuthContext } from '../context/AuthContext'
 
 const ADMIN_EMAIL = 'leo.eyzaguirre@gmail.com'
 
@@ -60,12 +61,26 @@ const PARTICLES = Array.from({ length: 18 }, (_, i) => ({
   anim:     i % 4,
 }))
 
-export default function Dashboard() {
-  const { user } = useAuth()
-  const { getNivelAprobado, getModuloDesbloqueado, getModuloCompletado, supervisorAccess } = useProgress()
-  const [lockedMsg, setLockedMsg] = useState(false)
+const BANNER_KEY = 'afc_banner_dismissed'
 
-  const isAdmin = user?.email === ADMIN_EMAIL || supervisorAccess
+export default function Dashboard() {
+  const { user }    = useAuth()
+  const authCtx     = useContext(AuthContext)
+  const navigate    = useNavigate()
+  const userProfile = authCtx?.userProfile || {}
+  const { getNivelAprobado, getModuloDesbloqueado, getModuloCompletado, supervisorAccess } = useProgress()
+  const [lockedMsg, setLockedMsg]       = useState(false)
+  const [bannerDismissed, setBannerDismissed] = useState(
+    () => sessionStorage.getItem(BANNER_KEY) === '1'
+  )
+
+  const isAdmin      = user?.email === ADMIN_EMAIL || supervisorAccess
+  const showBanner   = !userProfile.profileCompleted && !bannerDismissed
+
+  function dismissBanner() {
+    sessionStorage.setItem(BANNER_KEY, '1')
+    setBannerDismissed(true)
+  }
 
   useEffect(() => {
     if (!lockedMsg) return
@@ -119,6 +134,30 @@ export default function Dashboard() {
       ))}
 
       <div className="dpv3-outer">
+
+        {/* ── Profile banner ── */}
+        {showBanner && (
+          <div className="dpv3-banner">
+            <p className="dpv3-banner-text">
+              👋 ¡Bienvenido a AFC Praxis! Completa tu perfil para personalizar tu experiencia
+            </p>
+            <div className="dpv3-banner-actions">
+              <button
+                className="dpv3-banner-btn"
+                onClick={() => navigate('/perfil')}
+              >
+                Completar perfil →
+              </button>
+              <button
+                className="dpv3-banner-close"
+                onClick={dismissBanner}
+                aria-label="Cerrar banner"
+              >
+                ✕
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* ── Header ── */}
         <header className="dpv3-header">
