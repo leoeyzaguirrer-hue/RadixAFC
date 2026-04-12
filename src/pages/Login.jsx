@@ -16,7 +16,11 @@ export default function Login() {
 
   // Validar código contra Supabase
   const validateCode = async (code) => {
+    console.log('Código ingresado:', code);
+    console.log('Código normalizado:', code.trim().toUpperCase());
+
     if (!supabase) {
+      console.log('ERROR: supabase es null — variables de entorno no cargadas');
       return { valid: false, message: 'Sistema de invitaciones no disponible' };
     }
     try {
@@ -27,12 +31,16 @@ export default function Login() {
         .eq('used', false)
         .single();
 
+      console.log('Respuesta Supabase data:', data);
+      console.log('Respuesta Supabase error:', error);
+
       if (error || !data) {
         return { valid: false, message: 'Código inválido o ya utilizado' };
       }
 
       return { valid: true, data };
     } catch (err) {
+      console.log('Excepción en validateCode:', err);
       return { valid: false, message: 'Error al validar el código' };
     }
   };
@@ -44,7 +52,7 @@ export default function Login() {
       .from('invitation_codes')
       .update({
         used: true,
-        used_by_email: userEmail,
+        used_by: userEmail,
         used_at: new Date().toISOString(),
       })
       .eq('code', code.trim().toUpperCase());

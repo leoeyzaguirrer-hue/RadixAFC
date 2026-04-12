@@ -216,8 +216,10 @@ function TabInvitations() {
     if (!newCode.trim()) return
     setCreating(true)
     setError('')
+    const codigoGuardado = newCode.trim().toUpperCase();
+    console.log('Código guardado en Supabase:', codigoGuardado);
     const { error } = await supabase.from('invitation_codes').insert({
-      code:  newCode.trim().toUpperCase(),
+      code:  codigoGuardado,
       notes: newNotes.trim() || null,
     })
     if (error) {
@@ -315,7 +317,7 @@ function TabInvitations() {
                       {c.used ? 'Usado' : 'Disponible'}
                     </span>
                   </td>
-                  <td>{c.used_by_email || '—'}</td>
+                  <td>{c.used_by || '—'}</td>
                   <td>
                     {c.used_at
                       ? new Date(c.used_at).toLocaleDateString('es-AR')
