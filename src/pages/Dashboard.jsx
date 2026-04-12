@@ -13,15 +13,6 @@ const MODULE_EMOJIS = {
   '10':'🌿','11':'🤝','12':'🔄','13':'🏁',
 }
 
-const MODULE_SHORT = {
-  '1' :'Filosofía y Fundamentos', '2'  :'Condicionamiento Clásico',
-  '2.5':'Operacionalización',      '3'  :'Condicionamiento Operante',
-  '4' :'Análisis Funcional',       '5'  :'Evaluación Conductual',
-  '6' :'Técnicas de Intervención', '7'  :'Medición y Registro',
-  '8' :'Conducta Verbal',          '9'  :'RFT',
-  '10':'ACT',                      '11' :'FAP',
-  '12':'Integración Clínica',      '13' :'Síntesis Final',
-}
 
 // ── Layout constants (must match CSS) ──
 const ROW_H   = 290   // CSS row height
@@ -225,7 +216,7 @@ export default function Dashboard() {
               const isLeft   = i % 2 === 0
               const status   = getModStatus(mod)
               const emoji    = MODULE_EMOJIS[mod.id] || '📚'
-              const name     = MODULE_SHORT[mod.id] || mod.titulo
+              const name     = mod.titulo
               const lvls     = !isAdmin
                 ? [1, 2, 3].filter(n => getNivelAprobado(mod.id, n)).length
                 : 0

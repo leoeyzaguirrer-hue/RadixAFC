@@ -36,15 +36,6 @@ const MODULE_EMOJIS = {
   '5':'🎯','6':'🛠️','7':'📋','8':'💬','9':'🕸️',
   '10':'🌿','11':'🤝','12':'🔄','13':'🏁',
 }
-const MODULE_SHORT = {
-  '1' :'Filosofía y Fundamentos', '2'  :'Condicionamiento Clásico',
-  '2.5':'Operacionalización',      '3'  :'Condicionamiento Operante',
-  '4' :'Análisis Funcional',       '5'  :'Evaluación Conductual',
-  '6' :'Técnicas de Intervención', '7'  :'Medición y Registro',
-  '8' :'Conducta Verbal',          '9'  :'RFT',
-  '10':'ACT',                      '11' :'FAP',
-  '12':'Integración Clínica',      '13' :'Síntesis Final',
-}
 
 function getInitials(name, lastName) {
   const a = name?.trim()?.[0]?.toUpperCase() || ''
@@ -292,7 +283,7 @@ export default function Profile() {
             {modulesManifest.map(mod => {
               const status = getModStatus(mod)
               const emoji  = MODULE_EMOJIS[mod.id] || '📚'
-              const name_  = MODULE_SHORT[mod.id] || mod.titulo
+              const name_  = mod.titulo
               const icon   = status === 'completed' ? '✅'
                            : status === 'in-progress' ? '🔄'
                            : status === 'locked' ? '🔒' : '▶️'
