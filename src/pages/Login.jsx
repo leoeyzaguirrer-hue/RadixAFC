@@ -83,12 +83,13 @@ export default function Login() {
       const uid = userCredential.user.uid;
 
       // 3. Guardar usuario en Firestore colección "users" con estructura completa
+      //    supervisorAccess se hereda del campo is_supervisor del código usado
       await setDoc(doc(db, 'users', uid), {
         uid,
         email,
         createdAt: serverTimestamp(),
         active: true,
-        supervisorAccess: false,
+        supervisorAccess: codeValidation.data?.is_supervisor || false,
         profileCompleted: false,
         name: '',
         lastName: '',

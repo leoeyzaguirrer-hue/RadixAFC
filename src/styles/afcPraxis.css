@@ -2949,6 +2949,47 @@ h1, h2, h3, h4, .heading-font {
 .adm-inv-row { display: flex; gap: 0.6rem; }
 .adm-inv-row .adm-input { flex: 1; }
 
+.adm-inv-toggle-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.adm-inv-toggle-label {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.55);
+}
+.adm-inv-toggle {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: none;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  background: #dcdadb;
+  color: #041e42;
+  transition: background 0.2s, color 0.2s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.adm-inv-toggle-on {
+  background: #f08223;
+  color: #fff;
+}
+
+.adm-badge-alumno {
+  background: rgba(23,143,206,0.15);
+  color: #178fce;
+}
+
+.adm-sup-hint {
+  font-size: 0.68rem;
+  color: rgba(255,255,255,0.25);
+  margin: 4px 0 0;
+  font-style: italic;
+}
+
 /* ── Tab 4: Users ── */
 .adm-users { display: flex; flex-direction: column; gap: 1.25rem; }
 .adm-search { max-width: 340px; }
