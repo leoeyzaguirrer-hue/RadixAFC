@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
-import { doc, setDoc, serverTimestamp } from 'firebase/firestore';
+import { doc, setDoc, getDoc, serverTimestamp } from 'firebase/firestore';
 import { auth, db } from '../config/firebaseConfig';
+import { signOut } from 'firebase/auth';
 import { supabase } from '../config/supabase';
 
 export default function Login() {
@@ -114,7 +115,21 @@ export default function Login() {
     }
 
     try {
-      await signInWithEmailAndPassword(auth, email, password);
+      const credential = await signInWithEmailAndPassword(auth, email, password);
+      const uid = credential.user.uid;
+
+      // Verificar si la cuenta está activa en Firestore
+      try {
+        const userSnap = await getDoc(doc(db, 'users', uid));
+        if (userSnap.exists() && userSnap.data()?.active === false) {
+          await signOut(auth);
+          setError('Tu cuenta ha sido desactivada. Contacta al administrador para más información.');
+          return;
+        }
+      } catch {
+        // Si no se puede leer Firestore, dejar pasar (fail open)
+      }
+
       navigate('/dashboard');
     } catch (err) {
       setError('Email o contraseña incorrectos');

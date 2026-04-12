@@ -367,55 +367,85 @@ function TabInvitations() {
 // ═══════════════════════════════════════
 // TAB 4 — USUARIOS
 // ═══════════════════════════════════════
+async function fsUpdateUser(uid, fields) {
+  if (!db || !firestoreFns) return
+  const { doc, updateDoc, setDoc, getDoc } = firestoreFns
+  const ref = doc(db, 'users', uid)
+  try {
+    await updateDoc(ref, fields)
+  } catch {
+    // Doc may not have the field yet — merge
+    await setDoc(ref, fields, { merge: true })
+  }
+}
+
 function TabUsers() {
-  const [users, setUsers]     = useState([])
-  const [loading, setLoading] = useState(true)
-  const [query, setQuery]     = useState('')
+  const [users, setUsers]       = useState([])
+  const [loading, setLoading]   = useState(true)
+  const [query, setQuery]       = useState('')
+  const [confirmDel, setConfirmDel] = useState(null) // uid to confirm deactivate
 
-  useEffect(() => {
-    async function load() {
-      try {
-        const rawUsers    = await fsCollection('users')
-        const rawProgress = await fsCollection('userProgress')
+  const load = useCallback(async () => {
+    try {
+      const rawUsers    = await fsCollection('users')
+      const rawProgress = await fsCollection('userProgress')
 
-        const progressMap = {}
-        rawProgress.forEach(p => { progressMap[p.id] = p })
+      const progressMap = {}
+      rawProgress.forEach(p => { progressMap[p.id] = p })
 
-        const enriched = rawUsers.map(u => {
-          const prog = progressMap[u.uid || u.id] || {}
-          let currentMod = '—'
-          let completedLevels = 0
+      const enriched = rawUsers.map(u => {
+        const uid  = u.uid || u.id
+        const prog = progressMap[uid] || {}
+        let currentMod = '—'
+        let completedLevels = 0
 
-          modulesManifest.forEach(m => {
-            const mData = prog[m.id] || {}
-            for (let n = 1; n <= 3; n++) {
-              if (mData[`level${n}`]) completedLevels++
-            }
-          })
-
-          const firstIncomplete = modulesManifest.find(m => {
-            return ![1,2,3].every(n => prog[m.id]?.[`level${n}`])
-          })
-          currentMod = firstIncomplete?.titulo || 'Completado'
-
-          return {
-            email:           u.email || '—',
-            createdAt:       u.createdAt?.toDate?.() || null,
-            currentMod,
-            completedLevels,
+        modulesManifest.forEach(m => {
+          const mData = prog[m.id] || {}
+          for (let n = 1; n <= 3; n++) {
+            if (mData[`level${n}`]) completedLevels++
           }
         })
 
-        setUsers(enriched)
-      } catch (err) {
-        console.warn('Users error:', err)
-        setUsers([])
-      } finally {
-        setLoading(false)
-      }
+        const firstIncomplete = modulesManifest.find(m =>
+          ![1,2,3].every(n => prog[m.id]?.[`level${n}`])
+        )
+        currentMod = firstIncomplete?.titulo || 'Completado'
+
+        return {
+          uid,
+          email:            u.email || '—',
+          createdAt:        u.createdAt?.toDate?.() || null,
+          active:           u.active !== false, // default true if missing
+          supervisorAccess: u.supervisorAccess === true,
+          currentMod,
+          completedLevels,
+        }
+      })
+
+      setUsers(enriched)
+    } catch (err) {
+      console.warn('Users error:', err)
+      setUsers([])
+    } finally {
+      setLoading(false)
     }
-    load()
   }, [])
+
+  useEffect(() => { load() }, [load])
+
+  async function handleToggleActive(u) {
+    const newVal = !u.active
+    // Optimistic update
+    setUsers(prev => prev.map(x => x.uid === u.uid ? { ...x, active: newVal } : x))
+    setConfirmDel(null)
+    await fsUpdateUser(u.uid, { active: newVal })
+  }
+
+  async function handleToggleSupervisor(u) {
+    const newVal = !u.supervisorAccess
+    setUsers(prev => prev.map(x => x.uid === u.uid ? { ...x, supervisorAccess: newVal } : x))
+    await fsUpdateUser(u.uid, { supervisorAccess: newVal })
+  }
 
   const filtered = users.filter(u =>
     u.email.toLowerCase().includes(query.toLowerCase())
@@ -442,22 +472,98 @@ function TabUsers() {
             <thead>
               <tr>
                 <th>Email</th>
+                <th>Supervisor</th>
+                <th>Estado</th>
                 <th>Registro</th>
                 <th>Módulo actual</th>
-                <th>Niveles completados</th>
+                <th>Acciones</th>
               </tr>
             </thead>
             <tbody>
               {filtered.map((u, i) => (
-                <tr key={u.email} className={i % 2 === 0 ? 'adm-row-a' : 'adm-row-b'}>
-                  <td>{u.email}</td>
+                <tr key={u.uid} className={i % 2 === 0 ? 'adm-row-a' : 'adm-row-b'}>
+
+                  {/* Email + badge supervisor */}
                   <td>
-                    {u.createdAt
-                      ? u.createdAt.toLocaleDateString('es-AR')
-                      : '—'}
+                    <span>{u.email}</span>
+                    {u.supervisorAccess && (
+                      <span className="adm-badge adm-badge-supervisor">Supervisor</span>
+                    )}
                   </td>
+
+                  {/* Supervisor toggle */}
+                  <td>
+                    {u.supervisorAccess ? (
+                      <button
+                        className="adm-btn adm-btn-ghost adm-btn-sm"
+                        onClick={() => handleToggleSupervisor(u)}
+                      >
+                        Quitar acceso
+                      </button>
+                    ) : (
+                      <button
+                        className="adm-btn adm-btn-orange adm-btn-sm"
+                        onClick={() => handleToggleSupervisor(u)}
+                      >
+                        👁️ Dar acceso
+                      </button>
+                    )}
+                  </td>
+
+                  {/* Estado */}
+                  <td>
+                    <span className={`adm-status-dot ${u.active ? 'adm-dot-active' : 'adm-dot-inactive'}`} />
+                    <span className={u.active ? 'adm-status-active' : 'adm-status-inactive'}>
+                      {u.active ? 'Activo' : 'Desactivado'}
+                    </span>
+                  </td>
+
+                  {/* Fecha */}
+                  <td>
+                    {u.createdAt ? u.createdAt.toLocaleDateString('es-AR') : '—'}
+                  </td>
+
+                  {/* Módulo actual */}
                   <td className="adm-mod-name">{u.currentMod}</td>
-                  <td>{u.completedLevels} / {modulesManifest.length * 3}</td>
+
+                  {/* Acciones desactivar/reactivar */}
+                  <td className="adm-actions">
+                    {u.active ? (
+                      confirmDel === u.uid ? (
+                        <>
+                          <span className="adm-confirm-text">
+                            ¿Desactivar a {u.email}?
+                          </span>
+                          <button
+                            className="adm-btn adm-btn-red adm-btn-sm"
+                            onClick={() => handleToggleActive(u)}
+                          >
+                            Sí, desactivar
+                          </button>
+                          <button
+                            className="adm-btn adm-btn-ghost adm-btn-sm"
+                            onClick={() => setConfirmDel(null)}
+                          >
+                            Cancelar
+                          </button>
+                        </>
+                      ) : (
+                        <button
+                          className="adm-btn adm-btn-red adm-btn-sm"
+                          onClick={() => setConfirmDel(u.uid)}
+                        >
+                          Desactivar
+                        </button>
+                      )
+                    ) : (
+                      <button
+                        className="adm-btn adm-btn-green adm-btn-sm"
+                        onClick={() => handleToggleActive(u)}
+                      >
+                        Reactivar
+                      </button>
+                    )}
+                  </td>
                 </tr>
               ))}
             </tbody>

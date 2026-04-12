@@ -54,9 +54,12 @@ async function persistirNivel(uid, moduloId, nivelId, currentMap) {
   }
 }
 
+const ADMIN_EMAIL = 'leo.eyzaguirre@gmail.com';
+
 export function ProgressProvider({ children }) {
   const [progreso, setProgreso] = useState(new Map());
   const progresoRef = useRef(new Map());
+  const [supervisorAccess, setSupervisorAccess] = useState(false);
   const authCtx = useContext(AuthContext);
   const user = authCtx?.user;
 
@@ -71,10 +74,22 @@ export function ProgressProvider({ children }) {
       const empty = new Map();
       progresoRef.current = empty;
       setProgreso(empty);
+      setSupervisorAccess(false);
       return;
     }
     if (!db || !firestoreFns) return;
     const { doc, getDoc } = firestoreFns;
+
+    // Load supervisorAccess from users collection
+    getDoc(doc(db, 'users', user.uid))
+      .then((snap) => {
+        if (snap.exists()) {
+          setSupervisorAccess(snap.data()?.supervisorAccess === true);
+        }
+      })
+      .catch(() => {});
+
+    // Load progress
     getDoc(doc(db, 'userProgress', user.uid))
       .then((snap) => {
         if (!snap.exists()) return;
@@ -178,12 +193,14 @@ export function ProgressProvider({ children }) {
 
   const getModuloDesbloqueado = useCallback(
     (moduloId) => {
+      // Admin and supervisors always have all modules unlocked
+      if (user?.email === ADMIN_EMAIL || supervisorAccess) return true;
       const idx = MODULE_ORDER.findIndex((id) => id === String(moduloId));
       if (idx <= 0) return true;
       const prevModuloId = MODULE_ORDER[idx - 1];
       return [1, 2, 3].every((nivelId) => getNivelAprobado(prevModuloId, nivelId));
     },
-    [getNivelAprobado]
+    [getNivelAprobado, supervisorAccess, user?.email]
   );
 
   return (
@@ -195,6 +212,7 @@ export function ProgressProvider({ children }) {
         getNivelAprobado,
         getModuloCompletado,
         getModuloDesbloqueado,
+        supervisorAccess,
       }}
     >
       {children}
