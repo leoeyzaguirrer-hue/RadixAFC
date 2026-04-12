@@ -198,6 +198,11 @@ function TabInvitations() {
   const [confirmDel, setConfirmDel] = useState(null)
   const [copied, setCopied]         = useState(null)
   const [error, setError]           = useState('')
+  const [editTarget, setEditTarget] = useState(null)   // code row being edited
+  const [editNotes, setEditNotes]   = useState('')
+  const [editIsSup, setEditIsSup]   = useState(false)
+  const [editSaving, setEditSaving] = useState(false)
+  const [toast, setToast]           = useState('')
 
   const load = useCallback(async () => {
     if (!supabase) { setLoading(false); return }
@@ -239,6 +244,32 @@ function TabInvitations() {
     await supabase.from('invitation_codes').delete().eq('id', id)
     setConfirmDel(null)
     await load()
+  }
+
+  function openEdit(c) {
+    setEditTarget(c)
+    setEditNotes(c.notes || '')
+    setEditIsSup(c.is_supervisor || false)
+  }
+
+  async function handleEditSave() {
+    if (!editTarget) return
+    setEditSaving(true)
+    const { error } = await supabase
+      .from('invitation_codes')
+      .update({ notes: editNotes.trim() || null, is_supervisor: editIsSup })
+      .eq('code', editTarget.code)
+    if (!error) {
+      setCodes(prev => prev.map(c =>
+        c.code === editTarget.code
+          ? { ...c, notes: editNotes.trim() || null, is_supervisor: editIsSup }
+          : c
+      ))
+      setEditTarget(null)
+      setToast('✓ Invitación actualizada')
+      setTimeout(() => setToast(''), 3000)
+    }
+    setEditSaving(false)
   }
 
   function handleCopy(code) {
@@ -355,6 +386,14 @@ function TabInvitations() {
                     >
                       {copied === c.code ? '✓' : 'Copiar'}
                     </button>
+                    {!c.used && (
+                      <button
+                        className="adm-btn adm-btn-blue adm-btn-sm"
+                        onClick={() => openEdit(c)}
+                      >
+                        Editar ✏️
+                      </button>
+                    )}
                     {confirmDel === c.id ? (
                       <>
                         <button
@@ -385,6 +424,58 @@ function TabInvitations() {
           </table>
         </div>
       )}
+
+      {/* ── Edit modal ── */}
+      {editTarget && (
+        <div className="adm-modal-overlay" onClick={() => setEditTarget(null)}>
+          <div className="adm-modal" onClick={e => e.stopPropagation()}>
+            <h3 className="adm-modal-title">Editar invitación</h3>
+            <p className="adm-modal-code">{editTarget.code}</p>
+
+            <div className="adm-field">
+              <label className="adm-modal-label">Notas</label>
+              <input
+                className="adm-input"
+                value={editNotes}
+                onChange={e => setEditNotes(e.target.value)}
+                placeholder="Para quién es este código"
+              />
+            </div>
+
+            <div className="adm-inv-toggle-row" style={{ marginTop: '1rem' }}>
+              <span className="adm-inv-toggle-label">
+                ¿Este código da acceso a todos los módulos?
+              </span>
+              <button
+                type="button"
+                className={`adm-inv-toggle ${editIsSup ? 'adm-inv-toggle-on' : ''}`}
+                onClick={() => setEditIsSup(v => !v)}
+              >
+                {editIsSup ? 'Supervisor 👁️' : 'Alumno regular'}
+              </button>
+            </div>
+
+            <div className="adm-modal-actions">
+              <button
+                className="adm-btn adm-btn-ghost"
+                onClick={() => setEditTarget(null)}
+              >
+                Cancelar
+              </button>
+              <button
+                className="adm-btn adm-btn-orange"
+                onClick={handleEditSave}
+                disabled={editSaving}
+              >
+                {editSaving ? 'Guardando…' : 'Guardar cambios'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ── Toast ── */}
+      {toast && <div className="adm-toast">{toast}</div>}
     </div>
   )
 }
