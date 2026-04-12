@@ -139,7 +139,7 @@ export default function Login() {
         // Si no se puede leer Firestore, dejar pasar (fail open)
       }
 
-      navigate('/dashboard');
+      navigate('/dashboard', { replace: true });
     } catch (err) {
       setError('Email o contraseña incorrectos');
     }

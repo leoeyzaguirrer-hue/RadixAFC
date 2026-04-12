@@ -50,18 +50,20 @@ export function AuthProvider({ children }) {
 
   useEffect(() => {
     if (!auth || !firebaseAuth) return;
-    const unsubscribe = firebaseAuth.onAuthStateChanged(auth, async (firebaseUser) => {
+    const unsubscribe = firebaseAuth.onAuthStateChanged(auth, (firebaseUser) => {
       if (firebaseUser) {
         setUser({
           uid:    firebaseUser.uid,
           email:  firebaseUser.email,
           nombre: firebaseUser.displayName || '',
         });
-        await loadProfile(firebaseUser.uid);
+        // Load profile async — does NOT block auth loading
+        loadProfile(firebaseUser.uid);
       } else {
         setUser(null);
         setUserProfile(DEFAULT_PROFILE);
       }
+      // Mark auth as resolved immediately — don't wait for Firestore
       setLoading(false);
     });
     return unsubscribe;
