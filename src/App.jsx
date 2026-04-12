@@ -25,10 +25,18 @@ function AppRoutes() {
         <Route path="/modulo/:moduloId" element={<ModulePage />} />
         <Route path="/modulo/:moduloId/nivel/:nivelId/teoria" element={<TheoryPage />} />
         <Route path="/modulo/:moduloId/nivel/:nivelId/ejercicios" element={<ExercisePage />} />
-        <Route path="/admin-afc-praxis-2024" element={<AdminRoute />} />
         <Route path="*" element={<Navigate to="/dashboard" replace />} />
       </Routes>
     </Suspense>
+  );
+}
+
+function AppWithNav() {
+  return (
+    <>
+      <TopNav />
+      <AppRoutes />
+    </>
   );
 }
 
@@ -38,8 +46,12 @@ function App() {
       <AuthProvider>
         <ProgressProvider>
           <ModuleProvider>
-            <TopNav />
-            <AppRoutes />
+            <Routes>
+              {/* Admin route — sin TopNav */}
+              <Route path="/admin-afc-praxis-2024" element={<AdminRoute />} />
+              {/* Resto de rutas — con TopNav */}
+              <Route path="*" element={<AppWithNav />} />
+            </Routes>
           </ModuleProvider>
         </ProgressProvider>
       </AuthProvider>
