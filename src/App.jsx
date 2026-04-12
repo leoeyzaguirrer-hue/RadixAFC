@@ -1,5 +1,6 @@
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useContext } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { AuthContext } from './context/AuthContext';
 import { AuthProvider } from './context/AuthContext';
 import { ProgressProvider } from './context/ProgressContext';
 import { ModuleProvider } from './context/ModuleContext';
@@ -15,6 +16,26 @@ import Profile from './pages/Profile';
 
 const Login = lazy(() => import('./pages/Login'));
 
+// Protege rutas que requieren autenticación
+function ProtectedRoute({ children }) {
+  const { user, loading } = useContext(AuthContext);
+  if (loading) return (
+    <div style={{
+      minHeight: '100vh', display: 'flex', alignItems: 'center',
+      justifyContent: 'center', background: '#fff',
+    }}>
+      <div style={{
+        width: 40, height: 40, border: '3px solid #dcdadb',
+        borderTopColor: '#0552a0', borderRadius: '50%',
+        animation: 'spin 0.7s linear infinite',
+      }} />
+      <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
+    </div>
+  );
+  if (!user) return <Navigate to="/login" replace />;
+  return children;
+}
+
 function AppRoutes() {
   return (
     <Suspense fallback={null}>
@@ -22,11 +43,11 @@ function AppRoutes() {
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/modulo/:moduloId" element={<ModulePage />} />
-        <Route path="/modulo/:moduloId/nivel/:nivelId/teoria" element={<TheoryPage />} />
-        <Route path="/modulo/:moduloId/nivel/:nivelId/ejercicios" element={<ExercisePage />} />
-        <Route path="/perfil" element={<Profile />} />
+        <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+        <Route path="/modulo/:moduloId" element={<ProtectedRoute><ModulePage /></ProtectedRoute>} />
+        <Route path="/modulo/:moduloId/nivel/:nivelId/teoria" element={<ProtectedRoute><TheoryPage /></ProtectedRoute>} />
+        <Route path="/modulo/:moduloId/nivel/:nivelId/ejercicios" element={<ProtectedRoute><ExercisePage /></ProtectedRoute>} />
+        <Route path="/perfil" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
         <Route path="*" element={<Navigate to="/dashboard" replace />} />
       </Routes>
     </Suspense>
