@@ -2954,5 +2954,40 @@ h1, h2, h3, h4, .heading-font {
 .adm-search { max-width: 340px; }
 .adm-mod-name { color: rgba(255,255,255,0.65); font-size: 0.82rem; }
 
+/* Estado activo/inactivo */
+.adm-status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.adm-dot-active   { background: #22c55e; box-shadow: 0 0 6px rgba(34,197,94,0.5); }
+.adm-dot-inactive { background: #ef4444; box-shadow: 0 0 6px rgba(239,68,68,0.4); }
+.adm-status-active   { color: #22c55e; font-size: 0.82rem; }
+.adm-status-inactive { color: #ef4444; font-size: 0.82rem; }
+
+/* Badge supervisor */
+.adm-badge-supervisor {
+  background: rgba(240,130,35,0.18);
+  color: #f08223;
+  margin-left: 8px;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+}
+
+/* Confirm text inline */
+.adm-confirm-text {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.5);
+  margin-right: 6px;
+  white-space: nowrap;
+}
+
 /* ── Stats ── */
 .adm-stats { display: flex; flex-direction: column; gap: 1.5rem; }

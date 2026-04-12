@@ -62,10 +62,10 @@ const PARTICLES = Array.from({ length: 18 }, (_, i) => ({
 
 export default function Dashboard() {
   const { user } = useAuth()
-  const { getNivelAprobado, getModuloDesbloqueado, getModuloCompletado } = useProgress()
+  const { getNivelAprobado, getModuloDesbloqueado, getModuloCompletado, supervisorAccess } = useProgress()
   const [lockedMsg, setLockedMsg] = useState(false)
 
-  const isAdmin = user?.email === ADMIN_EMAIL
+  const isAdmin = user?.email === ADMIN_EMAIL || supervisorAccess
 
   useEffect(() => {
     if (!lockedMsg) return
