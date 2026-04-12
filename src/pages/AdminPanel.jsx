@@ -189,14 +189,15 @@ function TabModules() {
 // TAB 3 — INVITACIONES
 // ═══════════════════════════════════════
 function TabInvitations() {
-  const [codes, setCodes]       = useState([])
-  const [loading, setLoading]   = useState(true)
-  const [newCode, setNewCode]   = useState('')
-  const [newNotes, setNewNotes] = useState('')
-  const [creating, setCreating] = useState(false)
+  const [codes, setCodes]           = useState([])
+  const [loading, setLoading]       = useState(true)
+  const [newCode, setNewCode]       = useState('')
+  const [newNotes, setNewNotes]     = useState('')
+  const [newIsSupervisor, setNewIsSupervisor] = useState(false)
+  const [creating, setCreating]     = useState(false)
   const [confirmDel, setConfirmDel] = useState(null)
-  const [copied, setCopied]     = useState(null)
-  const [error, setError]       = useState('')
+  const [copied, setCopied]         = useState(null)
+  const [error, setError]           = useState('')
 
   const load = useCallback(async () => {
     if (!supabase) { setLoading(false); return }
@@ -216,17 +217,19 @@ function TabInvitations() {
     if (!newCode.trim()) return
     setCreating(true)
     setError('')
-    const codigoGuardado = newCode.trim().toUpperCase();
-    console.log('Código guardado en Supabase:', codigoGuardado);
+    const codigoGuardado = newCode.trim().toUpperCase()
     const { error } = await supabase.from('invitation_codes').insert({
-      code:  codigoGuardado,
-      notes: newNotes.trim() || null,
+      code:          codigoGuardado,
+      notes:         newNotes.trim() || null,
+      is_supervisor: newIsSupervisor,
+      used:          false,
     })
     if (error) {
       setError(error.message)
     } else {
       setNewCode('')
       setNewNotes('')
+      setNewIsSupervisor(false)
       await load()
     }
     setCreating(false)
@@ -277,6 +280,21 @@ function TabInvitations() {
           value={newNotes}
           onChange={e => setNewNotes(e.target.value)}
         />
+
+        {/* Supervisor toggle */}
+        <div className="adm-inv-toggle-row">
+          <span className="adm-inv-toggle-label">
+            ¿Este código da acceso a todos los módulos?
+          </span>
+          <button
+            type="button"
+            className={`adm-inv-toggle ${newIsSupervisor ? 'adm-inv-toggle-on' : ''}`}
+            onClick={() => setNewIsSupervisor(v => !v)}
+          >
+            {newIsSupervisor ? 'Supervisor 👁️' : 'Alumno regular'}
+          </button>
+        </div>
+
         {error && <p className="adm-err">{error}</p>}
         <button
           className="adm-btn adm-btn-green"
@@ -298,6 +316,7 @@ function TabInvitations() {
             <thead>
               <tr>
                 <th>Código</th>
+                <th>Tipo</th>
                 <th>Notas</th>
                 <th>Estado</th>
                 <th>Usado por</th>
@@ -310,6 +329,12 @@ function TabInvitations() {
                 <tr key={c.id} className={i % 2 === 0 ? 'adm-row-a' : 'adm-row-b'}>
                   <td className="adm-code-cell">
                     <span className="adm-code">{c.code}</span>
+                  </td>
+                  <td>
+                    {c.is_supervisor
+                      ? <span className="adm-badge adm-badge-supervisor">Supervisor 👁️</span>
+                      : <span className="adm-badge adm-badge-alumno">Alumno</span>
+                    }
                   </td>
                   <td>{c.notes || '—'}</td>
                   <td>
@@ -508,6 +533,9 @@ function TabUsers() {
                         👁️ Dar acceso
                       </button>
                     )}
+                    <p className="adm-sup-hint">
+                      Normalmente asignado desde el código de invitación
+                    </p>
                   </td>
 
                   {/* Estado */}
