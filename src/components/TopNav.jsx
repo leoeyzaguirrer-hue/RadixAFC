@@ -42,12 +42,7 @@ export default function TopNav() {
   const [open, setOpen] = useState(false)
   const dropRef    = useRef(null)
 
-  // Ocultar TopNav en landing/login/register
-  const hiddenPaths = ['/', '/login', '/register']
-  if (hiddenPaths.includes(location.pathname)) return null
-
-  // Close dropdown when clicking outside
-  // eslint-disable-next-line react-hooks/rules-of-hooks
+  // Close dropdown when clicking outside — MUST be before any early return
   useEffect(() => {
     function handler(e) {
       if (dropRef.current && !dropRef.current.contains(e.target)) {
@@ -57,6 +52,10 @@ export default function TopNav() {
     document.addEventListener('mousedown', handler)
     return () => document.removeEventListener('mousedown', handler)
   }, [])
+
+  // Ocultar TopNav en landing/login/register
+  const hiddenPaths = ['/', '/login', '/register']
+  if (hiddenPaths.includes(location.pathname)) return null
 
   async function handleLogout() {
     setOpen(false)
