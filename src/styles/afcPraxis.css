@@ -2990,6 +2990,85 @@ h1, h2, h3, h4, .heading-font {
   font-style: italic;
 }
 
+.adm-btn-blue { background: #0552a0; color: #fff; }
+
+/* ── Modal ── */
+.adm-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(4,30,66,0.72);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: tnav-fadein 0.15s ease;
+}
+
+.adm-modal {
+  background: #041e42;
+  border: 1px solid rgba(253,196,19,0.3);
+  border-radius: 14px;
+  padding: 28px;
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  animation: tnav-fadein 0.15s ease;
+}
+
+.adm-modal-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.15rem;
+  color: #fdc413;
+  margin: 0;
+}
+
+.adm-modal-code {
+  font-family: monospace;
+  font-size: 1.1rem;
+  color: #fff;
+  letter-spacing: 0.1em;
+  background: rgba(255,255,255,0.06);
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin: 0;
+}
+
+.adm-modal-label {
+  display: block;
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 6px;
+}
+
+.adm-field { display: flex; flex-direction: column; }
+
+.adm-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+/* ── Admin toast ── */
+.adm-toast {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  background: #0552a0;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: 0 4px 20px rgba(4,30,66,0.3);
+  z-index: 9999;
+  animation: tnav-fadein 0.2s ease;
+}
+
 /* ── Tab 4: Users ── */
 .adm-users { display: flex; flex-direction: column; gap: 1.25rem; }
 .adm-search { max-width: 340px; }
