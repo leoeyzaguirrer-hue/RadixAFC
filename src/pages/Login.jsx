@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
-import { collection, query, where, getDocs, updateDoc, doc, setDoc, serverTimestamp } from 'firebase/firestore';
+import { doc, setDoc, serverTimestamp } from 'firebase/firestore';
 import { auth, db } from '../config/firebaseConfig';
+import { supabase } from '../config/supabase';
 
 export default function Login() {
   const navigate = useNavigate();
@@ -13,26 +14,48 @@ export default function Login() {
   const [success, setSuccess] = useState('');
   const [isRegistering, setIsRegistering] = useState(false);
 
-  // Buscar código en Firestore
+  // Validar código contra Supabase
   const validateCode = async (code) => {
-    try {
-      const codesRef = collection(db, 'invitationCodes');
-      const q = query(codesRef, where('code', '==', code.toUpperCase()));
-      const querySnapshot = await getDocs(q);
+    console.log('Código ingresado:', code);
+    console.log('Código normalizado:', code.trim().toUpperCase());
 
-      if (querySnapshot.empty) {
-        return { valid: false, message: 'Código inválido' };
-      }
-
-      const docData = querySnapshot.docs[0];
-      if (docData.data().usado) {
-        return { valid: false, message: 'Código ya fue usado' };
-      }
-
-      return { valid: true, docId: docData.id };
-    } catch (err) {
-      return { valid: false, message: 'Error: ' + err.message };
+    if (!supabase) {
+      console.log('ERROR: supabase es null — variables de entorno no cargadas');
+      return { valid: false, message: 'Sistema de invitaciones no disponible' };
     }
+    try {
+      const { data, error } = await supabase
+        .from('invitation_codes')
+        .select('*')
+        .eq('code', code.trim().toUpperCase())
+        .eq('used', false)
+        .single();
+
+      console.log('Respuesta Supabase data:', data);
+      console.log('Respuesta Supabase error:', error);
+
+      if (error || !data) {
+        return { valid: false, message: 'Código inválido o ya utilizado' };
+      }
+
+      return { valid: true, data };
+    } catch (err) {
+      console.log('Excepción en validateCode:', err);
+      return { valid: false, message: 'Error al validar el código' };
+    }
+  };
+
+  // Marcar código como usado en Supabase
+  const markCodeAsUsed = async (code, userEmail) => {
+    if (!supabase) return;
+    await supabase
+      .from('invitation_codes')
+      .update({
+        used: true,
+        used_by: userEmail,
+        used_at: new Date().toISOString(),
+      })
+      .eq('code', code.trim().toUpperCase());
   };
 
   // Registrar usuario
@@ -47,29 +70,27 @@ export default function Login() {
     }
 
     try {
-      // Validar código
+      // 1. Validar código contra Supabase
       const codeValidation = await validateCode(invitationCode);
       if (!codeValidation.valid) {
         setError(codeValidation.message);
         return;
       }
 
-      // Crear usuario en Firebase Auth
+      // 2. Crear usuario en Firebase Auth
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const uid = userCredential.user.uid;
 
-      // Guardar en colección users
+      // 3. Guardar usuario en Firestore colección "users"
       await setDoc(doc(db, 'users', uid), {
-        email: email,
+        uid,
+        email,
         createdAt: serverTimestamp(),
-        estado: 'activo'
+        estado: 'activo',
       });
 
-      // Marcar código como usado
-      await updateDoc(doc(db, 'invitationCodes', codeValidation.docId), {
-        usado: true,
-        usadoPor: uid
-      });
+      // 4. Marcar código como usado en Supabase
+      await markCodeAsUsed(invitationCode, email);
 
       setSuccess('¡Registro exitoso! Ya puedes iniciar sesión.');
       setEmail('');
