@@ -1,10 +1,22 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { doc, setDoc, getDoc, serverTimestamp } from 'firebase/firestore';
 import { auth, db } from '../config/firebaseConfig';
-import { signOut } from 'firebase/auth';
 import { supabase } from '../config/supabase';
+
+// Mensajes de error de Firebase Auth → español amigable
+function friendlyAuthError(err) {
+  const code = err?.code || '';
+  if (code === 'auth/email-already-in-use')      return 'Este email ya está registrado. Inicia sesión o usa "¿Olvidaste tu contraseña?".';
+  if (code === 'auth/invalid-email')             return 'El formato del email no es válido.';
+  if (code === 'auth/weak-password')              return 'La contraseña debe tener al menos 6 caracteres.';
+  if (code === 'auth/network-request-failed')    return 'Sin conexión. Revisa tu internet e inténtalo de nuevo.';
+  if (code === 'auth/wrong-password')             return 'Contraseña incorrecta.';
+  if (code === 'auth/user-not-found')             return 'No existe una cuenta con ese email.';
+  if (code === 'auth/too-many-requests')         return 'Demasiados intentos. Espera un momento e intenta de nuevo.';
+  return err?.message || 'Ocurrió un error inesperado.';
+}
 
 export default function Login() {
   const navigate = useNavigate();
@@ -59,57 +71,125 @@ export default function Login() {
       .eq('code', code.trim().toUpperCase());
   };
 
+  // Construye el documento de perfil del usuario
+  function buildUserDoc(uid, userEmail, codeData) {
+    return {
+      uid,
+      email: userEmail,
+      createdAt: serverTimestamp(),
+      active: true,
+      supervisorAccess: codeData?.is_supervisor || false,
+      profileCompleted: false,
+      name: '',
+      lastName: '',
+      country: '',
+      profession: '',
+      university: '',
+      avatarColor: '#0552a0',
+    };
+  }
+
+  // Crea perfil en Firestore + marca código usado. Mensajes claros si falla cualquiera.
+  async function finishRegistration(uid, userEmail, codeData, code) {
+    try {
+      await setDoc(doc(db, 'users', uid), buildUserDoc(uid, userEmail, codeData));
+    } catch (err) {
+      throw new Error(
+        'No se pudo guardar tu perfil (permisos insuficientes en Firestore). ' +
+        'Avísale al administrador para que actualice las reglas de seguridad. ' +
+        'Detalle: ' + (err?.message || err)
+      );
+    }
+    try {
+      await markCodeAsUsed(code, userEmail);
+    } catch (err) {
+      // No es bloqueante: el usuario ya quedó registrado. Lo logueamos.
+      console.warn('Aviso: perfil creado pero no se pudo marcar el código como usado:', err);
+    }
+  }
+
   // Registrar usuario
   const handleRegister = async (e) => {
     e.preventDefault();
     setError('');
     setSuccess('');
 
-    if (!email || !password || !invitationCode) {
+    const cleanEmail = email.trim().toLowerCase();
+    const cleanCode  = invitationCode.trim().toUpperCase();
+
+    if (!cleanEmail || !password || !cleanCode) {
       setError('Completa todos los campos');
       return;
     }
-
-    try {
-      // 1. Validar código contra Supabase
-      const codeValidation = await validateCode(invitationCode);
-      if (!codeValidation.valid) {
-        setError(codeValidation.message);
-        return;
-      }
-
-      // 2. Crear usuario en Firebase Auth
-      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-      const uid = userCredential.user.uid;
-
-      // 3. Guardar usuario en Firestore colección "users" con estructura completa
-      //    supervisorAccess se hereda del campo is_supervisor del código usado
-      await setDoc(doc(db, 'users', uid), {
-        uid,
-        email,
-        createdAt: serverTimestamp(),
-        active: true,
-        supervisorAccess: codeValidation.data?.is_supervisor || false,
-        profileCompleted: false,
-        name: '',
-        lastName: '',
-        country: '',
-        profession: '',
-        university: '',
-        avatarColor: '#0552a0',
-      });
-
-      // 4. Marcar código como usado en Supabase
-      await markCodeAsUsed(invitationCode, email);
-
-      setSuccess('¡Registro exitoso! Ya puedes iniciar sesión.');
-      setEmail('');
-      setPassword('');
-      setInvitationCode('');
-      setIsRegistering(false);
-    } catch (err) {
-      setError('Error: ' + err.message);
+    if (password.length < 6) {
+      setError('La contraseña debe tener al menos 6 caracteres.');
+      return;
     }
+
+    // 1. Validar código contra Supabase
+    const codeValidation = await validateCode(cleanCode);
+    if (!codeValidation.valid) {
+      setError(codeValidation.message);
+      return;
+    }
+
+    // 2. Crear usuario en Firebase Auth
+    let uid;
+    try {
+      const userCredential = await createUserWithEmailAndPassword(auth, cleanEmail, password);
+      uid = userCredential.user.uid;
+    } catch (err) {
+      // Caso especial: la cuenta ya existe en Firebase Auth pero el registro
+      // anterior se rompió (perfil de Firestore nunca se creó por reglas).
+      // Intentamos recuperar: iniciar sesión con la contraseña y completar el setup.
+      if (err?.code === 'auth/email-already-in-use') {
+        try {
+          const recCred = await signInWithEmailAndPassword(auth, cleanEmail, password);
+          const recUid  = recCred.user.uid;
+          // ¿Ya tiene perfil completo?
+          const snap = await getDoc(doc(db, 'users', recUid));
+          if (snap.exists()) {
+            await signOut(auth);
+            setError('Este email ya está completamente registrado. Inicia sesión normalmente.');
+            return;
+          }
+          // No tiene perfil → completamos el registro pendiente
+          await finishRegistration(recUid, cleanEmail, codeValidation.data, cleanCode);
+          await signOut(auth);
+          setSuccess('¡Registro completado! Ya puedes iniciar sesión.');
+          setEmail(''); setPassword(''); setInvitationCode('');
+          setIsRegistering(false);
+          return;
+        } catch (recErr) {
+          // El password no coincide con la cuenta existente
+          if (recErr?.code === 'auth/wrong-password' || recErr?.code === 'auth/invalid-credential') {
+            setError('Este email ya está registrado con otra contraseña. Inicia sesión o recupera tu contraseña.');
+          } else {
+            setError(friendlyAuthError(recErr));
+          }
+          return;
+        }
+      }
+      setError(friendlyAuthError(err));
+      return;
+    }
+
+    // 3 + 4: Guardar perfil en Firestore y marcar código usado
+    try {
+      await finishRegistration(uid, cleanEmail, codeValidation.data, cleanCode);
+    } catch (err) {
+      setError(err.message);
+      return;
+    }
+
+    // Cerramos sesión: queremos que entren con su contraseña explícitamente
+    try { await signOut(auth); } catch { /* noop */ }
+
+    setSuccess('¡Registro exitoso! Ya puedes iniciar sesión.');
+    setEmail('');
+    setPassword('');
+    setInvitationCode('');
+    setIsRegistering(false);
   };
 
   // Login básico
@@ -124,7 +204,7 @@ export default function Login() {
     }
 
     try {
-      const credential = await signInWithEmailAndPassword(auth, email, password);
+      const credential = await signInWithEmailAndPassword(auth, email.trim().toLowerCase(), password);
       const uid = credential.user.uid;
 
       // Verificar si la cuenta está activa en Firestore
@@ -141,7 +221,7 @@ export default function Login() {
 
       navigate('/dashboard', { replace: true });
     } catch (err) {
-      setError('Email o contraseña incorrectos');
+      setError(friendlyAuthError(err));
     }
   };
 
