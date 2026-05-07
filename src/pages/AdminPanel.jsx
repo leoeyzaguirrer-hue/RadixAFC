@@ -217,6 +217,20 @@ function TabInvitations() {
 
   useEffect(() => { load() }, [load])
 
+  // Suscripción realtime: refresca automáticamente cuando un código se marca como usado
+  useEffect(() => {
+    if (!supabase) return
+    const channel = supabase
+      .channel('invitation_codes_changes')
+      .on(
+        'postgres_changes',
+        { event: '*', schema: 'public', table: 'invitation_codes' },
+        () => { load() }
+      )
+      .subscribe()
+    return () => { supabase.removeChannel(channel) }
+  }, [load])
+
   async function handleCreate(e) {
     e.preventDefault()
     if (!newCode.trim()) return
@@ -335,6 +349,19 @@ function TabInvitations() {
           {creating ? 'Creando…' : '+ Crear invitación'}
         </button>
       </form>
+
+      {/* Header con botón refrescar */}
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '1.5rem', marginBottom: '0.5rem' }}>
+        <h3 className="adm-section-title" style={{ margin: 0 }}>Invitaciones existentes</h3>
+        <button
+          type="button"
+          className="adm-btn adm-btn-ghost adm-btn-sm"
+          onClick={load}
+          disabled={loading}
+        >
+          {loading ? 'Refrescando…' : '↻ Refrescar'}
+        </button>
+      </div>
 
       {/* Table */}
       {loading ? (
